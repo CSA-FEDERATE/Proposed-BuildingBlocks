@@ -38,6 +38,9 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
     - FC
       - Communication
       - Runtime
+        - [Power Management](/BB-SC/Layer2b_MW_and_API/FC/Runtime/BB_Power_Management_flag.md)
+      - Time
+        - [Time Service](/BB-SC/Layer2b_MW_and_API/FC/Time/Time_Service.md)
       - LogTrace
       - Persistency
       - PlatformHealthManagement
