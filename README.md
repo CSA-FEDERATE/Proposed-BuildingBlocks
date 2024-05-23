@@ -1,6 +1,8 @@
 # Proposed-BuildingBlocks
 
-Landing page for all proposed building blocks; use the README to navigate through all the Building Blocks
+Landing page for all proposed building blocks; use the README to navigate through all the Building Blocks.
+
+New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
 ***
 
@@ -24,11 +26,11 @@ Landing page for all proposed building blocks; use the README to navigate throug
 
 ## Navigation
 
-- ### [BB-CSC (work in progress)](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki/Building-Block-Cloud-Stack-Components-(BB%E2%80%90CSC))
+- ### [BB-CSC (work in progress)](/BB-CSC/BB-CSC.md)
 
 ***
 
-- ### [BB-SC (work in progress)](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki/Building-Blocks-Stack-Components-(BB%E2%80%90SC))
+- ### [BB-SC (work in progress)](/BB-SC/BB-SC.md)
 
   - AppLayer
     - IVI
