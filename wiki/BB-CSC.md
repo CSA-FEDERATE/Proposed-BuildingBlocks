@@ -1,2 +1,2 @@
 <!-- TODO -->
-![BB-CSC](figures\BB-CSC.png)
+![BB-CSC](figures/BB-CSC.png)
