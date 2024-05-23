@@ -4,8 +4,6 @@ Landing page for all proposed building blocks; use the README to navigate throug
 
 New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
-***
-
 ## BB Tags
 
 |Tag|Description|
@@ -22,8 +20,6 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 |BB-CSC-TC|Building Block Cloud Stack Component ToolChain ToolChain (contains compatible set of Engineering & Support Tools and Mockup Units for Cloud dev)|
 |BB-WE|Whatever Tag / Whitecard|
 
-***
-
 ## Navigation
 
 - ### [BB-CSC (work in progress)](/BB-CSC/BB-CSC.md)
@@ -32,16 +28,25 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
 - ### [BB-SC (work in progress)](/BB-SC/BB-SC.md)
 
-  - AppLayer
+  - Layer3 - Application
     - IVI
     - Powertrain_Chassis
-  - BB-E&ST
-  - [BB-SC-TC (work in progress)](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki/Building-Blocks-Tool-chains)
-  - MWLayer
-    - FC Communication
-    - FC LogTrace
-    - FC Persistency
-    - FC PlatformHealthManagement
-    - FC Runtime
-    - FC Security
-  - OSLayer
+
+  - Layer2a - HW Abstraction Virtualization OS
+  
+  - Layer2b - MW and API
+    - FC
+      - Communication
+      - Runtime
+      - LogTrace
+      - Persistency
+      - PlatformHealthManagement
+      - Security
+  
+***
+
+- ### BB-E&ST
+
+***
+
+- ### [BB-SC-TC (work in progress)](/BB-SC-TC/BB-SC-TC.md)
