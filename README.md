@@ -1,14 +1,35 @@
 # Proposed-BuildingBlocks
-Landing page for all proposed building blocks; use the [WIKI](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki) in this repo to describe BB
 
+Landing page for all proposed building blocks; use the README to navigate through all the Building Blocks
 
-# [Proposed Building Blocks Wiki](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki)
-### Info
-- [BB Tags](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki/BB-Tags)
 ***
-- #### [BB-CSC (work in progress)](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki/Building-Block-Cloud-Stack-Components-(BB%E2%80%90CSC))
+
+## BB Tags
+
+|Tag|Description|
+|----|----|
+|BB-SC|Building Block Stack Component (In-Vehicle / On-Board)|
+|BB-CSC|Building Block Cloud Stack Component (Cloud / Off-Board)|
+|BB-MU|Building Block Mockup Unit (In-Vehicle / On-Board Component)|
+|BB-CMU|Block Cloud Mockup Unit (Cloud / Off-Board Component)|
+|BB-E&ST|Building Block Engineering & Support Tools (for In-Vehicle / On-Board Components)|
+|BB-CE&ST|Building Block Cloud Engineering & Support Tools (for Cloud / Off-Board Components)|
+|S-BB|Supporting Building Blocks (Standards, API & Interface Definitions, standardized Data Model)|
+|FC|Functional Cluster – Logical group of technically similar BBs|
+|BB-SC-TC|Building Block Stack Component ToolChain (contains compatible set of Engineering & Support Tools and Mockup Units for In-Vehicle dev)|
+|BB-CSC-TC|Building Block Cloud Stack Component ToolChain ToolChain (contains compatible set of Engineering & Support Tools and Mockup Units for Cloud dev)|
+|BB-WE|Whatever Tag / Whitecard|
+
 ***
-- #### [BB-SC (work in progress)](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki/Building-Blocks-Stack-Components-(BB%E2%80%90SC))
+
+## Navigation
+
+- ### [BB-CSC (work in progress)](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki/Building-Block-Cloud-Stack-Components-(BB%E2%80%90CSC))
+
+***
+
+- ### [BB-SC (work in progress)](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki/Building-Blocks-Stack-Components-(BB%E2%80%90SC))
+
   - AppLayer
     - IVI
     - Powertrain_Chassis
@@ -17,15 +38,8 @@ Landing page for all proposed building blocks; use the [WIKI](https://github.com
   - MWLayer
     - FC Communication
     - FC LogTrace
-    - FC Percistency
+    - FC Persistency
     - FC PlatformHealthManagement
-      - [Watchdog (work in progress)](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/wiki/BB-Watchdog)
     - FC Runtime
     - FC Security
   - OSLayer
-
-
-
-
-
-
