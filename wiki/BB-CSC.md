@@ -1,2 +1,2 @@
 <!-- TODO -->
-![BB-CSC](Proposed-BuildingBlocks/figures/BB-CSC.png)
+![BB-CSC](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/blob/BB_Documentation_01/figures/BB-CSC.pngg)
