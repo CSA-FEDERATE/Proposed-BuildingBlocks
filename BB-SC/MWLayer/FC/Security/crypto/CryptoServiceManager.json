@@ -1,0 +1,43 @@
+{
+	
+"Name": "Crypto Service Manager", 
+
+"BB Tags(s)": ["SC","CSC"],
+
+"Functional Cluster(s)": "System Services",
+
+"Layer": "Middleware",
+
+"Known Implementation(s)": "Under investigation",
+
+"ID": "TBD",
+
+"Description": "Define the APIs and sequence routines for the security algorithms used by applications to access to low level hardware and/or software. Ensure that access of security routines can be run remotely. ",
+
+"Rationale": "Standardization facilitating integration at the ECU level.",
+
+"Governance, Applicable S-BB(s)": ["ISO 21434 Automotive Cybersecurity"],
+
+"Compse BB(s)": ["Link to HAL BB for AUTOSAR Classic Crypto Service Manager and Adaptive Cryptography", "Keystore in Android", "Kernel Crypto in Linux"],
+
+"What is needed to Design and Implement": "Not available",
+
+"What is needed to build and run": "Not available",
+
+"Non-Functional Requirements!": ["Security related according to threat or attack", "Support by hardware accelerator"],
+
+"Dependencies to other Clusters": "NONE",
+
+"Vehicle API Relevant": "TBD",
+
+"Author/Company + Prio": ["Philippe Cuenot/CAF","High"],
+
+"Related Project(s) (Yes/No)": "Proposal in HAL4SDV (tbc)",
+
+"Availability of the Source Code": "Under investigation",
+
+"Availability of API": "Under investigation",
+
+"Reference to FEDERATE SDV Repository - Open Toolchain": "yes"
+
+}
