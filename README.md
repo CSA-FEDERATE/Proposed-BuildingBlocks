@@ -6,14 +6,18 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
 ## BB Tags
 
+OLD TAGS ARE USED HERE WHICH DO NOT COMPLY TO THE FOLDER STRUCTURE!!!  
+
+- First tag of BB defines its location in git repo
+
 |Tag|Description|
 |----|----|
 |BB-SC|Building Block Stack Component (In-Vehicle / On-Board)|
 |BB-CSC|Building Block Cloud Stack Component (Cloud / Off-Board)|
 |BB-MU|Building Block Mockup Unit (In-Vehicle / On-Board Component)|
 |BB-CMU|Block Cloud Mockup Unit (Cloud / Off-Board Component)|
-|BB-E&ST|Building Block Engineering & Support Tools (for In-Vehicle / On-Board Components)|
-|BB-CE&ST|Building Block Cloud Engineering & Support Tools (for Cloud / Off-Board Components)|
+|BB-EST|Building Block Engineering & Support Tools (for In-Vehicle / On-Board Components)|
+|BB-CEST|Building Block Cloud Engineering & Support Tools (for Cloud / Off-Board Components)|
 |S-BB|Supporting Building Blocks (Standards, API & Interface Definitions, standardized Data Model)|
 |FC|Functional Cluster – Logical group of technically similar BBs|
 |BB-SC-TC|Building Block Stack Component ToolChain (contains compatible set of Engineering & Support Tools and Mockup Units for In-Vehicle dev)|
@@ -22,34 +26,48 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
 ## Navigation
 
-- ### [BB-CSC (work in progress)](/BB-CSC/BB-CSC.md)
+### Cloud
+
+- #### [BB-CSC (work in progress)](/BB-CSC/BB-CSC.md)
+
+- #### BB-CEST
+
+- #### BB-CSC-TC
+
+- #### BB-CMU
 
 ***
 
-- ### [BB-SC (work in progress)](/BB-SC/BB-SC.md)
+### In-Vehicle
+
+- #### [BB-SC (work in progress)](/BB-SC/BB-SC.md)
 
   - Layer3 - Application
     - IVI
     - Powertrain_Chassis
 
   - Layer2a - HW Abstraction Virtualization OS
-  
+
   - Layer2b - MW and API
     - FC
       - Communication
       - Runtime
-        - [Power Management](/BB-SC/Layer2b_MW_and_API/FC/Runtime/BB_Power_Management_flag.md)
+        - [Power Management]()
       - Time
-        - [Time Service](/BB-SC/Layer2b_MW_and_API/FC/Time/Time_Service.md)
+        - [Time Service]()
       - LogTrace
       - Persistency
       - PlatformHealthManagement
       - Security
-  
+
+- #### [BB-EST]()
+
+- #### [BB-SC-TC (work in progress)](/BB-SC-TC/BB-SC-TC.md)
+
+- #### BB-MU
+
 ***
 
-- ### BB-E&ST
+### Other
 
-***
-
-- ### [BB-SC-TC (work in progress)](/BB-SC-TC/BB-SC-TC.md)
+- #### S-BB
