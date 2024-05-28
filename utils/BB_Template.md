@@ -51,7 +51,7 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 ## Author/Company
 
 ## Priority
-<!-- High, Mid, Low -->
+<!-- High, Medium, Low -->
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,

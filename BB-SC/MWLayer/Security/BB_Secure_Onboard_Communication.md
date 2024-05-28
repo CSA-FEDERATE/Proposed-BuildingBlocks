@@ -1,5 +1,5 @@
 
-# Crypto Service Manager
+# Secure Onboard Communication
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
@@ -7,6 +7,7 @@ BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+
 Security
 
 ## Layer
@@ -19,20 +20,17 @@ MWLayer
 
 ## Description
 <!-- General Description of the BB -->
-Define the APIs and sequence routines for the security algorithms used by
-applications to access to low level hardware and/or software. Ensure that
-access of security routines can be run remotely.
+Define secure communication between different ECU. This includes messages signed messages with a hash (CMAC) and a counter information to be able to detect security violations (like replay attacks etc.). These services need to applied for different communication protocol common at the vehicle level to be aligned for set of secure communication routines.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-Standardization facilitating integration at the ECU level.
+Extend the concept of AUTOSAR SecOC with a common implementation at the vehicle level.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
-AUTOSAR Classic  
-AUTOSAR Adaptive  
+AUTOSAR SecOC
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 

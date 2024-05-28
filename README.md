@@ -4,9 +4,11 @@ Landing page for all proposed building blocks; use the README to navigate throug
 
 New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
+Abbreviations have to be added to the [abbreviation list](/utils/Abbreviations.md).
+
 ## BB Tags
 
-- First tag of BB defines its location in git repo
+First tag of BB defines its location in git repo
 
 |Tag|Description|
 |----|----|
@@ -46,14 +48,20 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
   - Platform Health Management
     - [Distributed Health Management](/BB-SC/MWLayer/Platform-Health-Management/BB_Distributed_Health_Management.md)
-    - [Watchdog]
+    - [Watchdog](/BB-SC/MWLayer/Platform-Health-Management/BB_Watchdog.md)
   - Power Management
     - [Power Management](/BB-SC/MWLayer/Power-Management/BB_Power_Management.md)
   - Runtime
     - [State Management](/BB-SC/MWLayer/Runtime/BB_State_Management.md)
     - [Diagnostic Services Applications](/BB-SC/MWLayer/Runtime/BB_State_Management.md)
+  - Security
+    - [Crypto Service Manager](/BB-SC/MWLayer/Security/BB_Crypto_Service_Manager.md)
+    - [Secure Onboard Communication](/BB-SC/MWLayer/Security/BB_Secure_Onboard_Communication.md)
+    - [Security Event Manager](/BB-SC/MWLayer/Security/BB_Security_Event_Manager.md)
   - Time
     - [Time Service](/BB-SC/MWLayer/Time/BB_Time_Service.md)
+  - Tools and Methods
+    - [Key Management System](/BB-SC/MWLayer/Tools-and-Methods/Key_Management_System.md)
 
 - ##### [OSLayer](/BB-SC/OSLayer/OSLayer.md)
 
@@ -65,6 +73,9 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 - #### [BB-EST](/BB-EST/BB-EST.md)
 
 - #### [BB-SC-TC](/BB-SC-TC/BB-SC-TC.md)
+
+  - Tools and Methods
+    - [sSOA](/BB-SC-TC/Tools-and-Methods/BB_sSOA.md)
 
 - #### BB-MU
 

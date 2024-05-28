@@ -64,7 +64,7 @@ Conti
 
 ## Priority
 <!-- High, Mid, Low -->
-Mid
+Medium
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
