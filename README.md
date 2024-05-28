@@ -42,25 +42,24 @@ OLD TAGS ARE USED HERE WHICH DO NOT COMPLY TO THE FOLDER STRUCTURE!!!
 
 - #### [BB-SC (work in progress)](/BB-SC/BB-SC.md)
 
-  - Layer3 - Application
+  - AppLayer
     - IVI
     - Powertrain_Chassis
 
   - Layer2a - HW Abstraction Virtualization OS
 
   - Layer2b - MW and API
-    - FC
-      - Communication
-      - Runtime
-        - [Power Management]()
-      - Time
-        - [Time Service]()
-      - LogTrace
-      - Persistency
-      - PlatformHealthManagement
-      - Security
+    - Communication
+    - Runtime
+      - [Power Management]
+    - Time
+      - [Time Service]
+    - LogTrace
+    - Persistency
+    - PlatformHealthManagement
+    - Security
 
-- #### [BB-EST]()
+- #### [BB-EST](/BB-EST/BB-EST.md)
 
 - #### [BB-SC-TC (work in progress)](/BB-SC-TC/BB-SC-TC.md)
 
