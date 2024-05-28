@@ -6,8 +6,6 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
 ## BB Tags
 
-OLD TAGS ARE USED HERE WHICH DO NOT COMPLY TO THE FOLDER STRUCTURE!!!  
-
 - First tag of BB defines its location in git repo
 
 |Tag|Description|
@@ -28,7 +26,7 @@ OLD TAGS ARE USED HERE WHICH DO NOT COMPLY TO THE FOLDER STRUCTURE!!!
 
 ### Cloud
 
-- #### [BB-CSC (work in progress)](/BB-CSC/BB-CSC.md)
+- #### [BB-CSC](/BB-CSC/BB-CSC.md)
 
 - #### BB-CEST
 
@@ -40,28 +38,30 @@ OLD TAGS ARE USED HERE WHICH DO NOT COMPLY TO THE FOLDER STRUCTURE!!!
 
 ### In-Vehicle
 
-- #### [BB-SC (work in progress)](/BB-SC/BB-SC.md)
+- #### [BB-SC](/BB-SC/BB-SC.md)
 
   - AppLayer
     - IVI
     - Powertrain_Chassis
 
-  - Layer2a - HW Abstraction Virtualization OS
-
-  - Layer2b - MW and API
-    - Communication
-    - Runtime
+  - [MWLayer](/BB-SC/MWLayer/MWLayer.md)
+    - FC Communication
+    - FC Runtime
       - [Power Management]
-    - Time
+    - FC Time
       - [Time Service]
-    - LogTrace
-    - Persistency
-    - PlatformHealthManagement
-    - Security
+    - FC LogTrace
+    - FC Persistency
+    - FC PlatformHealthManagement
+    - FC Security
+
+  - OSLayer
+
+  - HWLayer
 
 - #### [BB-EST](/BB-EST/BB-EST.md)
 
-- #### [BB-SC-TC (work in progress)](/BB-SC-TC/BB-SC-TC.md)
+- #### [BB-SC-TC](/BB-SC-TC/BB-SC-TC.md)
 
 - #### BB-MU
 
