@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# Time Service
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Time
 
 ## Layer
-<!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+<!-- 1, 2a, 2b, 3 -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,14 +19,24 @@
 
 ## Description
 <!-- General Description of the BB -->
+Define the source as a service modulating software time based on local
+ECU physical Timer channel on the chip counting time even when vehicle
+is off.  
+Control the system time as time between different SW Partitions,
+subsystems, and systems to have a global valid time (selection of most accurate over several source, including diagnosis, etc..) as well as the
+exchange of time information between subsystems
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Harmonization of global time interpretation by standardized protocols in the ECU architecture
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+AUTOSAR-Classic  
+AUTOSAR Adaptive  
+Linux/Android Time  
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -50,8 +63,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
 <!-- High, Mid, Low -->
+High
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,

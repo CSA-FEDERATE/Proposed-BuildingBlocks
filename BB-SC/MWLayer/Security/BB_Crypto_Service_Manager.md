@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# Crypto Service Manager
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Security
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,9 +19,13 @@
 
 ## Description
 <!-- General Description of the BB -->
+Define the APIs and sequence routines for the security algorithms used by
+applications to access to low level hardware and/or software. Ensure that
+access of security routines can be run remotely.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Standardization facilitating integration at the ECU level.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

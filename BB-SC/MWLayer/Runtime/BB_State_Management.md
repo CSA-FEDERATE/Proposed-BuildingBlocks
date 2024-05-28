@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# State Management
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Runtime
 
 ## Layer
-<!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+<!-- 1, 2a, 2b, 3 -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,14 +19,24 @@
 
 ## Description
 <!-- General Description of the BB -->
+The State management is responsible for the start of the system "car" and
+the coordinated start and stop of sub systems and partitions depending on
+different operation modes of the vehicle.
+It is usually a multi-layer approach, where states are managed locally for
+each SW partition, for each sub system and for the complete vehicle
+system.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Align vehicle operation modes that are orchestrated via proper state
+management. The benefit is to standardize states for applications that can
+then be compatible with different vehicle manufacturer.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+TDB
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -50,8 +63,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
 <!-- High, Mid, Low -->
+High
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,

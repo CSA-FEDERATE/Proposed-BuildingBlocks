@@ -40,26 +40,29 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
 - #### [BB-SC](/BB-SC/BB-SC.md)
 
-  - AppLayer
-    - IVI
-    - Powertrain_Chassis
+- ##### AppLayer
 
-  - [MWLayer](/BB-SC/MWLayer/MWLayer.md)
-    - FC Communication
-    - FC Runtime
-      - [Power Management]
-    - FC Time
-      - [Time Service]
-    - FC LogTrace
-    - FC Persistency
-    - FC PlatformHealthManagement
-    - FC Security
+- ##### [MWLayer](/BB-SC/MWLayer/MWLayer.md)
 
-  - OSLayer
+  - Platform Health Management
+    - [Distributed Health Management](/BB-SC/MWLayer/Platform-Health-Management/BB_Distributed_Health_Management.md)
+    - [Watchdog]
+  - Power Management
+    - [Power Management](/BB-SC/MWLayer/Power-Management/BB_Power_Management.md)
+  - Runtime
+    - [State Management](/BB-SC/MWLayer/Runtime/BB_State_Management.md)
+    - [Diagnostic Services Applications](/BB-SC/MWLayer/Runtime/BB_State_Management.md)
+  - Time
+    - [Time Service](/BB-SC/MWLayer/Time/BB_Time_Service.md)
 
-  - HWLayer
+- ##### [OSLayer](/BB-SC/OSLayer/OSLayer.md)
 
-- #### [BB-EST](/BB-SC-EST/BB-EST.md)
+  - Time
+    - [Automotive Edge Runtime](/BB-SC/OSLayer/Time/BB_Automotive_Edge_Runtime.md)
+
+- ##### HWLayer
+
+- #### [BB-EST](/BB-EST/BB-EST.md)
 
 - #### [BB-SC-TC](/BB-SC-TC/BB-SC-TC.md)
 

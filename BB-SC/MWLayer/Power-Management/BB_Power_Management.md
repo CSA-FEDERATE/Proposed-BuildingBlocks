@@ -1,14 +1,18 @@
 
-# (insert name of BB)
+# Power Management
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Power Management
 
 ## Layer
-<!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+<!-- 1, 2a, 2b, 3 -->
+<!-- NOTE: Flag -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,9 +20,18 @@
 
 ## Description
 <!-- General Description of the BB -->
+Control the handling of vehicle power in various ECU by provides generic
+services for handling power up and power down phases of the vehicles, to
+manage vehicle power transition phase and energy efficiency.
+It handles decision for power control based on electronic dependency and
+power cascading sequence. It is usually a multi-layer approach, where
+states are managed locally for each SW partition, for each sub system and
+for the complete vehicle system It is multi-layer approach
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Unified solution to facilitates integration of vehicle power management
+feature.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -50,8 +63,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
 <!-- High, Mid, Low -->
+High
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,

@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# Automotive Edge Runtime
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Time
 
 ## Layer
-<!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+<!-- 1, 2a, 2b, 3 -->
+OSLayer
 
 ## Known Implementation
 
@@ -16,14 +19,24 @@
 
 ## Description
 <!-- General Description of the BB -->
+A runtime in the vehicle that executes workloads, typically defined by the
+cloud. The component can be orchestrated to manage workloads across
+multiple partitions or high-performance-computers. Scheduling can be
+static or dynamic (during runtime of the vehicle). Workloads are typically
+packaged as containers according to cloud native standards. There should
+be performance, check point analysis and means to control the container.
+It is recommended to applies it only for non-safety HPC partitions for non-safety functions.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Being able to upload container to execute function inside HPC in a
+standardized way (dynamic behavior and interface)
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+Eclipse SDV
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -50,8 +63,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
 <!-- High, Mid, Low -->
+High
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,

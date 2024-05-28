@@ -1,5 +1,5 @@
 
-# Power Management
+# Diagnostic Services Applications
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
@@ -7,13 +7,11 @@ BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-FC Power Management (RUNTIME??????)
+Runtime
 
 ## Layer
 <!-- 1, 2a, 2b, 3 -->
-<!-- NOTE: Flag -->
-2b MW and API  
-Middleware/Low Level Driver/Application/
+MWLayer
 
 ## Known Implementation
 
@@ -21,23 +19,21 @@ Middleware/Low Level Driver/Application/
 
 ## Description
 <!-- General Description of the BB -->
-Control the handling of vehicle power in various ECU by provides generic
-services for handling power up and power down phases of the vehicles, to
-manage vehicle power transition phase and energy efficiency.
-It handles decision for power control based on electronic dependency and
-power cascading sequence. It is usually a multi-layer approach, where
-states are managed locally for each SW partition, for each sub system and
-for the complete vehicle system It is multi-layer approach
+Diagnostic service applications are interpreted as the diagnostic services
+according to ISO 14229. Some of the service implementations are application specific like routines, data identifiers and DTCs, but at least generic hook must be defined.
+This includes in future also the connection to the Offboard by service orientedVehicle Diagnostic (SOVD).
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-Unified solution to facilitates integration of vehicle power management
-feature.
+SOVD should be standardized working with ISO 14229.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+AUTOSAR Classic  
+AUTOSAR Adaptive  
+ASAM SOVD  
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -68,7 +64,7 @@ Conti
 
 ## Priority
 <!-- High, Mid, Low -->
-High
+Mid
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
