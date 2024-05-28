@@ -59,7 +59,7 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
   - HWLayer
 
-- #### [BB-EST](/BB-EST/BB-EST.md)
+- #### [BB-EST](/BB-SC-EST/BB-EST.md)
 
 - #### [BB-SC-TC](/BB-SC-TC/BB-SC-TC.md)
 
