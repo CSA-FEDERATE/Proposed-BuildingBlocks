@@ -4,6 +4,7 @@ Sorted alphabetically
 
 |Abbreviation|Description|
 |--|--|
+|AOSP|Android Open Source Project|
 |API|Application Programming Interface|
 |AUTOSAR|AUTomotive Open System ARchitecture|
 |CMAC||

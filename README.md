@@ -42,7 +42,10 @@ First tag of BB defines its location in git repo
 
 - #### [BB-SC](/BB-SC/BB-SC.md)
 
-- ##### AppLayer
+- ##### [AppLayer](/BB-SC/AppLayer/Applayer.md)
+
+  - Communication
+    - [AOSP Push Notification Service](/BB-SC/AppLayer/Communication/BB_AOSP_Push_Notification_Service.md)
 
 - ##### [MWLayer](/BB-SC/MWLayer/MWLayer.md)
 
@@ -72,6 +75,10 @@ First tag of BB defines its location in git repo
     - [Secure Onboard Communication](/BB-SC/MWLayer/Security/BB_Secure_Onboard_Communication.md)
     - [Security Event Manager](/BB-SC/MWLayer/Security/BB_Security_Event_Manager.md)
     - [Security Transport Layer](/BB-SC/MWLayer/Security/BB_Security_Transport_Layer.md)
+  - Storage
+    - [Vehicle Data Collector](/BB-SC/MWLayer/Storage/BB_Vehicle_Data_Collector.md)
+    - [Vehicle Data Persistency](/BB-SC/MWLayer/Storage/BB_Vehicle_Data_Persistency.md)
+    - [Vehicle Logging and Recording](/BB-SC/MWLayer/Storage/BB_Vehicle_Logging_and_Recording.md)
   - Time
     - [Time Service](/BB-SC/MWLayer/Time/BB_Time_Service.md)
   - Tools and Methods
