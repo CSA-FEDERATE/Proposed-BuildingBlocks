@@ -46,6 +46,15 @@ First tag of BB defines its location in git repo
 
 - ##### [MWLayer](/BB-SC/MWLayer/MWLayer.md)
 
+  - Communication
+    - [Communication Service S2S](/BB-SC/MWLayer/Communication/BB_Communication_Service_S2S.md)
+    - [Gateway Mirroring](/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
+    - [Network Management](/BB-SC/MWLayer/Communication/BB_Network_Management.md)
+    - [SecOS](/BB-SC/MWLayer/Communication/BB_SecOS.md)
+    - [Smart Charging Communication](/BB-SC/MWLayer/Communication/BB_Smart_Charging_Communication.md)
+  - Configuration
+    - [Local Update Manager](/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
+    - [OTA Master](/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)
   - Diagnostics
     - [Diagnostic Policy Manager](/BB-SC/MWLayer/Diagnostics/BB_Diagnostic_Policy_Manager.md)
   - Platform Health Management
@@ -79,6 +88,8 @@ First tag of BB defines its location in git repo
 
 - #### [BB-SC-TC](/BB-SC-TC/BB-SC-TC.md)
 
+  - _Not Clustered
+    - [SOA](/BB-SC-TC/_Not_Clustered/BB_SOA.md)
   - Tools and Methods
     - [sSOA](/BB-SC-TC/Tools-and-Methods/BB_sSOA.md)
 
