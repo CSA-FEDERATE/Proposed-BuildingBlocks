@@ -46,6 +46,8 @@ First tag of BB defines its location in git repo
 
 - ##### [MWLayer](/BB-SC/MWLayer/MWLayer.md)
 
+  - Diagnostics
+    - [Diagnostic Policy Manager](/BB-SC/MWLayer/Diagnostics/BB_Diagnostic_Policy_Manager.md)
   - Platform Health Management
     - [Distributed Health Management](/BB-SC/MWLayer/Platform-Health-Management/BB_Distributed_Health_Management.md)
     - [Watchdog](/BB-SC/MWLayer/Platform-Health-Management/BB_Watchdog.md)
@@ -56,12 +58,15 @@ First tag of BB defines its location in git repo
     - [Diagnostic Services Applications](/BB-SC/MWLayer/Runtime/BB_State_Management.md)
   - Security
     - [Crypto Service Manager](/BB-SC/MWLayer/Security/BB_Crypto_Service_Manager.md)
+    - [Internet Protocol Security](/BB-SC/MWLayer/Security/BB_Internet_Protocol_Security.md)
+    - [Intrusion Detection](/BB-SC/MWLayer/Security/BB_Intrusion_Detection.md)
     - [Secure Onboard Communication](/BB-SC/MWLayer/Security/BB_Secure_Onboard_Communication.md)
     - [Security Event Manager](/BB-SC/MWLayer/Security/BB_Security_Event_Manager.md)
+    - [Security Transport Layer](/BB-SC/MWLayer/Security/BB_Security_Transport_Layer.md)
   - Time
     - [Time Service](/BB-SC/MWLayer/Time/BB_Time_Service.md)
   - Tools and Methods
-    - [Key Management System](/BB-SC/MWLayer/Tools-and-Methods/Key_Management_System.md)
+    - [Key Management System](/BB-SC/MWLayer/Tools-and-Methods/BB_Key_Management_System.md)
 
 - ##### [OSLayer](/BB-SC/OSLayer/OSLayer.md)
 
