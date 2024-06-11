@@ -6,6 +6,9 @@ New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
 Abbreviations have to be added to the [abbreviation list](/utils/Abbreviations.md).
 
+Whitespaces in Folders: "-" (Dash)  
+Whitespaces in Files: "_" (Underscore)  
+
 ## BB Tags
 
 First tag of BB defines its location in git repo
@@ -30,9 +33,14 @@ First tag of BB defines its location in git repo
 
 - #### [BB-CSC](/BB-CSC/BB-CSC.md)
 
-- #### BB-CEST
+- #### [BB-CEST](/BB-CEST/BB-CEST.md)
 
-- #### BB-CSC-TC
+- ##### Cross-Layer  
+
+  - _Not_Clustered
+    - [Car Simulator](/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
+
+- #### [BB-CSC-TC](/BB-CSC-TC/BB-CSC-TC.md)
 
 - #### BB-CMU
 
@@ -49,6 +57,8 @@ First tag of BB defines its location in git repo
 
 - ##### [MWLayer](/BB-SC/MWLayer/MWLayer.md)
 
+  - _Not_Clustered
+    - [Standard Android VHAL](/BB-SC/MWLayer/_Not_Clustered/BB_Standard_Android_VHAL.md)
   - Communication
     - [Communication Service S2S](/BB-SC/MWLayer/Communication/BB_Communication_Service_S2S.md)
     - [Gateway Mirroring](/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
@@ -107,3 +117,21 @@ First tag of BB defines its location in git repo
 ### Other
 
 - #### S-BB
+
+- ##### AppLayer
+
+  - [Standardization of Vehicle API](/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)
+  - [Standardized Architectural Patterns for Cross Platform Data Service Infrastructure](/S-BB/AppLayer/BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure.md)
+  - [Standardized Description of Data from Related Domains](/S-BB/AppLayer/BB_Standardized_Description_of_Data_from_Related_Domains.md)
+  - [Standardized Procedure and Tooling for Combining Data from Different Domains](/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains.md)
+  - [Standardized Procedure and Tooling for Modelling Data from Different Domains](/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains.md)
+
+- ##### MWLayer
+
+  - [Standardized Data Conversion Tools for Info-Knowledge Layers](/S-BB/MWLayer/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
+  - [Standardized Data Description for Vehicle Sensors, Attributes, and Actuators](/S-BB/MWLayer/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators.md)
+  - [Standardized way for Reasoning on Data Streams](/S-BB/MWLayer/BB_Standardized_way_for_Reasoning_on_Data_Streams.md)
+  
+- ##### OSLayer
+
+- ##### HWLayer
