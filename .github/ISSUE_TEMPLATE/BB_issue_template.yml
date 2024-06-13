@@ -1,0 +1,31 @@
+name: BB Issue
+description: File an issue for a BB.
+title: "[Bug]: "
+labels: ["bug", "triage"]
+projects: ["octo-org/1", "octo-org/44"]
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this form!
+
+- type: input
+  id: contact
+  attributes:
+    label: Contact Details
+    description: How can we get in touch with you if we need more info?
+    placeholder: ex. email@example.com
+  validations:
+    required: false
+
+- type: dropdown
+  id: layer
+  attributes:
+    label: Layer
+    description: Please select the corresponding Layer of the affected BB
+    multiple: true
+    options:
+    - AppLayer
+    - MWLayer
+    - OSLayer
+    - HWLayer
