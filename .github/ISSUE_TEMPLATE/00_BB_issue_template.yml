@@ -1,0 +1,59 @@
+name: BB bug
+description: File an issue for a BB.
+title: "[BB Bug]:"
+labels: [BB, bug]
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this form!
+
+- type: input
+  id: contact
+  attributes:
+    label: Contact Details
+    description: How can we get in touch with you if we need more info?
+    placeholder: eg. email@example.com
+  validations:
+    required: false
+
+- type: dropdown
+  id: layer
+  attributes:
+    label: Layer
+    description: Please select the corresponding Layer of the affected BB
+    multiple: true
+    options:
+    - AppLayer
+    - MWLayer
+    - OSLayer
+    - HWLayer
+  validations:
+    required: true
+
+- type: input
+  id: fc
+  attributes:
+    label: Functional Cluster
+    description: Please input the corresponding Layer of the affected BB
+    placeholder: eg. FC Security
+  validations:
+    required: true
+
+- type: input
+  id: bb-name
+  attributes:
+    label: BB name
+    description: Please input the name of the affected BB
+    placeholder: eg. OTA Master
+  validations:
+    required: true
+
+- type: textarea
+  id: problem-description
+  attributes:
+    label: Problem Description
+    description: Please describe the problem you encountered in detail
+  validations:
+    required: true
