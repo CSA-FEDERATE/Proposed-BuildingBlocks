@@ -13,12 +13,16 @@ Whitespaces in Files: "_" (Underscore)
 
 ### Folder Structure
 
-└── 📁BB-SC
-        └── readme.md
-        └── 📁AppLayer
-            └── readme.md
-            └── 📁Communication
-                └── BB_AOSP_Push_Notification_Service.md
+When implementing a new BB one has to comply to the following folder structure:
+
+```
+└── 📁BB-SC  # primary tag
+        └── readme.md  
+        └── 📁AppLayer  # layer (AppLayer, MWLayer, OSLayer, HWLayer)
+            └── readme.md  
+            └── 📁Communication  # functional cluster name
+                └── BB_AOSP_Push_Notification_Service.md  # BB
+```
 
 ## BB Tags
 
