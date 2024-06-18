@@ -2,12 +2,23 @@
 
 Landing page for all proposed building blocks; use the README to navigate through all the Building Blocks.
 
+## Implementation of new BBs
+
 New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
 
 Abbreviations have to be added to the [abbreviation list](/utils/Abbreviations.md).
 
 Whitespaces in Folders: "-" (Dash)  
 Whitespaces in Files: "_" (Underscore)  
+
+### Folder Structure
+
+└── 📁BB-SC
+        └── readme.md
+        └── 📁AppLayer
+            └── readme.md
+            └── 📁Communication
+                └── BB_AOSP_Push_Notification_Service.md
 
 ## BB Tags
 
@@ -116,9 +127,9 @@ First tag of BB defines its location in git repo
 
 ### Other
 
-- #### S-BB
+- #### [S-BB](/S-BB/S-BB.md)
 
-- ##### AppLayer
+- ##### [AppLayer](/S-BB/AppLayer/AppLayer.md)
 
   - [Standardization of Vehicle API](/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)
   - [Standardized Architectural Patterns for Cross Platform Data Service Infrastructure](/S-BB/AppLayer/BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure.md)
@@ -126,7 +137,7 @@ First tag of BB defines its location in git repo
   - [Standardized Procedure and Tooling for Combining Data from Different Domains](/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains.md)
   - [Standardized Procedure and Tooling for Modelling Data from Different Domains](/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains.md)
 
-- ##### MWLayer
+- ##### [MWLayer](/S-BB/MWLayer/MWLayer.md)
 
   - [Standardized Data Conversion Tools for Info-Knowledge Layers](/S-BB/MWLayer/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
   - [Standardized Data Description for Vehicle Sensors, Attributes, and Actuators](/S-BB/MWLayer/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators.md)
@@ -139,7 +150,5 @@ First tag of BB defines its location in git repo
 ***
 
 ## WARNING
-
-test
 
 [Unsorted Building Blocks](/unsorted_BB/)
