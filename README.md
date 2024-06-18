@@ -21,7 +21,11 @@ When implementing a new BB one has to comply to the following folder structure:
         └── 📁AppLayer  # layer (AppLayer, MWLayer, OSLayer, HWLayer)
             └── readme.md  
             └── 📁Communication  # functional cluster name
-                └── BB_AOSP_Push_Notification_Service.md  # BB
+                └── BB_AOSP_Push_Notification_Service.md  # BB - if it is in >1 FC or tag, put symlink there
+                └── 📁BB_OTA_Manager  # folder if more than a .md file exists for BB
+                    └── BB_AOSP_Push_Notification_Service.md # BB if it is in >1 FC or tag, put symlink there
+                    └── BB_AOSP_Push_Notification_Service.xml 
+
 ```
 
 ## BB Tags
@@ -72,14 +76,13 @@ First tag of BB defines its location in git repo
 
 - ##### [MWLayer](/BB-SC/MWLayer/MWLayer.md)
 
-  - _Not_Clustered
-    - [Standard Android VHAL](/BB-SC/MWLayer/_Not_Clustered/BB_Standard_Android_VHAL.md)
   - Communication
     - [Communication Service S2S](/BB-SC/MWLayer/Communication/BB_Communication_Service_S2S.md)
     - [Gateway Mirroring](/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
     - [Network Management](/BB-SC/MWLayer/Communication/BB_Network_Management.md)
     - [SecOS](/BB-SC/MWLayer/Communication/BB_SecOS.md)
     - [Smart Charging Communication](/BB-SC/MWLayer/Communication/BB_Smart_Charging_Communication.md)
+    - [Standard Android VHAL](/BB-SC/MWLayer/Communication/BB_Standard_Android_VHAL.md)
   - Configuration
     - [Local Update Manager](/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
     - [OTA Master](/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)
@@ -120,10 +123,9 @@ First tag of BB defines its location in git repo
 
 - #### [BB-SC-TC](/BB-SC-TC/BB-SC-TC.md)
 
-  - _Not Clustered
-    - [SOA](/BB-SC-TC/_Not_Clustered/BB_SOA.md)
-  - Tools and Methods
-    - [sSOA](/BB-SC-TC/Tools-and-Methods/BB_sSOA.md)
+  - Testing
+    - [Digital Twin](/BB-SC-TC/Testing/BB_Digital_Twin.md)
+    - [Shadowing](/BB-SC-TC/Testing/BB_Shadowing.md)
 
 - #### BB-MU
 
@@ -142,6 +144,10 @@ First tag of BB defines its location in git repo
   - [Standardized Procedure and Tooling for Modelling Data from Different Domains](/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains.md)
 
 - ##### [MWLayer](/S-BB/MWLayer/MWLayer.md)
+
+  - [SOA](/S-BB/MWLayer/BB_SOA.md)
+
+  - [sSOA](/S-BB/MWLayer/BB_sSOA.md)
 
   - [Standardized Data Conversion Tools for Info-Knowledge Layers](/S-BB/MWLayer/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
   - [Standardized Data Description for Vehicle Sensors, Attributes, and Actuators](/S-BB/MWLayer/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators.md)
