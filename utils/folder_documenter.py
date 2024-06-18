@@ -54,7 +54,7 @@ from io import StringIO
 
 def traverse_directory_and_save_to_md(path, output_file):
     output = StringIO()
-    pattern = re.compile(r"(^\s*- ([a-zA-Z]*)\n)^\s*- \[([a-zA-Z]*)\]\((...*)\)", re.MULTILINE)
+    pattern = re.compile(r"(^\s*- (.*)\n^)\s*- \[(.*)\]\((...*)\)", re.MULTILINE)
     for root, dirs, files in os.walk(path):
         # Only process if the root directory contains "Library"
         if "library" in root:
@@ -90,7 +90,8 @@ def traverse_directory_and_save_to_md(path, output_file):
     if matches:
         print("Pattern found!")
         for match in matches:
-            output_string = output_string.replace(match[0], "")
+            # print(match[0])
+            output_string = output_string.replace(match[0], "AAAAAA")
     else:
         print("Pattern not found!")
 
