@@ -13,6 +13,8 @@ Whitespaces in Files: "_" (Underscore)
 
 When a new BB or folder is added to the libary, the structure in the README can be updated using the [README Generator](/scripts/readme_generator.py). To adjust contents of the README other than the Navigation, change them in the [README_base file](/utils/README_base.md). The Navigation will be inserted at the "## Navigation" flag in the [README_base file](/utils/README_base.md).
 
+If you create a folder without content, put a .gitkeep into the folder.
+
 ### Folder Structure
 
 When implementing a new BB one has to comply to the following folder structure:
