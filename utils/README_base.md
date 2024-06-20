@@ -21,7 +21,7 @@ be inserted at the "## Navigation" flag in the [README_base file](/utils/README_
 
 ### Automatic README generation
 
-The README gets automatically updated when a pull request is merged to the main branch.
+The README gets automatically updated when changes of the folder structure or [README_base file](/utils/README_base.md) are pushed to a branch and when a pull request is merged to the main branch.
 
 > [!Warning]
 >If your github account was created before July 18, 2017, automatic creation of the README will not work. Please update the README maually by running the readme_generator.py file and creating a pull request to the main branch"

@@ -1,10 +1,10 @@
-name: Run README Generator on push
+name: Run README Generator when pull request is merged to main branch
 
 on:
    pull_request:
     types: [closed]
     branches: [ main ]
-
+    
 jobs:
   build:
     if: github.event.pull_request.merged == true
@@ -37,5 +37,5 @@ jobs:
     - name: Commit and push
       run: |
         git add .
-        git commit -m "Automatic update of README.md"
+        git commit -m "Automatic update of README.md on merge"
         git push
