@@ -4,16 +4,27 @@ Landing page for all proposed building blocks; use the README to navigate throug
 
 ## Implementation of new BBs
 
-New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
+- New BB should be implemented using the [BB_Template](/utils/BB_Template.md).  
+- If you create a folder without content, put a .gitkeep into the folder.  
+- Whitespaces in Folders: "-" (Dash)  
+- Whitespaces in Files: "_" (Underscore)  
 
 Abbreviations have to be added to the [abbreviation list](/utils/Abbreviations.md).
 
-Whitespaces in Folders: "-" (Dash)  
-Whitespaces in Files: "_" (Underscore)  
+When a new BB or folder is added to the libary, the structure in the README can be updated using 
+the [README Generator](/scripts/readme_generator.py). To adjust contents of the README other than 
+the Navigation, change them in the [README_base file](/utils/README_base.md). The Navigation will 
+be inserted at the "## Navigation" flag in the [README_base file](/utils/README_base.md).
 
-When a new BB or folder is added to the libary, the structure in the README can be updated using the [README Generator](/scripts/readme_generator.py). To adjust contents of the README other than the Navigation, change them in the [README_base file](/utils/README_base.md). The Navigation will be inserted at the "## Navigation" flag in the [README_base file](/utils/README_base.md).
+> [!CAUTION]
+> If you don't follow the structure correctly the automatic structure generation will not work!
 
-If you create a folder without content, put a .gitkeep into the folder.
+### Automatic README generation
+
+The README gets automatically updated when a pull request is merged to the main branch.
+
+> [!Warning]
+>If your github account was created before July 18, 2017, automatic creation of the README will not work. Please update the README maually by running the readme_generator.py file and creating a pull request to the main branch"
 
 ### Folder Structure
 
@@ -53,4 +64,5 @@ First tag of BB defines its location in git repo
 |BB-WE|Whatever Tag / Whitecard|
 
 ## Navigation
-
+***
+generated using [README Generator](/scripts/readme_generator.py)
