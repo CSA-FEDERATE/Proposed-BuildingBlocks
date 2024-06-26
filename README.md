@@ -4,12 +4,12 @@ Landing page for all proposed building blocks; use the README to navigate throug
 
 ## Implementation of new BBs
 
-New BB should be implemented using the [BB_Template](/utils/BB_Template.md).
+- New BB should be implemented using the [BB_Template](/utils/BB_Template.md).  
+- If you create a folder without content, put a .gitkeep into the folder.  
+- Whitespaces in Folders: "-" (Dash)  
+- Whitespaces in Files: "_" (Underscore)  
 
 Abbreviations have to be added to the [abbreviation list](/utils/Abbreviations.md).
-
-Whitespaces in Folders: "-" (Dash)  
-Whitespaces in Files: "_" (Underscore)  
 
 ### Folder Structure
 
