@@ -36,7 +36,7 @@ body:
   id: fc
   attributes:
     label: Functional Cluster
-    description: Please input the corresponding Layer of the affected BB
+    description: Please input the corresponding Functional Cluster of the affected BB
     placeholder: eg. FC Security
   validations:
     required: true
