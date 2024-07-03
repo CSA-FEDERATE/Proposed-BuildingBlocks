@@ -15,6 +15,8 @@ MWLayer
 
 ## Known Implementation
 
+<https://opentelemetry.io>
+
 ## ID (unique name)
 
 ## Description

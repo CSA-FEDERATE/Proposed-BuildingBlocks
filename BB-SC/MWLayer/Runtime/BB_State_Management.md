@@ -15,6 +15,8 @@ MWLayer
 
 ## Known Implementation
 
+Eclipse Piccolo
+
 ## ID (unique name)
 
 ## Description

@@ -36,6 +36,7 @@ AUTOSAR SecOC
 <!-- Link to required BB(s) 
 E.g. BB-SC StateManagement 
 BB is a composition of other BBs -->
+[BB_SecOS](/BB-SC/MWLayer/Communication/BB_SecOS.md)
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->

@@ -15,6 +15,9 @@ MWLayer
 
 ## Known Implementation
 
+- AUTOSAR: UCS - but not OSS-usable
+- higher-level: Eclipse Ankaios, Eclipse Kanto, Eclipse Symphony, Eclipse BlueChi
+
 ## ID (unique name)
 
 ## Description

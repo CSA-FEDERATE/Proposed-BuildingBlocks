@@ -15,6 +15,9 @@ OSLayer
 
 ## Known Implementation
 
+Eclipse Leda
+AutoSD (RHIVOS)
+
 ## ID (unique name)
 
 ## Description
@@ -26,6 +29,10 @@ static or dynamic (during runtime of the vehicle). Workloads are typically
 packaged as containers according to cloud native standards. There should
 be performance, check point analysis and means to control the container.
 It is recommended to applies it only for non-safety HPC partitions for non-safety functions.
+
+interesting things to look at:
+
+- web assembly (wasm) runtimes
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

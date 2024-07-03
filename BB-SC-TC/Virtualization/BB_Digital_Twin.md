@@ -15,6 +15,8 @@ MWLayer
 
 ## Known Implementation
 
+Eclipse Ditto
+
 ## ID (unique name)
 
 ## Description
