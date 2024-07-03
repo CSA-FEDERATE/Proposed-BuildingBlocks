@@ -7,7 +7,7 @@ BB-SC-TC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Testing
+Virtualization
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->

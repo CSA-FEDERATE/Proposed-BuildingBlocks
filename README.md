@@ -124,8 +124,9 @@ First tag of BB defines its location in git repo
 - #### [BB-SC-TC](/BB-SC-TC/BB-SC-TC.md)
 
   - Testing
-    - [Digital Twin](/BB-SC-TC/Testing/BB_Digital_Twin.md)
     - [Shadowing](/BB-SC-TC/Testing/BB_Shadowing.md)
+  - Virtualization
+    - [Digital Twin](/BB-SC-TC/Virtualization/BB_Digital_Twin.md)
 
 - #### BB-MU
 

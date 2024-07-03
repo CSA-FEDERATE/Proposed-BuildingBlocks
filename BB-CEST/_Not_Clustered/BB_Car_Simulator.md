@@ -15,6 +15,9 @@ Cross-Layer
 
 ## Known Implementation
 
+Eclipse SDV - kanto.auto (old) will be published under a new name
+Eclipse OpenDUT
+
 ## ID (unique name)
 
 ## Description
