@@ -26,7 +26,9 @@ manage vehicle power transition phase and energy efficiency.
 It handles decision for power control based on electronic dependency and
 power cascading sequence. It is usually a multi-layer approach, where
 states are managed locally for each SW partition, for each sub system and
-for the complete vehicle system It is multi-layer approach
+for the complete vehicle system It is multi-layer approach  
+
+For Linux systems, systemd and how it can help with this concern is probably a highly interesting topic to investigate for this BB.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

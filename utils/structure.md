@@ -10,7 +10,7 @@
         - [BB-EST](/library/In-Vehicle/BB-EST/BB-EST.md)
         - BB-MU
         - [BB-SC](/library/In-Vehicle/BB-SC/BB-SC.md)
-            - [AppLayer](/library/In-Vehicle/BB-SC/AppLayer/AppLayer.md)
+                - [Applayer](/library/In-Vehicle/BB-SC/AppLayer/Applayer.md)
                 - Communication
                     - [BB_AOSP_Push_Notification_Service](/library/In-Vehicle/BB-SC/AppLayer/Communication/BB_AOSP_Push_Notification_Service.md)
             - HWLayer
@@ -55,8 +55,9 @@
                     - [BB_Automotive_Edge_Runtime](/library/In-Vehicle/BB-SC/OSLayer/Time/BB_Automotive_Edge_Runtime.md)
         - [BB-SC-TC](/library/In-Vehicle/BB-SC-TC/BB-SC-TC.md)
             - Testing
-                - [BB_Digital_Twin](/library/In-Vehicle/BB-SC-TC/Testing/BB_Digital_Twin.md)
                 - [BB_Shadowing](/library/In-Vehicle/BB-SC-TC/Testing/BB_Shadowing.md)
+            - Virtualization
+                - [BB_Digital_Twin](/library/In-Vehicle/BB-SC-TC/Virtualization/BB_Digital_Twin.md)
     - [S-BB](/library/S-BB/S-BB.md)
         - [AppLayer](/library/S-BB/AppLayer/AppLayer.md)
             - [BB_Standardization_of_Vehicle_API](/library/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)

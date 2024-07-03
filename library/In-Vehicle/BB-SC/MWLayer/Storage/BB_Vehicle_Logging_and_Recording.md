@@ -15,6 +15,8 @@ MWLayer
 
 ## Known Implementation
 
+OpenTelemetry
+
 ## ID (unique name)
 
 ## Description

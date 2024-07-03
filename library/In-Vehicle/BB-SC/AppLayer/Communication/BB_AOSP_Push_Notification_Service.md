@@ -15,6 +15,8 @@ AppLayer
 
 ## Known Implementation
 
+<https://novu.co>
+
 ## ID (unique name)
 
 ## Description

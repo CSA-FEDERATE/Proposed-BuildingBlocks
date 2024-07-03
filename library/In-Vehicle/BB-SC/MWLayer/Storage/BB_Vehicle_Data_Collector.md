@@ -15,6 +15,9 @@ MWLayer
 
 ## Known Implementation
 
+<https://github.com/eclipse-sdv-blueprints/insurance>
+<https://github.com/eclipse-sdv-blueprints/fleet-management>
+
 ## ID (unique name)
 
 ## Description

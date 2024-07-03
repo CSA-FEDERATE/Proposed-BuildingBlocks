@@ -20,6 +20,8 @@ MWLayer
 <!-- General Description of the BB -->
 Framework services for service-oriented architecture allowing security by design with security mechanism tight to the services (i.e. authentication of allowed service users etc.)
 
+This needs to be tied in with the actual service mesh implementation - suggest that Eclipse uProtocol would be a good place for this topic.
+
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
 Get standardized solution whereas today each vehicle manufacturers bring its solution.

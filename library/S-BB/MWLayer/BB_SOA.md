@@ -14,6 +14,8 @@ MWLayer
 
 ## Known Implementation
 
+Eclipse uProtocol
+
 ## ID (unique name)
 
 ## Description
