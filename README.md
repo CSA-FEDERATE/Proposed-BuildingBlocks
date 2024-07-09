@@ -61,7 +61,7 @@ First tag of BB defines its location in git repo
 
 - #### [BB-CSC-TC](/BB-CSC-TC/BB-CSC-TC.md)
 
-- #### BB-CMU
+- #### [BB-CMU](/BB-CMU/BB-CMU.md)
 
 ***
 
@@ -72,7 +72,7 @@ First tag of BB defines its location in git repo
 - ##### [AppLayer](/BB-SC/AppLayer/Applayer.md)
 
   - Communication
-    - [AOSP Push Notification Service](/BB-SC/AppLayer/Communication/BB_AOSP_Push_Notification_Service.md)
+    - [AOSP Push Notification Server](/BB-SC/MWLayer/Communication/BB_Communication_Server_S2S.md)
 
 - ##### [MWLayer](/BB-SC/MWLayer/MWLayer.md)
 
@@ -87,12 +87,12 @@ First tag of BB defines its location in git repo
     - [Local Update Manager](/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
     - [OTA Master](/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)
   - Diagnostics
-    - [Diagnostic Policy Manager](/BB-SC/MWLayer/Diagnostics/BB_Diagnostic_Policy_Manager.md)
+    - [Policy Manager](/BB-SC/MWLayer/Diagnostics/BB_Policy_Manager.md)
   - Platform Health Management
     - [Distributed Health Management](/BB-SC/MWLayer/Platform-Health-Management/BB_Distributed_Health_Management.md)
     - [Watchdog](/BB-SC/MWLayer/Platform-Health-Management/BB_Watchdog.md)
   - Power Management
-    - [Power Management](/BB-SC/MWLayer/Power-Management/BB_Power_Management.md)
+    - [Power Management Coordination](/BB-SC/MWLayer/Power-Management/BB_Power_Management_Coordination.md)
   - Runtime
     - [State Management](/BB-SC/MWLayer/Runtime/BB_State_Management.md)
     - [Diagnostic Services Applications](/BB-SC/MWLayer/Runtime/BB_State_Management.md)
@@ -128,7 +128,7 @@ First tag of BB defines its location in git repo
   - Virtualization
     - [Digital Twin](/BB-SC-TC/Virtualization/BB_Digital_Twin.md)
 
-- #### BB-MU
+- #### [BB-MU](/BB-MU/BB-MU.md)
 
 ***
 
