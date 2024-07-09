@@ -1,5 +1,5 @@
 
-# Diagnostic Policy Manager
+# Communication Server (S2S)
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
@@ -7,11 +7,10 @@ BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Diagnostics
+Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
-MWLayer
 
 ## Known Implementation
 
@@ -19,17 +18,17 @@ MWLayer
 
 ## Description
 <!-- General Description of the BB -->
-Diagnostic service applications are interpreted as the diagnostic services according to ISO 14229. Define service at vehicle level to control different access level or different permission. Each level requires previous authentication, where authentication, can remain vehicle specific.
+Define standard service for secured offboard communication
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-Establish a common concept
+Standardized the solution
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
-ISO 14229
+TDB
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -75,3 +74,7 @@ No – Commercial Closed Source -->
 No - Commercial -->
 
 ## Potential obstacles
+
+## Expert Discussion Status
+<!--  in discussion -->
+in discussion

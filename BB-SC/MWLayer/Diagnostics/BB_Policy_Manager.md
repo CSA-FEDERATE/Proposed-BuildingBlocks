@@ -1,5 +1,5 @@
 
-# Power Management
+# Policy Manager
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
@@ -7,11 +7,10 @@ BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Power Management
+Diagnostics
 
 ## Layer
-<!-- 1, 2a, 2b, 3 -->
-<!-- NOTE: Flag -->
+<!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 MWLayer
 
 ## Known Implementation
@@ -20,25 +19,17 @@ MWLayer
 
 ## Description
 <!-- General Description of the BB -->
-Control the handling of vehicle power in various ECU by provides generic
-services for handling power up and power down phases of the vehicles, to
-manage vehicle power transition phase and energy efficiency.
-It handles decision for power control based on electronic dependency and
-power cascading sequence. It is usually a multi-layer approach, where
-states are managed locally for each SW partition, for each sub system and
-for the complete vehicle system It is multi-layer approach  
-
-For Linux systems, systemd and how it can help with this concern is probably a highly interesting topic to investigate for this BB.
+Diagnostic service applications are interpreted as the diagnostic services according to ISO 14229. Define service at vehicle level to control different access level or different permission. Each level requires previous authentication, where authentication, can remain vehicle specific.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-Unified solution to facilitates integration of vehicle power management
-feature.
+Establish a common concept
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+ISO 14229
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -68,8 +59,8 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 Conti
 
 ## Priority
-<!-- High, Mid, Low -->
-High
+<!-- High, Medium, Low -->
+Low
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
@@ -84,3 +75,7 @@ No – Commercial Closed Source -->
 No - Commercial -->
 
 ## Potential obstacles
+
+## Expert Discussion Status
+<!--  in discussion -->
+in discussion

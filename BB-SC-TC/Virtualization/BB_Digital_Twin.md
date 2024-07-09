@@ -25,6 +25,8 @@ The digital twin is considered as a digital representation of a vehicle (or the 
 Proposal for standardization are execution model with regard to simulation level (Prostep standardization <https://www.prostep.org/>), handling of distributed simulation, co-simulation bus and services for controller including services to extract and inject data, extract and inject algorithm dynamically (or static) during simulation, services to guarantee at least software alignment between digital and vehicle.  
 Defines embed service services to ensure connection with digital twin.
 
+A digital twin models a virtual representation of a physical object, system, or process.
+
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
 Enables rapid prototyping, validation, and test of vehicle configurations. In scope of OTA updates, validating as many SW variants as possible (all?) to ensure the error-prone deployment of SW updates to the live fleet. Cost saving by eliminating HIL tests with a huge amount of variants.
