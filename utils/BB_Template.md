@@ -66,3 +66,6 @@ No – Commercial Closed Source -->
 No - Commercial -->
 
 ## Potential obstacles
+
+## Expert Discussion Status
+<!--  in discussion -->
