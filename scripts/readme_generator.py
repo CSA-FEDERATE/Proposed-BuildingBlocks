@@ -59,7 +59,7 @@ def traverse_directory_and_save_to_md(path, output_file):
         print("Pattern not found!")
 
     # Write the contents of the StringIO object to the file
-    with open(output_file, "w") as f:
+    with open(output_file, "w", encoding="utf-8") as f:
         f.write(output_string)
 
     print("Created Structure")
