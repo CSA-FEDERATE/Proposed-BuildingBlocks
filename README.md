@@ -35,9 +35,9 @@ When implementing a new BB one has to comply to the following folder structure:
 📁library
     └──📁In-Vehicle
         └── 📁BB-SC  # primary tag
-            └── readme.md  
+            └── 00_BB-SC.md  
             └── 📁AppLayer  # layer (AppLayer, MWLayer, OSLayer, HWLayer)
-                └── readme.md  
+                └── 00_AppLayer.md  
                 └── 📁Communication  # functional cluster name
                     └── BB_AOSP_Push_Notification_Service.md  # BB - if it is in >1 FC or tag, put symlink there
                     └── 📁BB_OTA_Manager  # folder if more than a .md file exists for BB
@@ -45,6 +45,8 @@ When implementing a new BB one has to comply to the following folder structure:
                         └── BB_OTA_Manager.xml 
 
 ```
+The 00_readme.md files to the corresponding folder (eg. folder AppLayer: 00_AppLayer) always have to start with "00_"
+
 
 ## BB Tags
 
@@ -67,21 +69,21 @@ First tag of BB defines its location in git repo
 ## Navigation
 - library
     - Cloud
-        - [BB-CEST](/library/Cloud/BB-CEST/BB-CEST.md)
+        - [BB-CEST](/library/Cloud/BB-CEST/00_BB-CEST.md)
             - _Not_Clustered
                 - [BB_Car_Simulator](/library/Cloud/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
-        - [BB-CMU](/library/Cloud/BB-CMU/BB-CMU.md)
-        - [BB-CSC](/library/Cloud/BB-CSC/BB-CSC.md)
-        - [BB-CSC-TC](/library/Cloud/BB-CSC-TC/BB-CSC-TC.md)
+        - [BB-CMU](/library/Cloud/BB-CMU/00_BB-CMU.md)
+        - [BB-CSC](/library/Cloud/BB-CSC/00_BB-CSC.md)
+        - [BB-CSC-TC](/library/Cloud/BB-CSC-TC/00_BB-CSC-TC.md)
     - In-Vehicle
-        - [BB-EST](/library/In-Vehicle/BB-EST/BB-EST.md)
-        - [BB-MU](/library/In-Vehicle/BB-MU/BB-MU.md)
-        - [BB-SC](/library/In-Vehicle/BB-SC/BB-SC.md)
-            - [AppLayer](/library/In-Vehicle/BB-SC/AppLayer/AppLayer.md)
+        - [BB-EST](/library/In-Vehicle/BB-EST/00_BB-EST.md)
+        - [BB-MU](/library/In-Vehicle/BB-MU/00_BB-MU.md)
+        - [BB-SC](/library/In-Vehicle/BB-SC/00_BB-SC.md)
+            - [AppLayer](/library/In-Vehicle/BB-SC/AppLayer/00_AppLayer.md)
                 - Communication
                     - [BB_AOSP_Push_Notification_Service](/library/In-Vehicle/BB-SC/AppLayer/Communication/BB_AOSP_Push_Notification_Service.md)
             - HWLayer
-            - [MWLayer](/library/In-Vehicle/BB-SC/MWLayer/MWLayer.md)
+            - [MWLayer](/library/In-Vehicle/BB-SC/MWLayer/00_MWLayer.md)
                 - Communication
                     - [BB_Communication_Server_S2S](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Communication_Server_S2S.md)
                     - [BB_Gateway_Mirroring](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
@@ -117,29 +119,28 @@ First tag of BB defines its location in git repo
                     - [BB_Time_Service](/library/In-Vehicle/BB-SC/MWLayer/Time/BB_Time_Service.md)
                 - Tools-and-Methods
                     - [BB_Key_Management_System](/library/In-Vehicle/BB-SC/MWLayer/Tools-and-Methods/BB_Key_Management_System.md)
-            - [OSLayer](/library/In-Vehicle/BB-SC/OSLayer/OSLayer.md)
+            - [OSLayer](/library/In-Vehicle/BB-SC/OSLayer/00_OSLayer.md)
                 - Time
                     - [BB_Automotive_Edge_Runtime](/library/In-Vehicle/BB-SC/OSLayer/Time/BB_Automotive_Edge_Runtime.md)
-        - [BB-SC-TC](/library/In-Vehicle/BB-SC-TC/BB-SC-TC.md)
+        - [BB-SC-TC](/library/In-Vehicle/BB-SC-TC/00_BB-SC-TC.md)
             - Testing
                 - [BB_Shadowing](/library/In-Vehicle/BB-SC-TC/Testing/BB_Shadowing.md)
             - Virtualization
                 - [BB_Digital_Twin](/library/In-Vehicle/BB-SC-TC/Virtualization/BB_Digital_Twin.md)
-    - [S-BB](/library/S-BB/S-BB.md)
-        - [AppLayer](/library/S-BB/AppLayer/AppLayer.md)
+    - [S-BB](/library/S-BB/00_S-BB.md)
+        - [AppLayer](/library/S-BB/AppLayer/00_AppLayer.md)
             - [BB_Standardization_of_Vehicle_API](/library/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)
             - [BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure](/library/S-BB/AppLayer/BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure.md)
             - [BB_Standardized_Description_of_Data_from_Related_Domains](/library/S-BB/AppLayer/BB_Standardized_Description_of_Data_from_Related_Domains.md)
             - [BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains](/library/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains.md)
             - [BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains](/library/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains.md)
         - HWLayer
-        - [MWLayer](/library/S-BB/MWLayer/MWLayer.md)
-            - No_cluster
-                - [BB_SOA](/library/S-BB/MWLayer/No_cluster/BB_SOA.md)
-                - [BB_sSOA](/library/S-BB/MWLayer/No_cluster/BB_sSOA.md)
-                - [BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers](/library/S-BB/MWLayer/No_cluster/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
-                - [BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators](/library/S-BB/MWLayer/No_cluster/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators.md)
-                - [BB_Standardized_way_for_Reasoning_on_Data_Streams](/library/S-BB/MWLayer/No_cluster/BB_Standardized_way_for_Reasoning_on_Data_Streams.md)
+        - [MWLayer](/library/S-BB/MWLayer/00_MWLayer.md)
+            - [BB_SOA](/library/S-BB/MWLayer/BB_SOA.md)
+            - [BB_sSOA](/library/S-BB/MWLayer/BB_sSOA.md)
+            - [BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers](/library/S-BB/MWLayer/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
+            - [BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators](/library/S-BB/MWLayer/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators.md)
+            - [BB_Standardized_way_for_Reasoning_on_Data_Streams](/library/S-BB/MWLayer/BB_Standardized_way_for_Reasoning_on_Data_Streams.md)
         - OSLayer
     - unsorted_BB
         - Daniel
