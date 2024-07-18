@@ -37,16 +37,17 @@ def traverse_directory_and_save_to_md(path, output_file):
                 file_link = file_path.replace(" ", "%20").replace("\\", "/")
                 file_link = file_link[1:]
                 # Remove the file extension from the file name
-                file_name_without_extension = os.path.splitext(file_name)[0]
+                file_base_name = os.path.splitext(file_name)[0]
+                file_clean_name = file_base_name.lstrip("0123456789_")
 
                 # Check if the file name without extension is similar to the folder name
                 # print(f"{os.path.basename(root)} - basename")
                 # print(file_name_without_extension)
-                if file_name_without_extension == os.path.basename(root):
+                if file_clean_name == os.path.basename(root):
                     output.write(f"{indent}- [{os.path.basename(root)}]({file_link})\n")
                     # print("indent")
                 else:
-                    output.write(f"{sub_indent}- [{file_name_without_extension}]({file_link})\n")
+                    output.write(f"{sub_indent}- [{file_clean_name}]({file_link})\n")
 
     output_string = output.getvalue()
     # Delete the pattern from the output

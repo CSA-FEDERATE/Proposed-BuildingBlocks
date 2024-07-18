@@ -35,9 +35,9 @@ When implementing a new BB one has to comply to the following folder structure:
 📁library
     └──📁In-Vehicle
         └── 📁BB-SC  # primary tag
-            └── readme.md  
+            └── 00_BB-SC.md  
             └── 📁AppLayer  # layer (AppLayer, MWLayer, OSLayer, HWLayer)
-                └── readme.md  
+                └── 00_AppLayer.md  
                 └── 📁Communication  # functional cluster name
                     └── BB_AOSP_Push_Notification_Service.md  # BB - if it is in >1 FC or tag, put symlink there
                     └── 📁BB_OTA_Manager  # folder if more than a .md file exists for BB
@@ -45,6 +45,8 @@ When implementing a new BB one has to comply to the following folder structure:
                         └── BB_OTA_Manager.xml 
 
 ```
+The 00_readme.md files to the corresponding folder (eg. folder AppLayer: 00_AppLayer) always have to start with "00_"
+
 
 ## BB Tags
 
