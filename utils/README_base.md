@@ -19,15 +19,13 @@ be inserted at the "## Navigation" flag in the [README_base file](/utils/README_
 > [!CAUTION]
 > If you don't follow the structure correctly the automatic structure generation will not work!
 
-### Automatic README generation -  does not work
+### Automatic README generation
 
 > [!Warning]
 > AUTOMATED README GENERATION VIA ACTIONS DOES NOT WORK YET! HAS TO BE DONE MANUALLY!
 
-The README gets automatically updated when changes of the folder structure or [README_base file](/utils/README_base.md) are pushed to a branch and when a pull request is merged to the main branch.
+Run the [README Generator](/scripts/readme_generator.py) script to update the README file
 
-> [!Warning]
->If your github account was created before July 18, 2017, automatic creation of the README will not work. Please update the README maually by running the readme_generator.py file and creating a pull request to the main branch"
 
 ### Folder Structure
 

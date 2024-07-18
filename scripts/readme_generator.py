@@ -40,19 +40,20 @@ def traverse_directory_and_save_to_md(path, output_file):
                 file_name_without_extension = os.path.splitext(file_name)[0]
 
                 # Check if the file name without extension is similar to the folder name
+                # print(f"{os.path.basename(root)} - basename")
+                # print(file_name_without_extension)
                 if file_name_without_extension == os.path.basename(root):
                     output.write(f"{indent}- [{os.path.basename(root)}]({file_link})\n")
+                    # print("indent")
                 else:
                     output.write(f"{sub_indent}- [{file_name_without_extension}]({file_link})\n")
 
     output_string = output.getvalue()
-
     # Delete the pattern from the output
     matches = pattern.findall(output_string)
     if matches:
         print("Pattern found!")
         for match in matches:
-            # print(match[0])
             output_string = output_string.replace(match[0], "")
     else:
         print("Pattern not found!")

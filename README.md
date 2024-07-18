@@ -19,15 +19,13 @@ be inserted at the "## Navigation" flag in the [README_base file](/utils/README_
 > [!CAUTION]
 > If you don't follow the structure correctly the automatic structure generation will not work!
 
-### Automatic README generation - does not work
+### Automatic README generation
 
 > [!Warning]
 > AUTOMATED README GENERATION VIA ACTIONS DOES NOT WORK YET! HAS TO BE DONE MANUALLY!
 
-The README gets automatically updated when changes of the folder structure or [README_base file](/utils/README_base.md) are pushed to a branch and when a pull request is merged to the main branch.
+Run the [README Generator](/scripts/readme_generator.py) script to update the README file
 
-> [!Warning]
->If your github account was created before July 18, 2017, automatic creation of the README will not work. Please update the README maually by running the readme_generator.py file and creating a pull request to the main branch"
 
 ### Folder Structure
 
@@ -72,12 +70,12 @@ First tag of BB defines its location in git repo
         - [BB-CEST](/library/Cloud/BB-CEST/BB-CEST.md)
             - _Not_Clustered
                 - [BB_Car_Simulator](/library/Cloud/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
-        - BB-CMU
+        - [BB-CMU](/library/Cloud/BB-CMU/BB-CMU.md)
         - [BB-CSC](/library/Cloud/BB-CSC/BB-CSC.md)
         - [BB-CSC-TC](/library/Cloud/BB-CSC-TC/BB-CSC-TC.md)
     - In-Vehicle
         - [BB-EST](/library/In-Vehicle/BB-EST/BB-EST.md)
-        - BB-MU
+        - [BB-MU](/library/In-Vehicle/BB-MU/BB-MU.md)
         - [BB-SC](/library/In-Vehicle/BB-SC/BB-SC.md)
                 - [Applayer](/library/In-Vehicle/BB-SC/AppLayer/Applayer.md)
                 - Communication
@@ -85,7 +83,7 @@ First tag of BB defines its location in git repo
             - HWLayer
             - [MWLayer](/library/In-Vehicle/BB-SC/MWLayer/MWLayer.md)
                 - Communication
-                    - [BB_Communication_Service_S2S](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Communication_Service_S2S.md)
+                    - [BB_Communication_Server_S2S](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Communication_Server_S2S.md)
                     - [BB_Gateway_Mirroring](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
                     - [BB_Network_Management](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Network_Management.md)
                     - [BB_SecOS](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_SecOS.md)
@@ -95,12 +93,12 @@ First tag of BB defines its location in git repo
                     - [BB_Local_Update_Manager](/library/In-Vehicle/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
                     - [BB_OTA_Master](/library/In-Vehicle/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)
                 - Diagnostics
-                    - [BB_Diagnostic_Policy_Manager](/library/In-Vehicle/BB-SC/MWLayer/Diagnostics/BB_Diagnostic_Policy_Manager.md)
+                    - [BB_Policy_Manager](/library/In-Vehicle/BB-SC/MWLayer/Diagnostics/BB_Policy_Manager.md)
                 - Platform-Health-Management
                     - [BB_Distributed_Health_Management](/library/In-Vehicle/BB-SC/MWLayer/Platform-Health-Management/BB_Distributed_Health_Management.md)
                     - [BB_Watchdog](/library/In-Vehicle/BB-SC/MWLayer/Platform-Health-Management/BB_Watchdog.md)
                 - Power-Management
-                    - [BB_Power_Management](/library/In-Vehicle/BB-SC/MWLayer/Power-Management/BB_Power_Management.md)
+                    - [BB_Power_Management_Coordination](/library/In-Vehicle/BB-SC/MWLayer/Power-Management/BB_Power_Management_Coordination.md)
                 - Runtime
                     - [BB_Diagnostic_Services_Applications](/library/In-Vehicle/BB-SC/MWLayer/Runtime/BB_Diagnostic_Services_Applications.md)
                     - [BB_State_Management](/library/In-Vehicle/BB-SC/MWLayer/Runtime/BB_State_Management.md)

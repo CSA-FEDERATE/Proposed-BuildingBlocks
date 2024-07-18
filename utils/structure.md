@@ -3,12 +3,12 @@
         - [BB-CEST](/library/Cloud/BB-CEST/BB-CEST.md)
             - _Not_Clustered
                 - [BB_Car_Simulator](/library/Cloud/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
-        - BB-CMU
+        - [BB-CMU](/library/Cloud/BB-CMU/BB-CMU.md)
         - [BB-CSC](/library/Cloud/BB-CSC/BB-CSC.md)
         - [BB-CSC-TC](/library/Cloud/BB-CSC-TC/BB-CSC-TC.md)
     - In-Vehicle
         - [BB-EST](/library/In-Vehicle/BB-EST/BB-EST.md)
-        - BB-MU
+        - [BB-MU](/library/In-Vehicle/BB-MU/BB-MU.md)
         - [BB-SC](/library/In-Vehicle/BB-SC/BB-SC.md)
                 - [Applayer](/library/In-Vehicle/BB-SC/AppLayer/Applayer.md)
                 - Communication
@@ -16,7 +16,7 @@
             - HWLayer
             - [MWLayer](/library/In-Vehicle/BB-SC/MWLayer/MWLayer.md)
                 - Communication
-                    - [BB_Communication_Service_S2S](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Communication_Service_S2S.md)
+                    - [BB_Communication_Server_S2S](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Communication_Server_S2S.md)
                     - [BB_Gateway_Mirroring](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
                     - [BB_Network_Management](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_Network_Management.md)
                     - [BB_SecOS](/library/In-Vehicle/BB-SC/MWLayer/Communication/BB_SecOS.md)
@@ -26,12 +26,12 @@
                     - [BB_Local_Update_Manager](/library/In-Vehicle/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
                     - [BB_OTA_Master](/library/In-Vehicle/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)
                 - Diagnostics
-                    - [BB_Diagnostic_Policy_Manager](/library/In-Vehicle/BB-SC/MWLayer/Diagnostics/BB_Diagnostic_Policy_Manager.md)
+                    - [BB_Policy_Manager](/library/In-Vehicle/BB-SC/MWLayer/Diagnostics/BB_Policy_Manager.md)
                 - Platform-Health-Management
                     - [BB_Distributed_Health_Management](/library/In-Vehicle/BB-SC/MWLayer/Platform-Health-Management/BB_Distributed_Health_Management.md)
                     - [BB_Watchdog](/library/In-Vehicle/BB-SC/MWLayer/Platform-Health-Management/BB_Watchdog.md)
                 - Power-Management
-                    - [BB_Power_Management](/library/In-Vehicle/BB-SC/MWLayer/Power-Management/BB_Power_Management.md)
+                    - [BB_Power_Management_Coordination](/library/In-Vehicle/BB-SC/MWLayer/Power-Management/BB_Power_Management_Coordination.md)
                 - Runtime
                     - [BB_Diagnostic_Services_Applications](/library/In-Vehicle/BB-SC/MWLayer/Runtime/BB_Diagnostic_Services_Applications.md)
                     - [BB_State_Management](/library/In-Vehicle/BB-SC/MWLayer/Runtime/BB_State_Management.md)
