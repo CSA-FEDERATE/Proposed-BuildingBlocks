@@ -77,7 +77,7 @@ First tag of BB defines its location in git repo
         - [BB-EST](/library/In-Vehicle/BB-EST/BB-EST.md)
         - [BB-MU](/library/In-Vehicle/BB-MU/BB-MU.md)
         - [BB-SC](/library/In-Vehicle/BB-SC/BB-SC.md)
-                - [Applayer](/library/In-Vehicle/BB-SC/AppLayer/Applayer.md)
+            - [AppLayer](/library/In-Vehicle/BB-SC/AppLayer/AppLayer.md)
                 - Communication
                     - [BB_AOSP_Push_Notification_Service](/library/In-Vehicle/BB-SC/AppLayer/Communication/BB_AOSP_Push_Notification_Service.md)
             - HWLayer
@@ -133,13 +133,13 @@ First tag of BB defines its location in git repo
             - [BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains](/library/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains.md)
             - [BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains](/library/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains.md)
         - HWLayer
-        - MWLayer
-            - [BB_SOA](/library/S-BB/MWLayer/BB_SOA.md)
-            - [BB_sSOA](/library/S-BB/MWLayer/BB_sSOA.md)
-            - [BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers](/library/S-BB/MWLayer/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
-            - [BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators](/library/S-BB/MWLayer/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators.md)
-            - [BB_Standardized_way_for_Reasoning_on_Data_Streams](/library/S-BB/MWLayer/BB_Standardized_way_for_Reasoning_on_Data_Streams.md)
         - [MWLayer](/library/S-BB/MWLayer/MWLayer.md)
+            - No_cluster
+                - [BB_SOA](/library/S-BB/MWLayer/No_cluster/BB_SOA.md)
+                - [BB_sSOA](/library/S-BB/MWLayer/No_cluster/BB_sSOA.md)
+                - [BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers](/library/S-BB/MWLayer/No_cluster/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
+                - [BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators](/library/S-BB/MWLayer/No_cluster/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators.md)
+                - [BB_Standardized_way_for_Reasoning_on_Data_Streams](/library/S-BB/MWLayer/No_cluster/BB_Standardized_way_for_Reasoning_on_Data_Streams.md)
         - OSLayer
     - unsorted_BB
         - Daniel
