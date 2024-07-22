@@ -18,6 +18,15 @@ body:
   validations:
     required: false
 
+- type: input
+  id: tag
+  attributes:
+    label: BB-Tag
+    description: Please input the corresponding tag of the affected BB
+    placeholder: eg. BB-SC
+  validations:
+    required: true
+
 - type: dropdown
   id: layer
   attributes:
