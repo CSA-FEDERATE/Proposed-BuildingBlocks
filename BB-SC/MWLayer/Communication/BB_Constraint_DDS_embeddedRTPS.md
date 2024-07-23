@@ -2,7 +2,7 @@
 
 ## BB Tags(s)
 
-- SC, CSC, CS-MU, CSC-MU
+- BB-SC, BB-CSC, BB-MU, BB-CMU
 
 ## Functional Clusters
 
@@ -10,7 +10,7 @@
 
 ## Layer
 
-- Middleware
+- MWLayer
 
 ## Known Implementation
 
