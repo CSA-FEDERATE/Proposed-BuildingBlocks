@@ -4,7 +4,6 @@ from io import StringIO
 
 
 def generate():
-    # Specify the directory you want to traverse
     directory_to_traverse = "."
     output_file = "other/utils/structure.md"
 
