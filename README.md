@@ -121,6 +121,15 @@ First tag of BB defines its location in git repo
 - ##### HWLayer
 
 - #### [BB-EST](/BB-EST/BB-EST.md)
+  - Build and Implementation
+  - Deployment
+  - Design
+  - Implementation
+  - Lifecycle Management
+  - Monitoring and Diagnostics
+  - Requirements
+    - [DocAsCode](/BB-EST/Requirements/BB_DocAsCode.md)
+  - Testing
 
 - #### [BB-SC-TC](/BB-SC-TC/BB-SC-TC.md)
 
