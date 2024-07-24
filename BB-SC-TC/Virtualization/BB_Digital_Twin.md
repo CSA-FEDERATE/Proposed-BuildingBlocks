@@ -25,7 +25,20 @@ The digital twin is considered as a digital representation of a vehicle (or the 
 Proposal for standardization are execution model with regard to simulation level (Prostep standardization <https://www.prostep.org/>), handling of distributed simulation, co-simulation bus and services for controller including services to extract and inject data, extract and inject algorithm dynamically (or static) during simulation, services to guarantee at least software alignment between digital and vehicle.  
 Defines embed service services to ensure connection with digital twin.
 
-A digital twin models a virtual representation of a physical object, system, or process.
+***
+
+A digital twin is a virtual representation of real-world entities and processes, synchronized at a specified frequency and fidelity.
+
+- Digital twin systems transform business by accelerating holistic understanding, optimal decision-making, and effective action.
+
+- Digital twins use real-time and historical data to represent the past and present and simulate predicted futures.
+
+- Digital twins are motivated by outcomes, tailored to use cases, powered by integration, built on data, guided by domain knowledge, and implemented in IT/OT systems.
+
+The foundational elements of the definition are captured in the first sentence: the virtual representation, the real-world entities and processes it represents, and the mechanism by which the virtual and real-world entities are synchronized.
+
+Source: https://www.digitaltwinconsortium.org/2020/12/digital-twin-consortium-defines-digital-twin/
+Digital Twin Consortium is part of the Object Management Group®.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
