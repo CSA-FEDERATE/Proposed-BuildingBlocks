@@ -6,12 +6,12 @@ from io import StringIO
 def generate():
     # Specify the directory you want to traverse
     directory_to_traverse = "."
-    output_file = "utils/structure.md"
+    output_file = "other/utils/structure.md"
 
     # Call the function to start traversing and saving to a markdown file
     traverse_directory_and_save_to_md(directory_to_traverse, output_file)
     # Merge the structure.md file with the README_base.md file, add content after the "## Navigation" flag, and save to README.md
-    insert_md_content("utils/structure.md", "utils/README_base.md", "## Navigation", "README.md")
+    insert_md_content("other/utils/structure.md", "other/utils/README_base.md", "## Navigation", "README.md")
     print("README created!")
 
 
@@ -20,36 +20,38 @@ def traverse_directory_and_save_to_md(path, output_file):
     pattern = re.compile(r"(^\s*- [a-zA-Z-:]*\n)(^\s*- \[[a-zA-Z-]*\])(.*)", re.MULTILINE)
     for root, dirs, files in os.walk(path):
         # Only process if the root directory contains "Library"
-        if "library" in root:
-            dirs[:] = [d for d in dirs if not d.startswith(".") and d != ".git"]
-            # Compute the directory level for indentation
-            level = root.replace(path, "").count(os.sep) - 1
-            indent = "    " * level
-            output.write(f"{indent}- {os.path.basename(root)}\n")
 
-            sub_indent = "    " * (level + 1)
-            for file_name in files:
-                # Skip hidden files and git-related files
-                if file_name.startswith(".") or file_name == ".git":
-                    continue
+        dirs[:] = [d for d in dirs if not d.startswith(".") and d != "other"]
+        # Compute the directory level for indentation
+        level = root.replace(path, "").count(os.sep) - 1
+        indent = "    " * level
+        output.write(f"{indent}- {os.path.basename(root)}\n")
 
-                file_path = os.path.join(root, file_name)
-                file_link = file_path.replace(" ", "%20").replace("\\", "/")
-                file_link = file_link[1:]
-                # Remove the file extension from the file name
-                file_base_name = os.path.splitext(file_name)[0]
-                file_clean_name = file_base_name.lstrip("0123456789_")
+        sub_indent = "    " * (level + 1)
+        for file_name in files:
+            # Skip hidden files and git-related files
+            if file_name.startswith(".") or file_name == "README.md":
+                continue
 
-                # Check if the file name without extension is similar to the folder name
-                # print(f"{os.path.basename(root)} - basename")
-                # print(file_name_without_extension)
-                if file_clean_name == os.path.basename(root):
-                    output.write(f"{indent}- [{os.path.basename(root)}]({file_link})\n")
-                    # print("indent")
-                else:
-                    output.write(f"{sub_indent}- [{file_clean_name}]({file_link})\n")
+            file_path = os.path.join(root, file_name)
+            file_link = file_path.replace(" ", "%20").replace("\\", "/")
+            file_link = file_link[1:]
+            # Remove the file extension from the file name
+            file_base_name = os.path.splitext(file_name)[0]
+            file_clean_name = file_base_name.lstrip("0123456789_")
+
+            # Check if the file name without extension is similar to the folder name
+            # print(f"{os.path.basename(root)} - basename")
+            # print(file_name_without_extension)
+            if file_clean_name == os.path.basename(root):
+                output.write(f"{indent}- [{os.path.basename(root)}]({file_link})\n")
+                # print("indent")
+            else:
+                output.write(f"{sub_indent}- [{file_clean_name}]({file_link})\n")
 
     output_string = output.getvalue()
+    output_lines = output_string.split("\n")[1:]  # Remove the first line
+    output_string = "\n".join(output_lines)
     # Delete the pattern from the output
     matches = pattern.findall(output_string)
     if matches:
