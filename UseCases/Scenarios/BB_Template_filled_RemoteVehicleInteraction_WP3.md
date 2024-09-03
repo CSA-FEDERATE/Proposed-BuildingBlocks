@@ -1,20 +1,13 @@
 
 # Remote Vehicle Interaction
 
-## BB Tags(s)
+## BB Reference(s)
 
-- SC
-
-## Functional Clusters
-
-- Communication
-- Vehicle Service endpoint definitions
-- Security
-
-## Layer
-
-- Middleware
-- Application
+- BB-CEST/BB_Car_Simulator
+- BB-SC-TC/Virtualization/BB_Digital_Twin
+- BB-SC/AppLayer/Communication/BB_AOSP_Push_Notification_Service
+- S-BB/AppLayer/BB_Standardization_of_Vehicle_API
+- S-BB/AppLayer/BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure
 
 ## Known Implementation
 
@@ -33,25 +26,6 @@ The following key aspects are written from the point of view of an in-vehicle SD
 - Use unified semantics for vehicle interaction - e.g. based on COVESA VSC and uServices, with mechatronics abstraction happening as low in the stack as possible.
 - Employ software infrastructure for features like driver settings/profile management, synchronized between in-vehicle, backend and mobile domains .
 - Involve considerations around authentication and verification between service and application interaction in such a framework - access control, permissions, usage profiles, trust, etc.
-
-## Governance Applicable S-BB(s)
-
-## Compose BB(s)
-
-## What is needed to Design and Implement
-
-## What is needed to build and run
-
-## Non-Functional Requirements
-
-## Dependencies to other Clusters
-
-- Middleware
-- Communication
-
-## Vehicle API Relevant
-
-- COVESA uServices
 
 ## Author/Company
 
