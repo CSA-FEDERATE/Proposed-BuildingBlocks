@@ -1,17 +1,15 @@
 
-# Remote Vehicle Interaction
+# Service Mesh
 
-## BB Tags(s)
+## BB Reference(s)
 
-- SC
-
-## Functional Clusters
-
-- Communication
-
-## Layer
-
-- Middleware
+- BB-SC/MWLayer/Diagnostics/BB_Policy_Manager.md
+- BB-SC-TC/Virtualization/BB_Digital_Twin
+- S-BB/AppLayer/BB_Standardization_of_Vehicle_API
+- S-BB/AppLayer/BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure
+- S-BB/MWLayer/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators
+- S-BB/MWLayer/BB_SOA
+- S-BB/MWLayer/BB_sSOA
 
 ## Known Implementation
 
@@ -32,28 +30,6 @@ The following key aspects are written from the point of view of an in-vehicle SD
 - Support pub/sub and request/response communication across the entire service mesh scope and all involved entities
 - Provide cross-domain integration for service discovery, data subscription and digital twin capabilities
 - Include considerations around authentication and verification between service and application interaction in such a framework - access control, permissions, usage profiles, trust, etc
-
-## Governance Applicable S-BB(s)
-
-## Compose BB(s)
-
-Link to AUTOSAR SOME/IP protocol, other middleware- and protocol implementations, digital twin concepts, security concepts
-
-## What is needed to Design and Implement
-
-## What is needed to build and run
-
-## Non-Functional Requirements
-
-## Dependencies to other Clusters
-
-- Middleware
-- Security
-- Communication
-
-## Vehicle API Relevant
-
-- COVESA uServices
 
 ## Author/Company
 

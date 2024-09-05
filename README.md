@@ -157,10 +157,8 @@ First tag of BB defines its location in git repo
   
 - ##### OSLayer
 
-- ##### HWLayer
-
 ***
 
-## WARNING
+## Use Cases and Scenarios
 
-[Unsorted Building Blocks](/unsorted_BB/)
+While building blocks are useful as a starting point for specific software component design and implementation considerations, it is always desireable to be able to put building blocks into a larger context, asking the question: what actual use cases and scenarios should a system be able to cover? Such [use case scenarios are collected and maintained in a dedicated structure](/UseCases/Scenarios/).
