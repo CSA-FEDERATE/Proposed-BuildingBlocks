@@ -19,7 +19,7 @@ MWLayer
 
 ## Description
 <!-- General Description of the BB -->
-Define the source as a service modulating software time based on local
+Define the source as a service, modulating software time based on local
 ECU physical Timer channel on the chip counting time even when vehicle
 is off.  
 Control the system time as time between different SW Partitions,
