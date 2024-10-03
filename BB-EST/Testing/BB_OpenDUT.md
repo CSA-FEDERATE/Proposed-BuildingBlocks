@@ -2,7 +2,7 @@
 
 ## BB Tags(s)
 
-- EST, CEST, SC-TC, CSC-TC
+- BB-EST, BB-CEST, BB-SC-TC, BB-CSC-TC
 
 ## Functional Clusters
 
@@ -11,7 +11,7 @@
 
 ## Layer
 
-- Middleware
+- MWLayer
 
 ## Known Implementation
 
