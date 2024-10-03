@@ -1,57 +1,56 @@
-Name 
-RemotiveCloud
+# RemotiveCloud
 
-BB Tags(s) 
+## BB Tags(s) 
 BB-CEST; BB-CSC-TC
 
-Functional Cluster(s) (optional)	
+## Functional Cluster
 Diagnostics (could also be used for feeding vehicle data to emulators and other prototyping tools)
 
-Layer	
+## Layer	
 Cloud
              
-Known Implementation(s)	
+## Known Implementation(s)	
 https://cloud.remotivelabs.com/ 
 
-ID (unique name)	
+## ID (unique name)	
 
-Description	
+## Description	
 RemotiveCloud - for sharing vehicle recordings, both for debugging purposes as well as for prototyping (feed data into e.g. ProtoPie and Android AAOS / AOSP emulators). The recordings can be made with the RemotiveBroker or some other logging devices following standard formats.   
 Rationale	RemotiveCloud enables an easy way of sharing recordings - upload to cloud and share with relevant people as suppliers and service providers to have a common place for vehicle network data (CAN etc.) for debugging and 3rd party application developers.      
 
-Governance Applicable S-BB(s) 
+## Governance Applicable S-BB(s) 
 None
 
-Compose BB(s)	
+## Compose BB(s)	
 None
  
-What is needed to Design and Implement	
+## What is needed to Design and Implement	
 Nothing, create an account and get going (there is a free tier available). 
 
-What is needed to build and run	
+## What is needed to build and run	
 Nothing in addition to an account.
 
-Non-Functional Requirements	
+## Non-Functional Requirements	
 None
 
-Dependencies to other Clusters 	
+## Dependencies to other Clusters 	
 None
 
-Vehicle API Relevant 
+## Vehicle API Relevant 
 Yes, the output can be made in COVESA VSS / VISS format - both to make it easy for 3rd parties as well as to hide OEM proprietary info
 
-Author/Company + Prio	
-Emil Dautovic / RemotiveLabs + (High/Mid/Low)
+## Author/Company + Prio	
+Emil Dautovic / RemotiveLabs
 
-Related Project(s) (Yes/No) 
+## Related Project
 Yes, part of Playground under the COVESA umbrella. 
 No active role in FEDERATE yet but there should be a good fit under WP2 projects where there is a need to collaborate in an easy way when it comes to vehicle data (from a test rig or an actual vehicle) for both debugging as well as prototyping purposes (either OEM propritary format or COVESA VSS). 
 
-Availability of the Source Code 
+## Availability of the Source Code 
 The core RemotiveLabs components are Commercial Closed Source but reference integrations are available as source code https://github.com/remotivelabs 
 
-Availability of API 
+## Availability of API 
 https://docs.remotivelabs.com/docs/category/remotivecloud 
 
-Reference to FEDERATE 
+## Reference to FEDERATE 
 SDV Repository - Open Toolchain	Link to the FEDERATE Github Repo 
