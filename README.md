@@ -96,10 +96,12 @@ First tag of BB defines its location in git repo
         - [BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers](/S-BB/MWLayer/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
         - [BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators](/S-BB/MWLayer/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators.md)
         - [BB_Standardized_way_for_Reasoning_on_Data_Streams](/S-BB/MWLayer/BB_Standardized_way_for_Reasoning_on_Data_Streams.md)
-- unsorted_BB
-    - Daniel
-        - [BB_Template_filled_FleetData_WP3](/unsorted_BB/Daniel/BB_Template_filled_FleetData_WP3.md)
-        - [BB_Template_filled_RemoteVehicleInteraction_WP3](/unsorted_BB/Daniel/BB_Template_filled_RemoteVehicleInteraction_WP3.md)
-        - [BB_Template_filled_ServiceMesh_WP3](/unsorted_BB/Daniel/BB_Template_filled_ServiceMesh_WP3.md)
+- UseCases
+    - Scenarios
+        - [BB_Template_filled_FleetData_WP3](/UseCases/Scenarios/BB_Template_filled_FleetData_WP3.md)
+        - [BB_Template_filled_RemoteVehicleInteraction_WP3](/UseCases/Scenarios/BB_Template_filled_RemoteVehicleInteraction_WP3.md)
+        - [BB_Template_filled_ServiceMesh_WP3](/UseCases/Scenarios/BB_Template_filled_ServiceMesh_WP3.md)
+
 ***
 generated using [README Generator](/other/scripts/readme_generator.py)
+
