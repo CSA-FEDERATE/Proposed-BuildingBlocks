@@ -23,7 +23,7 @@ Define the source as a service, modulating software time based on local
 ECU physical Timer channel on the chip counting time even when vehicle
 is off.  
 Control the system time as time between different SW Partitions,
-subsystems, and systems to have a global valid time (selection of most accurate over several source, including diagnosis, etc..) as well as the
+subsystems, and systems to have a *global* valid time (selection of most accurate over several source, including diagnosis, etc..) as well as the
 exchange of time information between subsystems
 
 ## Rationale
