@@ -8,6 +8,7 @@ When Implementing a new BB please follow these [implementation guidelines](/othe
 
 ## BB Tags
 
+
 First tag of BB defines its location in git repo
 
 |Tag|Description|
@@ -32,6 +33,14 @@ First tag of BB defines its location in git repo
 - [BB-CSC](/BB-CSC/00_BB-CSC.md)
 - [BB-CSC-TC](/BB-CSC-TC/00_BB-CSC-TC.md)
 - [BB-EST](/BB-EST/00_BB-EST.md)
+    - Build-and-Implementation
+    - Deployment
+    - Design
+    - Implementation
+    - Lifecycle-Management
+    - Monitoring-and-Diagnostics
+    - Requirements
+    - Testing
 - [BB-MU](/BB-MU/00_BB-MU.md)
 - [BB-SC](/BB-SC/00_BB-SC.md)
     - [AppLayer](/BB-SC/AppLayer/00_AppLayer.md)
