@@ -30,6 +30,9 @@ First tag of BB defines its location in git repo
     - _Not_Clustered
         - [BB_Car_Simulator](/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
 - [BB-CMU](/BB-CMU/00_BB-CMU.md)
+    - [MWLayer](/BB-CMU/MWLayer/00_MWLayer.md)
+        - Virtualization
+            - [BB_Digital_Twin_proxy_in_cloud](/BB-CMU/MWLayer/Virtualization/BB_Digital_Twin_proxy_in_cloud.md)
 - [BB-CSC](/BB-CSC/00_BB-CSC.md)
 - [BB-CSC-TC](/BB-CSC-TC/00_BB-CSC-TC.md)
 - [BB-EST](/BB-EST/00_BB-EST.md)
@@ -41,6 +44,7 @@ First tag of BB defines its location in git repo
     - Monitoring-and-Diagnostics
     - Requirements
     - Testing
+        - [BB_OpenDUT](/BB-EST/Testing/BB_OpenDUT.md)
 - [BB-MU](/BB-MU/00_BB-MU.md)
 - [BB-SC](/BB-SC/00_BB-SC.md)
     - [AppLayer](/BB-SC/AppLayer/00_AppLayer.md)
@@ -89,8 +93,6 @@ First tag of BB defines its location in git repo
 - [BB-SC-TC](/BB-SC-TC/00_BB-SC-TC.md)
     - Testing
         - [BB_Shadowing](/BB-SC-TC/Testing/BB_Shadowing.md)
-    - Virtualization
-        - [BB_Digital_Twin](/BB-SC-TC/Virtualization/BB_Digital_Twin.md)
 - [S-BB](/S-BB/00_S-BB.md)
     - [AppLayer](/S-BB/AppLayer/00_AppLayer.md)
         - [BB_Standardization_of_Vehicle_API](/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)
