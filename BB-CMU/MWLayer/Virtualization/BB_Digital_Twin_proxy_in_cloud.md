@@ -1,9 +1,9 @@
 
-# Digital Twin
+# Digital Twin proxy in cloud
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-SC-TC
+BB-MU
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
