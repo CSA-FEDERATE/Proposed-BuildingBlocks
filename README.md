@@ -27,12 +27,9 @@ First tag of BB defines its location in git repo
 
 ## Navigation
 - [BB-CEST](/BB-CEST/00_BB-CEST.md)
-    - _Not_Clustered
-        - [BB_Car_Simulator](/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
+    - [BB_Car_Simulator](/BB-CEST/BB_Car_Simulator.md)
 - [BB-CMU](/BB-CMU/00_BB-CMU.md)
-    - [MWLayer](/BB-CMU/MWLayer/00_MWLayer.md)
-        - Virtualization
-            - [BB_Digital_Twin_proxy_in_cloud](/BB-CMU/MWLayer/Virtualization/BB_Digital_Twin_proxy_in_cloud.md)
+    - [BB_Digital_Twin_proxy_in_cloud](/BB-CMU/BB_Digital_Twin_proxy_in_cloud.md)
 - [BB-CSC](/BB-CSC/00_BB-CSC.md)
 - [BB-CSC-TC](/BB-CSC-TC/00_BB-CSC-TC.md)
 - [BB-EST](/BB-EST/00_BB-EST.md)
