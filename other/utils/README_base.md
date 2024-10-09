@@ -16,7 +16,7 @@ First tag of BB defines its location in git repo
 |BB-SC|Building Block Stack Component (In-Vehicle / On-Board)|
 |BB-CSC|Building Block Cloud Stack Component (Cloud / Off-Board)|
 |BB-MU|Building Block Mockup Unit (In-Vehicle / On-Board Component)|
-|BB-CMU|Block Cloud Mockup Unit (Cloud / Off-Board Component)|
+|BB-CMU|Building Block Cloud Mockup Unit (Cloud / Off-Board Component)|
 |BB-EST|Building Block Engineering & Support Tools (for In-Vehicle / On-Board Components)|
 |BB-CEST|Building Block Cloud Engineering & Support Tools (for Cloud / Off-Board Components)|
 |S-BB|Supporting Building Blocks (Standards, API & Interface Definitions, standardized Data Model)|

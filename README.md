@@ -16,7 +16,7 @@ First tag of BB defines its location in git repo
 |BB-SC|Building Block Stack Component (In-Vehicle / On-Board)|
 |BB-CSC|Building Block Cloud Stack Component (Cloud / Off-Board)|
 |BB-MU|Building Block Mockup Unit (In-Vehicle / On-Board Component)|
-|BB-CMU|Block Cloud Mockup Unit (Cloud / Off-Board Component)|
+|BB-CMU|Building Block Cloud Mockup Unit (Cloud / Off-Board Component)|
 |BB-EST|Building Block Engineering & Support Tools (for In-Vehicle / On-Board Components)|
 |BB-CEST|Building Block Cloud Engineering & Support Tools (for Cloud / Off-Board Components)|
 |S-BB|Supporting Building Blocks (Standards, API & Interface Definitions, standardized Data Model)|
@@ -27,10 +27,25 @@ First tag of BB defines its location in git repo
 
 ## Navigation
 - [BB-CEST](/BB-CEST/00_BB-CEST.md)
-    - _Not_Clustered
-        - [BB_Car_Simulator](/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
+    - [BB_Car_Simulator](/BB-CEST/BB_Car_Simulator.md)
 - [BB-CMU](/BB-CMU/00_BB-CMU.md)
+    - [BB_Digital_Twin_proxy_in_cloud](/BB-CMU/BB_Digital_Twin_proxy_in_cloud.md)
 - [BB-CSC](/BB-CSC/00_BB-CSC.md)
+    - [BB_Active_diagnostics_and_repair_services](/BB-CSC/BB_Active_diagnostics_and_repair_services.md)
+    - [BB_App_and_services_store](/BB-CSC/BB_App_and_services_store.md)
+    - [BB_Cloud_container_and_OS](/BB-CSC/BB_Cloud_container_and_OS.md)
+    - [BB_Config_and_settngs_collector](/BB-CSC/BB_Config_and_settngs_collector.md)
+    - [BB_Data_manager_ensuring_compliance_with_regulation](/BB-CSC/BB_Data_manager_ensuring_compliance_with_regulation.md)
+    - [BB_Data_spaces](/BB-CSC/BB_Data_spaces.md)
+    - [BB_Driver_authentication](/BB-CSC/BB_Driver_authentication.md)
+    - [BB_Driver_monitor](/BB-CSC/BB_Driver_monitor.md)
+    - [BB_End_to_end_security_for_C2X](/BB-CSC/BB_End_to_end_security_for_C2X.md)
+    - [BB_Extended_accident_data_recorder](/BB-CSC/BB_Extended_accident_data_recorder.md)
+    - [BB_Monitoring_and_Tracing_of_specific_HW_in_vehicle](/BB-CSC/BB_Monitoring_and_Tracing_of_specific_HW_in_vehicle.md)
+    - [BB_Orchestration_support_for_energy_and_mobility_providers](/BB-CSC/BB_Orchestration_support_for_energy_and_mobility_providers.md)
+    - [BB_Secure_and_privacy_aware_voice_assistant](/BB-CSC/BB_Secure_and_privacy_aware_voice_assistant.md)
+    - [BB_Vehicle_data_streaming](/BB-CSC/BB_Vehicle_data_streaming.md)
+    - [BB_Vehicle_monitor](/BB-CSC/BB_Vehicle_monitor.md)
 - [BB-CSC-TC](/BB-CSC-TC/00_BB-CSC-TC.md)
 - [BB-EST](/BB-EST/00_BB-EST.md)
     - Build-and-Implementation
@@ -41,6 +56,7 @@ First tag of BB defines its location in git repo
     - Monitoring-and-Diagnostics
     - Requirements
     - Testing
+        - [BB_OpenDUT](/BB-EST/Testing/BB_OpenDUT.md)
 - [BB-MU](/BB-MU/00_BB-MU.md)
 - [BB-SC](/BB-SC/00_BB-SC.md)
     - [AppLayer](/BB-SC/AppLayer/00_AppLayer.md)
@@ -89,8 +105,6 @@ First tag of BB defines its location in git repo
 - [BB-SC-TC](/BB-SC-TC/00_BB-SC-TC.md)
     - Testing
         - [BB_Shadowing](/BB-SC-TC/Testing/BB_Shadowing.md)
-    - Virtualization
-        - [BB_Digital_Twin](/BB-SC-TC/Virtualization/BB_Digital_Twin.md)
 - [S-BB](/S-BB/00_S-BB.md)
     - [AppLayer](/S-BB/AppLayer/00_AppLayer.md)
         - [BB_Standardization_of_Vehicle_API](/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)
@@ -100,13 +114,24 @@ First tag of BB defines its location in git repo
         - [BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains](/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains.md)
     - HWLayer
     - [MWLayer](/S-BB/MWLayer/00_MWLayer.md)
+        - [BB_Legally_binding_formats_for_data_exchange](/S-BB/MWLayer/BB_Legally_binding_formats_for_data_exchange.md)
         - [BB_SOA](/S-BB/MWLayer/BB_SOA.md)
         - [BB_sSOA](/S-BB/MWLayer/BB_sSOA.md)
+        - [BB_Standardized_authentication_of_vehicle_users](/S-BB/MWLayer/BB_Standardized_authentication_of_vehicle_users.md)
+        - [BB_Standardized_cloud_services_to_support_international_roaming_of_vehicles](/S-BB/MWLayer/BB_Standardized_cloud_services_to_support_international_roaming_of_vehicles.md)
         - [BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers](/S-BB/MWLayer/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
         - [BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators](/S-BB/MWLayer/BB_Standardized_Data_Description_for_Vehicle_Sensors_Attributes_Actuators.md)
+        - [BB_Standardized_data_formats_for_digital_twins](/S-BB/MWLayer/BB_Standardized_data_formats_for_digital_twins.md)
+        - [BB_Standardized_HD_maps_formats](/S-BB/MWLayer/BB_Standardized_HD_maps_formats.md)
         - [BB_Standardized_way_for_Reasoning_on_Data_Streams](/S-BB/MWLayer/BB_Standardized_way_for_Reasoning_on_Data_Streams.md)
 - UseCases
     - Scenarios
+        - [BB_Central_database_of_vehicle_failures_and_incidents](/UseCases/Scenarios/BB_Central_database_of_vehicle_failures_and_incidents.md)
+        - [BB_Central_traffic_manager](/UseCases/Scenarios/BB_Central_traffic_manager.md)
+        - [BB_Collect_street_data](/UseCases/Scenarios/BB_Collect_street_data.md)
+        - [BB_Location_based_services](/UseCases/Scenarios/BB_Location_based_services.md)
+        - [BB_Offloading_tasks_to_cloud_resources](/UseCases/Scenarios/BB_Offloading_tasks_to_cloud_resources.md)
+        - [BB_Remote_driving](/UseCases/Scenarios/BB_Remote_driving.md)
         - [BB_Template_filled_FleetData_WP3](/UseCases/Scenarios/BB_Template_filled_FleetData_WP3.md)
         - [BB_Template_filled_RemoteVehicleInteraction_WP3](/UseCases/Scenarios/BB_Template_filled_RemoteVehicleInteraction_WP3.md)
         - [BB_Template_filled_ServiceMesh_WP3](/UseCases/Scenarios/BB_Template_filled_ServiceMesh_WP3.md)
