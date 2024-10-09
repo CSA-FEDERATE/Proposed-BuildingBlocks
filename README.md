@@ -6,7 +6,7 @@ Landing page for all proposed building blocks; use the README to navigate throug
 
 When Implementing a new BB please follow these [implementation guidelines](/other/utils/BB_Implementation_guideline.md).
 
-When wanting to make changes to the [README](/README.md), please make the changes to the [README_base](/other/utils/README_base.md) so that they can be accessed by the [README Generator](/other/scripts/readme_generator.py) After adding the changes, run the [README Generator](/other/scripts/readme_generator.py) locally and push the changes.
+When wanting to make changes to the [README](/README.md), please make the changes to the [README_base](/other/utils/README_base.md) so that they can be accessed by the [README Generator](/other/scripts/readme_generator.py). After adding the changes, run the [README Generator](/other/scripts/readme_generator.py) locally and push the changes.
 
 ## BB Tags
 
