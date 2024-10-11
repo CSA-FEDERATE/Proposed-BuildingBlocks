@@ -3,18 +3,15 @@
 
 ## BB Tags(s)
 
-- SC
+BB-SC
 
 ## Functional Clusters
 
-- Communication
-- Vehicle Service endpoint definitions
-- Security
+Communication, Vehicle Service endpoint definitions Security
 
 ## Layer
 
-- Middleware
-- Application
+MWLayer, AppLayer
 
 ## Known Implementation
 
