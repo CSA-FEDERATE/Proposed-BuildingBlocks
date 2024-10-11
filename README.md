@@ -26,6 +26,7 @@ First tag of BB defines its location in git repo
 |BB-WE|Whatever Tag / Whitecard|
 
 ## Navigation
+- [LICENSE](/LICENSE.txt)
 - [BB-CEST](/BB-CEST/00_BB-CEST.md)
     - _Not_Clustered
         - [BB_Car_Simulator](/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
@@ -40,7 +41,9 @@ First tag of BB defines its location in git repo
     - Lifecycle-Management
     - Monitoring-and-Diagnostics
     - Requirements
+        - [BB_DocAsCode](/BB-EST/Requirements/BB_DocAsCode.md)
     - Testing
+        - [BB_OpenDUT](/BB-EST/Testing/BB_OpenDUT.md)
 - [BB-MU](/BB-MU/00_BB-MU.md)
 - [BB-SC](/BB-SC/00_BB-SC.md)
     - [AppLayer](/BB-SC/AppLayer/00_AppLayer.md)
@@ -50,6 +53,7 @@ First tag of BB defines its location in git repo
     - [MWLayer](/BB-SC/MWLayer/00_MWLayer.md)
         - Communication
             - [BB_Communication_Server_S2S](/BB-SC/MWLayer/Communication/BB_Communication_Server_S2S.md)
+            - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/MWLayer/Communication/BB_Constraint_DDS_embeddedRTPS.md)
             - [BB_Gateway_Mirroring](/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
             - [BB_Network_Management](/BB-SC/MWLayer/Communication/BB_Network_Management.md)
             - [BB_SecOS](/BB-SC/MWLayer/Communication/BB_SecOS.md)
