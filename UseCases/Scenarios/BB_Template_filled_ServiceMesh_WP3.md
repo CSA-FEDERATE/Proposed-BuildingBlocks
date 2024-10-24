@@ -53,7 +53,7 @@ Link to AUTOSAR SOME/IP protocol, other middleware- and protocol implementations
 
 ## Vehicle API Relevant
 
-- COVESA uServices
+- [COVESA uServices](https://github.com/COVESA/uservices)
 
 ## Author/Company
 
@@ -65,7 +65,7 @@ Link to AUTOSAR SOME/IP protocol, other middleware- and protocol implementations
 
 ## Related Project(s)
 
-- COVESA uServices
+- [COVESA uServices](https://github.com/COVESA/uservices)
 - Eclipse uProtocol
 - Eclipse SDV Companion App Blueprint
 - Eclipse SDV Fleet Management Blueprint

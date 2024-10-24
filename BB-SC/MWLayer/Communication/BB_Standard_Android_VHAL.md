@@ -34,9 +34,10 @@ The building block will be used using the standard Google Car API within the And
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
-Android Automotive OS
-Android VHAL
-Android Car API
+- Android Automotive OS
+- Android VHAL
+- Android Car API
+- [COVESA Automotive AOSP App Framework Standardisation](https://covesa.global/aosp-framework/)
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
