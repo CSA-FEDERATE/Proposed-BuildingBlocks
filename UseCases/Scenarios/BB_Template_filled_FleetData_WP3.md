@@ -52,7 +52,7 @@ The following key aspects are written from the point of view of an in-vehicle SD
 
 ## Vehicle API Relevant
 
-- COVESA VSS
+- [COVESA VSS](https://covesa.github.io/vehicle_signal_specification/)
 
 ## Author/Company
 
@@ -64,8 +64,8 @@ The following key aspects are written from the point of view of an in-vehicle SD
 
 ## Related Project(s)
 
-- COVESA VSS
-- W3C VISS
+- [COVESA VSS](https://covesa.github.io/vehicle_signal_specification/)
+- [W3C VISS](https://github.com/COVESA/vehicle-information-service-specification)
 - Eclipse Kuksa
 - Eclipse uProtocol
 - Eclipse SDV Companion App Blueprint
