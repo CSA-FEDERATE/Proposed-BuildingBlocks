@@ -239,19 +239,128 @@ body:
 - type: markdown
   id: maturity badges
   attributes:
-    label: Maturity badge
-    description: taken over from Eclipse SDV Process; See Definition of Badges and their Flavors; https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors; Options:NotDefined/No/Bronze/Silver/Gold
     value: |
-        ## Bug Report
-        Please provide the details below.
+        ### Maturity Badges
+        Example:
+        | 			| **Documentation** | **Requirements** | **Coding Guidelines** | **Testing** | **Release Process** |
+        | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
+        | Level		| Gold (insert urlToDoc)| No 		   | NotDefined		   | Bronze	 | Silver (insert urlToDoc) |
 
-        ### Issue Details (for reference)
-        
-        | Field                | Example                        |
-        |----------------------|--------------------------------|
-        | **Operating System** | Windows 10, macOS 11.4        |
-        | **Browser**          | Chrome 86, Firefox 81         |
-        | **Version**          | 1.0.0                         |
-        | **Severity**         | High/Medium/Low               |
+        See Definition of Badges and their Flavors [here](https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors). 
 
         **Please fill in the details below:**
+
+- type: dropdown
+  id: documentation
+  attributes:
+    label: Documentation Badge
+    description: Please select the corresponding Documentation Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No Badge
+    - Not Defined
+  validations:
+    required: true
+
+- type: input
+  id: url_documentation
+  attributes:
+    label: Url to Documentation for the Documentation Badge
+    placeholder: 
+  validations:
+    required: false
+
+- type: dropdown
+  id: requirements
+  attributes:
+    label: Requirements Badge
+    description: Please select the corresponding Requirements Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No Badge
+    - Not Defined
+  validations:
+    required: true
+
+- type: input
+  id: url_requirements
+  attributes:
+    label: Url to Documentation for the Requirements Badge
+    placeholder: 
+  validations:
+    required: false
+
+- type: dropdown
+  id: coding_guidelines
+  attributes:
+    label: Coding Guidelines Badge
+    description: Please select the corresponding Coding Guidelines Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No Badge
+    - Not Defined
+  validations:
+    required: true
+
+- type: input
+  id: url_coding_guidelines
+  attributes:
+    label: Url to Documentation for the Coding Guidelines Badge
+    placeholder: 
+  validations:
+    required: false
+
+- type: dropdown
+  id: testing
+  attributes:
+    label: Testing Badge
+    description: Please select the corresponding Testing Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No Badge
+    - Not Defined
+  validations:
+    required: true
+
+- type: input
+  id: url_testing
+  attributes:
+    label: Url to Documentation for the Testing Badge
+    placeholder: 
+  validations:
+    required: false
+
+- type: dropdown
+  id: release_process
+  attributes:
+    label: Release Process Badge
+    description: Please select the corresponding Release Process Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No Badge
+    - Not Defined
+  validations:
+    required: true
+
+- type: input
+  id: url_release_process
+  attributes:
+    label: Url to Documentation for the Release Process Badge
+    placeholder: 
+  validations:
+    required: false
