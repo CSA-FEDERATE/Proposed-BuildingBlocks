@@ -235,3 +235,23 @@ body:
     placeholder: 
   validations:
     required: false
+
+- type: markdown
+  id: maturity badges
+  attributes:
+    label: Maturity badge
+    description: taken over from Eclipse SDV Process; See Definition of Badges and their Flavors; https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors; Options:NotDefined/No/Bronze/Silver/Gold
+    value: |
+        ## Bug Report
+        Please provide the details below.
+
+        ### Issue Details (for reference)
+        
+        | Field                | Example                        |
+        |----------------------|--------------------------------|
+        | **Operating System** | Windows 10, macOS 11.4        |
+        | **Browser**          | Chrome 86, Firefox 81         |
+        | **Version**          | 1.0.0                         |
+        | **Severity**         | High/Medium/Low               |
+
+        **Please fill in the details below:**
