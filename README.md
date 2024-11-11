@@ -26,7 +26,6 @@ First tag of BB defines its location in git repo
 |BB-WE|Whatever Tag / Whitecard|
 
 ## Navigation
-- [LICENSE](/LICENSE.txt)
 - [BB-CEST](/BB-CEST/00_BB-CEST.md)
     - _Not_Clustered
         - [BB_Car_Simulator](/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
