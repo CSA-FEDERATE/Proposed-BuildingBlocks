@@ -17,6 +17,7 @@ Not Specified
 
 Eclipse SDV - kanto.auto (old) will be published under a new name
 Eclipse OpenDUT
+[Carla](https://carla.org/)
 
 ## ID (unique name)
 
