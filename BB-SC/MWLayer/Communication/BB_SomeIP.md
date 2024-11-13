@@ -65,12 +65,11 @@ If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Commun
 HAL4SDV, SHIFT2SDV
 
 ## Availability of Source Code
+Yes / vSomeIP - Mozilla Public License Version 2.0
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
 
 ## Availability of API
-Yes / vSomeIP - Mozilla Public License Version 2.0
-
 
 
 <!-- Yes / License (e.g. Yes/Apache 2.0)
