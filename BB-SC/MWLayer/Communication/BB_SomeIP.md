@@ -69,6 +69,10 @@ HAL4SDV, SHIFT2SDV
 No – Commercial Closed Source -->
 
 ## Availability of API
+Yes / vSomeIP - Mozilla Public License Version 2.0
+
+
+
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
 
