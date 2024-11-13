@@ -1,25 +1,19 @@
-- [BB-CEST](/BB-CEST)
+- [BB-CEST](/BB-CEST/README.md)
     - _Not_Clustered
         - [BB_Car_Simulator](/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
-- [BB-CMU](/BB-CMU)
-- [BB-CSC](/BB-CSC)
-- [BB-CSC-TC](/BB-CSC-TC)
-- [BB-EST](/BB-EST)
-    - Build-and-Implementation
-    - Deployment
-    - Design
-    - Implementation
-    - Lifecycle-Management
-    - Monitoring-and-Diagnostics
-    - Requirements
+- [BB-CMU](/BB-CMU/README.md)
+- [BB-CSC](/BB-CSC/README.md)
+- [BB-CSC-TC](/BB-CSC-TC/README.md)
+- [BB-EST](/BB-EST/README.md)
     - Testing
-- [BB-MU](/BB-MU)
-- [BB-SC](/BB-SC)
-    - [AppLayer](/BB-SC/AppLayer)
+        - [BB_OpenDUT](/BB-EST/Testing/BB_OpenDUT.md)
+- [BB-MU](/BB-MU/README.md)
+- [BB-SC](/BB-SC/README.md)
+    - [AppLayer](/BB-SC/AppLayer/README.md)
         - Communication
             - [BB_AOSP_Push_Notification_Service](/BB-SC/AppLayer/Communication/BB_AOSP_Push_Notification_Service.md)
     - HWLayer
-    - [MWLayer](/BB-SC/MWLayer)
+    - [MWLayer](/BB-SC/MWLayer/README.md)
         - Communication
             - [BB_Communication_Server_S2S](/BB-SC/MWLayer/Communication/BB_Communication_Server_S2S.md)
             - [BB_Gateway_Mirroring](/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
@@ -55,23 +49,23 @@
             - [BB_Time_Service](/BB-SC/MWLayer/Time/BB_Time_Service.md)
         - Tools-and-Methods
             - [BB_Key_Management_System](/BB-SC/MWLayer/Tools-and-Methods/BB_Key_Management_System.md)
-    - [OSLayer](/BB-SC/OSLayer)
+    - [OSLayer](/BB-SC/OSLayer/README.md)
         - Time
             - [BB_Automotive_Edge_Runtime](/BB-SC/OSLayer/Time/BB_Automotive_Edge_Runtime.md)
-- [BB-SC-TC](/BB-SC-TC)
+- [BB-SC-TC](/BB-SC-TC/README.md)
     - Testing
         - [BB_Shadowing](/BB-SC-TC/Testing/BB_Shadowing.md)
     - Virtualization
         - [BB_Digital_Twin](/BB-SC-TC/Virtualization/BB_Digital_Twin.md)
-- [S-BB](/S-BB)
-    - [AppLayer](/S-BB/AppLayer)
+- [S-BB](/S-BB/README.md)
+    - [AppLayer](/S-BB/AppLayer/README.md)
         - [BB_Standardization_of_Vehicle_API](/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)
         - [BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure](/S-BB/AppLayer/BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure.md)
         - [BB_Standardized_Description_of_Data_from_Related_Domains](/S-BB/AppLayer/BB_Standardized_Description_of_Data_from_Related_Domains.md)
         - [BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains](/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Combining_Data_from_Different_Domains.md)
         - [BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains](/S-BB/AppLayer/BB_Standardized_Procedure_and_Tooling_for_Modelling_Data_from_Different_Domains.md)
     - HWLayer
-    - [MWLayer](/S-BB/MWLayer)
+    - [MWLayer](/S-BB/MWLayer/README.md)
         - [BB_SOA](/S-BB/MWLayer/BB_SOA.md)
         - [BB_sSOA](/S-BB/MWLayer/BB_sSOA.md)
         - [BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers](/S-BB/MWLayer/BB_Standardized_Data_Conversion_Tools_for_Info_Knowledge_Layers.md)
