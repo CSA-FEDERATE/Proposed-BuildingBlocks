@@ -29,7 +29,7 @@ def traverse_directory_and_save_to_md(path, output_file):
         sub_indent = "    " * (level + 1)
         for file_name in files:
             # Skip hidden files and git-related files
-            if file_name.startswith(".") or file_name == "README.md":
+            if file_name.startswith(".") or file_name == "README.md" or file_name == "LICENSE.txt":
                 continue
 
             file_path = os.path.join(root, file_name)

@@ -2,9 +2,11 @@
 
 Landing page for all proposed building blocks; use the README to navigate through all the Building Blocks.
 
-## Implementation of new BBs
+## Implementation of new BBs / Change of README
 
 When Implementing a new BB please follow these [implementation guidelines](/other/utils/BB_Implementation_guideline.md).
+
+When wanting to make changes to the [README](/README.md), please make the changes to the [README_base](/other/utils/README_base.md) so that they can be accessed by the [README Generator](/other/scripts/readme_generator.py). After adding the changes, run the [README Generator](/other/scripts/readme_generator.py) locally and push the changes.
 
 ## BB Tags
 
@@ -55,6 +57,7 @@ First tag of BB defines its location in git repo
     - Lifecycle-Management
     - Monitoring-and-Diagnostics
     - Requirements
+        - [BB_DocAsCode](/BB-EST/Requirements/BB_DocAsCode.md)
     - Testing
         - [BB_OpenDUT](/BB-EST/Testing/BB_OpenDUT.md)
 - [BB-MU](/BB-MU/00_BB-MU.md)
@@ -71,6 +74,12 @@ First tag of BB defines its location in git repo
             - [BB_SecOS](/BB-SC/MWLayer/Communication/BB_SecOS.md)
             - [BB_Smart_Charging_Communication](/BB-SC/MWLayer/Communication/BB_Smart_Charging_Communication.md)
             - [BB_Standard_Android_VHAL](/BB-SC/MWLayer/Communication/BB_Standard_Android_VHAL.md)
+            - [RTPS-Container](/BB-SC/MWLayer/Communication/RTPS-Container/00_RTPS-Container.md)
+                - cycloneDDS
+                - embeddedRTPS
+                    - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/MWLayer/Communication/RTPS-Container/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
+                - FastDDS
+                - OpenDDS
         - Configuration
             - [BB_Local_Update_Manager](/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
             - [BB_OTA_Master](/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)
