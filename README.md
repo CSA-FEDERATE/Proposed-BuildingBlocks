@@ -2,9 +2,11 @@
 
 Landing page for all proposed building blocks; use the README to navigate through all the Building Blocks.
 
-## Implementation of new BBs
+## Implementation of new BBs / Change of README
 
 When Implementing a new BB please follow these [implementation guidelines](/other/utils/BB_Implementation_guideline.md).
+
+When wanting to make changes to the [README](/README.md), please make the changes to the [README_base](/other/utils/README_base.md) so that they can be accessed by the [README Generator](/other/scripts/readme_generator.py). After adding the changes, run the [README Generator](/other/scripts/readme_generator.py) locally and push the changes.
 
 ## BB Tags
 
@@ -16,7 +18,7 @@ First tag of BB defines its location in git repo
 |BB-SC|Building Block Stack Component (In-Vehicle / On-Board)|
 |BB-CSC|Building Block Cloud Stack Component (Cloud / Off-Board)|
 |BB-MU|Building Block Mockup Unit (In-Vehicle / On-Board Component)|
-|BB-CMU|Block Cloud Mockup Unit (Cloud / Off-Board Component)|
+|BB-CMU|Building Block Cloud Mockup Unit (Cloud / Off-Board Component)|
 |BB-EST|Building Block Engineering & Support Tools (for In-Vehicle / On-Board Components)|
 |BB-CEST|Building Block Cloud Engineering & Support Tools (for Cloud / Off-Board Components)|
 |S-BB|Supporting Building Blocks (Standards, API & Interface Definitions, standardized Data Model)|
@@ -27,9 +29,9 @@ First tag of BB defines its location in git repo
 
 ## Navigation
 - [BB-CEST](/BB-CEST/00_BB-CEST.md)
-    - _Not_Clustered
-        - [BB_Car_Simulator](/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
+    - [BB_Car_Simulator](/BB-CEST/BB_Car_Simulator.md)
 - [BB-CMU](/BB-CMU/00_BB-CMU.md)
+    - [BB_Digital_Twin_proxy_in_cloud](/BB-CMU/BB_Digital_Twin_proxy_in_cloud.md)
 - [BB-CSC](/BB-CSC/00_BB-CSC.md)
 - [BB-CSC-TC](/BB-CSC-TC/00_BB-CSC-TC.md)
 - [BB-EST](/BB-EST/00_BB-EST.md)
@@ -97,8 +99,6 @@ First tag of BB defines its location in git repo
 - [BB-SC-TC](/BB-SC-TC/00_BB-SC-TC.md)
     - Testing
         - [BB_Shadowing](/BB-SC-TC/Testing/BB_Shadowing.md)
-    - Virtualization
-        - [BB_Digital_Twin](/BB-SC-TC/Virtualization/BB_Digital_Twin.md)
 - [S-BB](/S-BB/00_S-BB.md)
     - [AppLayer](/S-BB/AppLayer/00_AppLayer.md)
         - [BB_Standardization_of_Vehicle_API](/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)
