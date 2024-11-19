@@ -1,0 +1,366 @@
+name: Popose a new BB
+description: File a proposal for a new BB.
+title: "[New BB]:"
+labels: [BB]
+
+body:
+- type: markdown
+  attributes:
+    value: |
+      Thanks for taking the time to fill out this form!
+
+- type: input
+  id: contact
+  attributes:
+    label: Contact Details
+    description: How can we get in touch with you if we need more info?
+    placeholder: e.g. email@example.com
+  validations:
+    required: false
+
+- type: input
+  id: name
+  attributes:
+    label: Name of the BB
+    description: Insert name of the BB
+    placeholder: e.g. Diagnostic Policy Manager
+  validations:
+    required: true
+
+
+- type: checkboxes
+  id: BB_tags
+  attributes:
+    label: BB Tags(s)
+    description: Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice)
+    options:
+      - label: BB-SC
+      - label: BB-CSC
+      - label: BB-MU
+      - label: BB-CMU
+      - label: BB-EST
+      - label: BB-CEST
+      - label: S-BB
+      - label: FC
+      - label: BB-SC-TC
+      - label: BB-CSC-TC
+      - label: BB-WE
+  validations:
+    required: true
+
+- type: input
+  id: BB_tags_main
+  attributes:
+    label: Main BB Tag
+    description: Out of the BB Tags you selected, wich is the most important one?
+    placeholder: e.g. BB-SC
+  validations:
+    required: true
+
+- type: input
+  id: FC
+  attributes:
+    label: Functional Clusters
+    description: In which Functional Cluster the BB be located; if none of the existing fit new required
+    placeholder: e.g. Communication
+  validations:
+    required: true
+
+- type: dropdown
+  id: layer
+  attributes:
+    label: Layer
+    description: Please select the corresponding Layer of the affected BB
+    multiple: true
+    options:
+    - AppLayer
+    - MWLayer
+    - OSLayer
+    - HWLayer
+  validations:
+    required: true
+
+- type: textarea
+  id: known_impl
+  attributes:
+    label: Known Implementation(s)
+    description: Link or description of known implementations
+    placeholder: 
+  validations:
+    required: true
+
+- type: input
+  id: id
+  attributes:
+    label: ID (unique name)
+    description: 
+    placeholder: 
+  validations:
+    required: false
+
+- type: textarea
+  id: description
+  attributes:
+    label: Description
+    description: General Description of the BB
+    placeholder: 
+  validations:
+    required: true
+
+- type: textarea
+  id: rationale
+  attributes:
+    label: Rationale
+    description: Explanation why we need the BB; what problem want to be solved
+    placeholder: 
+  validations:
+    required: false
+
+- type: textarea
+  id: gov_app
+  attributes:
+    label: Governance Applicable S-BB(s)
+    description: Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system; Reference to defined S-BB(s) 
+    placeholder: 
+  validations:
+    required: false
+
+- type: textarea
+  id: compose_bb
+  attributes:
+    label: Compose BB(s)
+    description: Link to required BB(s); BB is a composition of other BBs
+    placeholder: e.g. BB-SC StateManagement
+  validations:
+    required: false
+
+- type: textarea
+  id: design_impl
+  attributes:
+    label: What is needed to Design and Implement?
+    description:
+    placeholder: e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language
+  validations:
+    required: false
+
+- type: textarea
+  id: build_run
+  attributes:
+    label: What is needed to build and run?
+    description:
+    placeholder: e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test
+  validations:
+    required: false
+
+- type: textarea
+  id: non_funct_req
+  attributes:
+    label: Non-Functional Requirements
+    description: With respect to Safety, Security, Realtime,
+    placeholder: 
+  validations:
+    required: false
+
+- type: textarea
+  id: dep_to_clusters
+  attributes:
+    label: Dependencies to other Clusters
+    description: Other clusters are needed. FC Security, FC Storage,
+    placeholder: e.g. If FC Security - Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work
+  validations:
+    required: false
+
+- type: textarea
+  id: api_relevant
+  attributes:
+    label: Vehicle API Relevant
+    description: If “Yes exists” – where – e.g. COVESA VSS; \n If “No” – nothing more to do; \n If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS 
+    placeholder: 
+  validations:
+    required: false
+
+- type: input
+  id: author_comp
+  attributes:
+    label: Author/Company
+    description: 
+    placeholder: 
+  validations:
+    required: true
+
+- type: checkboxes
+  id: prio
+  attributes:
+    label: Priority
+    description: 
+    options:
+      - label: Low
+      - label: Medium
+      - label: High
+  validations:
+    required: true
+
+- type: textarea
+  id: rel_projects
+  attributes:
+    label: Related Project(s)
+    description: If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value, If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework
+    placeholder: 
+  validations:
+    required: false
+
+- type: input
+  id: available_sc
+  attributes:
+    label: Availability of Source Code
+    description: Yes / License (e.g. Yes/MIT); No – Commercial Closed Source
+    placeholder: 
+  validations:
+    required: false
+
+- type: input
+  id: available_api
+  attributes:
+    label: Availability of API
+    description: Yes / License (e.g. Yes/Apache 2.0); No - Commercial
+    placeholder: 
+  validations:
+    required: false
+
+- type: textarea
+  id: pot_obstacles
+  attributes:
+    label: Potential obstacles
+    description: 
+    placeholder: 
+  validations:
+    required: false
+
+- type: markdown
+  id: maturity badges
+  attributes:
+    value: |
+        ### Maturity Badges
+        Example:
+        | 			| **Documentation** | **Requirements** | **Coding Guidelines** | **Testing** | **Release Process** |
+        | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
+        | Level		| Gold (insert urlToDoc)| No 		   | NotDefined		   | Bronze	 | Silver (insert urlToDoc) |
+
+        See Definition of Badges and their Flavors [here](https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors). 
+
+        **Please fill in the details below:**
+
+- type: dropdown
+  id: documentation
+  attributes:
+    label: Documentation Badge
+    description: Please select the corresponding Documentation Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No Badge
+    - Not Defined
+  validations:
+    required: true
+
+- type: input
+  id: url_documentation
+  attributes:
+    label: Url to Documentation for the Documentation Badge
+    placeholder: 
+  validations:
+    required: false
+
+- type: dropdown
+  id: requirements
+  attributes:
+    label: Requirements Badge
+    description: Please select the corresponding Requirements Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No Badge
+    - Not Defined
+  validations:
+    required: true
+
+- type: input
+  id: url_requirements
+  attributes:
+    label: Url to Documentation for the Requirements Badge
+    placeholder: 
+  validations:
+    required: false
+
+- type: dropdown
+  id: coding_guidelines
+  attributes:
+    label: Coding Guidelines Badge
+    description: Please select the corresponding Coding Guidelines Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No Badge
+    - Not Defined
+  validations:
+    required: true
+
+- type: input
+  id: url_coding_guidelines
+  attributes:
+    label: Url to Documentation for the Coding Guidelines Badge
+    placeholder: 
+  validations:
+    required: false
+
+- type: dropdown
+  id: testing
+  attributes:
+    label: Testing Badge
+    description: Please select the corresponding Testing Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No Badge
+    - Not Defined
+  validations:
+    required: true
+
+- type: input
+  id: url_testing
+  attributes:
+    label: Url to Documentation for the Testing Badge
+    placeholder: 
+  validations:
+    required: false
+
+- type: dropdown
+  id: release_process
+  attributes:
+    label: Release Process Badge
+    description: Please select the corresponding Release Process Badge of the affected BB, according to the Eclipse Foundation
+    multiple: true
+    options:
+    - Gold
+    - Silver
+    - Bronze
+    - No Badge
+    - Not Defined
+  validations:
+    required: true
+
+- type: input
+  id: url_release_process
+  attributes:
+    label: Url to Documentation for the Release Process Badge
+    placeholder: 
+  validations:
+    required: false
