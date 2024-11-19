@@ -48,7 +48,7 @@ The following key aspects are written from the point of view of an in-vehicle SD
 
 ## Vehicle API Relevant
 
-- COVESA uServices
+- [COVESA uServices](https://github.com/COVESA/uservices)
 
 ## Author/Company
 
@@ -60,7 +60,7 @@ The following key aspects are written from the point of view of an in-vehicle SD
 
 ## Related Project(s)
 
-- COVESA uServices
+- [COVESA uServices](https://github.com/COVESA/uservices)
 - Eclipse uProtocol
 - Eclipse SDV Companion App Blueprint
 - Eclipse SDV Fleet Management Blueprint

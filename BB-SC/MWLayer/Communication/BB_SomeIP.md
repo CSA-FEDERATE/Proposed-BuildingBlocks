@@ -1,5 +1,5 @@
 
-# AOSP Push Notification Service
+# SOME/IP
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
@@ -11,47 +11,32 @@ Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
-AppLayer
+MWLayer
 
 ## Known Implementation
 
-- <https://novu.co>
-- <https://unifiedpush.org/>
+- [vSomeIP](https://github.com/COVESA/vsomeip)
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-This work package aims to align on a common Android Open Source Project (AOSP) push notification service (PNS). Due to the heterogenous AOSP landscape, the solution shall be defined as a protocol that is designed in a decentralized way allowing implementing parties to choose between hosting their own PNS or using an existing one.
-To reduce fragmentation and to allow 3rd parties to build once and deploy anywhere, the protocol shall be guaranteed to work regardless of the underlying implementation. To help developers use the new standardized protocol, a reference implementation shall be provided.
+SOME/IP implementation.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-Enable 3rd party Android apps to deliver messages, receive incoming VOIP calls or to give updates in a running app.  
-Lots of apps rely on being able to send messages to their clients to deliver messages or incoming VoIP calls. Because Android apps can be killed by the system at any time, they cannot rely on being able to communicate with their backend to receive these messages. To enable these use cases, a standardized PNS for AOSP (outside of Google Automotive Services GAS) is necessary and will be provided as part of this work package.  
-
-Repo: could be an enhancement of repo on
-<https://github.com/UnifiedPush>,  
-
-Technologies: Android Automotive OS, WebPuch Protocol, UnifiedPush.  
-
-Partners: COVESA members: [Automotive AOSP App Framework Standardisation Expert Group](https://wiki.covesa.global/display/WIK4/Automotive+AOSP+App+Framework+Standardization+Expert+Group), UnifiedPush
+The building block will be used to allow communication over SOME/IP.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
-Android Automotive OS, WebPuch Protocol, UnifiedPush
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
-E.g. BB-SC StateManagement 
-BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
-BB Reference implementation  
-New standardized protocol  
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
@@ -70,29 +55,27 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
-Anonymous
 
 ## Priority
 <!-- High, Medium, Low -->
-until 30.6.2025
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-See Google Automotive Services FAS  
-<https://github.com/UnifiedPush>  
-SHIFT2SDV
+HAL4SDV, SHIFT2SDV
 
 ## Availability of Source Code
+Yes / vSomeIP - Mozilla Public License Version 2.0
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
 
 ## Availability of API
+
+
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
 
 ## Potential obstacles
-
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -115,6 +98,3 @@ Example:
 | 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
 | Level		| [Gold](urlToDoc)| No 		   | Notdefined		   | Bronze	 | [Silver](urlToDoc) |
-
-
--->
