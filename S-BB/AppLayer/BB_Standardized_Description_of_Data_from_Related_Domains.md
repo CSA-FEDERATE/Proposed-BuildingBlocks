@@ -75,3 +75,29 @@ No – Commercial Closed Source -->
 No - Commercial -->
 
 ## Potential obstacles
+
+
+## Maturity Badges
+<!-- taken over from Eclipse SDV Process 
+See Definition of Badges and their Flavors 
+https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors 
+
+
+| 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
+| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
+| Gold		| Badgelevel    | Badgelevel   | Badgelevel		   | Badgelevel	 | Badgelevel  |
+| Silver	| Badgelevel    | Badgelevel   | Badgelevel	  	   | Badgelevel	 | Badgelevel  |
+| Bronze	| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
+| No		| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
+| NotDefined| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
+
+Options:
+NotDefined/No/Bronze/Silver/Gold
+
+Example:
+| 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
+| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
+| Level		| [Gold](urlToDoc)| No 		   | Notdefined		   | Bronze	 | [Silver](urlToDoc) |
+
+
+-->
