@@ -43,6 +43,7 @@
             - [BB_Network_Management](/BB-SC/MWLayer/Communication/BB_Network_Management.md)
             - [BB_SecOS](/BB-SC/MWLayer/Communication/BB_SecOS.md)
             - [BB_Smart_Charging_Communication](/BB-SC/MWLayer/Communication/BB_Smart_Charging_Communication.md)
+            - [BB_SomeIP](/BB-SC/MWLayer/Communication/BB_SomeIP.md)
             - [BB_Standard_Android_VHAL](/BB-SC/MWLayer/Communication/BB_Standard_Android_VHAL.md)
                 - [RTPS-Container](/BB-SC/MWLayer/Communication/RTPS-Container/00_RTPS-Container.md)
                 - cycloneDDS
