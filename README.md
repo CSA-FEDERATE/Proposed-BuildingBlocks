@@ -2,9 +2,11 @@
 
 Landing page for all proposed building blocks; use the README to navigate through all the Building Blocks.
 
-## Implementation of new BBs
+## Implementation of new BBs / Change of README
 
 When Implementing a new BB please follow these [implementation guidelines](/other/utils/BB_Implementation_guideline.md).
+
+When wanting to make changes to the [README](/README.md), please make the changes to the [README_base](/other/utils/README_base.md) so that they can be accessed by the [README Generator](/other/scripts/readme_generator.py). After adding the changes, run the [README Generator](/other/scripts/readme_generator.py) locally and push the changes.
 
 ## BB Tags
 
@@ -16,7 +18,7 @@ First tag of BB defines its location in git repo
 |BB-SC|Building Block Stack Component (In-Vehicle / On-Board)|
 |BB-CSC|Building Block Cloud Stack Component (Cloud / Off-Board)|
 |BB-MU|Building Block Mockup Unit (In-Vehicle / On-Board Component)|
-|BB-CMU|Block Cloud Mockup Unit (Cloud / Off-Board Component)|
+|BB-CMU|Building Block Cloud Mockup Unit (Cloud / Off-Board Component)|
 |BB-EST|Building Block Engineering & Support Tools (for In-Vehicle / On-Board Components)|
 |BB-CEST|Building Block Cloud Engineering & Support Tools (for Cloud / Off-Board Components)|
 |S-BB|Supporting Building Blocks (Standards, API & Interface Definitions, standardized Data Model)|
@@ -27,13 +29,15 @@ First tag of BB defines its location in git repo
 
 ## Navigation
 - [BB-CEST](/BB-CEST/README.md)
-    - _Not_Clustered
-        - [BB_Car_Simulator](/BB-CEST/_Not_Clustered/BB_Car_Simulator.md)
+    - [BB_Car_Simulator](/BB-CEST/BB_Car_Simulator.md)
 - [BB-CMU](/BB-CMU/README.md)
+    - [BB_Digital_Twin_proxy_in_cloud](/BB-CMU/BB_Digital_Twin_proxy_in_cloud.md)
 - [BB-CSC](/BB-CSC/README.md)
 - [BB-CSC-TC](/BB-CSC-TC/README.md)
 - [BB-EST](/BB-EST/README.md)
+        - [BB_DocAsCode](/BB-EST/Requirements/BB_DocAsCode.md)
     - Testing
+        - [BB_OpenDUT](/BB-EST/Testing/BB_OpenDUT.md)
         - [BB_OpenDUT](/BB-EST/Testing/BB_OpenDUT.md)
 - [BB-MU](/BB-MU/README.md)
 - [BB-SC](/BB-SC/README.md)
@@ -49,6 +53,12 @@ First tag of BB defines its location in git repo
             - [BB_SecOS](/BB-SC/MWLayer/Communication/BB_SecOS.md)
             - [BB_Smart_Charging_Communication](/BB-SC/MWLayer/Communication/BB_Smart_Charging_Communication.md)
             - [BB_Standard_Android_VHAL](/BB-SC/MWLayer/Communication/BB_Standard_Android_VHAL.md)
+            - [RTPS-Container](/BB-SC/MWLayer/Communication/RTPS-Container/00_RTPS-Container.md)
+                - cycloneDDS
+                - embeddedRTPS
+                    - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/MWLayer/Communication/RTPS-Container/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
+                - FastDDS
+                - OpenDDS
         - Configuration
             - [BB_Local_Update_Manager](/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
             - [BB_OTA_Master](/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)
@@ -83,8 +93,6 @@ First tag of BB defines its location in git repo
 - [BB-SC-TC](/BB-SC-TC/README.md)
     - Testing
         - [BB_Shadowing](/BB-SC-TC/Testing/BB_Shadowing.md)
-    - Virtualization
-        - [BB_Digital_Twin](/BB-SC-TC/Virtualization/BB_Digital_Twin.md)
 - [S-BB](/S-BB/README.md)
     - [AppLayer](/S-BB/AppLayer/README.md)
         - [BB_Standardization_of_Vehicle_API](/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)

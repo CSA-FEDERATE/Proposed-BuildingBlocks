@@ -26,6 +26,12 @@ The position of the BB has to comply to the folowing folder structure:
             └── 📁BB_OTA_Manager  # folder if more than a .md file exists for BB
                 └── BB_OTA_Manager.md # BB if it is in >1 FC or tag, put symlink there
                 └── BB_OTA_Manager.xml 
+            └── 📁RTPS-Container
+                └── 00_RTPS_Container.md
+                └── 📁FastDDS
+                    └── .gitkeep
+                └── 📁embeddedRTPS
+                    └── BB_Constraint_DDS_embeddedRTPS.md
     └── 📁MWLayer  # layer
         └── .gitkeep
 ```
@@ -44,7 +50,7 @@ The 00_readme.md files to the corresponding folder (eg. folder AppLayer: 00_AppL
 
 - Whitespaces in Folders: "-" (Dash)  
 - Whitespaces in Files: "_" (Underscore)  
-x
+
 ### BBs
 Use the following pattern to name BBs:
 ```

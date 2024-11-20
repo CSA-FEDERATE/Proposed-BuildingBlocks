@@ -3,18 +3,15 @@
 
 ## BB Tags(s)
 
-- SC
+BB-SC
 
 ## Functional Clusters
 
-- Communication
-- Storage
-- Security
+Communication, Storage, Security
 
 ## Layer
 
-- Middleware
-- Application
+MWLayer, AppLayer
 
 ## Known Implementation
 
