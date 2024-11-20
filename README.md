@@ -35,9 +35,15 @@ First tag of BB defines its location in git repo
 - [BB-CSC](/BB-CSC/README.md)
 - [BB-CSC-TC](/BB-CSC-TC/README.md)
 - [BB-EST](/BB-EST/README.md)
+    - Build-and-Implementation
+    - Deployment
+    - Design
+    - Implementation
+    - Lifecycle-Management
+    - Monitoring-and-Diagnostics
+    - Requirements
         - [BB_DocAsCode](/BB-EST/Requirements/BB_DocAsCode.md)
     - Testing
-        - [BB_OpenDUT](/BB-EST/Testing/BB_OpenDUT.md)
         - [BB_OpenDUT](/BB-EST/Testing/BB_OpenDUT.md)
 - [BB-MU](/BB-MU/README.md)
 - [BB-SC](/BB-SC/README.md)
@@ -53,7 +59,7 @@ First tag of BB defines its location in git repo
             - [BB_SecOS](/BB-SC/MWLayer/Communication/BB_SecOS.md)
             - [BB_Smart_Charging_Communication](/BB-SC/MWLayer/Communication/BB_Smart_Charging_Communication.md)
             - [BB_Standard_Android_VHAL](/BB-SC/MWLayer/Communication/BB_Standard_Android_VHAL.md)
-            - [RTPS-Container](/BB-SC/MWLayer/Communication/RTPS-Container/00_RTPS-Container.md)
+                - [RTPS-Container](/BB-SC/MWLayer/Communication/RTPS-Container/00_RTPS-Container.md)
                 - cycloneDDS
                 - embeddedRTPS
                     - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/MWLayer/Communication/RTPS-Container/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
@@ -109,9 +115,9 @@ First tag of BB defines its location in git repo
         - [BB_Standardized_way_for_Reasoning_on_Data_Streams](/S-BB/MWLayer/BB_Standardized_way_for_Reasoning_on_Data_Streams.md)
 - UseCases
     - Scenarios
-        - [BB_Template_filled_FleetData_WP3](/UseCases/Scenarios/BB_Template_filled_FleetData_WP3.md)
-        - [BB_Template_filled_RemoteVehicleInteraction_WP3](/UseCases/Scenarios/BB_Template_filled_RemoteVehicleInteraction_WP3.md)
-        - [BB_Template_filled_ServiceMesh_WP3](/UseCases/Scenarios/BB_Template_filled_ServiceMesh_WP3.md)
+        - [BB_Remote_Vehicle_Interaction](/UseCases/Scenarios/BB_Remote_Vehicle_Interaction.md)
+        - [BB_Universal_Service_Mesh](/UseCases/Scenarios/BB_Universal_Service_Mesh.md)
+        - [BB_Vehicle_FleetData](/UseCases/Scenarios/BB_Vehicle_FleetData.md)
 
 ***
 generated using [README Generator](/other/scripts/readme_generator.py)
