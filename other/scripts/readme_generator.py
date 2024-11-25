@@ -41,7 +41,7 @@ def traverse_directory_and_save_to_md(path, output_file):
             file_base_name = os.path.splitext(file_name)[0]
             file_clean_name = file_base_name.lstrip("0123456789_")
             # when the file is a README, link it to the corresponding folder, skip the base README
-            if file_clean_name == "README":
+            if file_clean_name == "README" or file_clean_name == os.path.basename(root):
                 if os.path.basename(root) == ".":
                     continue
                 output.write(f"{indent}- [{os.path.basename(root)}]({file_link})\n")
@@ -59,7 +59,7 @@ def traverse_directory_and_save_to_md(path, output_file):
             file_base_name = os.path.splitext(file_name)[0]
             file_clean_name = file_base_name.lstrip("0123456789_")
             # when the file is a README, link it to the corresponding folder, skip the base README
-            if file_clean_name == "README":
+            if file_clean_name == "README" or file_clean_name == os.path.basename(root):
                 if os.path.basename(root) == ".":
                     continue
                 continue
