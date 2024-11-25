@@ -1,6 +1,6 @@
 # RTPS Communication Protocol Container
 
-This Container host various implementations of the (RealTime)PublisherSubscriber protocol.
+Various implementations of the (RealTime)PublisherSubscriber protocol are hosted here.
 
 ## RTPS Communication Protocol 
 The Real-Time Publish-Subscribe (RTPS) protocol is a communication framework designed specifically for distributed, real-time systems. It is widely adopted in domains where low-latency and highly reliable data exchange are essential. RTPS follows a publish-subscribe communication model, enabling the decoupling of data producers (publishers) and data consumers (subscribers), while facilitating flexible, scalable, and efficient communication across nodes within a distributed environment.
