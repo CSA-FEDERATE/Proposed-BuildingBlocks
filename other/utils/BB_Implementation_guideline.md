@@ -49,10 +49,10 @@ The position of the BB has to comply to the folowing folder structure:
 
 ## Naming Convention
 
-- Whitespaces in Folders: "-" (Dash)  
-- Whitespaces in Files: "_" (Underscore)  
+- Whitespaces in folders: "-" (Dash)  
+- Whitespaces in files: "_" (Underscore)  
 
-### BBs
+### Files
 Use underscores "_" for whitespaces in .md files.
 Use the following pattern to name .md files:
 ```
