@@ -27,24 +27,42 @@ def traverse_directory_and_save_to_md(path, output_file):
         output.write(f"{indent}- {os.path.basename(root)}\n")
 
         sub_indent = "    " * (level + 1)
+
+        # Iteration to create the General Structure and links to READMEs
+
         for file_name in files:
             # Skip hidden files and git-related files
-            if file_name.startswith(".") or file_name == "README.md" or file_name == "LICENSE.txt":
+            if file_name.startswith(".") or file_name == "LICENSE.txt":
                 continue
-
             file_path = os.path.join(root, file_name)
             file_link = file_path.replace(" ", "%20").replace("\\", "/")
             file_link = file_link[1:]
             # Remove the file extension from the file name
             file_base_name = os.path.splitext(file_name)[0]
             file_clean_name = file_base_name.lstrip("0123456789_")
-
-            # Check if the file name without extension is similar to the folder name
-            # print(f"{os.path.basename(root)} - basename")
-            # print(file_name_without_extension)
-            if file_clean_name == os.path.basename(root):
+            # when the file is a README, link it to the corresponding folder, skip the base README
+            if file_clean_name == "README":
+                if os.path.basename(root) == ".":
+                    continue
                 output.write(f"{indent}- [{os.path.basename(root)}]({file_link})\n")
-                # print("indent")
+
+        # Another iteration for the BBs
+
+        for file_name in files:
+            # Skip hidden files and git-related files
+            if file_name.startswith(".") or file_name == "LICENSE.txt":
+                continue
+            file_path = os.path.join(root, file_name)
+            file_link = file_path.replace(" ", "%20").replace("\\", "/")
+            file_link = file_link[1:]
+            # Remove the file extension from the file name
+            file_base_name = os.path.splitext(file_name)[0]
+            file_clean_name = file_base_name.lstrip("0123456789_")
+            # when the file is a README, link it to the corresponding folder, skip the base README
+            if file_clean_name == "README":
+                if os.path.basename(root) == ".":
+                    continue
+                continue
             else:
                 output.write(f"{sub_indent}- [{file_clean_name}]({file_link})\n")
 
