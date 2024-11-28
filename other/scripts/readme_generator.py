@@ -20,7 +20,7 @@ def traverse_directory_and_save_to_md(path, output_file):
     for root, dirs, files in os.walk(path):
         # Only process if the root directory contains "Library"
 
-        dirs[:] = [d for d in dirs if not d.startswith(".") and d != "other"]
+        dirs[:] = [d for d in dirs if not d.startswith(".") and d != "other" and d != "WorkInProgress"]
         # Compute the directory level for indentation
         level = root.replace(path, "").count(os.sep) - 1
         indent = "    " * level
