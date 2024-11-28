@@ -1,5 +1,7 @@
 - [BB-CEST](/BB-CEST/README.md)
     - [BB_Car_Simulator](/BB-CEST/BB_Car_Simulator.md)
+    - Diagnostics
+        - [BB_RemotiveCloud](/BB-CEST/Diagnostics/BB_RemotiveCloud.md)
 - [BB-CMU](/BB-CMU/README.md)
     - [BB_Digital_Twin_proxy_in_cloud](/BB-CMU/BB_Digital_Twin_proxy_in_cloud.md)
 - [BB-CSC](/BB-CSC/README.md)
@@ -45,12 +47,15 @@
             - [BB_Smart_Charging_Communication](/BB-SC/MWLayer/Communication/BB_Smart_Charging_Communication.md)
             - [BB_SomeIP](/BB-SC/MWLayer/Communication/BB_SomeIP.md)
             - [BB_Standard_Android_VHAL](/BB-SC/MWLayer/Communication/BB_Standard_Android_VHAL.md)
-                - [RTPS-Container](/BB-SC/MWLayer/Communication/RTPS-Container/00_RTPS-Container.md)
+            - [RTPS-Types](/BB-SC/MWLayer/Communication/RTPS-Types/RTPS-Types.md)
                 - cycloneDDS
+                    - [BB_cycloneDDS](/BB-SC/MWLayer/Communication/RTPS-Types/cycloneDDS/BB_cycloneDDS.md)
                 - embeddedRTPS
-                    - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/MWLayer/Communication/RTPS-Container/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
+                    - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/MWLayer/Communication/RTPS-Types/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
                 - FastDDS
+                    - [BB_FastDDS](/BB-SC/MWLayer/Communication/RTPS-Types/FastDDS/BB_FastDDS.md)
                 - OpenDDS
+                    - [BB_OpenDDS](/BB-SC/MWLayer/Communication/RTPS-Types/OpenDDS/BB_OpenDDS.md)
         - Configuration
             - [BB_Local_Update_Manager](/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
             - [BB_OTA_Master](/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)

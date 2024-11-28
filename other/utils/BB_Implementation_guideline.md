@@ -18,16 +18,16 @@ The position of the BB has to comply to the folowing folder structure:
 ```
 
 └── 📁BB-SC  # primary tag
-    └── 00_BB-SC.md  
+    └── README.md  
     └── 📁AppLayer  # layer (AppLayer, MWLayer, OSLayer, HWLayer)
-        └── 00_AppLayer.md  
+        └── README.md  
         └── 📁Communication  # functional cluster name
             └── BB_AOSP_Push_Notification_Service.md  # BB - if it is in >1 FC or tag, put symlink there
             └── 📁BB_OTA_Manager  # folder if more than a .md file exists for BB
                 └── BB_OTA_Manager.md # BB if it is in >1 FC or tag, put symlink there
                 └── BB_OTA_Manager.xml 
-            └── 📁RTPS-Container
-                └── 00_RTPS_Container.md
+            └── 📁RTPS-Types
+                └── RTPS_Types.md
                 └── 📁FastDDS
                     └── .gitkeep
                 └── 📁embeddedRTPS
@@ -38,28 +38,30 @@ The position of the BB has to comply to the folowing folder structure:
 
 #### Structure Guidelines
 - If you create a folder without content, put a .gitkeep into the folder.  
-- Every layer or tag folder has to include a readme file. Use the following pattern to name these files:
-```
-                00_insert-Layer-or-Tag-name.md
+- Every layer or tag folder has to include a readme file called "README.md"
+- Every "-Types" folder has to conatin a .md file carrying the same name as the folder itself. Eg.
 
-                eg. "00_AppLayer.md
 ```
-The 00_readme.md files to the corresponding folder (eg. folder AppLayer: 00_AppLayer) always have to start with "00_"  
+                📁RTPS-Types
+                └── RTPS_Types.md
+```
+- This file should contain generic information about the BB.
 
 ## Naming Convention
 
-- Whitespaces in Folders: "-" (Dash)  
-- Whitespaces in Files: "_" (Underscore)  
+- Whitespaces in folders: "-" (Dash)  
+- Whitespaces in files: "_" (Underscore)  
 
-### BBs
-Use the following pattern to name BBs:
+### Files
+Use underscores "_" for whitespaces in .md files.
+Use the following pattern to name .md files:
 ```
                 BB_insert_BB_name.md
 
                 eg. "BB_OTA_Master.md"
 ```
-
 ### Folders
+Use dashes "-" for whitespaces in folders.
 Use the following pattern to name folders:
 ```
                 Insert-folder-name
