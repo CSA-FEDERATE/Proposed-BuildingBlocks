@@ -1,14 +1,16 @@
 
-# (insert name of BB)
+# Standardized Description of Data from Related Domains
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+S-BB
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+AppLayer
 
 ## Known Implementation
 
@@ -16,9 +18,13 @@
 
 ## Description
 <!-- General Description of the BB -->
+This work package focuses on developing a standardized framework for describing data from varied domains like people and the environment, ensuring uniformity, interoperability, and enhanced analytical capabilities.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Current data description practices are inconsistent across domains such as people and the environment, leading to challenges in data integration and analysis. This work package aims to create a standardized set of data description protocols and formats applicable to these and other domains, which helps to facilitates easier data integration, enhances the accuracy of cross-domain analyses, and streamlines data management.  
+
+Example usage: Data Integration
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -32,6 +38,7 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Standardized data description model form related domains
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
@@ -49,6 +56,8 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
+
+Anonymous
 
 ## Priority
 <!-- High, Medium, Low -->

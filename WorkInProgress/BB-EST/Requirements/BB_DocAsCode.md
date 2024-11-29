@@ -1,24 +1,42 @@
 
-# (insert name of BB)
+# DocAsCode
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-EST
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Requirements
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+None
 
 ## Known Implementation
+
+[Open Fast Trace](https://github.com/itsallcode/openfasttrace)
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
+This BB aims to track and manage the software requirements of the different variants of the source code.
+
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+
+Several model based approaches for systems engineering and methods and tools are already established and state-of-the-art and available on the market, as well established in other industries (avionics, defense, etc.). The challenge in the automotive sector lies strongly in the variety of variants.
+
+Driven by different product variants and the possibility of choice by the customer, this results in a high degree of combinatorics and almost exponential complexity in the subsystems.
+
+In contrast to other industries, the automotive market with high international competition and price pressure, a wide variety of variants, functional safety and security with very long product life cycles of the vehicles in the field and the necessary software updates and hardware upgrades come together. It has become apparent that most complex, tool-based approaches to managing software requirements cannot keep pace with the capabilities of modern software development through git with the inherent capabilities of code management and automation.
+
+If the source code of the systems is maintained in variants (branches) and developed by means of CI/CD (Continuous Integration & Development) up to the control unit, the software requirements must also be manageable and versionable, just like the source code. This then allows the transfer of customized requirements from one branch to another (merge), the comparison of requirements (diff) and the automated check that all requirements along the necessary V-model artifacts (architecture, design, code, tests, test results) are covered (tracing).
+
+To this end, we as OEMs see it as essential to use these so-called "DocAsCode" approaches more efficiently directly in the development of ECU software internally as well as along the supply chain. Of course, this does not exempt us from overall systems engineering and model-based development, in any case we consider basic research to be less relevant there.
+
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -50,8 +68,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Tom Fleischmann
+
 ## Priority
 <!-- High, Medium, Low -->
+High
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
@@ -67,6 +88,8 @@ No - Commercial -->
 
 ## Potential obstacles
 
+## Expert Discussion Status
+<!--  in discussion -->
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -92,6 +115,7 @@ Example:
 
 
 -->
+
 
 ## State (+ date of last change)
 

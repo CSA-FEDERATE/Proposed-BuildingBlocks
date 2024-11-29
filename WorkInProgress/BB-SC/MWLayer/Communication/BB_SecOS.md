@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# SecOS
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,19 +19,24 @@
 
 ## Description
 <!-- General Description of the BB -->
+Define standard service for secured onboard communication
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Standardized the solution
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+TDB
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
 E.g. BB-SC StateManagement 
 BB is a composition of other BBs -->
+
+[BB_Secure_Onboard_Communication](/BB-SC/MWLayer/Security/BB_Secure_Onboard_Communication.md)
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
@@ -50,8 +58,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
 <!-- High, Medium, Low -->
+Low
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
@@ -66,6 +77,10 @@ No – Commercial Closed Source -->
 No - Commercial -->
 
 ## Potential obstacles
+
+## Expert Discussion Status
+<!--  in discussion -->
+in discussion
 
 
 ## Maturity Badges
@@ -92,6 +107,7 @@ Example:
 
 
 -->
+
 
 ## State (+ date of last change)
 

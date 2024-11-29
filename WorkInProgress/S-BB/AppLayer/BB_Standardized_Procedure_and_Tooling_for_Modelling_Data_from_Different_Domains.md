@@ -1,14 +1,16 @@
 
-# (insert name of BB)
+# Standardized Procedure and Tooling for Modelling Data from Different Domains
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+S-BB
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+AppLayer
 
 ## Known Implementation
 
@@ -16,9 +18,13 @@
 
 ## Description
 <!-- General Description of the BB -->
+Developing a standardized methodology and toolkit for data modeling in the software-defined vehicle domain, ensuring consistency, compatibility, and efficiency in data handling and analysis.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+In the context of software-defined vehicles, this work package standardizes data modeling to enhance integration and streamline development, thus supporting advanced, data-driven automotive applications.  
+
+Example usage: Employing cross-domain data modeling for automotive manufacturers, technology developers, and research institutions focused on software defined vehicles  
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -32,6 +38,7 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Standardized Methodology/Workflow and Tooling
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
@@ -49,6 +56,8 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
+
+Anonymous
 
 ## Priority
 <!-- High, Medium, Low -->

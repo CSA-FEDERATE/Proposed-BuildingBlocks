@@ -30,5 +30,8 @@ First tag of BB defines its location in git repo
 ## Navigation
 
 ***
-generated using [README Generator](/other/scripts/readme_generator.py)
 
+## Navigation for Work In Progress BBs
+
+***
+generated using [README Generator](/other/scripts/readme_generator.py)

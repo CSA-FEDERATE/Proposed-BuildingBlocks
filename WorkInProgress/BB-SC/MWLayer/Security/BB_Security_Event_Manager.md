@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# Security Event Manager
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+SC-BB
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Security
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,14 +19,21 @@
 
 ## Description
 <!-- General Description of the BB -->
+Management of security related incidents (e.g. violations) and the
+according reaction for the overall vehicle.
+Define a catalogue of security events and standardize the message for
+security event distribution in the subsystem / system.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+ECU local and system wise concepts is necessary for propagate local
+security observations to vehicle wide security event manager(s).
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+AUTOSAR Classic
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -50,8 +60,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
-<!-- High, Medium, Low -->
+<!-- High, Mid, Low -->
+High
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,

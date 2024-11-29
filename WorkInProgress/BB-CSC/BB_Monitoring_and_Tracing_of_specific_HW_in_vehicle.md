@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# Monitoring and tracing specific HW in vehicle
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-CSC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Not specified
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+Not specified
 
 ## Known Implementation
 
@@ -16,6 +19,7 @@
 
 ## Description
 <!-- General Description of the BB -->
+To monitor, profile, collect HW-specific information to improve next-gen HW
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

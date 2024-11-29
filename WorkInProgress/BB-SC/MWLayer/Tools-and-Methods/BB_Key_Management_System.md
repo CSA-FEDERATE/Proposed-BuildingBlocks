@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# Key Management System
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Tools and Methods
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,14 +19,17 @@
 
 ## Description
 <!-- General Description of the BB -->
+Define services for management of the keys for the ECU, subsystem, and system (secure storage, secure distribution, secure key handling). Keys have to be managed ECU local, subsystem wide and car system wide.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+To be align with various HW existing solution (HSM, TEE, etc..)
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+AUTOSAR SecOc  
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -50,8 +56,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
 <!-- High, Medium, Low -->
+Medium
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,

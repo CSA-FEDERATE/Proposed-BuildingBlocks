@@ -1,29 +1,43 @@
 
-# (insert name of BB)
+# Distributed Health Management
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Platform Health Management
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+MWLayer
 
 ## Known Implementation
+
+<https://opentelemetry.io>
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
+Distributed health management like state management must be
+orchestrated in states through the SW Partitions, subsystems, and
+systems as well as the reaction to "unhealthiness" of the system.
+Define services and hierarchy of services to handled cascading of failure
+detection and recovery to easily integrate safety concept.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Services is tightly coupled to the safety concept, which is depending on the hardware capabilities and the functional safety goals. Therefore, the
+concrete instantiation of a distributed health management concept is highly product specific, but the infrastructure how to exchange health information and how to trigger status changes could be standardized.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+AUTOSAR Classic  
+AUTOSAR Adaptive  
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -50,8 +64,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
-<!-- High, Medium, Low -->
+<!-- High, Mid, Low -->
+Low
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,

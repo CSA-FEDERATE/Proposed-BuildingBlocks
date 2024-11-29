@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# Vehicle Data Persistency
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Storage
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,14 +19,18 @@
 
 ## Description
 <!-- General Description of the BB -->
+Services for management of distributed persistent data for compatible with the different operating system (AUTOSAR Classic, Adaptive, Linux, ...) Define a high-level service capable to be mapped to the low-level API existing of OS in use in automotive. Control of robustness and refresh of standard functionality according to hardware solution. It also includes supervision of consumption and resource control (to ensure reliability of the system)
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Standardized high level service for distributing persistent data on operating system and being able to be used by advance feature (data collector, Shadowing, digital twins…)
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+AUTOSAR  
+Linux  
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -50,8 +57,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
 <!-- High, Medium, Low -->
+Medium
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,

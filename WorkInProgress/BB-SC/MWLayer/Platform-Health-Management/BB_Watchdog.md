@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# Watchdog
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Platform Health Management
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,14 +19,17 @@
 
 ## Description
 <!-- General Description of the BB -->
+Extend the traditional concept of watchdog concept (stack for external chip regular activation, deadline monitoring, alive supervision, and logical program flow supervision) to inter ECU operation in conjunction to Health Management.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Watchdog is classically an ECU safety topic. For logical supervision and mitigation between ECUs the concept must be rethought, as AUTOSAR services enables only partial control.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+AUTOSAR Classic  
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -50,8 +56,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
-<!-- High, Medium, Low -->
+<!-- High, Mid, Low -->
+Low
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,

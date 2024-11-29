@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# Standardized Data Description for Vehicle Sensors, Attributes, and Actuators
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+S-BB
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+None
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,14 +19,23 @@
 
 ## Description
 <!-- General Description of the BB -->
+Establishing a standardized framework for describing the data from vehicle
+sensors, attributes, and actuators within the automotive data architecture.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Inconsistencies and lack of standardization in sensor data can lead to
+inefficiencies in data integration and usage across automotive systems.
+Developing a standardized schema for data description that can be
+adopted industry-wide. Streamlined integration of sensor data, improved
+interoperability between systems and components, reduced development
+costs.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+<https://www.autosar.org/fileadmin/standards/R23-11/AP/AUTOSAR_AP_SWS_SensorInterfaces.pdf>
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -49,6 +61,8 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
+
+Anonymous
 
 ## Priority
 <!-- High, Medium, Low -->

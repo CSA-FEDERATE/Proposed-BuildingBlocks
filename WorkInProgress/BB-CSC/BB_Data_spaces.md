@@ -1,21 +1,26 @@
 
-# (insert name of BB)
+# Data Spaces
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-CSC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Not specified
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+Not specified
 
 ## Known Implementation
+- Catena-X
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
+Data spaces supporting middleware components  and APIs
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

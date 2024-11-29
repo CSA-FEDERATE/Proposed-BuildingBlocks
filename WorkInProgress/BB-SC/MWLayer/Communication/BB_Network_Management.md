@@ -1,14 +1,17 @@
 
-# (insert name of BB)
+# Network Management
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+MWLayer
 
 ## Known Implementation
 
@@ -16,14 +19,17 @@
 
 ## Description
 <!-- General Description of the BB -->
+The network management is responsible in connected systems to orchestrate states like startup and shut down through the system. Here the services cover the overall network manager layer but also services for starting/stopping communication of nodes within the systems compare to state management.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+General policy on how to use network management with zone architecture especially for communication startup and shutdown
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+AUTOSAR (UDPNm, CanNm, FrNm, LinNm)
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -50,8 +56,11 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+Conti
+
 ## Priority
 <!-- High, Medium, Low -->
+High
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
@@ -92,6 +101,7 @@ Example:
 
 
 -->
+
 
 ## State (+ date of last change)
 

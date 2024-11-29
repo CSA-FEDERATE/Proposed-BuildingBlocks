@@ -1,24 +1,31 @@
 
-# (insert name of BB)
+# SOME/IP
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+MWLayer
 
 ## Known Implementation
+
+- [vSomeIP](https://github.com/COVESA/vsomeip)
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
+SOME/IP implementation.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+The building block will be used to allow communication over SOME/IP.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -27,8 +34,6 @@ Reference to e.g. IS026262, AUTOSAR Spec. X -->
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
-E.g. BB-SC StateManagement 
-BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
@@ -50,23 +55,27 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+
 ## Priority
 <!-- High, Medium, Low -->
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+HAL4SDV, SHIFT2SDV
 
 ## Availability of Source Code
+Yes / vSomeIP - Mozilla Public License Version 2.0
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
 
 ## Availability of API
+
+
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
 
 ## Potential obstacles
-
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -90,8 +99,7 @@ Example:
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
 | Level		| [Gold](urlToDoc)| No 		   | Notdefined		   | Bronze	 | [Silver](urlToDoc) |
 
-
--->
+ -->
 
 ## State (+ date of last change)
 
