@@ -26,9 +26,7 @@ def extract_headings_and_content(file_path):
 
     content = re.sub(r"<!--.*?-->", "", content, flags=re.DOTALL)
     headings = heading_pattern.findall(content)
-    # headings = []
     names = name_pattern.findall(content)
-    print(names)
 
     heading_contents = {"BB Name": names[0]}
 
@@ -44,7 +42,6 @@ def create_df(markdown_files):
     file_contents = []
 
     for file in markdown_files:
-        print(file)
         heading_content = extract_headings_and_content(file)
         file_contents.append(heading_content)
 
