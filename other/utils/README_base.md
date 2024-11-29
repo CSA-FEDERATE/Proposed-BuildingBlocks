@@ -27,8 +27,19 @@ First tag of BB defines its location in git repo
 |S-BB|Supporting Building Blocks (Standards, API & Interface Definitions, standardized Data Model)|
 |BB-WE|Whatever Tag / Whitecard|
 
+## Process description
+
+BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as they have a name, a description, a state and a specified known implementation, they are moved up to the root. The BBs that were moved up, get deleted in the WorkInProgress folder.
+
+![Process description](/other/figures/Process_description.PNG)
+
+
+
 ## Navigation
 
 ***
-generated using [README Generator](/other/scripts/readme_generator.py)
 
+## Navigation for Work In Progress BBs
+
+***
+generated using [README Generator](/other/scripts/readme_generator.py)

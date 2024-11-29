@@ -92,3 +92,29 @@ Example:
 
 
 -->
+
+## State (+ date of last change)
+
+<!-- 
+- Incubating (no code yet)
+- Implementation started
+- First public release available
+- Used in production by 1 OEM
+- Used in production by >1 OEM
+- Abandoned
+ -->
+
+## System Context
+
+<!-- 
+OS and runtime/framework requirements
+
+eg.
+
+- AGL
+- QNX
+- ROS-based
+- container runtime
+- web assembly
+- web service
+ -->
