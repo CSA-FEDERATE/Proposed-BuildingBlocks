@@ -57,42 +57,10 @@ def main():
     keyword = "BB"
     output_csv = "./other/utils/bb_library.csv"
 
-    # headings = [
-    #     "BB Tags(s)",
-    #     "Functional Clusters",
-    #     "Layer",
-    #     "Known Implementation",
-    #     "ID (unique name)",
-    #     "Description",
-    #     "Rationale",
-    #     "Governance Applicable S-BB(s)",
-    #     "Compose BB(s)",
-    #     "What is needed to design and implement",
-    #     "What is needed to build and run",
-    #     "Non-Functional Requirements",
-    #     "Dependencies to other clusters",
-    #     "Vehicle API relevant",
-    #     "Author/Company + Prio",
-    #     "Related project(s)",
-    #     "Availability of code",
-    #     "Availability of API",
-    #     "Reference to FEDERATE SDV repository - Open Toolchain(s)",
-    #     "Potential obstacles",
-    #     "Maturity Badges",
-    #     "State (+ date of last change)",
-    #     "System Context",
-    # ]
-
-    excluded_dirs = [".github", "other", "scripts", "utils"]
-
+    excluded_dirs = [".github", "other"]
     markdown_files = find_markdown_files(directory_to_traverse, excluded_dirs, keyword)
-    # markdown_files = [markdown_files[0]]
-    # print(markdown_file)
     df = create_df(markdown_files)
-
-    # print(df)
     write_to_csv(df, output_csv)
-    # print(f"CSV file '{output_csv}' created!")
 
 
 if __name__ == "__main__":
