@@ -1,4 +1,4 @@
-name: Popose a new BB
+ame: Popose a new BB
 description: File a proposal for a new BB.
 title: "[New BB]:"
 labels: [BB]
@@ -384,3 +384,28 @@ body:
     placeholder: 
   validations:
     required: false
+
+- type: textarea
+  id: sys_context
+  attributes:
+    label: System Context
+    description: OS and runtime/framework requirements eg. AGL, QNX, ROS-based, container runtime, web assembly, web service
+    placeholder: 
+  validations:
+    required: false
+
+- type: dropdown
+  id: state
+  attributes:
+    label: State
+    description: Please select the current state of the BB
+    multiple: true
+    options:
+    - Incubating (no code yet)
+    - Implementation started
+    - First public release available
+    - Used in production by 1 OEM
+    - Used in production by >1 OEM
+    - Abandoned
+  validations:
+    required: true
