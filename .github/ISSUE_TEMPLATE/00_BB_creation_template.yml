@@ -62,7 +62,7 @@ body:
   attributes:
     label: Functional Clusters
     description: Please select the Functional Cluster in which the BB is located
-    multiple: true
+    multiple: false
     options:
     - Build-and-Implementation
     - Communication
@@ -91,7 +91,7 @@ body:
   attributes:
     label: Layer
     description: Please select the corresponding Layer of the affected BB
-    multiple: true
+    multiple: false
     options:
     - AppLayer
     - MWLayer
@@ -275,7 +275,7 @@ body:
   attributes:
     label: Documentation Badge
     description: Please select the corresponding Documentation Badge of the affected BB, according to the Eclipse Foundation
-    multiple: true
+    multiple: false
     options:
     - Gold
     - Silver
@@ -298,7 +298,7 @@ body:
   attributes:
     label: Requirements Badge
     description: Please select the corresponding Requirements Badge of the affected BB, according to the Eclipse Foundation
-    multiple: true
+    multiple: false
     options:
     - Gold
     - Silver
@@ -321,7 +321,7 @@ body:
   attributes:
     label: Coding Guidelines Badge
     description: Please select the corresponding Coding Guidelines Badge of the affected BB, according to the Eclipse Foundation
-    multiple: true
+    multiple: false
     options:
     - Gold
     - Silver
@@ -344,7 +344,7 @@ body:
   attributes:
     label: Testing Badge
     description: Please select the corresponding Testing Badge of the affected BB, according to the Eclipse Foundation
-    multiple: true
+    multiple: false
     options:
     - Gold
     - Silver
@@ -367,7 +367,7 @@ body:
   attributes:
     label: Release Process Badge
     description: Please select the corresponding Release Process Badge of the affected BB, according to the Eclipse Foundation
-    multiple: true
+    multiple: false
     options:
     - Gold
     - Silver
@@ -399,7 +399,7 @@ body:
   attributes:
     label: State
     description: Please select the current state of the BB
-    multiple: true
+    multiple: false
     options:
     - Incubating (no code yet)
     - Implementation started
