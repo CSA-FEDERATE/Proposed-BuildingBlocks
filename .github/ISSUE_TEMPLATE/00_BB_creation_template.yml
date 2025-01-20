@@ -34,17 +34,17 @@ body:
     label: BB Tags(s)
     description: Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice)
     options:
-      - label: BB-SC
-      - label: BB-CSC
-      - label: BB-MU
-      - label: BB-CMU
-      - label: BB-EST
-      - label: BB-CEST
-      - label: S-BB
-      - label: FC
-      - label: BB-SC-TC
-      - label: BB-CSC-TC
-      - label: BB-WE
+      - label: BB-SC Building Block Stack Component (In-Vehicle / On-Board)
+      - label: BB-CSC Building Block Cloud Stack Component (Cloud / Off-Board)
+      - label: BB-MU Building Block Mockup Unit (In-Vehicle / On-Board Component)
+      - label: BB-CMU Building Block Cloud Mockup Unit (Cloud / Off-Board Component)
+      - label: BB-EST Building Block Engineering & Support Tools (for In-Vehicle / On-Board Components)
+      - label: BB-CEST Building Block Cloud Engineering & Support Tools (for Cloud / Off-Board Components)
+      - label: S-BB Building Block Stack Component ToolChain (contains compatible set of Engineering & Support Tools and Mockup Units for In-Vehicle dev)
+      - label: FC Functional Cluster – Logical group of technically similar BBs
+      - label: BB-SC-TC Building Block Stack Component ToolChain (contains compatible set of Engineering & Support Tools and Mockup Units for In-Vehicle dev)
+      - label: BB-CSC-TC Building Block Cloud Stack Component ToolChain ToolChain (contains compatible set of Engineering & Support Tools and Mockup Units for Cloud dev)
+      - label: BB-WE Whatever Tag / Whitecard
   validations:
     required: true
 
@@ -57,12 +57,32 @@ body:
   validations:
     required: true
 
-- type: input
+- type: dropdown
   id: FC
   attributes:
     label: Functional Clusters
-    description: In which Functional Cluster the BB be located; if none of the existing fit new required
-    placeholder: e.g. Communication
+    description: Please select the Functional Cluster in which the BB is located
+    multiple: true
+    options:
+    - Build-and-Implementation
+    - Communication
+    - Configuration
+    - Deployment
+    - Design
+    - Diagnostics
+    - Implementation
+    - Lifecycle-Management
+    - Monitoring
+    - Platform-Health-Management
+    - Power-Management
+    - Requirements
+    - Runtime
+    - Security
+    - Storage
+    - Testing
+    - Time
+    - Tools-and-Methods
+    - Not specified
   validations:
     required: true
 
