@@ -70,7 +70,7 @@ def extract_headings_and_content(file_path):
         end = content.find(headings[i + 1]) if i + \
             1 < len(headings) else len(content)
         heading_content = content[start: end - 3].replace("\n", " ").strip()
-        if heading_content.startswith(("-","+","=")):
+        if heading_content.startswith(("-", "+", "=")):
             heading_content = "'" + heading_content
         heading_contents[heading] = heading_content
     return heading_contents

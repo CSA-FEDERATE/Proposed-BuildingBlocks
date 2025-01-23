@@ -53,7 +53,7 @@ options:
 ### Example
 
 ```sh
-python csv_generator.py /path/to/markdown/files -o my_output.csv -e .github other -k BB
+python csv_generator.py /path/to/markdown/files -o my_output.csv --exclude .github other --keyword BB
 ```
 
 This command will:
