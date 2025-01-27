@@ -88,9 +88,6 @@ No - Commercial -->
 
 ## Potential obstacles
 
-## Expert Discussion Status
-<!--  in discussion -->
-
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
 See Definition of Badges and their Flavors 
