@@ -54,7 +54,7 @@ BB is a composition of other BBs
 
 
 
-## What is needed to design and implement
+## What is needed to Design and Implement
 
 We expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, …
 - Linux development environment, 
@@ -75,28 +75,29 @@ With respect to Safety, Security,
 Encrypted connections between clients, server and peers
 
 
-## Dependencies to other clusters
+## Dependencies to other Clusters
 
 Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are  needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work
 
 
-## Vehicle API relevant
+## Vehicle API Relevant
 
 “No”
 
-## Author/Company + Prio
+## Author/Company
+Anonymous
 
-- Anonymous + (High/Mid/Low)
+## Priority
+<!-- High, Medium, Low -->
 
-
-## Related project(s)
+## Related Project(s)
 
 If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value, 
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework
 
 
-## Availability of code
+## Availability of Source Code
 
 Yes / Apache License Version 2.0
 
@@ -104,15 +105,9 @@ Yes / Apache License Version 2.0
 
 Yes / Apache License Version 2.0
 
-
-## Reference to FEDERATE SDV repository - Open Toolchain(s)
-
--
-
 ## Potential obstacles
 
 -
-
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 

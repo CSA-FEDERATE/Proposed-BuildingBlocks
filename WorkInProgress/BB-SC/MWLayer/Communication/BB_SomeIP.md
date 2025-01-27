@@ -33,7 +33,7 @@ Reference to defined S-BB(s)
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
 
 ## Compose BB(s)
-<!-- Link to required BB(s) 
+<!-- Link to required BB(s) -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
