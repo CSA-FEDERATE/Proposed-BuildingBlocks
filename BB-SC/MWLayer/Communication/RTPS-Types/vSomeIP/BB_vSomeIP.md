@@ -1,71 +1,66 @@
 
-# CycloneDDS
+# vSOME/IP
 
 ## BB Tags(s)
-
+<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 - BB-SC; BB-MU; BB-CSC; BB-CMU
 
-
 ## Functional Clusters
+<!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
 
 - Communication
 
 ## Layer
+<!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
 - MWLayer
 
 ## Known Implementation
 
-- https://github.com/eclipse-cyclonedds/cyclonedds
+- [vSomeIP](https://github.com/COVESA/vsomeip)
 
 ## ID (unique name)
 
 ## Description
+<!-- General Description of the BB -->
 
-Eclipse Cyclone DDS is a very performant and robust open-source implementation of the OMG DDS specification. Cyclone DDS is developed completely in the open as an Eclipse IoT project (see eclipse-cyclone-dds) with a growing list of adopters (if you're one of them, please add your logo). It is a tier-1 middleware for the Robot Operating System ROS 2.
+SOME/IP is an abbreviation for "Scalable service-Oriented middlewarE over IP". This middleware was designed for typical automotive use cases and for being compatible with AUTOSAR (at least on the wire-format level). A publicly accessible specification is available [at](http://some-ip.com/). In this wiki we do not want to deepen further into the reasons for another middleware specification, but want to give a rough overview about the basic structures of the SOME/IP specification and its open source implementation vsomeip without any claim of completeness.
+[source](https://github.com/COVESA/vsomeip/wiki/vsomeip-in-10-minutes)
+
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
 
+Open source implementation of the SOME/IP protocol.
+SOME/IP is an automotive middleware solution that can be used for control messages. It was designed from beginning on to fit devices of different sizes and different operating systems perfectly. This includes small devices like cameras, AUTOSAR devices, and up to head units or telematics devices. It was also made sure that SOME/IP supports features of the Infotainment domain as well as that of other domains in the vehicle, allowing SOME/IP to be used for MOST replacement scenarios as well as more traditional CAN scenarios.
+[source](https://some-ip.com/)
+
 ## Governance Applicable S-BB(s)
+<!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
+Reference to defined S-BB(s) 
+Reference to e.g. IS026262, AUTOSAR Spec. X -->
 
-- Cyclone DDS aims at full coverage of the specs and today already covers most of this. With references to the individual OMG specifications, the following is available:
+[Standards](https://some-ip.com/standards.shtml)
+- AUTOSAR Classic
+- AUTOSAR Foundation
+- AUTOSAR Adaptive Platform
+- ISO 17215:2-2014
+- Genivi/COVESA vsomeip
 
-*    [DCPS](https://www.omg.org/spec/DDS/1.4/PDF) the base specification 
-     *        zero configuration discovery (if multicast works)
-     *        publish/subscribe messaging
-     *        configurable storage of data in subscribers
-     *        many QoS settings - liveliness monitoring, deadlines, historical data, ...
-     *        coverage includes the Minimum, Ownership and (partially) Content profiles
-*    [DDS Security](https://www.omg.org/spec/DDS-SECURITY/1.1/PDF) - providing authentication, access control and encryption - 
-*    [DDS C++ API](https://www.omg.org/spec/DDS-PSM-Cxx/1.0/PDF)
-*    [DDS XTypes](https://www.omg.org/spec/DDS-XTypes/1.3/PDF) - the structural type system (some [caveats](https://github.com/eclipse-cyclonedds/cyclonedds/blob/master/docs/dev/xtypes_relnotes.md) here) 
-*    [DDSI-RTPS](https://www.omg.org/spec/DDSI-RTPS/2.5/PDF) - the interoperable network protocol
 
 ## Compose BB(s)
-
-- OS/Runtime Envirnoment
-
+<!-- Link to required BB(s) -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
 
 ## What is needed to build and run
+<!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
 
-In order to build Cyclone DDS you need a Linux, Mac or Windows 10 machine (or, with some caveats, a *BSD, QNX, OpenIndiana or a Solaris 2.6 one) with the following installed on your host:
-
-*    C compiler (most commonly GCC on Linux, Visual Studio on Windows, Xcode on macOS);
-*    Optionally GIT version control system;
-*    CMake, version 3.16 or later;
-*    Optionally OpenSSL, we recommend a fully patched and supported version but 1.1.1 will still work;
-*    Optionally Eclipse Iceoryx version 2.0 for shared memory and zero-copy support;
-*    Optionally Bison parser generator. A cached source is checked into the repository.
-
+- [see COVESA Github repo](https://github.com/COVESA/vsomeip) 
 
 ## Non-Functional Requirements
-
-* Real Time
-* QOS 
+<!-- With respect to Safety, Security, Realtime, … -->
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
@@ -76,6 +71,7 @@ e.g. If FC Security : Security BBs are needed but you can choose for example cry
 If “No” – nothing more to do 
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
+
 ## Author/Company
 
 - Anonymous
@@ -84,21 +80,24 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 <!-- High, Medium, Low -->
 
 ## Related Project(s)
-
-- https://projects.eclipse.org/projects/iot.cyclonedds
+<!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+- HAL4SDV, Shift2SDV
 
 ## Availability of Source Code
-
-- YES/Eclipse Public License - v 2.0
+Yes / vSomeIP - Mozilla Public License Version 2.0
+<!-- Yes / License (e.g. Yes/MIT) 
+No – Commercial Closed Source -->
 
 ## Availability of API
+
+
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
 
 ## Potential obstacles
 
 ## Maturity Badges
-
 <!-- taken over from Eclipse SDV Process 
 See Definition of Badges and their Flavors 
 https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors 
@@ -120,11 +119,11 @@ Example:
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
 | Level		| [Gold](urlToDoc)| No 		   | Notdefined		   | Bronze	 | [Silver](urlToDoc) |
 
--->
+ -->
 
 |                       | Documentation | Requirements | Coding Guidelines | Testing | Release Process |
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
-| Level     | [Gold](https://cyclonedds.io/docs/) | Notdefined       | Notdefined | Notdefined | [Gold](https://cyclonedds.io/docs/) |
+| Level     | [Silver](https://github.com/COVESA/vsomeip/wiki) | [Gold](https://github.com/COVESA/vsomeip/tree/master/test)       | [Gold](https://github.com/COVESA/vsomeip/wiki/vsomeip-Contribution-Process) | Notdefined | [Gold](https://github.com/COVESA/vsomeip/wiki/vsomeip-Release-Process) |
 
 ## State (+ date of last change)
 
@@ -137,8 +136,9 @@ Example:
 - Abandoned
  -->
 
-- Used in several projects (e.g ROS2).
+- Used in several projects, proprietary implementations available
 - Last update Github Jan. 2025 / continuously updated
+
 
 ## System Context
 
@@ -154,5 +154,5 @@ eg.
 - web assembly
 - web service
  -->
-
-- regarding details see section - What is needed to build and run
+ 
+ - Linux
