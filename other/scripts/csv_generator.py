@@ -65,7 +65,11 @@ def extract_headings_and_content(file_path, is_template_file = False):
     if not names:
         raise ValueError(f"No BB Name found in {file_path}")
 
-    heading_contents = {"BB Name": names[0]}
+    implementation_status = 'implementation exists'
+    if "WorkInProgress" in file_path:
+        implementation_status = 'suggested'
+
+    heading_contents = {"BB Name": names[0], "Implementation Status":implementation_status}
 
     for i, heading in enumerate(headings):
         if heading not in template_headings and not is_template_file:
