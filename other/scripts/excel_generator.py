@@ -33,7 +33,7 @@ def find_markdown_files(directory, excluded_dirs, keyword):
 
 def write_to_excel(df, output_excel):
     """
-    Write the DataFrame to an Excel file.
+    Write the DataFrame to an Excel file and format it.
 
     Args:
         df (pandas.DataFrame): DataFrame to write to Excel.
