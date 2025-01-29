@@ -82,17 +82,34 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 ## Potential obstacles
 
 ## Maturity Badges
-<!-- taken over from Eclipse SDV Process -->
+<!-- taken over from Eclipse SDV Process 
+See Definition of Badges and their Flavors 
+https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors 
+
 
 | 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
-| Gold		| YES		    | Yes/No	   | Yes/No  		   | No		 | No		   |
-| Silver	| No		    | Yes/No	   | Yes/No 		   | Yes	 | [Yes}(https://github.com/eProsima/Fast-DDS/blob/master/RELEASE_SUPPORT.md)		   |
-| Bronze	| No	    	| Yes/No	   | Yes/No    		   | No		 | No		   |
+| Gold		| Badgelevel    | Badgelevel   | Badgelevel		   | Badgelevel	 | Badgelevel  |
+| Silver	| Badgelevel    | Badgelevel   | Badgelevel	  	   | Badgelevel	 | Badgelevel  |
+| Bronze	| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
+| No		| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
+| NotDefined| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
 
-<!--See Definition of Badges and their Flavors 
-https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors 
- -->
+Options:
+NotDefined/No/Bronze/Silver/Gold
+
+Example:
+| 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
+| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
+| Level		| [Gold](urlToDoc)| No 		   | Notdefined		   | Bronze	 | [Silver](urlToDoc) |
+
+
+-->
+
+|                       | Documentation | Requirements | Coding Guidelines | Testing | Release Process |
+| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
+| Level     | [Gold](https://fast-dds.docs.eprosima.com/en/latest/) | Notdefined       | [Gold](https://github.com/eProsima/Fast-DDS/blob/master/CONTRIBUTING.md) | Notdefined | [Gold](https://github.com/eProsima/Fast-DDS/blob/master/RELEASE_SUPPORT.md) |
+
 
 
 ## State (+ date of last change)
@@ -105,6 +122,8 @@ https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technic
 - Used in production by >1 OEM
 - Abandoned
  -->
+- Used in several projects (e.g ROS2).
+- last update Github Jan. 2025 / continuously updated
 
 ## System Context
 
@@ -120,3 +139,7 @@ eg.
 - web assembly
 - web service
  -->
+- regarding details see section - What is needed to build and run
+
+- Ubuntu/Debian, MacOS, Windows, Android, QNX
+

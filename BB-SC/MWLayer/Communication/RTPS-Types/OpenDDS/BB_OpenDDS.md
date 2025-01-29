@@ -118,6 +118,8 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
+- Anonymous
+
 ## Priority
 <!-- High, Medium, Low -->
 
@@ -137,18 +139,34 @@ No - Commercial -->
 ## Potential obstacles
 
 ## Maturity Badges
-<!-- taken over from Eclipse SDV Process -->
+<!-- taken over from Eclipse SDV Process 
+See Definition of Badges and their Flavors 
+https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors 
+
 
 | 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
-| Gold		| No		    | Yes/No	   | Yes/No  		   | No		 | No		   |
-| Silver	| Yes		    | Yes/No	   | Yes/No 		   | Yes	 | No		   |
-| Bronze	| No	    	| Yes/No	   | Yes/No    		   | No		 | Yes		   |
+| Gold		| Badgelevel    | Badgelevel   | Badgelevel		   | Badgelevel	 | Badgelevel  |
+| Silver	| Badgelevel    | Badgelevel   | Badgelevel	  	   | Badgelevel	 | Badgelevel  |
+| Bronze	| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
+| No		| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
+| NotDefined| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
 
-<!--See Definition of Badges and their Flavors 
-https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors 
- -->
+Options:
+NotDefined/No/Bronze/Silver/Gold
 
+Example:
+| 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
+| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
+| Level		| [Gold](urlToDoc)| No 		   | Notdefined		   | Bronze	 | [Silver](urlToDoc) |
+
+
+-->
+
+
+| 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
+| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
+| Level		| [Gold](https://opendds.readthedocs.io/en/latest-release/)| Notdefined | [Gold](https://opendds.readthedocs.io/en/latest-release/devguide/index.html)	| Notdefined	| [Gold](https://opendds.readthedocs.io/en/latest-release/news.html) |
 
 ## State (+ date of last change)
 
@@ -160,6 +178,9 @@ https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technic
 - Used in production by >1 OEM
 - Abandoned
  -->
+- Used in several projects (see 
+- Last Update Github Jan. 25 / continuously updated
+
 
 ## System Context
 
@@ -175,3 +196,7 @@ eg.
 - web assembly
 - web service
  -->
+
+- Regarding details see section - What is needed to build and run
+
+- Ubuntu/Debian/Red Hat, openSUSE, Yocto, Windows, LynxOS, VxWorks, Android

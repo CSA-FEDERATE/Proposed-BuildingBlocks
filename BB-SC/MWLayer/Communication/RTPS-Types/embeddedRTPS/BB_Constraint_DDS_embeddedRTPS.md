@@ -117,6 +117,9 @@ Example:
 
 -->
 
+| 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
+| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
+| Level		| Notdefined | Notdefined   | Notdefined   | Notdefined	 | Notdefined |
 
 ## State (+ date of last change)
 
@@ -128,6 +131,8 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
+- First public release available, used in [unicaragil](https://www.unicaragil.de/en/)
+- last update Github Jul 2024 
 
 ## System Context
 
@@ -143,3 +148,6 @@ eg.
 - web assembly
 - web service
  -->
+
+- regarding details see section - What is needed to build and run
+
