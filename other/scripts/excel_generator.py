@@ -43,7 +43,14 @@ def write_to_excel(df, output_excel):
     sheet = wb.sheets["Tabelle1"]
     sheet['A1'].value = df
     sheet['A1'].options(pd.DataFrame, expand='table').value
+    
+    # remove column 1 which is the df index
     xw.Range("A:A").api.Delete()
+
+    # set header columns bold and autofit the column width to the headers
+    xw.Range((1,1), (1, len(df.columns))).font.bold = True
+    sheet.autofit(axis="columns")
+
     wb.save(output_excel)
     wb.close()
 
