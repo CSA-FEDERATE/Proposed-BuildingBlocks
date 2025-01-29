@@ -40,7 +40,7 @@ embeddedRTPS is portable, as it only consumes lightweightIP and FreeRTOS APIs, w
 - lwIP (could be another NW Stack)
 
 
-## What is needed to design and implement
+## What is needed to Design and Implement
 
 The Repo include a reference implementation which is executable on different Targets /STM32, AURIX Tricore.
 Needed:
@@ -59,24 +59,26 @@ GCC (Ubuntu 18 and above), Tasking Compiler,
 - Real-Time
 - Security
 
-## Dependencies to other clusters
+## Dependencies to other Clusters
 
 
-## Vehicle API relevant
+## Vehicle API Relevant
 
 “No”
 
-## Author/Company + Prio
+## Author/Company
 
-- Alexandru Kampmann RWTH - (High/Mid/Low)
+- Alexandru Kampmann RWTH
 
+## Priority
+<!-- High, Medium, Low -->
 
-## Related project(s)
+## Related Project(s)
 
 - <https://github.com/mROS-base/mros2>
 - <https://github.com/micro-ROS>
 
-## Availability of code
+## Availability of Source Code
 
 Yes / License MIT
 Commercial Closed Source Parts are available (security)
@@ -84,10 +86,6 @@ Commercial Closed Source Parts are available (security)
 ## Availability of API
 
 Yes / License MIT
-
-## Reference to FEDERATE SDV repository - Open Toolchain(s)
-
-
 
 ## Potential obstacles
 
@@ -119,6 +117,9 @@ Example:
 
 -->
 
+| 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
+| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
+| Level		| Notdefined | Notdefined   | Notdefined   | Notdefined	 | Notdefined |
 
 ## State (+ date of last change)
 
@@ -130,6 +131,8 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
+- First public release available, used in [unicaragil](https://www.unicaragil.de/en/)
+- last update Github Jul 2024 
 
 ## System Context
 
@@ -145,3 +148,6 @@ eg.
 - web assembly
 - web service
  -->
+
+- regarding details see section - What is needed to build and run
+
