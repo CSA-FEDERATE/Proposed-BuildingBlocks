@@ -20,6 +20,7 @@ MWLayer
 ## Description
 <!-- General Description of the BB -->
 Define services to react on the events recorded by the Security event manager to security violations. IDS and IDPS (Intrusion detection and prevention system) are both considered here.
+Suggested for implementation in SHIFT2SDV block F1
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -55,16 +56,16 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-
-Conti
+Requested by CONTI; planned to implement in SHIFT2SDV (maik.a.fuchs@accenture.com)
 
 ## Priority
 <!-- High, Medium, Low -->
-Low
+High
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+SHIFT2SDV
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
