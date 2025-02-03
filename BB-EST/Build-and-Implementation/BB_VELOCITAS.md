@@ -1,13 +1,12 @@
 
-# Offboard Config Tool for TSN
-
+# VELOCITAS
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-EST
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Configuration-and-Calibration
+Build and Implementation
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
@@ -18,6 +17,7 @@ Configuration-and-Calibration
 
 ## Description
 <!-- General Description of the BB -->
+End-to-end, scalable and modular development toolchain to create containerized in-vehicle applications 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -51,7 +51,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-andreas.eckel@tttech.com/TTTEch
+detlef.zerfowski@etas.com
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -59,7 +59,7 @@ andreas.eckel@tttech.com/TTTEch
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-HAL4SDV
+[Eclipse](https://gitlab.eclipse.org/eclipse/autowrx/autowrx)
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
@@ -68,7 +68,6 @@ No – Commercial Closed Source -->
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
-Commercial
 
 ## Potential obstacles
 
@@ -108,6 +107,7 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
+ Not supported anymore
 
 ## System Context
 
