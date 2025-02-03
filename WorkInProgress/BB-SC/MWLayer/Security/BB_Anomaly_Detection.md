@@ -59,7 +59,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-planned to implement in SHIFT2SDV (maik.a.fuchs@accenture.com)
+planned to be implemented in SHIFT2SDV (responsible for F2: alberto.fernandez@sensingcontrol.com)
 
 ## Priority
 <!-- High, Medium, Low -->
