@@ -12,5 +12,6 @@ Sorted alphabetically
 |SDV|Software Defined Vehicle|
 |SecOC||
 |sSOA||
+|TSN|Time sensitive networking|
 |VISS|Vehicle Information Service Specification|
 |||
