@@ -13,6 +13,7 @@ Testing
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
 ## Known Implementation
+https://gitlab.eclipse.org/eclipse/autowrx/autowrx
 
 ## ID (unique name)
 

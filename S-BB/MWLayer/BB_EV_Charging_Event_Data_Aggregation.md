@@ -1,5 +1,5 @@
 
-# EV Charging Evant Data Aggregation
+# EV Charging Event Data Aggregation
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
@@ -13,6 +13,7 @@ S-BB
 MWLayer
 
 ## Known Implementation
+https://covesa.global/project/ev-charging-event-data-aggregation/
 
 ## ID (unique name)
 

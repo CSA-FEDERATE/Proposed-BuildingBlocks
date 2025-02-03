@@ -13,6 +13,7 @@ S-BB
 MWLayer
 
 ## Known Implementation
+https://covesa.global/project/data-architecture-terminology/
 
 ## ID (unique name)
 

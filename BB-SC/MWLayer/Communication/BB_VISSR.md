@@ -14,6 +14,7 @@ Communication
 MWLayer
 
 ## Known Implementation
+https://github.com/COVESA/vissr
 
 ## ID (unique name)
 
@@ -61,11 +62,12 @@ paul.boyes@covesa.global/BMW
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-COVESA, https://covesa.global/project/uservices/
+(COVESA)[https://covesa.global/project/uservices/]
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
+Mozilla Public License Version 2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)

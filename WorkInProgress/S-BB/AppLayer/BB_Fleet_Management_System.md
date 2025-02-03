@@ -18,6 +18,7 @@ AppLayer
 
 ## Description
 <!-- General Description of the BB -->
+Standardize data access
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -51,6 +52,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
+gunther.bauer@zf.com
 
 ## Priority
 <!-- High, Medium, Low -->

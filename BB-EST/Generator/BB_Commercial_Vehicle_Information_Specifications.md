@@ -13,6 +13,7 @@ Generator
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
 ## Known Implementation
+https://github.com/COVESA/commercial-vehicle-information-specifications
 
 ## ID (unique name)
 
@@ -65,6 +66,7 @@ If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Commun
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
+MPL 2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)

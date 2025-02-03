@@ -14,6 +14,7 @@ Communication
 MWLayer
 
 ## Known Implementation
+https://github.com/eclipse-ecal/ecal
 
 ## ID (unique name)
 
@@ -66,6 +67,7 @@ If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Commun
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
+Apache 2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)

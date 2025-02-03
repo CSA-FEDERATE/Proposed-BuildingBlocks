@@ -14,6 +14,7 @@ Communication
 MWLayer
 
 ## Known Implementation
+https://github.com/eclipse-kuksa
 
 ## ID (unique name)
 

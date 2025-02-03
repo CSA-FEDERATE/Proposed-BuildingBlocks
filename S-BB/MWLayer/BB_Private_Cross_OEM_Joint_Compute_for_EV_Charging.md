@@ -12,6 +12,7 @@ S-BB
 MWLayer
 
 ## Known Implementation
+https://covesa.global/project/private-cross-oem-joint-compute-for-ev-charging/
 
 ## ID (unique name)
 

@@ -14,6 +14,7 @@ Communication
 MWLayer
 
 ## Known Implementation
+https://github.com/COVESA/vehicle-information-service-specification
 
 ## ID (unique name)
 
@@ -61,11 +62,12 @@ paul.boyes@covesa.global/BMW
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-COVESA, https://covesa.global/project/vehicle-information-service-specification/
+[COVESA](https://covesa.global/project/vehicle-information-service-specification/)
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
+Mozilla Public License, v. 2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
