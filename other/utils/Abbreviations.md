@@ -11,6 +11,7 @@ Sorted alphabetically
 |CMAC||
 |eCAL|enhanced Communication Abstraction Layer|
 |ECU||
+|HIM|Hierarchical Information Model|
 |IFEX|InterFace EXchange|
 |SDV|Software Defined Vehicle|
 |SecOC||
@@ -21,4 +22,5 @@ Sorted alphabetically
 |VISS|Vehicle Information Service Specification|
 |VISSR|Vehicle Information Service Specification Reference|
 |VOSS|Vehicle Orchestration Service Suite Software|
+|VSS|Vehicle Signal Specification|
 |||
