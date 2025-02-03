@@ -11,6 +11,7 @@ Sorted alphabetically
 |CMAC||
 |eCAL|enhanced Communication Abstraction Layer|
 |ECU||
+|IFEX|InterFace EXchange|
 |SDV|Software Defined Vehicle|
 |SecOC||
 |SOME/IP|Scalable Service-oriented Middleware Over IP|
