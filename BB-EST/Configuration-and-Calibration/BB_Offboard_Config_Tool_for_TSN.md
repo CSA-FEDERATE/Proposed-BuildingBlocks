@@ -51,7 +51,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-andreas.eckel@tttech.com/TTTEch
+Andreas; Eckel; TTTEch
 
 ## Priority
 <!-- High, Medium, Low -->

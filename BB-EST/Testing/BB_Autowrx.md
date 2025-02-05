@@ -53,7 +53,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Dirk.Slama@bosch.com
+Dirk;Slama;Bosch
 
 ## Priority
 <!-- High, Medium, Low -->

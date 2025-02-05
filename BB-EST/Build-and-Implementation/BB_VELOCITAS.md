@@ -52,7 +52,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-detlef.zerfowski@etas.com
+Detlef; Zerfowski; Etas
 
 ## Priority
 <!-- High, Medium, Low -->
