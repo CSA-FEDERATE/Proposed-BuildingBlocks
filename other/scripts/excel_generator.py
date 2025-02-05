@@ -40,7 +40,7 @@ def write_to_excel(df, output_excel):
         output_csv (str): Path to the output Excel file.
     """
     wb = xw.Book()
-    sheet = wb.sheets["Tabelle1"]
+    sheet = wb.sheets[0]
     sheet['A1'].value = df
     sheet['A1'].options(pd.DataFrame, expand='table').value
     
