@@ -410,9 +410,12 @@ body:
   validations:
     required: true
 
-- type: checkbox
+- type: checkboxes
   id: bazel
   attributes:
     label: BAZEL compliant
+    description: 
+    options:
+      - label: BAZEL compliant
   validations:
     required: true
