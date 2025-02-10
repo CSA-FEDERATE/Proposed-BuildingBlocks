@@ -409,3 +409,10 @@ body:
     - Abandoned
   validations:
     required: true
+
+- type: checkbox
+  id: bazel
+  attributes:
+    label: BAZEL compliant
+  validations:
+    required: true
