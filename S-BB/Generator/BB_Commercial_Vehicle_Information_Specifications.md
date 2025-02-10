@@ -1,26 +1,25 @@
 
-# VISS
+# Commercial Vehicle Information Specifications
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-SC
+S-BB
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Communication
+Generator
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
-MWLayer
 
 ## Known Implementation
-https://github.com/COVESA/vehicle-information-service-specification
+https://github.com/COVESA/commercial-vehicle-information-specifications
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-API for accessing the COVESA Vehicle Signal Specification (VSS) data
+Signal and service catalogues for commercial vehicles using the HIM rule set
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -54,7 +53,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Paul; Boyes; BMW
+Paul; Boyes; Covesa
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -62,12 +61,12 @@ Paul; Boyes; BMW
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-[COVESA](https://covesa.global/project/vehicle-information-service-specification/)
+[COVESA](https://covesa.global/project/commercial-vehicle-information-specifications/)
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
-Mozilla Public License, v. 2.0
+MPL 2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)

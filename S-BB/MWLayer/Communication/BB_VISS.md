@@ -1,9 +1,9 @@
 
-# vSOME/IP
+# VISS
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-SC
+S-BB
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
@@ -14,13 +14,13 @@ Communication
 MWLayer
 
 ## Known Implementation
-https://github.com/COVESA/vsomeip
+https://github.com/COVESA/vehicle-information-service-specification
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-Scalable service-oriented middleware over IP (SOME/IP) protocol
+API for accessing the COVESA Vehicle Signal Specification (VSS) data
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -54,7 +54,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Jan; Kubovy; BMW
+Paul; Boyes; BMW
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -62,7 +62,7 @@ Jan; Kubovy; BMW
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-[COVESA](https://covesa.global/project/vsomeip/)
+[COVESA](https://covesa.global/project/vehicle-information-service-specification/)
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
@@ -111,8 +111,7 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
- Used in production by >1 OEM
-
+Implementation started
 ## System Context
 
 <!-- 
