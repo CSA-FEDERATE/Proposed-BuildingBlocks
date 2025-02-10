@@ -20,7 +20,7 @@ https://github.com/eclipse-kuksa
 
 ## Description
 <!-- General Description of the BB -->
-Abstracting vehicle data and interfaces to a common format based
+The open Eclipse KUKSA™ project aims to provide shared building blocks for the Software Defined Vehicles that can be shared across the industry. One of the main features of KUKSA is abstracting vehicle data and interfaces to a common format based for example on the Vehicle Signal Specification. That way, all functions sitting on top of KUKSA can run on all enabled cars. KUKSA itself focusses on the adaptation of various Vehicle Interfaces into a basic basic interfaces using simple APIs. This enables you to add your preferred onboard or offboard techstack to new vehicle architectures more easily.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

@@ -20,7 +20,7 @@ https://github.com/eclipse-ecal/ecal
 
 ## Description
 <!-- General Description of the BB -->
-enhanced Communication Abstraction Layer
+The enhanced Communication Abstraction Layer (eCAL) is a middleware that enables scalable, high performance interprocess communication on a single computer node or between different nodes in a computer network. eCAL provides publish - subscribe and server - client pattern to connect different nodes in the network with almost no configuration required.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

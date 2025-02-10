@@ -18,7 +18,7 @@ https://covesa.global/project/in-car-wallet-payments-orchestration/
 
 ## Description
 <!-- General Description of the BB -->
-Secure and convenient payment system framework for vehicles
+Secure and convenient payment system framework for vehicles.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

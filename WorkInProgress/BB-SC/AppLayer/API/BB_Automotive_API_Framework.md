@@ -19,7 +19,7 @@ AppLayer
 
 ## Description
 <!-- General Description of the BB -->
-Describes application interface on top of an SDV stack
+The Eclipse Automotive API Framework provides a stable application-facing interface, thereby minimizing the prevalence of proprietary solutions throughout the automotive sector. A corresponding model allows configuration and offers the needed flexibility for the handling of vehicle variants and different E/E architectures. Such solution also creates a win-win situation for both suppliers and OEMs.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

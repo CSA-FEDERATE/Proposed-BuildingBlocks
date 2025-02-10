@@ -19,7 +19,7 @@ https://covesa.global/project/common-vehicle-capabilities/
 
 ## Description
 <!-- General Description of the BB -->
-Enumerate and define common (commodity) vehicle capabilities and their interfaces in a technology-neutral manner
+Enumerate and define common (commodity) vehicle capabilities and their interfaces in a technology-neutral manner.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

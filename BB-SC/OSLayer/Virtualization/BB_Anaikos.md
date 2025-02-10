@@ -20,7 +20,7 @@ https://github.com/eclipse-ankaios/ankaios
 
 ## Description
 <!-- General Description of the BB -->
-Workload and container orchestration for automotive High Performance Computing (HPC)
+Eclipse Ankaios provides workload and container orchestration for automotive High Performance Computing Software (HPCs). While it can be used for various fields of applications, it is developed from scratch for automotive use cases and provides a slim yet powerful solution to manage containerized applications.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

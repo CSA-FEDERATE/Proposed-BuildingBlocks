@@ -19,7 +19,7 @@ https://github.com/COVESA/commercial-vehicle-information-specifications
 
 ## Description
 <!-- General Description of the BB -->
-Signal and service catalogues for commercial vehicles using the HIM rule set
+The Commercial Vehicle Information Specifications (CVIS) project is aiming at developing signal and service catalogues for commercial vehicles using the HIM rule set.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

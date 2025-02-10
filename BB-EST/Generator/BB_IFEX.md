@@ -19,8 +19,8 @@ https://github.com/COVESA/ifex
 
 ## Description
 <!-- General Description of the BB -->
-Semantic mapping translation tool generators
-
+IFEX is a general interface description and transformation technology which started in the Vehicle Service Catalog (VSC) project. 
+The project is a place to do difficult semantic mapping work. While doing so, it creates translating tools between formats and it results in a simple but powerful interface description format.
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
 

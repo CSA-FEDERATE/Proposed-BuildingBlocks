@@ -20,7 +20,7 @@ https://github.com/COVESA/vehicle-information-service-specification
 
 ## Description
 <!-- General Description of the BB -->
-API for accessing the COVESA Vehicle Signal Specification (VSS) data
+Vehicle Information Service Specification (VISS) is an API for accessing the COVESA Vehicle Signal Specification (VSS) data. The work started at The World Wide Web Consortium (W3C) in collaboration with GENIVI and its successor COVESA. The W3C Automotive Working Group closed in February of 2024 and the work is continuing at COVESA.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

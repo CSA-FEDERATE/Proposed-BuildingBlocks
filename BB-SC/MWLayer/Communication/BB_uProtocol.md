@@ -20,7 +20,7 @@ https://github.com/eclipse-uprotocol
 
 ## Description
 <!-- General Description of the BB -->
-Transport agnostic, layered communication protocol
+A communication protocol enabling developers to build apps and services that communicate seamlessly across one or multiple inter-connected messaging middleware. uProtocol provides a small number of communication patterns, exposed with a set of programming APIs available and consistent across the vehicle eco-system (in-vehicle ECUs, cloud and mobile). This approach enables seamless communication between applications and services, wherever they are hosted. Using uProtocol, application developers can focus on the functionality they need to develop, rather than the plumbing necessary to access the relevant services they require, and service providers develop their service once for all consumers, wherever they are hosted.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

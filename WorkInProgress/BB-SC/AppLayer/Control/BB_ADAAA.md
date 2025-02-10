@@ -19,7 +19,7 @@ AppLayer
 
 ## Description
 <!-- General Description of the BB -->
-Adaptive Cruise Control Demo for adaptive AUTOSAR
+Adaptive Cruise Control Demo for adaptive AUTOSAR with the goal of providing examples and tutorials to build AUTOSAR expertise across the community.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

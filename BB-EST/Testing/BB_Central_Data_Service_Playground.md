@@ -1,5 +1,5 @@
 
-# Central Data Service Background
+# Central Data Service Playground
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
@@ -19,7 +19,7 @@ https://github.com/COVESA/cdsp
 
 ## Description
 <!-- General Description of the BB -->
-Neutral playground to investigate the internals of data services
+The Central Data Service Playground (CDSP) is a neutral, open playground for data services both within and outside the vehicle in the context of data-centric architectures. It enables investigation into the internals of these services and how they can be combined. Furthermore, the playground provides a means to publish and collaborate on such work in the open.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

@@ -20,7 +20,7 @@ https://github.com/COVESA/uservices
 
 ## Description
 <!-- General Description of the BB -->
-Software interfaces to securely access vehicle systems
+uServices is a project that contains the definition of common vehicle services. It uses protobuf as the interface definition language, with custom extensions to extend protobuf with additional information required for automotive services.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

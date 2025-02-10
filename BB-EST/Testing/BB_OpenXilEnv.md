@@ -20,7 +20,8 @@ https://github.com/eclipse-openxilenv/openxilenv
 ## Description
 <!-- General Description of the BB -->
 SW in the loop solution for virtual validation, similar to Synopsis Silver
-Simulate ECU functions, includes parameter management, Scripting interface
+Simulate ECU functions, includes parameter management, Scripting interface. 
+With a Software In the Loop system it is possible to run and test embedded software without a target plattform and compiler. XilEnv is an environment to setup a SIL system on Windows or Linux host. 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

@@ -20,7 +20,7 @@ https://github.com/COVESA/vissr
 
 ## Description
 <!-- General Description of the BB -->
-VISS Reference Implementation; definition of common vehicle services using protobuf
+This project provides a reference implementation of the released COVESA VISSv2.0 specification on the v2.0 branch, and an ongoing development of a reference implementation of the VISSv3.0 specification on the master branch.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

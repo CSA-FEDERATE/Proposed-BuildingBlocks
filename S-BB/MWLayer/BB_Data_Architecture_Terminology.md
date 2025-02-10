@@ -19,7 +19,7 @@ https://covesa.global/project/data-architecture-terminology/
 
 ## Description
 <!-- General Description of the BB -->
-Definition of reusable common architectural terminology and patterns
+Definition of reusable common architectural terminology and patterns realized with technical implementations, and proofs of concept in order to drive understanding and adoption of COVESA specifications.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

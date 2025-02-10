@@ -18,7 +18,7 @@ https://covesa.global/project/private-cross-oem-joint-compute-for-ev-charging/
 
 ## Description
 <!-- General Description of the BB -->
-Sharing data through joint computing
+Publicly available, shared EV charging infrastructure is foundational for EV adoption. To build a reliable charging experience vehicle, charging stations and charging experience are critical to improve route recommendation and vehicle diagnostics. Sharing data between OEMs and suppliers can help build better experience and infrastructure.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

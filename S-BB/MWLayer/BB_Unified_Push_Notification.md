@@ -19,7 +19,7 @@ https://covesa.global/project/unified-push-notifications/
 
 ## Description
 <!-- General Description of the BB -->
-Standardize 3rd party push notifications for automotive user experiences
+Standardize 3rd party push notifications for automotive user experiences.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

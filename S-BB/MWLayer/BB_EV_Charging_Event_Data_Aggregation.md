@@ -19,7 +19,7 @@ https://covesa.global/project/ev-charging-event-data-aggregation/
 
 ## Description
 <!-- General Description of the BB -->
-Addressing standards for EV charging experiences 
+Addressing standards for EV charging experiences by levaraging shared big data.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

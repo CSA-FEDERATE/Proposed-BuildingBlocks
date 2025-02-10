@@ -19,7 +19,7 @@ https://github.com/covesa/vehicle_signal_specification
 
 ## Description
 <!-- General Description of the BB -->
-Vehicle signal specification
+The overall goal of the Vehicle Signal Specification (VSS) is to create a common understanding of vehicle signals in order to reach a “common language” independent of the protocol or serialisation format.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

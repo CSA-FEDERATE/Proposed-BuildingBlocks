@@ -19,7 +19,7 @@ https://github.com/COVESA/hierarchical_information_model
 
 ## Description
 <!-- General Description of the BB -->
-For expressing a hierarchical representation of a domain
+The HIM aims to provide a format for expressing a hierarchical representation of a domain.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

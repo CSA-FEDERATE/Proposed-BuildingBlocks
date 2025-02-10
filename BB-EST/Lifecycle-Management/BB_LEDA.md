@@ -19,7 +19,7 @@ https://github.com/eclipse-leda
 
 ## Description
 <!-- General Description of the BB -->
-System image “recipes” to deliver a functional and always-available Linux-based image/distribution in the context of SDV
+Eclipse Leda provides an "SDV distribution" that pulls together individual contributor pieces from SDV and the larger OSS community, to deliver a functional and always-available Linux-based image/distribution.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->

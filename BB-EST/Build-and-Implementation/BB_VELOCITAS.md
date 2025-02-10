@@ -18,7 +18,7 @@ https://github.com/eclipse-velocitas
 
 ## Description
 <!-- General Description of the BB -->
-End-to-end, scalable and modular development toolchain to create containerized in-vehicle applications 
+Eclipse Velocitas provides a development toolchain to create containerized in-vehicle applications (Vehicle Apps) that offers a comfortable, fast and efficient development experience to increase the velocity of a development team.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
