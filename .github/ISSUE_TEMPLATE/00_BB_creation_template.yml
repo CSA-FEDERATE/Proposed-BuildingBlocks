@@ -413,7 +413,7 @@ body:
 - type: checkboxes
   id: bazel
   attributes:
-    label: BAZEL compliant
+    label: BAZEL compliance status
     description: 
     options:
       - label: BAZEL compliant
