@@ -1,6 +1,6 @@
 # Output File Generator
 
-This script traverses a directory to find markdown files, extracts specific headings and their content, and generates a an output file the format of which can be specified via the *'file_format'* argument. Available choice are:
+This script traverses a directory to find markdown files, extracts specific headings and their content, and generates a an output file the format of which can be specified via the *'file_format'* argument. Available choices are:
 - xlsx
 - csv
 
@@ -42,7 +42,7 @@ pip3 install xlwings
 ## Usage
 
 ```sh
-csv_generator.py [-h] [-o OUTPUT] [--exclude [EXCLUDE ...]] [--keyword KEYWORD] [--file_format FORMAT] directory
+output_file_generator.py [-h] [-o OUTPUT] [--exclude [EXCLUDE ...]] [--keyword KEYWORD] [--file_format FORMAT] directory
 
 positional arguments:
   directory             Directory to traverse
