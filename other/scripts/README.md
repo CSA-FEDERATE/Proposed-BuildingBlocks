@@ -1,6 +1,6 @@
 # Output File Generator
 
-This script traverses a directory to find markdown files, extracts specific headings and their content, and generates a an output file the format of which can be specified via the *'file_format'* argument. Available choices are:
+This script traverses a directory to find markdown files, extracts specific headings and their content, and generates an output file the format of which can be specified via the *'file_format'* argument. Available choices are:
 - xlsx
 - csv
 
@@ -52,8 +52,7 @@ options:
   -o, --output OUTPUT   Output file path, default is 'output'
   --exclude [EXCLUDE ...]
                         Directories to exclude, default is '.github', '.venv', 'other', 'UseCases'
-  --keyword KEYWORD     Keyword to filter markdown files, default is 
-  'BB'
+  --keyword KEYWORD     Keyword to filter markdown files, default is 'BB'
   --file_format FORMAT  Format of the output file, default is 'xlsx'. Available choices are xlsx, csv.
 ```
 

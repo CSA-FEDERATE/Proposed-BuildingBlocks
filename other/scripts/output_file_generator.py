@@ -132,7 +132,7 @@ def create_df(markdown_files):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate Excel file from BB template markdown files.")
+        description="Generate output file with specified format from BB template markdown files.")
     parser.add_argument(
         "directory", help="Directory to traverse")
     parser.add_argument(
