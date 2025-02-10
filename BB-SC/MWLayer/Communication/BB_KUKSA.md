@@ -110,7 +110,7 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
- Implementation started
+Public releases available
 
 ## System Context
 
