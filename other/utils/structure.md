@@ -5,41 +5,83 @@
 - [BB-CSC-TC](/BB-CSC-TC/README.md)
 - [BB-EST](/BB-EST/README.md)
     - Build-and-Implementation
+        - [BB_VELOCITAS](/BB-EST/Build-and-Implementation/BB_VELOCITAS.md)
+    - Configuration-and-Calibration
+        - [BB_Offboard_Config_Tool_for_TSN](/BB-EST/Configuration-and-Calibration/BB_Offboard_Config_Tool_for_TSN.md)
     - Deployment
     - Design
+    - Generator
+        - [BB_Commercial_Vehicle_Information_Specifications](/BB-EST/Generator/BB_Commercial_Vehicle_Information_Specifications.md)
+        - [BB_IFEX](/BB-EST/Generator/BB_IFEX.md)
     - Implementation
     - Lifecycle-Management
+        - [BB_LEDA](/BB-EST/Lifecycle-Management/BB_LEDA.md)
     - Monitoring-and-Diagnostics
     - Requirements
     - Testing
+        - [BB_Autowrx](/BB-EST/Testing/BB_Autowrx.md)
+        - [BB_Central_Data_Service_Background](/BB-EST/Testing/BB_Central_Data_Service_Background.md)
+        - [BB_OpenXilEnv](/BB-EST/Testing/BB_OpenXilEnv.md)
 - [BB-MU](/BB-MU/README.md)
 - [BB-SC](/BB-SC/README.md)
     - [AppLayer](/BB-SC/AppLayer/README.md)
+        - API
+            - [BB_Automotive_API_Framework](/BB-SC/AppLayer/API/BB_Automotive_API_Framework.md)
         - Communication
+        - Control
+            - [BB_ADAAA](/BB-SC/AppLayer/Control/BB_ADAAA.md)
     - [HWLayer](/BB-SC/HWLayer/README.md)
     - [MWLayer](/BB-SC/MWLayer/README.md)
         - Communication
+            - [BB_eCAL](/BB-SC/MWLayer/Communication/BB_eCAL.md)
+            - [BB_KUKSA](/BB-SC/MWLayer/Communication/BB_KUKSA.md)
+            - [BB_Onboard_TSN_configuration](/BB-SC/MWLayer/Communication/BB_Onboard_TSN_configuration.md)
+            - [BB_TSN](/BB-SC/MWLayer/Communication/BB_TSN.md)
+            - [BB_uProtocol](/BB-SC/MWLayer/Communication/BB_uProtocol.md)
+            - [BB_uServices](/BB-SC/MWLayer/Communication/BB_uServices.md)
+            - [BB_VISS](/BB-SC/MWLayer/Communication/BB_VISS.md)
+            - [BB_VISSR](/BB-SC/MWLayer/Communication/BB_VISSR.md)
+            - [BB_vSOME_IP](/BB-SC/MWLayer/Communication/BB_vSOME_IP.md)
             - [RTPS-Types](/BB-SC/MWLayer/Communication/RTPS-Types/RTPS-Types.md)
                 - cycloneDDS
+                    - [BB_cycloneDDS](/BB-SC/MWLayer/Communication/RTPS-Types/cycloneDDS/BB_cycloneDDS.md)
                 - embeddedRTPS
+                    - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/MWLayer/Communication/RTPS-Types/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
                 - FastDDS
+                    - [BB_FastDDS](/BB-SC/MWLayer/Communication/RTPS-Types/FastDDS/BB_FastDDS.md)
                 - OpenDDS
+                    - [BB_OpenDDS](/BB-SC/MWLayer/Communication/RTPS-Types/OpenDDS/BB_OpenDDS.md)
+                - vSomeIP
+                    - [BB_vSomeIP](/BB-SC/MWLayer/Communication/RTPS-Types/vSomeIP/BB_vSomeIP.md)
         - Configuration
         - Diagnostics
         - Platform-Health-Management
         - Power-Management
         - Security
+            - [BB_Safety_Gateway](/BB-SC/MWLayer/Security/BB_Safety_Gateway.md)
         - Storage
         - Time
+            - [BB_Onboard_TSN_scheduling_Tool](/BB-SC/MWLayer/Time/BB_Onboard_TSN_scheduling_Tool.md)
         - Tools-and-Methods
     - [OSLayer](/BB-SC/OSLayer/README.md)
         - Time
+        - Virtualization
+            - [BB_Anaikos](/BB-SC/OSLayer/Virtualization/BB_Anaikos.md)
+            - [BB_SR_VOSS](/BB-SC/OSLayer/Virtualization/BB_SR_VOSS.md)
 - [BB-SC-TC](/BB-SC-TC/README.md)
     - Testing
 - [S-BB](/S-BB/README.md)
     - [AppLayer](/S-BB/AppLayer/README.md)
     - [HWLayer](/S-BB/HWLayer/README.md)
     - [MWLayer](/S-BB/MWLayer/README.md)
+        - [BB_Common_Vehicle_Capabilities](/S-BB/MWLayer/BB_Common_Vehicle_Capabilities.md)
+        - [BB_Data_Architecture_Terminology](/S-BB/MWLayer/BB_Data_Architecture_Terminology.md)
+        - [BB_EV_Charging_Event_Data_Aggregation](/S-BB/MWLayer/BB_EV_Charging_Event_Data_Aggregation.md)
+        - [BB_HIM](/S-BB/MWLayer/BB_HIM.md)
+        - [BB_In_Car_Wallet_Payments_and_Orchestration](/S-BB/MWLayer/BB_In_Car_Wallet_Payments_and_Orchestration.md)
+        - [BB_Private_Cross_OEM_Joint_Compute_for_EV_Charging](/S-BB/MWLayer/BB_Private_Cross_OEM_Joint_Compute_for_EV_Charging.md)
+        - [BB_Unified_Push_Notification](/S-BB/MWLayer/BB_Unified_Push_Notification.md)
+        - [BB_VSS](/S-BB/MWLayer/BB_VSS.md)
     - [OSLayer](/S-BB/OSLayer/README.md)
 - UseCases
     - Scenarios

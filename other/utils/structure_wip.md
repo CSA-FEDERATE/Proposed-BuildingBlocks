@@ -35,32 +35,31 @@
 - [BB-MU](/WorkInProgress/BB-MU/README.md)
 - [BB-SC](/WorkInProgress/BB-SC/README.md)
     - [AppLayer](/WorkInProgress/BB-SC/AppLayer/README.md)
+        - API
+            - [BB_VAPI_Stack_Demonstrator](/WorkInProgress/BB-SC/AppLayer/API/BB_VAPI_Stack_Demonstrator.md)
         - Communication
             - [BB_AOSP_Push_Notification_Service](/WorkInProgress/BB-SC/AppLayer/Communication/BB_AOSP_Push_Notification_Service.md)
     - [HWLayer](/WorkInProgress/BB-SC/HWLayer/README.md)
     - [MWLayer](/WorkInProgress/BB-SC/MWLayer/README.md)
         - Communication
+            - [BB_Communication_Protocol_Abstraction](/WorkInProgress/BB-SC/MWLayer/Communication/BB_Communication_Protocol_Abstraction.md)
             - [BB_Communication_Server_S2S](/WorkInProgress/BB-SC/MWLayer/Communication/BB_Communication_Server_S2S.md)
             - [BB_Gateway_Mirroring](/WorkInProgress/BB-SC/MWLayer/Communication/BB_Gateway_Mirroring.md)
             - [BB_Network_Management](/WorkInProgress/BB-SC/MWLayer/Communication/BB_Network_Management.md)
             - [BB_SecOS](/WorkInProgress/BB-SC/MWLayer/Communication/BB_SecOS.md)
             - [BB_Smart_Charging_Communication](/WorkInProgress/BB-SC/MWLayer/Communication/BB_Smart_Charging_Communication.md)
-            - [BB_SomeIP](/WorkInProgress/BB-SC/MWLayer/Communication/BB_SomeIP.md)
             - [BB_Standard_Android_VHAL](/WorkInProgress/BB-SC/MWLayer/Communication/BB_Standard_Android_VHAL.md)
             - [RTPS-Types](/WorkInProgress/BB-SC/MWLayer/Communication/RTPS-Types/RTPS-Types.md)
                 - cycloneDDS
-                    - [BB_cycloneDDS](/WorkInProgress/BB-SC/MWLayer/Communication/RTPS-Types/cycloneDDS/BB_cycloneDDS.md)
                 - embeddedRTPS
-                    - [BB_Constraint_DDS_embeddedRTPS](/WorkInProgress/BB-SC/MWLayer/Communication/RTPS-Types/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
                 - FastDDS
-                    - [BB_FastDDS](/WorkInProgress/BB-SC/MWLayer/Communication/RTPS-Types/FastDDS/BB_FastDDS.md)
                 - OpenDDS
-                    - [BB_OpenDDS](/WorkInProgress/BB-SC/MWLayer/Communication/RTPS-Types/OpenDDS/BB_OpenDDS.md)
         - Configuration
             - [BB_Local_Update_Manager](/WorkInProgress/BB-SC/MWLayer/Configuration/BB_Local_Update_Manager.md)
             - [BB_OTA_Master](/WorkInProgress/BB-SC/MWLayer/Configuration/BB_OTA_Master.md)
         - Diagnostics
             - [BB_Policy_Manager](/WorkInProgress/BB-SC/MWLayer/Diagnostics/BB_Policy_Manager.md)
+            - [BB_SOVD_Reference_implementation](/WorkInProgress/BB-SC/MWLayer/Diagnostics/BB_SOVD_Reference_implementation.md)
         - Platform-Health-Management
             - [BB_Distributed_Health_Management](/WorkInProgress/BB-SC/MWLayer/Platform-Health-Management/BB_Distributed_Health_Management.md)
             - [BB_Watchdog](/WorkInProgress/BB-SC/MWLayer/Platform-Health-Management/BB_Watchdog.md)
@@ -85,6 +84,8 @@
         - Tools-and-Methods
             - [BB_Key_Management_System](/WorkInProgress/BB-SC/MWLayer/Tools-and-Methods/BB_Key_Management_System.md)
     - [OSLayer](/WorkInProgress/BB-SC/OSLayer/README.md)
+        - Container
+            - [BB_Container_Abstraction](/WorkInProgress/BB-SC/OSLayer/Container/BB_Container_Abstraction.md)
         - Time
             - [BB_Automotive_Edge_Runtime](/WorkInProgress/BB-SC/OSLayer/Time/BB_Automotive_Edge_Runtime.md)
 - [BB-SC-TC](/WorkInProgress/BB-SC-TC/README.md)
@@ -92,6 +93,7 @@
         - [BB_Shadowing](/WorkInProgress/BB-SC-TC/Testing/BB_Shadowing.md)
 - [S-BB](/WorkInProgress/S-BB/README.md)
     - [AppLayer](/WorkInProgress/S-BB/AppLayer/README.md)
+        - [BB_Fleet_Management_System](/WorkInProgress/S-BB/AppLayer/BB_Fleet_Management_System.md)
         - [BB_Standardization_of_Vehicle_API](/WorkInProgress/S-BB/AppLayer/BB_Standardization_of_Vehicle_API.md)
         - [BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure](/WorkInProgress/S-BB/AppLayer/BB_Standardized_Architectural_Patterns_for_Cross_Platform_Data_Service_Infrastructure.md)
         - [BB_Standardized_Description_of_Data_from_Related_Domains](/WorkInProgress/S-BB/AppLayer/BB_Standardized_Description_of_Data_from_Related_Domains.md)
