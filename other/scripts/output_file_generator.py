@@ -3,10 +3,10 @@ import logging
 import os
 import pandas as pd
 import re
+import xlwings as xw
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
-
 
 template_headings = []
 
@@ -30,6 +30,28 @@ def find_markdown_files(directory, excluded_dirs, keyword):
                 markdown_files.append(os.path.join(root, file))
     return markdown_files
 
+
+def write_to_excel(df, output_excel):
+    """
+    Write the DataFrame to an Excel file and format it.
+
+    Args:
+        df (pandas.DataFrame): DataFrame to write to Excel.
+        output_csv (str): Path to the output Excel file.
+    """
+    wb = xw.Book()
+    sheet = wb.sheets[0]
+    sheet['A1'].value = df
+    sheet['A1'].options(pd.DataFrame, expand='table').value
+    
+    # remove column 1 which is the df index
+    xw.Range("A:A").api.Delete()
+
+    # set header columns bold and autofit the column width to the headers
+    xw.Range((1,1), (1, len(df.columns))).font.bold = True
+
+    wb.save(output_excel)
+    wb.close()
 
 def write_to_csv(df, output_csv):
     """
@@ -110,15 +132,17 @@ def create_df(markdown_files):
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Generate CSV from BB template markdown files.")
+        description="Generate output file with specified format from BB template markdown files.")
     parser.add_argument(
         "directory", help="Directory to traverse")
     parser.add_argument(
-        "-o", "--output", help="Output CSV file path, default is 'output.csv'", default="output.csv")
+        "-o", "--output", help="Output export file path, default is 'output", default="output")
     parser.add_argument("--exclude", nargs="*", default=[".github", ".venv", "other", "UseCases"],
                         help="Directories to exclude, default is '.github', '.venv', 'other', 'UseCases'")
     parser.add_argument("--keyword", default="BB",
                         help="Keyword to filter markdown files, default is 'BB'")
+    parser.add_argument("--file_format", default='xlsx', choices=["xlsx", "csv"],
+                        help="Format of the output file. Default is 'xlsx'")
 
     args = parser.parse_args()
 
@@ -129,8 +153,14 @@ def main():
         markdown_files = find_markdown_files(
             args.directory, args.exclude, args.keyword)
         df = create_df(markdown_files)
-        write_to_csv(df, args.output)
-        logging.info(f"CSV file successfully created at {args.output}")
+        output_file_path = args.output + "." + args.file_format
+
+        if args.file_format == 'csv':
+            write_to_csv(df, output_file_path)
+            logging.info(f"CSV file successfully created at {output_file_path}")
+        elif args.file_format == 'xlsx':
+            write_to_excel(df, output_file_path)
+            logging.info(f"Excel file successfully created at {output_file_path}")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
 
