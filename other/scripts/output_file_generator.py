@@ -123,7 +123,7 @@ def main():
     parser.add_argument(
         "directory", help="Directory to traverse")
     parser.add_argument(
-        "-o", "--output", help="Output export file path, default is 'output", default="output")
+        "-o", "--output", help="Output export file path, default is 'output'", default="output")
     parser.add_argument("--exclude", nargs="*", default=[".github", ".venv", "other", "UseCases"],
                         help="Directories to exclude, default is '.github', '.venv', 'other', 'UseCases'")
     parser.add_argument("--keyword", default="BB",
