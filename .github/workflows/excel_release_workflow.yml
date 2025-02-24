@@ -33,7 +33,7 @@ jobs:
         run: python other/scripts/output_file_generator.py ${{ github.workspace }}/ -o ${{ github.workspace }}\output
       - name: commit files
         run: |
-          git config --local user.email "simon.pusterhofer@avl.com"
+          git config --local user.email "federate-office@avl.com"
           git config --local user.name "GitHub Action"
           git add .
           git commit -m "Automatic creation of output.xlsx on release ${{github.ref_name}}"
