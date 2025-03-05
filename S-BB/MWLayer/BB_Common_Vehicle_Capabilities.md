@@ -1,36 +1,33 @@
 
-# Intrusion Detection
+# VSS
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-SC
+S-BB
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Security
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 MWLayer
 
 ## Known Implementation
+https://covesa.global/project/common-vehicle-capabilities/
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-Define services to react on the events recorded by the Security event manager to security violations. IDS and IDPS (Intrusion detection and prevention system) are both considered here.
-Suggested for implementation in SHIFT2SDV block F1
+Enumerate and define common (commodity) vehicle capabilities and their interfaces in a technology-neutral manner.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-Establish a common concept
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
-AUTOSAR
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -56,16 +53,15 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Requested by CONTI; planned to be implemented in SHIFT2SDV (responsible for F1: r.meyer@uni-luebeck.de)
+Paul; Boyes; BMW
 
 ## Priority
 <!-- High, Medium, Low -->
-High
 
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-SHIFT2SDV
+[COVESA](https://covesa.global/project/common-vehicle-capabilities/)
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
@@ -113,6 +109,7 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
+ Incubating
 
 ## System Context
 
