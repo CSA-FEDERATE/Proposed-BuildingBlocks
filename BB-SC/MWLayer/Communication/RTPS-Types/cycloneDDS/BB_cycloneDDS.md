@@ -3,12 +3,12 @@
 
 ## BB Tags(s)
 
-- BB-SC; BB-MU; BB-CSC; BB-CMU
+BB-SC; BB-MU; BB-CSC; BB-CMU
 
 
 ## Functional Clusters
 
-- Communication
+Communication
 
 ## Layer
 
@@ -16,7 +16,7 @@
 
 ## Known Implementation
 
-- https://github.com/eclipse-cyclonedds/cyclonedds
+https://github.com/eclipse-cyclonedds/cyclonedds
 
 ## ID (unique name)
 
@@ -78,18 +78,18 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
-- Anonymous
+Anonymous
 
 ## Priority
 <!-- High, Medium, Low -->
 
 ## Related Project(s)
 
-- https://projects.eclipse.org/projects/iot.cyclonedds
+https://projects.eclipse.org/projects/iot.cyclonedds
 
 ## Availability of Source Code
 
-- YES/Eclipse Public License - v 2.0
+YES/Eclipse Public License - v 2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
@@ -137,8 +137,8 @@ Example:
 - Abandoned
  -->
 
-- Used in several projects (e.g ROS2).
-- Last update Github Jan. 2025 / continuously updated
+Used in several projects (e.g ROS2).
+Last update Github Jan. 2025 / continuously updated
 
 ## System Context
 
@@ -155,4 +155,4 @@ eg.
 - web service
  -->
 
-- regarding details see section - What is needed to build and run
+regarding details see section - What is needed to build and run
