@@ -9,7 +9,7 @@
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
 
-- HardwareAbstration; Virtualisation; Type-1-Hypervisor
+- HardwareAbstraction; Virtualisation; Type-1-Hypervisor
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
