@@ -29,9 +29,9 @@ This light-weight DDS stack allows to integrate ressource constraint devices int
 
 ## Governance Applicable S-BB(s)
 
-- https://www.omg.org/spec/DDS/ (deviations from spec.)
-- https://www.omg.org/spec/DDSI-RTPS/ (implemented partially) 
-- https://www.omg.org/spec/DDS-SECURITY/ (not implemented in pub version)
+https://www.omg.org/spec/DDS/ (deviations from spec.)
+https://www.omg.org/spec/DDSI-RTPS/ (implemented partially) 
+https://www.omg.org/spec/DDS-SECURITY/ (not implemented in pub version)
 
 
 ## Compose BB(s)
@@ -68,15 +68,15 @@ Security
 
 ## Author/Company
 
-- Alexandru Kampmann RWTH
+Alexandru Kampmann RWTH
 
 ## Priority
 <!-- High, Medium, Low -->
 
 ## Related Project(s)
 
-- <https://github.com/mROS-base/mros2>
-- <https://github.com/micro-ROS>
+<https://github.com/mROS-base/mros2>
+<https://github.com/micro-ROS>
 
 ## Availability of Source Code
 
