@@ -15,8 +15,8 @@ AppLayer
 
 ## Known Implementation
 
-- <https://novu.co>
-- <https://unifiedpush.org/>
+<https://novu.co>
+<https://unifiedpush.org/>
 
 ## ID (unique name)
 
