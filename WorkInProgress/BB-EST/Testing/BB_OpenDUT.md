@@ -2,20 +2,20 @@
 
 ## BB Tags(s)
 
-- BB-EST, BB-CEST, BB-SC-TC, BB-CSC-TC
+BB-EST, BB-CEST, BB-SC-TC, BB-CSC-TC
 
 ## Functional Clusters
 
-- (Explanation: in which Functional Cluster the BB be located; if none of the existing fit new required)
+(Explanation: in which Functional Cluster the BB be located; if none of the existing fit new required)
 
 
 ## Layer
 
-- MWLayer
+MWLayer
 
 ## Known Implementation
 
-- Github repo: https://github.com/eclipse-opendut/opendut
+Github repo: https://github.com/eclipse-opendut/opendut
 
 ## ID (unique name)
 
@@ -27,28 +27,27 @@ Eclipse openDuT provides an open framework to automate the testing and validatio
 ## Rationale
 
 Main Use Case are:
-•	(Fully automated) grey-box tests for single ECUs or clusters of ECUs
-•	Execution of tests over distributed test benches
-•	Realization of functional and explorative tests
-•	Coverage of Complete Security attack scenarios
-•	Easy interfacing and usability of the framework (Compatibility with external protocols, modularization, …)
-•	Observation of the test setup to verify if the test has been effective.
-•	Cloud/on-premises/hybrid deployments
-•	Adaption and full functional integration of 3rd party components (OSS, proprietary/ private source)
+(Fully automated) grey-box tests for single ECUs or clusters of ECUs
+Execution of tests over distributed test benches
+Realization of functional and explorative tests
+Coverage of Complete Security attack scenarios
+Easy interfacing and usability of the framework (Compatibility with external protocols, modularization, …)
+Observation of the test setup to verify if the test has been effective.
+Cloud/on-premises/hybrid deployments
+Adaption and full functional integration of 3rd party components (OSS, proprietary/ private source)
 
 
 
 ## Governance Applicable S-BB(s)
 
-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system 
-- Reference to defined S-BB(s) 
-- Reference to e.g. IS026262, AUTOSAR Spec. X
+Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system 
+Reference to defined S-BB(s) 
+Reference to e.g. IS026262, AUTOSAR Spec. X
 
 
 
 ## Compose BB(s)
 
-- Link to required BB(s) 
 E.g. BB-SC StateManagement
 BB is a composition of other BBs
 
@@ -56,12 +55,13 @@ BB is a composition of other BBs
 
 ## What is needed to Design and Implement
 
-We expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, …
-- Linux development environment, 
-- Peers & Client: ARM32/64, x86_64
-- Server: x86_64
-- Programming language: Rust
-- Test environment: THEO
+We expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language 
+
+Linux development environment, 
+Peers & Client: ARM32/64, x86_64
+Server: x86_64
+Programming language: Rust
+Test environment: THEO
 
 
 ## What is needed to build and run
@@ -106,8 +106,6 @@ Yes / Apache License Version 2.0
 Yes / Apache License Version 2.0
 
 ## Potential obstacles
-
--
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 

@@ -3,21 +3,21 @@
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-- BB-SC; BB-MU; BB-CSC; BB-CMU
+BB-SC; BB-MU; BB-CSC; BB-CMU
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
 
-- Communication
+Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
-- MWLayer
+MWLayer
 
 ## Known Implementation
 
-- [vSomeIP](https://github.com/COVESA/vsomeip)
+[vSomeIP](https://github.com/COVESA/vsomeip)
 
 ## ID (unique name)
 
@@ -41,11 +41,11 @@ Reference to defined S-BB(s)
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
 
 [Standards](https://some-ip.com/standards.shtml)
-- AUTOSAR Classic
-- AUTOSAR Foundation
-- AUTOSAR Adaptive Platform
-- ISO 17215:2-2014
-- Genivi/COVESA vsomeip
+ AUTOSAR Classic
+ AUTOSAR Foundation
+ AUTOSAR Adaptive Platform
+ ISO 17215:2-2014
+ Genivi/COVESA vsomeip
 
 
 ## Compose BB(s)
@@ -57,7 +57,7 @@ Reference to e.g. IS026262, AUTOSAR Spec. X -->
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
 
-- [see COVESA Github repo](https://github.com/COVESA/vsomeip) 
+[see COVESA Github repo](https://github.com/COVESA/vsomeip) 
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
@@ -74,7 +74,7 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
-- Anonymous
+Anonymous
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -82,7 +82,7 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-- HAL4SDV, Shift2SDV
+HAL4SDV, Shift2SDV
 
 ## Availability of Source Code
 Yes / vSomeIP - Mozilla Public License Version 2.0
@@ -136,8 +136,8 @@ Example:
 - Abandoned
  -->
 
-- Used in several projects, proprietary implementations available
-- Last update Github Jan. 2025 / continuously updated
+Used in several projects, proprietary implementations available
+Last update Github Jan. 2025 / continuously updated
 
 
 ## System Context
@@ -155,4 +155,4 @@ eg.
 - web service
  -->
  
- - Linux
+ Linux

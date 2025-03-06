@@ -3,20 +3,20 @@
 
 ## BB Tags(s)
 
-- BB-SC; BB-MU; BB-CSC; BB-CMU
+BB-SC; BB-MU; BB-CSC; BB-CMU
 
 
 ## Functional Clusters
 
-- Communication
+Communication
 
 ## Layer
 
-- MWLayer
+MWLayer
 
 ## Known Implementation
 
-- https://github.com/OpenDDS/OpenDDS
+https://github.com/OpenDDS/OpenDDS
 
 ## ID (unique name)
 
@@ -43,7 +43,7 @@ See the Developer's Guide for information on OpenDDS compliance with the DDS spe
 
 ## Compose BB(s)
 
-- OS/Runtime Envirnoment
+OS/Runtime Envirnoment
 
 
 ## What is needed to Design and Implement
@@ -58,27 +58,27 @@ This release of OpenDDS has been tested under the following platforms:
 
 Linux family:
 
-*    Red Hat EL and CentOS 6.6, 6.8, 6.9 (x86_64)
-*    Red Hat EL and CentOS 7.2, 7.3, 7.4 (x86_64)
-*    Red Hat EL 8.0 (x86_64)
-*    Fedora 24 and 31 (x86_64)
-*    Debian 9.4 (i686)
-*    Ubuntu 22.04 LTS (x86_64)
-*    openSUSE 42.1 (x86_64)
-*    Yocto 3.4.4 (ARMv8)
+Red Hat EL and CentOS 6.6, 6.8, 6.9 (x86_64)
+Red Hat EL and CentOS 7.2, 7.3, 7.4 (x86_64)
+Red Hat EL 8.0 (x86_64)
+Fedora 24 and 31 (x86_64)
+Debian 9.4 (i686)
+Ubuntu 22.04 LTS (x86_64)
+openSUSE 42.1 (x86_64)
+Yocto 3.4.4 (ARMv8)
 
 Windows family:
 
-*   Windows 7 (32-bit, 64-bit)
-*    Windows Server 2012 R2 (64-bit)
-*    Windows 10 (64-bit)
+Windows 7 (32-bit, 64-bit)
+ Windows Server 2012 R2 (64-bit)
+ Windows 10 (64-bit)
 
 Embedded/Mobile/IoT:
 
-*    LynxOS-178 (OpenDDS Safety Profile)
-*    VxWorks 6.9, 7, 21.03 (see below)
-*    [Linux on Raspberry Pi](https://opendds.readthedocs.io/en/latest-release/devguide/quickstart/pi.html)
-*    [Android 9.0 "Pie" (API Level 28) NDK r18b](https://opendds.readthedocs.io/en/latest-release/devguide/building/android.html)
+LynxOS-178 (OpenDDS Safety Profile)
+VxWorks 6.9, 7, 21.03 (see below)
+[Linux on Raspberry Pi](https://opendds.readthedocs.io/en/latest-release/devguide/quickstart/pi.html)
+[Android 9.0 "Pie" (API Level 28) NDK r18b](https://opendds.readthedocs.io/en/latest-release/devguide/building/android.html)
 
 We have built OpenDDS for VxWorks 6.9, 7, and 21.03 and have run basic system and performance tests (but not the entire regression test suite). Please see the [OpenDDS Support page](https://opendds.org/support.html) for more information on support for ACE, TAO, and OpenDDS on VxWorks. Download VxWorks RPM packages for ACE, TAO, and OpenDDS [here](https://objectcomputing.com/products/opendds/vxworks).
 
@@ -86,26 +86,26 @@ Compilers
 
 This release of OpenDDS has been tested using the following compilers:
 
-*    Microsoft Visual C++ 10 with SP1 (Visual Studio 2010)
-*    Microsoft Visual C++ 11 (Visual Studio 2012) - Update 4
-*   Microsoft Visual C++ 12 (Visual Studio 2013) - Update 5
-*    Microsoft Visual C++ 14 (Visual Studio 2015) - Update 3
-*    Microsoft Visual C++ 14.1 (Visual Studio 2017) cl 19.16.27048
-*    Microsoft Visual C++ 14.2 (Visual Studio 2019) cl 19.29.30146
-*    gcc 4.4.7, 4.8.5
-*    gcc 6.2.1, 6.3.0
-*    gcc 7.2.0, 7.3.0, 7.5.0
-*    gcc 8.2.0, 8.2.1
-*    gcc 9.3.1
-*    gcc 12.2.0
-*    Ubuntu clang 14.0.6
-*    Ubuntu clang 15.0.0
+ Microsoft Visual C++ 10 with SP1 (Visual Studio 2010)
+ Microsoft Visual C++ 11 (Visual Studio 2012) - Update 4
+ Microsoft Visual C++ 12 (Visual Studio 2013) - Update 5
+ Microsoft Visual C++ 14 (Visual Studio 2015) - Update 3
+ Microsoft Visual C++ 14.1 (Visual Studio 2017) cl 19.16.27048
+ Microsoft Visual C++ 14.2 (Visual Studio 2019) cl 19.29.30146
+ gcc 4.4.7, 4.8.5
+ gcc 6.2.1, 6.3.0
+ gcc 7.2.0, 7.3.0, 7.5.0
+ gcc 8.2.0, 8.2.1
+ gcc 9.3.1
+ gcc 12.2.0
+ Ubuntu clang 14.0.6
+ Ubuntu clang 15.0.0
 
 
 ## Non-Functional Requirements
 
-* Real Time
-* QOS 
+Real Time
+QOS 
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
@@ -118,19 +118,19 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
-- Anonymous
+Anonymous
 
 ## Priority
 <!-- High, Medium, Low -->
 
 ## Related Project(s)
 
-- OpenDDS is an open source C++ implementation of the Object Management Group (OMG) Data Distribution Service (DDS). OpenDDS also supports Java bindings through JNI. 
-- http://www.opendds.org/
+OpenDDS is an open source C++ implementation of the Object Management Group (OMG) Data Distribution Service (DDS). OpenDDS also supports Java bindings through JNI. 
+http://www.opendds.org/
 
 ## Availability of Source Code
 
-- YES/OpenDDS (Licensed Product) is protected by copyright, and is distributed under the following terms.
+YES/OpenDDS (Licensed Product) is protected by copyright, and is distributed under the following terms.
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
@@ -178,8 +178,8 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-- Used in several projects (see 
-- Last Update Github Jan. 25 / continuously updated
+Used in several projects
+Last Update Github Jan. 25 / continuously updated
 
 
 ## System Context
@@ -197,6 +197,6 @@ eg.
 - web service
  -->
 
-- Regarding details see section - What is needed to build and run
+Regarding details see section - What is needed to build and run
 
-- Ubuntu/Debian/Red Hat, openSUSE, Yocto, Windows, LynxOS, VxWorks, Android
+Ubuntu/Debian/Red Hat, openSUSE, Yocto, Windows, LynxOS, VxWorks, Android

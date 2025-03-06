@@ -1,4 +1,3 @@
-
 # Cloud contaier and OS
 
 ## BB Tags(s)
@@ -15,10 +14,10 @@ Not specified
 
 ## Known Implementation
 
-- Blackberry QNX
-- OxidOS
-- Eclipse ThreadX
-- RedHat In-Vehicle OS (announced)
+Blackberry QNX
+OxidOS
+Eclipse ThreadX
+RedHat In-Vehicle OS (announced)
 
 ## ID (unique name)
 

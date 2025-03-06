@@ -3,20 +3,20 @@
 
 ## BB Tags(s)
 
-- BB-SC; BB-MU; BB-CSC; BB-CMU
+BB-SC; BB-MU; BB-CSC; BB-CMU
 
 
 ## Functional Clusters
 
-- Communication
+Communication
 
 ## Layer
 
-- MWLayer
+MWLayer
 
 ## Known Implementation
 
-- https://github.com/eclipse-cyclonedds/cyclonedds
+https://github.com/eclipse-cyclonedds/cyclonedds
 
 ## ID (unique name)
 
@@ -29,22 +29,22 @@ Eclipse Cyclone DDS is a very performant and robust open-source implementation o
 
 ## Governance Applicable S-BB(s)
 
-- Cyclone DDS aims at full coverage of the specs and today already covers most of this. With references to the individual OMG specifications, the following is available:
+Cyclone DDS aims at full coverage of the specs and today already covers most of this. With references to the individual OMG specifications, the following is available:
 
-*    [DCPS](https://www.omg.org/spec/DDS/1.4/PDF) the base specification 
-     *        zero configuration discovery (if multicast works)
-     *        publish/subscribe messaging
-     *        configurable storage of data in subscribers
-     *        many QoS settings - liveliness monitoring, deadlines, historical data, ...
-     *        coverage includes the Minimum, Ownership and (partially) Content profiles
-*    [DDS Security](https://www.omg.org/spec/DDS-SECURITY/1.1/PDF) - providing authentication, access control and encryption - 
-*    [DDS C++ API](https://www.omg.org/spec/DDS-PSM-Cxx/1.0/PDF)
-*    [DDS XTypes](https://www.omg.org/spec/DDS-XTypes/1.3/PDF) - the structural type system (some [caveats](https://github.com/eclipse-cyclonedds/cyclonedds/blob/master/docs/dev/xtypes_relnotes.md) here) 
-*    [DDSI-RTPS](https://www.omg.org/spec/DDSI-RTPS/2.5/PDF) - the interoperable network protocol
+    [DCPS](https://www.omg.org/spec/DDS/1.4/PDF) the base specification 
+             zero configuration discovery (if multicast works)
+             publish/subscribe messaging
+             configurable storage of data in subscribers
+             many QoS settings - liveliness monitoring, deadlines, historical data, ...
+             coverage includes the Minimum, Ownership and (partially) Content profiles
+    [DDS Security](https://www.omg.org/spec/DDS-SECURITY/1.1/PDF) - providing authentication, access control and encryption - 
+    [DDS C++ API](https://www.omg.org/spec/DDS-PSM-Cxx/1.0/PDF)
+    [DDS XTypes](https://www.omg.org/spec/DDS-XTypes/1.3/PDF) - the structural type system (some [caveats](https://github.com/eclipse-cyclonedds/cyclonedds/blob/master/docs/dev/xtypes_relnotes.md) here) 
+    [DDSI-RTPS](https://www.omg.org/spec/DDSI-RTPS/2.5/PDF) - the interoperable network protocol
 
 ## Compose BB(s)
 
-- OS/Runtime Envirnoment
+OS/Runtime Envirnoment
 
 
 ## What is needed to Design and Implement
@@ -54,18 +54,18 @@ Eclipse Cyclone DDS is a very performant and robust open-source implementation o
 
 In order to build Cyclone DDS you need a Linux, Mac or Windows 10 machine (or, with some caveats, a *BSD, QNX, OpenIndiana or a Solaris 2.6 one) with the following installed on your host:
 
-*    C compiler (most commonly GCC on Linux, Visual Studio on Windows, Xcode on macOS);
-*    Optionally GIT version control system;
-*    CMake, version 3.16 or later;
-*    Optionally OpenSSL, we recommend a fully patched and supported version but 1.1.1 will still work;
-*    Optionally Eclipse Iceoryx version 2.0 for shared memory and zero-copy support;
-*    Optionally Bison parser generator. A cached source is checked into the repository.
+C compiler (most commonly GCC on Linux, Visual Studio on Windows, Xcode on macOS);
+Optionally GIT version control system;
+CMake, version 3.16 or later;
+Optionally OpenSSL, we recommend a fully patched and supported version but 1.1.1 will still work;
+Optionally Eclipse Iceoryx version 2.0 for shared memory and zero-copy support;
+Optionally Bison parser generator. A cached source is checked into the repository.
 
 
 ## Non-Functional Requirements
 
-* Real Time
-* QOS 
+Real Time
+QOS 
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
@@ -78,18 +78,18 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Author/Company
 
-- Anonymous
+Anonymous
 
 ## Priority
 <!-- High, Medium, Low -->
 
 ## Related Project(s)
 
-- https://projects.eclipse.org/projects/iot.cyclonedds
+https://projects.eclipse.org/projects/iot.cyclonedds
 
 ## Availability of Source Code
 
-- YES/Eclipse Public License - v 2.0
+YES/Eclipse Public License - v 2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
@@ -137,8 +137,8 @@ Example:
 - Abandoned
  -->
 
-- Used in several projects (e.g ROS2).
-- Last update Github Jan. 2025 / continuously updated
+Used in several projects (e.g ROS2).
+Last update Github Jan. 2025 / continuously updated
 
 ## System Context
 
@@ -155,4 +155,4 @@ eg.
 - web service
  -->
 
-- regarding details see section - What is needed to build and run
+regarding details see section - What is needed to build and run

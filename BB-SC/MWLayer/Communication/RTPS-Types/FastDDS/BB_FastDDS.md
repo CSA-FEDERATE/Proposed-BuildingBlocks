@@ -3,20 +3,20 @@
 
 ## BB Tags(s)
 
-- BB-SC; BB-MU; BB-CSC; BB-CMU
+BB-SC; BB-MU; BB-CSC; BB-CMU
 
 
 ## Functional Clusters
 
-- Communication
+Communication
 
 ## Layer
 
-- MWLayer
+MWLayer
 
 ## Known Implementation
 
-- https://github.com/eProsima/Fast-DDS
+https://github.com/eProsima/Fast-DDS
 
 ## ID (unique name)
 
@@ -33,7 +33,7 @@ eprosima Fast DDS is a C++ implementation of the DDS (Data Distribution Service)
 
 ## Compose BB(s)
 
-- OS/Runtime Envirnoment
+OS/Runtime Envirnoment
 
 
 ## What is needed to Design and Implement
@@ -68,12 +68,12 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 ## Related Project(s)
 
-- The most complete DDS - Proven: Plenty of success cases. Looking for commercial support? Contact info@eprosima.com 
-- https://eprosima.com/
+The most complete DDS - Proven: Plenty of success cases. Looking for commercial support? Contact info@eprosima.com 
+https://eprosima.com/
 
 ## Availability of Source Code
 
-- YES/Apache 2.0
+YES/Apache 2.0
 
 ## Availability of API
 
@@ -122,8 +122,8 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-- Used in several projects (e.g ROS2).
-- last update Github Jan. 2025 / continuously updated
+Used in several projects (e.g ROS2).
+last update Github Jan. 2025 / continuously updated
 
 ## System Context
 
@@ -139,7 +139,7 @@ eg.
 - web assembly
 - web service
  -->
-- regarding details see section - What is needed to build and run
+regarding details see section - What is needed to build and run
 
-- Ubuntu/Debian, MacOS, Windows, Android, QNX
+Ubuntu/Debian, MacOS, Windows, Android, QNX
 
