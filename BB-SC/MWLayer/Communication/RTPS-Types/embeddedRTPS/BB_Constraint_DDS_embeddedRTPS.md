@@ -2,19 +2,19 @@
 
 ## BB Tags(s)
 
-- BB-SC, BB-CSC, BB-MU, BB-CMU
+BB-SC, BB-CSC, BB-MU, BB-CMU
 
 ## Functional Clusters
 
-- Communication
+Communication
 
 ## Layer
 
-- MWLayer
+MWLayer
 
 ## Known Implementation
 
-- Github repo: <https://github.com/embedded-software-laboratory/embeddedRTPS>
+Github repo: <https://github.com/embedded-software-laboratory/embeddedRTPS>
 
 ## ID (unique name)
 
@@ -25,27 +25,27 @@ embeddedRTPS is portable, as it only consumes lightweightIP and FreeRTOS APIs, w
 
 
 ## Rationale
-- This light-weight DDS stack allows to integrate ressource constraint devices into SOA architectures. DDS is used as a middleware in AUTOSAR Adaptive and ROS 2.
+This light-weight DDS stack allows to integrate ressource constraint devices into SOA architectures. DDS is used as a middleware in AUTOSAR Adaptive and ROS 2.
 
 ## Governance Applicable S-BB(s)
 
-- https://www.omg.org/spec/DDS/ (deviations from spec.)
-- https://www.omg.org/spec/DDSI-RTPS/ (implemented partially) 
-- https://www.omg.org/spec/DDS-SECURITY/ (not implemented in pub version)
+https://www.omg.org/spec/DDS/ (deviations from spec.)
+https://www.omg.org/spec/DDSI-RTPS/ (implemented partially) 
+https://www.omg.org/spec/DDS-SECURITY/ (not implemented in pub version)
 
 
 ## Compose BB(s)
 
-- FreeRTOS or other OS/Runtime Envirnoment
-- lwIP (could be another NW Stack)
+FreeRTOS or other OS/Runtime Envirnoment
+lwIP (could be another NW Stack)
 
 
 ## What is needed to Design and Implement
 
 The Repo include a reference implementation which is executable on different Targets /STM32, AURIX Tricore.
 Needed:
-- MW Layer to use it with ROS2 (RMW) or adaptive AUTOSAR (commonAPI support).
-- Support for Security concepts in the OSS implementation. (see Applicable S-BB(s))
+MW Layer to use it with ROS2 (RMW) or adaptive AUTOSAR (commonAPI support).
+Support for Security concepts in the OSS implementation. (see Applicable S-BB(s))
 
 ## What is needed to build and run
  
@@ -56,8 +56,8 @@ GCC (Ubuntu 18 and above), Tasking Compiler,
 
 ## Non-Functional Requirements
 
-- Real-Time
-- Security
+Real-Time
+Security
 
 ## Dependencies to other Clusters
 
@@ -68,15 +68,15 @@ GCC (Ubuntu 18 and above), Tasking Compiler,
 
 ## Author/Company
 
-- Alexandru Kampmann RWTH
+Alexandru Kampmann RWTH
 
 ## Priority
 <!-- High, Medium, Low -->
 
 ## Related Project(s)
 
-- <https://github.com/mROS-base/mros2>
-- <https://github.com/micro-ROS>
+<https://github.com/mROS-base/mros2>
+<https://github.com/micro-ROS>
 
 ## Availability of Source Code
 
@@ -131,8 +131,8 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-- First public release available, used in [unicaragil](https://www.unicaragil.de/en/)
-- last update Github Jul 2024 
+First public release available, used in [unicaragil](https://www.unicaragil.de/en/)
+last update Github Jul 2024 
 
 ## System Context
 
@@ -149,5 +149,5 @@ eg.
 - web service
  -->
 
-- regarding details see section - What is needed to build and run
+regarding details see section - What is needed to build and run
 

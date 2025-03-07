@@ -14,7 +14,7 @@ Not specified
 Not specified
 
 ## Known Implementation
-- Catena-X
+Catena-X
 
 ## ID (unique name)
 

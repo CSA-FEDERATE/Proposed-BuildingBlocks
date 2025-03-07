@@ -69,6 +69,7 @@ This command will:
 - Look for markdown files containing the keyword `BB`
 - Generate an Excel file named `my_output.xlsx`
 
+
 ## Github workflow
 This script is called when a release is published on the repo and generates an Excel output file in the root folder of the repo. It is assumed that a commit on the main branch is tagged for the release and as such the output file is added to the main branch. When a release is published the workflow *excel_release_workflow* is triggered and first removes the old version of the *output.xlsx* file from the root of the repo if it exists before running the script and pushing the newly generated output file to the main branch.
 

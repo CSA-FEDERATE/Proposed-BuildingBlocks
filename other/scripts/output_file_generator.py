@@ -6,6 +6,7 @@ import pandas as pd
 import re
 import openpyxl
 
+
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
 
@@ -41,6 +42,7 @@ def write_to_excel(df, output_excel):
         output_csv (str): Path to the output Excel file.
     """
     df.to_excel(output_excel, index=False)
+
 
 def write_to_csv(df, output_csv):
     """
@@ -168,7 +170,6 @@ def format_excel_file(file, output_excel):
 
     wb.save(file)
 
-
 def main():
     parser = argparse.ArgumentParser(
         description="Generate output file with specified format from BB template markdown files.")
@@ -176,6 +177,7 @@ def main():
         "directory", help="Directory to traverse")
     parser.add_argument(
         "-o", "--output", help="Output export file path, default is 'output'", default="output")
+
     parser.add_argument("--exclude", nargs="*", default=[".github", ".venv", "other", "UseCases"],
                         help="Directories to exclude, default is '.github', '.venv', 'other', 'UseCases'")
     parser.add_argument("--keyword", default="BB",
@@ -193,6 +195,7 @@ def main():
             args.directory, args.exclude, args.keyword)
         df = create_df(markdown_files)
         output_file_path = args.output + "." + args.file_format
+
         if args.file_format == 'csv':
             write_to_csv(df, output_file_path)
             logging.info(f"CSV file successfully created at {output_file_path}")

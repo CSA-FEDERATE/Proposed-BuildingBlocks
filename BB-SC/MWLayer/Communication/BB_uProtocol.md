@@ -1,63 +1,45 @@
 
-# vSOME/IP
+# uProtocol
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-SC; BB-MU; BB-CSC; BB-CMU
+BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-
 Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
-
 MWLayer
 
 ## Known Implementation
-
-[vSomeIP](https://github.com/COVESA/vsomeip)
+https://github.com/eclipse-uprotocol
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-
-SOME/IP is an abbreviation for "Scalable service-Oriented middlewarE over IP". This middleware was designed for typical automotive use cases and for being compatible with AUTOSAR (at least on the wire-format level). A publicly accessible specification is available [at](http://some-ip.com/). In this wiki we do not want to deepen further into the reasons for another middleware specification, but want to give a rough overview about the basic structures of the SOME/IP specification and its open source implementation vsomeip without any claim of completeness.
-[source](https://github.com/COVESA/vsomeip/wiki/vsomeip-in-10-minutes)
-
+A communication protocol enabling developers to build apps and services that communicate seamlessly across one or multiple inter-connected messaging middleware. uProtocol provides a small number of communication patterns, exposed with a set of programming APIs available and consistent across the vehicle eco-system (in-vehicle ECUs, cloud and mobile). This approach enables seamless communication between applications and services, wherever they are hosted. Using uProtocol, application developers can focus on the functionality they need to develop, rather than the plumbing necessary to access the relevant services they require, and service providers develop their service once for all consumers, wherever they are hosted.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-
-Open source implementation of the SOME/IP protocol.
-SOME/IP is an automotive middleware solution that can be used for control messages. It was designed from beginning on to fit devices of different sizes and different operating systems perfectly. This includes small devices like cameras, AUTOSAR devices, and up to head units or telematics devices. It was also made sure that SOME/IP supports features of the Infotainment domain as well as that of other domains in the vehicle, allowing SOME/IP to be used for MOST replacement scenarios as well as more traditional CAN scenarios.
-[source](https://some-ip.com/)
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
 
-[Standards](https://some-ip.com/standards.shtml)
- AUTOSAR Classic
- AUTOSAR Foundation
- AUTOSAR Adaptive Platform
- ISO 17215:2-2014
- Genivi/COVESA vsomeip
-
-
 ## Compose BB(s)
-<!-- Link to required BB(s) -->
+<!-- Link to required BB(s) 
+E.g. BB-SC StateManagement 
+BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
-
-[see COVESA Github repo](https://github.com/COVESA/vsomeip) 
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
@@ -71,10 +53,8 @@ e.g. If FC Security : Security BBs are needed but you can choose for example cry
 If “No” – nothing more to do 
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
-
 ## Author/Company
-
-Anonymous
+Daniel; Krippner; Etas, Bosch
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -82,20 +62,19 @@ Anonymous
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-HAL4SDV, Shift2SDV
+[Eclipse](https://projects.eclipse.org/projects/automotive.uprotocol)
 
 ## Availability of Source Code
-Yes / vSomeIP - Mozilla Public License Version 2.0
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
+Apache License, Version 2.0
 
 ## Availability of API
-
-
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
 
 ## Potential obstacles
+
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -119,11 +98,8 @@ Example:
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
 | Level		| [Gold](urlToDoc)| No 		   | Notdefined		   | Bronze	 | [Silver](urlToDoc) |
 
- -->
 
-|                       | Documentation | Requirements | Coding Guidelines | Testing | Release Process |
-| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
-| Level     | [Silver](https://github.com/COVESA/vsomeip/wiki) | [Gold](https://github.com/COVESA/vsomeip/tree/master/test)       | [Gold](https://github.com/COVESA/vsomeip/wiki/vsomeip-Contribution-Process) | Notdefined | [Gold](https://github.com/COVESA/vsomeip/wiki/vsomeip-Release-Process) |
+-->
 
 ## State (+ date of last change)
 
@@ -135,10 +111,7 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-
-Used in several projects, proprietary implementations available
-Last update Github Jan. 2025 / continuously updated
-
+ Implementation started
 
 ## System Context
 
@@ -154,5 +127,3 @@ eg.
 - web assembly
 - web service
  -->
- 
- Linux
