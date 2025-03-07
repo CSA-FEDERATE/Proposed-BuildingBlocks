@@ -36,7 +36,7 @@ With the virtual environment activated, install the required dependencies:
 
 ```sh
 pip3 install pandas
-pip3 install xlwings
+pip3 install openpyxl
 ```
 
 ## Usage
@@ -68,3 +68,15 @@ This command will:
 - Exclude directories `.github` and `other`
 - Look for markdown files containing the keyword `BB`
 - Generate an Excel file named `my_output.xlsx`
+
+
+## Github workflow
+This script is called when a release is published on the repo and generates an Excel output file in the root folder of the repo. It is assumed that a commit on the main branch is tagged for the release and as such the output file is added to the main branch. When a release is published the workflow *excel_release_workflow* is triggered and first removes the old version of the *output.xlsx* file from the root of the repo if it exists before running the script and pushing the newly generated output file to the main branch.
+
+The workflow executes the script with the following parameters:
+
+python other/scripts/output_file_generator.py ${{ github.workspace }}/ -o ${{ github.workspace }}\output
+
+The *github.workspace* variable specifies the working directory for the runner executing the workflow. In practice it can look like this:
+
+D:\a\Proposed-BuildingBlocks\Proposed-BuildingBlocks/

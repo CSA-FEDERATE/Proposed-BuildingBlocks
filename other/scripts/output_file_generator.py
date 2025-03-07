@@ -1,9 +1,11 @@
 import argparse
 import logging
 import os
+import openpyxl.styles
 import pandas as pd
 import re
-import xlwings as xw
+import openpyxl
+
 
 logging.basicConfig(level=logging.INFO,
                     format='%(asctime)s - %(levelname)s - %(message)s')
@@ -39,19 +41,8 @@ def write_to_excel(df, output_excel):
         df (pandas.DataFrame): DataFrame to write to Excel.
         output_csv (str): Path to the output Excel file.
     """
-    wb = xw.Book()
-    sheet = wb.sheets[0]
-    sheet['A1'].value = df
-    sheet['A1'].options(pd.DataFrame, expand='table').value
-    
-    # remove column 1 which is the df index
-    xw.Range("A:A").api.Delete()
+    df.to_excel(output_excel, index=False)
 
-    # set header columns bold and autofit the column width to the headers
-    xw.Range((1,1), (1, len(df.columns))).font.bold = True
-
-    wb.save(output_excel)
-    wb.close()
 
 def write_to_csv(df, output_csv):
     """
@@ -129,6 +120,55 @@ def create_df(markdown_files):
     df = pd.DataFrame.from_dict(file_contents)
     return df
 
+def format_excel_file(file, output_excel):
+    """
+    If an Excel file is generated as an output, it is formatted here to be more readable.
+    The first row of text is colored and text wrapping is implemented. In addtion, the column
+    width is adjusted.
+
+    Args:
+        file (str): Path to generated Excel output file.
+        output_excel: (df): Pandas Data Frame from which Excel file is generated, used as a 
+        helper file here to provide number of columns to fill etc.
+
+    """
+    wb = openpyxl.load_workbook(file)
+    ws = wb.active
+
+    empty_border_style = openpyxl.styles.Side(border_style=None)
+    no_border = openpyxl.styles.borders.Border(
+    left=empty_border_style, 
+    right=empty_border_style, 
+    top=empty_border_style, 
+    bottom=empty_border_style,
+    )
+
+    for row in ws:
+        for cell in row:
+            cell.border = no_border
+            cell.alignment = openpyxl.styles.Alignment(wrap_text=True)
+
+    num_rows = output_excel.shape[0]
+    num_cols = output_excel.shape[1]
+    blue_fill = openpyxl.styles.PatternFill(start_color='68aad4', end_color='68aad4', fill_type='solid')
+
+    i = 1
+    while i <= num_rows:
+        ws.row_dimensions[i].height = 40
+        i = i+1
+
+    i = 1
+    while i <= num_cols:
+        column_letter = ws.cell(row=1, column=i).column_letter
+        ws.column_dimensions[column_letter].width = 40
+        i = i+1
+    
+    
+    for col in ws.iter_cols(max_col=num_cols, min_row=1, max_row=1):
+        for cell in col:
+            cell.fill = blue_fill
+
+    wb.save(file)
 
 def main():
     parser = argparse.ArgumentParser(
@@ -136,7 +176,8 @@ def main():
     parser.add_argument(
         "directory", help="Directory to traverse")
     parser.add_argument(
-        "-o", "--output", help="Output export file path, default is 'output", default="output")
+        "-o", "--output", help="Output export file path, default is 'output'", default="output")
+
     parser.add_argument("--exclude", nargs="*", default=[".github", ".venv", "other", "UseCases"],
                         help="Directories to exclude, default is '.github', '.venv', 'other', 'UseCases'")
     parser.add_argument("--keyword", default="BB",
@@ -160,6 +201,7 @@ def main():
             logging.info(f"CSV file successfully created at {output_file_path}")
         elif args.file_format == 'xlsx':
             write_to_excel(df, output_file_path)
+            format_excel_file(output_file_path, df)
             logging.info(f"Excel file successfully created at {output_file_path}")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
