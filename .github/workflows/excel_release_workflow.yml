@@ -13,7 +13,7 @@ jobs:
       - name: check out repository code
         uses: actions/checkout@v4
         with:
-          ref: Workflow_rework
+          ref: main
           ssh-key: ${{ secrets.DEPLOY_KEY }}
       - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
       - name: Remove previous output file
