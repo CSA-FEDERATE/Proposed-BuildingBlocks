@@ -14,8 +14,8 @@ jobs:
       - name: check out repository code
         uses: actions/checkout@v4
         with:
-          ref: Workflow_rework
           ssh-key: ${{ secrets.DEPLOY_KEY }}
+          ref: Workflow_rework
       - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
       - name: Remove previous readme file
         run: rm ${{ github.workspace }}/README.md
