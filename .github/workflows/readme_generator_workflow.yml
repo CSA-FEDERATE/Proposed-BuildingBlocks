@@ -6,7 +6,7 @@ on:
       - 'Workflow_rework'
 jobs:
   Generate-readme-file:
-    runs-on: windows-latest
+    runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
