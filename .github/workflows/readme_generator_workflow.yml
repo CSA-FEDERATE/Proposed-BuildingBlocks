@@ -3,7 +3,7 @@ run-name: Generating readme file
 on:
   push:
     branches:
-      - 'main'
+      - 'Workflow_rework'
 jobs:
   Generate-readme-file:
     runs-on: ubuntu-latest
@@ -14,7 +14,8 @@ jobs:
       - name: check out repository code
         uses: actions/checkout@v4
         with:
-          ref: main
+          ref: Workflow_rework
+          ssh-key: ${{ secrets.DEPLOY_KEY }}
       - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
       - name: Remove previous readme file
         run: rm ${{ github.workspace }}/README.md
