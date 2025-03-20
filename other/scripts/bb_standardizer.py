@@ -36,7 +36,6 @@ def extract_headings_and_content(file_path, is_template_file = False):
     with open(file_path, "r", encoding="utf-8") as file:
         content = file.read()
 
-    content = re.sub(r"<!--.*?-->", r"<!--.*?-->\n", content, flags=re.DOTALL)
     headings = heading_pattern.findall(content)
     names = name_pattern.findall(content)
 
@@ -89,6 +88,15 @@ def find_markdown_files(directory, excluded_dirs, keyword):
     return markdown_files
 
 def fix_markdown_file(file, content, missing_headings):
+    """
+    Add missing headings to file at the appropriate position. 
+    Rewrite the file with the new headings and invalid headings removed.
+
+    Args:
+        file (str): Path to building block file to be rewritten.
+        content (dict): Contents of the file.
+        missing_headings (list): List containing missing headings in the file according to the template.
+    """
     for misssing_heading in missing_headings:
         position = list(template_data.keys()).index(misssing_heading)
         items = list(content.items())
@@ -96,7 +104,7 @@ def fix_markdown_file(file, content, missing_headings):
         content = dict(items)
 
     file_content = StringIO()
-    file_content.write("## " + content["BB Name"] + "\n")
+    file_content.write("# " + content["BB Name"] + "\n")
     content.pop("BB Name")
 
     for heading, data in content.items():
