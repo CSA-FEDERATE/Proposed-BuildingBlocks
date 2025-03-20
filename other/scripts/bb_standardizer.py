@@ -36,18 +36,15 @@ def extract_headings_and_content(file_path, is_template_file = False):
     with open(file_path, "r", encoding="utf-8") as file:
         content = file.read()
 
-    #content = re.sub(r"<!--.*?-->", "", content, flags=re.DOTALL)
+    content = re.sub(r"<!--.*?-->", r"<!--.*?-->\n", content, flags=re.DOTALL)
     headings = heading_pattern.findall(content)
     names = name_pattern.findall(content)
 
     if not names:
         raise ValueError(f"No BB Name found in {file_path}")
 
-    implementation_status = 'implementation exists'
-    if "WorkInProgress" in file_path:
-        implementation_status = 'suggested'
 
-    heading_contents = {"BB Name": names[0], "Implementation Status":implementation_status}
+    heading_contents = {"BB Name": names[0]}
 
     for i, heading in enumerate(headings):
         if heading not in template_data and not is_template_file:
@@ -99,9 +96,11 @@ def fix_markdown_file(file, content, missing_headings):
         content = dict(items)
 
     file_content = StringIO()
+    file_content.write("## " + content["BB Name"] + "\n")
+    content.pop("BB Name")
 
     for heading, data in content.items():
-        file_content.write(heading + "\n")
+        file_content.write("## " + heading + "\n")
         file_content.write(data + "\n")
 
         with open(file, "w", encoding="utf-8") as f:
