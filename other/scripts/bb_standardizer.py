@@ -108,13 +108,16 @@ def fix_markdown_file(file, content, missing_headings):
     file_content.write("# " + content["BB Name"] + "\n")
     content.pop("BB Name")
 
+    i = 0
     for heading, data in content.items():
         file_content.write("## " + heading + "\n")
-        data = data.replace("-->","-->\n")
-        file_content.write(data + "\n\n")
+        file_content.write(data)
+        if i+1 < len(content):
+            file_content.write("\n\n")
+        i = i + 1
 
-        with open(file, "w", encoding="utf-8") as f:
-            f.write(file_content.getvalue())
+    with open(file, "w", encoding="utf-8") as f:
+        f.write(file_content.getvalue())
 
 
 if __name__ == "__main__":
