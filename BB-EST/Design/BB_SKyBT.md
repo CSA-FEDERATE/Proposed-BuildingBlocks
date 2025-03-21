@@ -2,20 +2,20 @@
 
 ## BB Tags(s)
 
-- BB-EST, BB-CEST, BB-SC-TC, BB-CSC-TC
+BB-EST, BB-CEST, BB-SC-TC, BB-CSC-TC
 
 ## Functional Clusters
 
-- (Explanation: in which Functional Cluster the BB be located; if none of the existing fit new required)
+(Explanation: in which Functional Cluster the BB be located; if none of the existing fit new required)
 
 
 ## Layer
 
-- MWLayer
+MWLayer
 
 ## Known Implementation
 
-- Github repo: https://gitlab.eclipse.org/eclipse/skybt/skybt
+Github repo: https://gitlab.eclipse.org/eclipse/skybt/skybt
 
 ## ID (unique name)
 
@@ -78,7 +78,7 @@ tbd
 tbd
 
 ## State (+ date of last change)
-- Used in production by 1 OEM
+Used in production by 1 OEM
 
 
 ## System Context
@@ -96,7 +96,9 @@ eg.
 - web assembly
 - web service
  -->
-
+ 
+ ## Bazel compliance status
+ <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
 
 
 
