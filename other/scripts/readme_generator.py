@@ -139,7 +139,7 @@ def insert_md_content(source_file, wip_source_file, target_file, flag, wip_flag,
 
 def traverse_wip_directory(path, output_file):
     output = StringIO()
-    pattern = re.compile(r"(^\s*- [a-zA-Z-:]*\n)(^\s*- \[[a-zA-Z-]*\])(.*)", re.MULTILINE)
+    pattern = re.compile(r"(^\s*- [a-zA-Z-:0-9]*\n)(^\s*- \[[a-zA-Z-0-9]*\])(.*)", re.MULTILINE)
     for root, dirs, files in os.walk(path):
         # Only process if the root directory contains "Library"
 

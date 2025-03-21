@@ -158,9 +158,7 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
         - [BB_OpenDUT](/WorkInProgress/BB-EST/Testing/BB_OpenDUT.md)
 - [BB-MU](/WorkInProgress/BB-MU/README.md)
 - [BB-SC](/WorkInProgress/BB-SC/README.md)
-    - 1-HWLayer
     - [1-HWLayer](/WorkInProgress/BB-SC/1-HWLayer/README.md)
-    - 2a-OSLayer
     - [2a-OSLayer](/WorkInProgress/BB-SC/2a-OSLayer/README.md)
         - Container
             - [BB_Container_Abstraction](/WorkInProgress/BB-SC/2a-OSLayer/Container/BB_Container_Abstraction.md)
@@ -168,7 +166,6 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
             - [BB_Automotive_Edge_Runtime](/WorkInProgress/BB-SC/2a-OSLayer/Time/BB_Automotive_Edge_Runtime.md)
         - Virtualization
             - [BB_SR_VOSS](/WorkInProgress/BB-SC/2a-OSLayer/Virtualization/BB_SR_VOSS.md)
-    - 2b-MWLayer
     - [2b-MWLayer](/WorkInProgress/BB-SC/2b-MWLayer/README.md)
         - Communication
             - [BB_Communication_Protocol_Abstraction](/WorkInProgress/BB-SC/2b-MWLayer/Communication/BB_Communication_Protocol_Abstraction.md)
@@ -218,7 +215,6 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
             - [BB_Time_Service](/WorkInProgress/BB-SC/2b-MWLayer/Time/BB_Time_Service.md)
         - Tools-and-Methods
             - [BB_Key_Management_System](/WorkInProgress/BB-SC/2b-MWLayer/Tools-and-Methods/BB_Key_Management_System.md)
-    - 3-AppLayer
     - [3-AppLayer](/WorkInProgress/BB-SC/3-AppLayer/README.md)
         - API
             - [BB_Automotive_API_Framework](/WorkInProgress/BB-SC/3-AppLayer/API/BB_Automotive_API_Framework.md)
@@ -230,11 +226,8 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
     - Testing
         - [BB_Shadowing](/WorkInProgress/BB-SC-TC/Testing/BB_Shadowing.md)
 - [S-BB](/WorkInProgress/S-BB/README.md)
-    - 1-HWLayer
     - [1-HWLayer](/WorkInProgress/S-BB/1-HWLayer/README.md)
-    - 2a-OSLayer
     - [2a-OSLayer](/WorkInProgress/S-BB/2a-OSLayer/README.md)
-    - 2b-MWLayer
     - [2b-MWLayer](/WorkInProgress/S-BB/2b-MWLayer/README.md)
         - [BB_Legally_binding_formats_for_data_exchange](/WorkInProgress/S-BB/2b-MWLayer/BB_Legally_binding_formats_for_data_exchange.md)
         - [BB_SOA](/WorkInProgress/S-BB/2b-MWLayer/BB_SOA.md)
@@ -246,7 +239,6 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
         - [BB_Standardized_data_formats_for_digital_twins](/WorkInProgress/S-BB/2b-MWLayer/BB_Standardized_data_formats_for_digital_twins.md)
         - [BB_Standardized_HD_maps_formats](/WorkInProgress/S-BB/2b-MWLayer/BB_Standardized_HD_maps_formats.md)
         - [BB_Standardized_way_for_Reasoning_on_Data_Streams](/WorkInProgress/S-BB/2b-MWLayer/BB_Standardized_way_for_Reasoning_on_Data_Streams.md)
-    - 3-AppLayer
     - [3-AppLayer](/WorkInProgress/S-BB/3-AppLayer/README.md)
         - [BB_Fleet_Management_System](/WorkInProgress/S-BB/3-AppLayer/BB_Fleet_Management_System.md)
         - [BB_Standardization_of_Vehicle_API](/WorkInProgress/S-BB/3-AppLayer/BB_Standardization_of_Vehicle_API.md)
