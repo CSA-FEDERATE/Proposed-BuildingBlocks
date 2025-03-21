@@ -113,7 +113,10 @@ def fix_markdown_file(file, content, missing_headings):
         file_content.write("## " + heading + "\n")
         file_content.write(data)
         if i+1 < len(content):
-            file_content.write("\n\n")
+            if len(data) > 0:
+                file_content.write("\n\n")
+            else:
+                file_content.write("\n")
         i = i + 1
 
     with open(file, "w", encoding="utf-8") as f:
