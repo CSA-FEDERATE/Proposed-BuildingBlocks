@@ -109,7 +109,8 @@ def fix_markdown_file(file, content, missing_headings):
 
     for heading, data in content.items():
         file_content.write("## " + heading + "\n")
-        file_content.write(data + "\n")
+        data = data.replace("-->","-->\n")
+        file_content.write(data + "\n\n")
 
         with open(file, "w", encoding="utf-8") as f:
             f.write(file_content.getvalue())
