@@ -52,7 +52,8 @@ def extract_headings_and_content(file_path, is_template_file = False):
         start = content.find(heading) + len(heading)
         end = content.find(headings[i + 1]) if i + \
             1 < len(headings) else len(content)
-        heading_content = content[start: end - 3].replace("\n", " ").strip()
+        if end != len(content):
+            heading_content = content[start: end - 3].strip()
         if heading_content.startswith(("-", "+", "=")):
             heading_content = "'" + heading_content
         heading_contents[heading] = heading_content
