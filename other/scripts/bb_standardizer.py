@@ -8,7 +8,7 @@ template_data = []
 def building_block_rewrite():
     template_file_path = "other/utils/BB_Template.md"
     global template_data
-    template_data = extract_headings_and_content(template_file_path, is_template_file=True)
+    template_data = extract_template_headings_and_content(template_file_path)
 
     directory = os.path.join(os.getcwd(), os.pardir)
     excluded_dirs = [".github", ".venv", "other", "UseCases"]
@@ -16,22 +16,19 @@ def building_block_rewrite():
     markdown_files = find_markdown_files(directory, excluded_dirs, keyword)
 
     for file in markdown_files:
-        extract_headings_and_content(file)
+        scan_bb_file(file)
 
-def extract_headings_and_content(file_path, is_template_file = False):
+def extract_template_headings_and_content(file_path):
     """
-    Extract headings and their content from a markdown file.
+    Extract headings and their content from a the BB template file.
 
     Args:
         file_path (str): Path to the markdown file.
-        is_template_file: Specifies when the template file is initially loaded.
     Returns:
         dict: Dictionary with headings as keys and their content as values.
     """
     name_pattern = re.compile(r"# ([a-zA-Z0-9, +\-\ \/(\)]*)\s*## BB Tag")
     heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
-
-    missing_headings = []
 
     with open(file_path, "r", encoding="utf-8") as file:
         content = file.read()
@@ -46,28 +43,64 @@ def extract_headings_and_content(file_path, is_template_file = False):
     heading_contents = {"BB Name": names[0]}
 
     for i, heading in enumerate(headings):
-        if heading not in template_data and not is_template_file:
+        start = content.find(heading) + len(heading)
+        end = content.find(headings[i + 1]) if i + \
+            1 < len(headings) else len(content)
+        
+        heading_content = content[start:end].strip("\r\n# ")
+        heading_contents[heading] = heading_content
+
+    return heading_contents
+
+def scan_bb_file(file_path):
+    """
+    Checks BB file for missing headings or unspecified headings with template file as a reference.
+    If any headings are missing or the file contains unspecified headings, the fix_markdown_file function is called.
+
+    Args:
+        file_path (str): Path to the markdown file.
+    """
+    name_pattern = re.compile(r"# ([a-zA-Z0-9, +\-\ \/(\)]*)\s*## BB Tag")
+    heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
+
+    missing_headings = []
+    # if there are any headings in the file not specified in the template, the file will be rewritten without the unsepcified heading
+    contains_unspecified_headings = False
+
+    with open(file_path, "r", encoding="utf-8") as file:
+        content = file.read()
+
+    headings = heading_pattern.findall(content)
+    names = name_pattern.findall(content)
+
+    if not names:
+        raise ValueError(f"No BB Name found in {file_path}")
+
+
+    heading_contents = {"BB Name": names[0]}
+
+    for i, heading in enumerate(headings):
+        if heading not in template_data:
             logging.warning(f"Wrong template in {file_path}, contains unspecified heading: {heading}.")
+            contains_unspecified_headings = True
             continue
         start = content.find(heading) + len(heading)
         end = content.find(headings[i + 1]) if i + \
             1 < len(headings) else len(content)
-        if end != len(content):
-            heading_content = content[start: end - 3].strip()
-        if heading_content.startswith(("-", "+", "=")):
-            heading_content = "'" + heading_content
+        
+        heading_content = content[start:end].strip("\r\n# ")
         heading_contents[heading] = heading_content
-    if len(heading_contents) < len(template_data) and not is_template_file:
+
+        heading_contents[heading] = heading_content
+    if len(heading_contents) < len(template_data):
         template_diff = list(set(template_data).difference(heading_contents))
         logging.warning(f"Missing heading(s) specified in template in file {file_path}. Missing headings: {template_diff}")
         missing_headings.append(template_diff)
         missing_headings = missing_headings[0]
 
-    if len(missing_headings) > 0:
+    if len(missing_headings) > 0 or contains_unspecified_headings:
         heading_contents = fix_markdown_file(file_path, heading_contents, missing_headings)
     
-    return heading_contents
-
 def find_markdown_files(directory, excluded_dirs, keyword):
     """
     Traverse the directory to find markdown files that include a specific keyword.
