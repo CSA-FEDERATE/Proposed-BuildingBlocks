@@ -79,13 +79,15 @@ def scan_bb_file(file_path):
 
     heading_contents = {"BB Name": names[0]}
 
+    end = 0
+
     for i, heading in enumerate(headings):
         if heading not in template_data:
             logging.warning(f"Wrong template in {file_path}, contains unspecified heading: {heading}.")
             contains_unspecified_headings = True
             continue
-        start = content.find(heading) + len(heading)
-        end = content.find(headings[i + 1]) if i + \
+        start = end + content[end:].find(heading) + len(heading)
+        end = start + content[start:].find(headings[i + 1]) if i + \
             1 < len(headings) else len(content)
         
         heading_content = content[start:end].strip("\r\n# ")
