@@ -1,6 +1,4 @@
-
 # IFEX
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-EST
@@ -21,6 +19,7 @@ https://github.com/COVESA/ifex
 <!-- General Description of the BB -->
 IFEX is a general interface description and transformation technology which started in the Vehicle Service Catalog (VSC) project. 
 The project is a place to do difficult semantic mapping work. While doing so, it creates translating tools between formats and it results in a simple but powerful interface description format.
+
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
 
@@ -74,7 +73,6 @@ No - Commercial -->
 
 ## Potential obstacles
 
-
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
 See Definition of Badges and their Flavors 
@@ -101,7 +99,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -113,7 +110,6 @@ Example:
  Implementation started
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -126,3 +122,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

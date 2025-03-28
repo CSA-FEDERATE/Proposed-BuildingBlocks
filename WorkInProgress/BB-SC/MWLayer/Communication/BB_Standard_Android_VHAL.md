@@ -1,6 +1,4 @@
-
 # Standard Android VHAL
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC
@@ -24,7 +22,7 @@ The solution should be able to use any data middleware using VSS and standard tr
 
 a) definition and agreement of vendor mapping cross-OEM  
 b) OTA updatability  
-c) OEM specific mappings.  
+c) OEM specific mappings.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -65,7 +63,6 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-
 Anonymous
 
 ## Priority
@@ -85,7 +82,6 @@ No – Commercial Closed Source -->
 No - Commercial -->
 
 ## Potential obstacles
-
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -113,7 +109,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -124,7 +119,6 @@ Example:
  -->
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -137,3 +131,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

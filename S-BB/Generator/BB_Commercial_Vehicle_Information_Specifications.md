@@ -1,6 +1,4 @@
-
 # Commercial Vehicle Information Specifications
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 S-BB
@@ -74,7 +72,6 @@ No - Commercial -->
 
 ## Potential obstacles
 
-
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
 See Definition of Badges and their Flavors 
@@ -101,7 +98,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -111,8 +107,8 @@ Example:
 - Abandoned
  -->
 Implementation started
-## System Context
 
+## System Context
 <!-- 
 OS and runtime/framework requirements
 
@@ -125,3 +121,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

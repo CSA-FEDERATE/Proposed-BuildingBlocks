@@ -1,6 +1,4 @@
-
 # Standardized Procedure and Tooling for Modelling Data from Different Domains
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 S-BB
@@ -24,7 +22,7 @@ Developing a standardized methodology and toolkit for data modeling in the softw
 <!-- Explanation why we need the BB; what problem want to be solved -->
 In the context of software-defined vehicles, this work package standardizes data modeling to enhance integration and streamline development, thus supporting advanced, data-driven automotive applications.  
 
-Example usage: Employing cross-domain data modeling for automotive manufacturers, technology developers, and research institutions focused on software defined vehicles  
+Example usage: Employing cross-domain data modeling for automotive manufacturers, technology developers, and research institutions focused on software defined vehicles
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -56,7 +54,6 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-
 Anonymous
 
 ## Priority
@@ -75,7 +72,6 @@ No – Commercial Closed Source -->
 No - Commercial -->
 
 ## Potential obstacles
-
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -103,7 +99,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -114,7 +109,6 @@ Example:
  -->
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -127,3 +121,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

@@ -1,6 +1,4 @@
-
 # vSOME/IP
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC; BB-MU; BB-CSC; BB-CMU
@@ -16,7 +14,6 @@ Communication
 MWLayer
 
 ## Known Implementation
-
 [vSomeIP](https://github.com/COVESA/vsomeip)
 
 ## ID (unique name)
@@ -26,7 +23,6 @@ MWLayer
 
 SOME/IP is an abbreviation for "Scalable service-Oriented middlewarE over IP". This middleware was designed for typical automotive use cases and for being compatible with AUTOSAR (at least on the wire-format level). A publicly accessible specification is available [at](http://some-ip.com/). In this wiki we do not want to deepen further into the reasons for another middleware specification, but want to give a rough overview about the basic structures of the SOME/IP specification and its open source implementation vsomeip without any claim of completeness.
 [source](https://github.com/COVESA/vsomeip/wiki/vsomeip-in-10-minutes)
-
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -47,7 +43,6 @@ Reference to e.g. IS026262, AUTOSAR Spec. X -->
  ISO 17215:2-2014
  Genivi/COVESA vsomeip
 
-
 ## Compose BB(s)
 <!-- Link to required BB(s) -->
 
@@ -57,7 +52,7 @@ Reference to e.g. IS026262, AUTOSAR Spec. X -->
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
 
-[see COVESA Github repo](https://github.com/COVESA/vsomeip) 
+[see COVESA Github repo](https://github.com/COVESA/vsomeip)
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
@@ -71,9 +66,7 @@ e.g. If FC Security : Security BBs are needed but you can choose for example cry
 If “No” – nothing more to do 
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
-
 ## Author/Company
-
 Anonymous
 
 ## Priority
@@ -90,8 +83,6 @@ Yes / vSomeIP - Mozilla Public License Version 2.0
 No – Commercial Closed Source -->
 
 ## Availability of API
-
-
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
 
@@ -126,7 +117,6 @@ Example:
 | Level     | [Silver](https://github.com/COVESA/vsomeip/wiki) | [Gold](https://github.com/COVESA/vsomeip/tree/master/test)       | [Gold](https://github.com/COVESA/vsomeip/wiki/vsomeip-Contribution-Process) | Notdefined | [Gold](https://github.com/COVESA/vsomeip/wiki/vsomeip-Release-Process) |
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -139,9 +129,7 @@ Example:
 Used in several projects, proprietary implementations available
 Last update Github Jan. 2025 / continuously updated
 
-
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -156,3 +144,6 @@ eg.
  -->
  
  Linux
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

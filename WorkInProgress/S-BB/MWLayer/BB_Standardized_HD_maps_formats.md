@@ -1,6 +1,4 @@
-
 # Stadardized HD maps formats and services
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 S-BB
@@ -13,7 +11,6 @@ S-BB
 MWLayer
 
 ## Known Implementation
-
 [HERE](https://www.here.com)
 
 ## ID (unique name)
@@ -71,7 +68,6 @@ No - Commercial -->
 
 ## Potential obstacles
 
-
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
 See Definition of Badges and their Flavors 
@@ -98,7 +94,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -109,7 +104,6 @@ Example:
  -->
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -122,3 +116,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

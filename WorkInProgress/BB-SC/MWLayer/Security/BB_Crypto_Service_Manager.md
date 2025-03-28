@@ -1,6 +1,4 @@
-
 # Crypto Service Manager
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC
@@ -32,7 +30,7 @@ Standardization facilitating integration at the ECU level.
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
 AUTOSAR Classic  
-AUTOSAR Adaptive  
+AUTOSAR Adaptive
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -58,7 +56,6 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-
 Conti
 
 ## Priority
@@ -78,7 +75,6 @@ No – Commercial Closed Source -->
 No - Commercial -->
 
 ## Potential obstacles
-
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -106,7 +102,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -117,7 +112,6 @@ Example:
  -->
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -130,3 +124,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

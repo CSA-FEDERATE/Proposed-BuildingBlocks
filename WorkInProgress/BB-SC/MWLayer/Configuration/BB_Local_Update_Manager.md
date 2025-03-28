@@ -1,6 +1,4 @@
-
 # Local Update Manager
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC
@@ -13,7 +11,6 @@ Configuration
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
 ## Known Implementation
-
 - AUTOSAR: UCS - but not OSS-usable
 - higher-level: Eclipse Ankaios, Eclipse Kanto, Eclipse Symphony, Eclipse BlueChi
 
@@ -57,7 +54,6 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-
 Conti
 
 ## Priority
@@ -77,7 +73,6 @@ No – Commercial Closed Source -->
 No - Commercial -->
 
 ## Potential obstacles
-
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -105,7 +100,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -116,7 +110,6 @@ Example:
  -->
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -129,3 +122,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
