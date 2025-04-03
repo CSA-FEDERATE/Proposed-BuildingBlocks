@@ -101,6 +101,15 @@ body:
     required: true
 
 - type: textarea
+  id: usage_example
+  attributes:
+    label: BB Usage
+    description: Example on how to use BB or link to documentation
+    placeholder: 
+  validations:
+    required: false
+
+- type: textarea
   id: known_impl
   attributes:
     label: Known Implementation(s)
@@ -244,6 +253,24 @@ body:
     label: Availability of API
     description: Yes / License (e.g. Yes/Apache 2.0); No - Commercial
     placeholder: 
+  validations:
+    required: false
+
+- type: dropdown
+  id: api_type
+  attributes:
+    label: Type of API
+    description: Please select the type of API that this BB provides
+    multiple: false
+    options:
+    - Web API
+    - Library/Framework API
+    - Operating System API
+    - Database API
+    - Remote API
+    - Hardware API
+    - Other
+    default: 1
   validations:
     required: false
 
