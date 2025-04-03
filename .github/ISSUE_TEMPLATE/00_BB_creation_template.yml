@@ -270,7 +270,7 @@ body:
     - Remote API
     - Hardware API
     - Other
-    default: Other
+    default: 6
   validations:
     required: true
 
