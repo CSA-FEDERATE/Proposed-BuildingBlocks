@@ -10,7 +10,7 @@
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
-## BB usage
+## BB Usage
 <!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
