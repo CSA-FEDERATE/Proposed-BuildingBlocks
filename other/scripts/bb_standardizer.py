@@ -145,6 +145,9 @@ def fix_markdown_file(file, content, missing_headings):
 
     i = 0
     for heading, data in content.items():
+        # special logic for API Type, if nothing is written, then the text 'None' is added
+        if heading == "API Type" and not data.strip(" \n\r"):
+            data = 'None'
         file_content.write("## " + heading + "\n")
         file_content.write(data)
         if i+1 < len(content):
