@@ -1,20 +1,17 @@
 # SKyBT 
-
 ## BB Tags(s)
-
 BB-EST, BB-CEST, BB-SC-TC, BB-CSC-TC
 
 ## Functional Clusters
-
 (Explanation: in which Functional Cluster the BB be located; if none of the existing fit new required)
 
-
 ## Layer
-
 MWLayer
 
-## Known Implementation
+## BB Usage
+<!-- example on how to use BB or link to documentation -->
 
+## Known Implementation
 Github repo: https://gitlab.eclipse.org/eclipse/skybt/skybt
 
 ## ID (unique name)
@@ -58,18 +55,18 @@ IAV
 <!-- High, Medium, Low -->
 
 ## Related Project(s)
-
 If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value, 
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework
 
-
 ## Availability of Source Code
-
 Yes / Apache License Version 2.0
 
 ## Availability of API
-
 Yes / Apache License Version 2.0
+
+## Type of API
+<!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
+None
 
 ## Potential obstacles
 tbd
@@ -79,7 +76,6 @@ tbd
 
 ## State (+ date of last change)
 Used in production by 1 OEM
-
 
 ## System Context
 tbd
@@ -96,17 +92,6 @@ eg.
 - web assembly
 - web service
  -->
- 
- ## Bazel compliance status
- <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
 
-
-
-
-
-
-
-
-
-
-
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

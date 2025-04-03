@@ -1,5 +1,4 @@
 # Cloud contaier and OS
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-CSC
@@ -12,8 +11,10 @@ Not specified
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 Not specified
 
-## Known Implementation
+## BB Usage
+<!-- example on how to use BB or link to documentation -->
 
+## Known Implementation
 Blackberry QNX
 OxidOS
 Eclipse ThreadX
@@ -73,8 +74,11 @@ No – Commercial Closed Source -->
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
 
-## Potential obstacles
+## Type of API
+<!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
+None
 
+## Potential obstacles
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -102,7 +106,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -113,7 +116,6 @@ Example:
  -->
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -126,3 +128,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

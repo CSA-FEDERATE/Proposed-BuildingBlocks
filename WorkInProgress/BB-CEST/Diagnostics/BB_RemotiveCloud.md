@@ -1,6 +1,4 @@
-
 # RemotiveCloud
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-CEST; BB-CSC-TC
@@ -13,8 +11,11 @@ Diagnostics (could also be used for feeding vehicle data to emulators and other 
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 Not Specified
 
+## BB Usage
+<!-- example on how to use BB or link to documentation -->
+
 ## Known Implementation
-https://cloud.remotivelabs.com/ 
+https://cloud.remotivelabs.com/
 
 ## ID (unique name)
 
@@ -25,7 +26,6 @@ RemotiveCloud - for sharing vehicle recordings, both for debugging purposes as w
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
 RemotiveCloud enables an easy way of sharing recordings - upload to cloud and share with relevant people as suppliers and service providers to have a common place for vehicle network data (CAN etc.) for debugging and 3rd party application developers.
-
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -41,7 +41,7 @@ None
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
-Nothing, create an account and get going (there is a free tier available). 
+Nothing, create an account and get going (there is a free tier available).
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
@@ -72,21 +72,23 @@ Emil Dautovic / RemotiveLabs
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
 Yes, part of Playground under the COVESA umbrella. 
-No active role in FEDERATE yet but there should be a good fit under WP2 projects where there is a need to collaborate in an easy way when it comes to vehicle data (from a test rig or an actual vehicle) for both debugging as well as prototyping purposes (either OEM propritary format or COVESA VSS). 
+No active role in FEDERATE yet but there should be a good fit under WP2 projects where there is a need to collaborate in an easy way when it comes to vehicle data (from a test rig or an actual vehicle) for both debugging as well as prototyping purposes (either OEM propritary format or COVESA VSS).
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
-The core RemotiveLabs components are Commercial Closed Source but reference integrations are available as source code https://github.com/remotivelabs 
-
+The core RemotiveLabs components are Commercial Closed Source but reference integrations are available as source code https://github.com/remotivelabs
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
-https://docs.remotivelabs.com/docs/category/remotivecloud 
+https://docs.remotivelabs.com/docs/category/remotivecloud
+
+## Type of API
+<!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
+None
 
 ## Potential obstacles
-
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -114,7 +116,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -125,7 +126,6 @@ Example:
  -->
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -138,3 +138,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
