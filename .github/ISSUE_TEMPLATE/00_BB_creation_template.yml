@@ -107,7 +107,7 @@ body:
     description: Example on how to use BB or link to documentation
     placeholder: 
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: known_impl
@@ -270,7 +270,7 @@ body:
     - Remote API
     - Hardware API
     - Other
-    default: 6
+    default: 1
   validations:
     required: false
 
