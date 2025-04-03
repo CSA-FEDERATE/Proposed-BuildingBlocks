@@ -272,7 +272,7 @@ body:
     - Other
     default: 6
   validations:
-    required: true
+    required: false
 
 - type: textarea
   id: pot_obstacles
