@@ -1,5 +1,4 @@
 # XENProject
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 
@@ -14,8 +13,10 @@ HardwareAbstraction; Virtualisation; Type-1-Hypervisor
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 HWLayer
 
-## Known Implementation
+## BB Usage
+<!-- example on how to use BB or link to documentation -->
 
+## Known Implementation
 https://github.com/xen-project/xen
 
 ## ID (unique name)
@@ -71,18 +72,16 @@ Evaluation availability and support for drivers used in the automotive domain - 
 Supported hardware (e.g. hhtps://hcl.xenserver.com/)
 Supported OS (Linux, Windows, MacOS, Zeyphr, ...)
 
-
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
 
 Safety (support for mixed criticality VMs on one host) 
 Security (support encryption, Identity and Access Managemnt)
-Real-Time (support firm and soft real-time) 
+Real-Time (support firm and soft real-time)
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
@@ -92,7 +91,6 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 Yes, information about platform utilisation, software versions, stored error, ... should be accessible at any time (also from outsiede) via a standardised API and a standardised data model/format.
 
 ## Author/Company
-
 Mario Driussi / VIF
 
 ## Priority
@@ -120,8 +118,11 @@ No - Commercial -->
 
 YES / LGPL-2.1 XENAPI
 
-## Potential obstacles
+## Type of API
+<!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
+None
 
+## Potential obstacles
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -149,7 +150,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -163,7 +163,6 @@ Used in production by e.g. AWS Cloud Services
 last change 28.02.2025 (retrieved 03.03.2025)
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -179,5 +178,5 @@ eg.
 
 Type-1-Hypervisor
 
- ## Bazel compliance status
- <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
