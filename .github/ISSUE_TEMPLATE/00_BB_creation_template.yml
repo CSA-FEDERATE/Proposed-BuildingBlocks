@@ -260,7 +260,7 @@ body:
   id: api_type
   attributes:
     label: Type of API
-    description: Please select the type of API that this BB provides, select 'Other' if not applicable
+    description: Please select the type of API that this BB provides
     multiple: false
     options:
     - Web API
