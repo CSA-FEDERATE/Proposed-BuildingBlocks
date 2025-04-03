@@ -10,6 +10,9 @@
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
+## BB usage
+<!-- example on how to use BB or link to documentation -->
+
 ## Known Implementation
 
 ## ID (unique name)
@@ -64,6 +67,9 @@ No – Commercial Closed Source -->
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+
+## Type of API
+<!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
 
 ## Potential obstacles
 

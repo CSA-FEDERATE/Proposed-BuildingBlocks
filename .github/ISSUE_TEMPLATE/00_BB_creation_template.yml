@@ -101,6 +101,15 @@ body:
     required: true
 
 - type: textarea
+  id: usage_example
+  attributes:
+    label: BB usage
+    description: Example on how to use BB or link to documentation
+    placeholder: 
+  validations:
+    required: true
+
+- type: textarea
   id: known_impl
   attributes:
     label: Known Implementation(s)
@@ -246,6 +255,24 @@ body:
     placeholder: 
   validations:
     required: false
+
+- type: dropdown
+  id: api_type
+  attributes:
+    label: Type of API
+    description: Please select the type of API that this BB provides, select 'Other' if not applicable
+    multiple: false
+    options:
+    - Web API
+    - Library/Framework API
+    - Operating System API
+    - Database API
+    - Remote API
+    - Hardware API
+    - Other
+    default: Other
+  validations:
+    required: true
 
 - type: textarea
   id: pot_obstacles
