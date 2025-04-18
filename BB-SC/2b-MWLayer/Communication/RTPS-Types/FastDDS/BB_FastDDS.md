@@ -1,27 +1,22 @@
-
 # Fast-DDS
-
 ## BB Tags(s)
-
 BB-SC; BB-MU; BB-CSC; BB-CMU
 
-
 ## Functional Clusters
-
 Communication
 
 ## Layer
-
 MWLayer
 
-## Known Implementation
+## BB Usage
+<!-- example on how to use BB or link to documentation -->
 
+## Known Implementation
 https://github.com/eProsima/Fast-DDS
 
 ## ID (unique name)
 
 ## Description
-
 eprosima Fast DDS is a C++ implementation of the DDS (Data Distribution Service) standard of the OMG (Object Management Group). eProsima Fast DDS implements the RTPS (Real Time Publish Subscribe) protocol, which provides publisher-subscriber communications over unreliable transports such as UDP, as defined and maintained by the Object Management Group (OMG) consortium. RTPS is also the wire interoperability protocol defined for the Data Distribution Service (DDS) standard. eProsima Fast DDS expose an API to access directly the RTPS protocol, giving the user full access to the protocol internals.
 
 ## Rationale
@@ -29,26 +24,17 @@ eprosima Fast DDS is a C++ implementation of the DDS (Data Distribution Service)
 
 ## Governance Applicable S-BB(s)
 
-
-
 ## Compose BB(s)
-
 OS/Runtime Envirnoment
-
 
 ## What is needed to Design and Implement
 
-
-
 ## What is needed to build and run
-
 See [supported Platforms](https://github.com/eProsima/Fast-DDS/blob/master/PLATFORM_SUPPORT.md#platform-support)
 
-
 ## Non-Functional Requirements
-
 * Real Time
-* QOS 
+* QOS
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
@@ -60,24 +46,24 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-
 [eprosima](https://eprosima.com/)
 
 ## Priority
 <!-- High, Medium, Low -->
 
 ## Related Project(s)
-
 The most complete DDS - Proven: Plenty of success cases. Looking for commercial support? Contact info@eprosima.com 
 https://eprosima.com/
 
 ## Availability of Source Code
-
 YES/Apache 2.0
 
 ## Availability of API
+[Fast DDS CLI manual](https://fast-dds.docs.eprosima.com/en/latest/fastddscli/cli/cli.html)
 
-[Fast DDS CLI manual](https://fast-dds.docs.eprosima.com/en/latest/fastddscli/cli/cli.html) 
+## Type of API
+<!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
+None
 
 ## Potential obstacles
 
@@ -110,10 +96,7 @@ Example:
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
 | Level     | [Gold](https://fast-dds.docs.eprosima.com/en/latest/) | Notdefined       | [Gold](https://github.com/eProsima/Fast-DDS/blob/master/CONTRIBUTING.md) | Notdefined | [Gold](https://github.com/eProsima/Fast-DDS/blob/master/RELEASE_SUPPORT.md) |
 
-
-
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -126,7 +109,6 @@ Used in several projects (e.g ROS2).
 last update Github Jan. 2025 / continuously updated
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -143,3 +125,5 @@ regarding details see section - What is needed to build and run
 
 Ubuntu/Debian, MacOS, Windows, Android, QNX
 
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

@@ -1,6 +1,4 @@
-
 # DocAsCode
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-EST
@@ -13,8 +11,10 @@ Requirements
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 None
 
-## Known Implementation
+## BB Usage
+<!-- example on how to use BB or link to documentation -->
 
+## Known Implementation
 [Open Fast Trace](https://github.com/itsallcode/openfasttrace)
 
 ## ID (unique name)
@@ -22,7 +22,6 @@ None
 ## Description
 <!-- General Description of the BB -->
 This BB aims to track and manage the software requirements of the different variants of the source code.
-
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -36,7 +35,6 @@ In contrast to other industries, the automotive market with high international c
 If the source code of the systems is maintained in variants (branches) and developed by means of CI/CD (Continuous Integration & Development) up to the control unit, the software requirements must also be manageable and versionable, just like the source code. This then allows the transfer of customized requirements from one branch to another (merge), the comparison of requirements (diff) and the automated check that all requirements along the necessary V-model artifacts (architecture, design, code, tests, test results) are covered (tracing).
 
 To this end, we as OEMs see it as essential to use these so-called "DocAsCode" approaches more efficiently directly in the development of ECU software internally as well as along the supply chain. Of course, this does not exempt us from overall systems engineering and model-based development, in any case we consider basic research to be less relevant there.
-
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -67,7 +65,6 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-
 Tom Fleischmann
 
 ## Priority
@@ -85,6 +82,10 @@ No – Commercial Closed Source -->
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+
+## Type of API
+<!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
+None
 
 ## Potential obstacles
 
@@ -113,9 +114,7 @@ Example:
 
 -->
 
-
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -126,7 +125,6 @@ Example:
  -->
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -139,3 +137,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

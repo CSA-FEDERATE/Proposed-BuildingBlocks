@@ -1,6 +1,4 @@
-
 # OpenXilEnv
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-EST
@@ -12,6 +10,9 @@ Testing
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
+## BB Usage
+<!-- example on how to use BB or link to documentation -->
+
 ## Known Implementation
 https://github.com/eclipse-openxilenv/openxilenv
 
@@ -21,7 +22,7 @@ https://github.com/eclipse-openxilenv/openxilenv
 <!-- General Description of the BB -->
 SW in the loop solution for virtual validation, similar to Synopsis Silver
 Simulate ECU functions, includes parameter management, Scripting interface. 
-With a Software In the Loop system it is possible to run and test embedded software without a target plattform and compiler. XilEnv is an environment to setup a SIL system on Windows or Linux host. 
+With a Software In the Loop system it is possible to run and test embedded software without a target plattform and compiler. XilEnv is an environment to setup a SIL system on Windows or Linux host.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -74,8 +75,11 @@ Apache 2.0
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
 
-## Potential obstacles
+## Type of API
+<!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
+None
 
+## Potential obstacles
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -103,7 +107,6 @@ Example:
 -->
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -113,8 +116,8 @@ Example:
 - Abandoned
  -->
 Implementation started
-## System Context
 
+## System Context
 <!-- 
 OS and runtime/framework requirements
 
@@ -127,3 +130,6 @@ eg.
 - web assembly
 - web service
  -->
+
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
