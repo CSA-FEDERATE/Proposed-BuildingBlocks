@@ -10,6 +10,9 @@
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
+## BB Usage
+<!-- example on how to use BB or link to documentation -->
+
 ## Known Implementation
 
 ## ID (unique name)
@@ -65,6 +68,9 @@ No – Commercial Closed Source -->
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
 
+## Type of API
+<!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
+
 ## Potential obstacles
 
 
@@ -118,3 +124,6 @@ eg.
 - web assembly
 - web service
  -->
+
+ ## Bazel compliance status
+ <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

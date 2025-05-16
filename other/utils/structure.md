@@ -1,45 +1,80 @@
-- [BB-CEST](/BB-CEST/README.md)
-    - Diagnostics
-- [BB-CMU](/BB-CMU/README.md)
-- [BB-CSC](/BB-CSC/README.md)
-- [BB-CSC-TC](/BB-CSC-TC/README.md)
 - [BB-EST](/BB-EST/README.md)
-    - Build-and-Implementation
-    - Deployment
-    - Design
     - Implementation
-    - Lifecycle-Management
-    - Monitoring-and-Diagnostics
-    - Requirements
     - Testing
+        - [BB_Autowrx](/BB-EST/Testing/BB_Autowrx.md)
+        - [BB_Central_Data_Service_Playground](/BB-EST/Testing/BB_Central_Data_Service_Playground.md)
+        - [BB_OpenXilEnv](/BB-EST/Testing/BB_OpenXilEnv.md)
+    - Generator
+        - [BB_IFEX](/BB-EST/Generator/BB_IFEX.md)
+    - Requirements
+    - Deployment
+    - Lifecycle-Management
+        - [BB_LEDA](/BB-EST/Lifecycle-Management/BB_LEDA.md)
+    - Build-and-Implementation
+        - [BB_VELOCITAS](/BB-EST/Build-and-Implementation/BB_VELOCITAS.md)
+    - Design
+        - [BB_SKyBT](/BB-EST/Design/BB_SKyBT.md)
+    - Monitoring-and-Diagnostics
+- [BB-CSC](/BB-CSC/README.md)
 - [BB-MU](/BB-MU/README.md)
-- [BB-SC](/BB-SC/README.md)
-    - [AppLayer](/BB-SC/AppLayer/README.md)
-        - Communication
-    - [HWLayer](/BB-SC/HWLayer/README.md)
-    - [MWLayer](/BB-SC/MWLayer/README.md)
-        - Communication
-            - [RTPS-Types](/BB-SC/MWLayer/Communication/RTPS-Types/RTPS-Types.md)
-                - cycloneDDS
-                - embeddedRTPS
-                - FastDDS
-                - OpenDDS
-        - Configuration
-        - Diagnostics
-        - Platform-Health-Management
-        - Power-Management
-        - Security
-        - Storage
-        - Time
-        - Tools-and-Methods
-    - [OSLayer](/BB-SC/OSLayer/README.md)
-        - Time
 - [BB-SC-TC](/BB-SC-TC/README.md)
     - Testing
-- [S-BB](/S-BB/README.md)
-    - [AppLayer](/S-BB/AppLayer/README.md)
-    - [HWLayer](/S-BB/HWLayer/README.md)
-    - [MWLayer](/S-BB/MWLayer/README.md)
-    - [OSLayer](/S-BB/OSLayer/README.md)
 - UseCases
     - Scenarios
+- [BB-SC](/BB-SC/README.md)
+    - [2a-OSLayer](/BB-SC/2a-OSLayer/README.md)
+        - Virtualization
+            - [BB_Ankaios](/BB-SC/2a-OSLayer/Virtualization/BB_Ankaios.md)
+        - Time
+    - [1-HWLayer](/BB-SC/1-HWLayer/README.md)
+        - HardwareAbstraction
+            - Type-1-Hypervisor
+                - XENProject
+                    - [BB_XENHypervisor](/BB-SC/1-HWLayer/HardwareAbstraction/Type-1-Hypervisor/XENProject/BB_XENHypervisor.md)
+    - [3-AppLayer](/BB-SC/3-AppLayer/README.md)
+        - Communication
+    - [2b-MWLayer](/BB-SC/2b-MWLayer/README.md)
+        - Platform-Health-Management
+        - Storage
+        - Diagnostics
+        - Power-Management
+        - Tools-and-Methods
+        - Configuration
+        - Communication
+            - [BB_KUKSA](/BB-SC/2b-MWLayer/Communication/BB_KUKSA.md)
+            - [BB_uProtocol](/BB-SC/2b-MWLayer/Communication/BB_uProtocol.md)
+            - [BB_uServices](/BB-SC/2b-MWLayer/Communication/BB_uServices.md)
+            - [BB_VISSR](/BB-SC/2b-MWLayer/Communication/BB_VISSR.md)
+            - [BB_eCAL](/BB-SC/2b-MWLayer/Communication/BB_eCAL.md)
+            - [RTPS-Types](/BB-SC/2b-MWLayer/Communication/RTPS-Types/RTPS-Types.md)
+                - cycloneDDS
+                    - [BB_cycloneDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/cycloneDDS/BB_cycloneDDS.md)
+                - embeddedRTPS
+                    - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
+                - OpenDDS
+                    - [BB_OpenDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/OpenDDS/BB_OpenDDS.md)
+                - FastDDS
+                    - [BB_FastDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/FastDDS/BB_FastDDS.md)
+                - vSomeIP
+                    - [BB_vSomeIP](/BB-SC/2b-MWLayer/Communication/RTPS-Types/vSomeIP/BB_vSomeIP.md)
+- [BB-CMU](/BB-CMU/README.md)
+- [BB-CEST](/BB-CEST/README.md)
+    - Diagnostics
+- [S-BB](/S-BB/README.md)
+    - [2a-OSLayer](/S-BB/2a-OSLayer/README.md)
+    - [1-HWLayer](/S-BB/1-HWLayer/README.md)
+    - Generator
+        - [BB_Commercial_Vehicle_Information_Specifications](/S-BB/Generator/BB_Commercial_Vehicle_Information_Specifications.md)
+    - [3-AppLayer](/S-BB/3-AppLayer/README.md)
+    - [2b-MWLayer](/S-BB/2b-MWLayer/README.md)
+        - [BB_Unified_Push_Notification](/S-BB/2b-MWLayer/BB_Unified_Push_Notification.md)
+        - [BB_VSS](/S-BB/2b-MWLayer/BB_VSS.md)
+        - [BB_Data_Architecture_Terminology](/S-BB/2b-MWLayer/BB_Data_Architecture_Terminology.md)
+        - [BB_HIM](/S-BB/2b-MWLayer/BB_HIM.md)
+        - [BB_Private_Cross_OEM_Joint_Compute_for_EV_Charging](/S-BB/2b-MWLayer/BB_Private_Cross_OEM_Joint_Compute_for_EV_Charging.md)
+        - [BB_EV_Charging_Event_Data_Aggregation](/S-BB/2b-MWLayer/BB_EV_Charging_Event_Data_Aggregation.md)
+        - [BB_Common_Vehicle_Capabilities](/S-BB/2b-MWLayer/BB_Common_Vehicle_Capabilities.md)
+        - [BB_In_Car_Wallet_Payments_and_Orchestration](/S-BB/2b-MWLayer/BB_In_Car_Wallet_Payments_and_Orchestration.md)
+        - Communication
+            - [BB_VISS](/S-BB/2b-MWLayer/Communication/BB_VISS.md)
+- [BB-CSC-TC](/BB-CSC-TC/README.md)
