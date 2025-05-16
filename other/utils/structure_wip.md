@@ -46,8 +46,6 @@
     - [2a-OSLayer](/WorkInProgress/BB-SC/2a-OSLayer/README.md)
         - Container
             - [BB_Container_Abstraction](/WorkInProgress/BB-SC/2a-OSLayer/Container/BB_Container_Abstraction.md)
-        - Linux
-            - [BB_AutomotiveGradeLinux](/WorkInProgress/BB-SC/2a-OSLayer/Linux/BB_AutomotiveGradeLinux.md)
         - Virtualization
             - [BB_SR_VOSS](/WorkInProgress/BB-SC/2a-OSLayer/Virtualization/BB_SR_VOSS.md)
         - Time

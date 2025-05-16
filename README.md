@@ -50,6 +50,8 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
         - [BB_LEDA](/BB-EST/Lifecycle-Management/BB_LEDA.md)
     - Build-and-Implementation
         - [BB_VELOCITAS](/BB-EST/Build-and-Implementation/BB_VELOCITAS.md)
+        - Embedded-Linux
+            - [BB_YoctoProject](/BB-EST/Build-and-Implementation/Embedded-Linux/BB_YoctoProject.md)
     - Design
         - [BB_SKyBT](/BB-EST/Design/BB_SKyBT.md)
     - Monitoring-and-Diagnostics
@@ -61,6 +63,8 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
     - Scenarios
 - [BB-SC](/BB-SC/README.md)
     - [2a-OSLayer](/BB-SC/2a-OSLayer/README.md)
+        - Linux
+            - [BB_AutomotiveGradeLinux](/BB-SC/2a-OSLayer/Linux/BB_AutomotiveGradeLinux.md)
         - Virtualization
             - [BB_Ankaios](/BB-SC/2a-OSLayer/Virtualization/BB_Ankaios.md)
         - Time
@@ -233,8 +237,6 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
     - [2a-OSLayer](/WorkInProgress/BB-SC/2a-OSLayer/README.md)
         - Container
             - [BB_Container_Abstraction](/WorkInProgress/BB-SC/2a-OSLayer/Container/BB_Container_Abstraction.md)
-        - Linux
-            - [BB_AutomotiveGradeLinux](/WorkInProgress/BB-SC/2a-OSLayer/Linux/BB_AutomotiveGradeLinux.md)
         - Virtualization
             - [BB_SR_VOSS](/WorkInProgress/BB-SC/2a-OSLayer/Virtualization/BB_SR_VOSS.md)
         - Time

@@ -12,6 +12,8 @@
         - [BB_LEDA](/BB-EST/Lifecycle-Management/BB_LEDA.md)
     - Build-and-Implementation
         - [BB_VELOCITAS](/BB-EST/Build-and-Implementation/BB_VELOCITAS.md)
+        - Embedded-Linux
+            - [BB_YoctoProject](/BB-EST/Build-and-Implementation/Embedded-Linux/BB_YoctoProject.md)
     - Design
         - [BB_SKyBT](/BB-EST/Design/BB_SKyBT.md)
     - Monitoring-and-Diagnostics
@@ -23,6 +25,8 @@
     - Scenarios
 - [BB-SC](/BB-SC/README.md)
     - [2a-OSLayer](/BB-SC/2a-OSLayer/README.md)
+        - Linux
+            - [BB_AutomotiveGradeLinux](/BB-SC/2a-OSLayer/Linux/BB_AutomotiveGradeLinux.md)
         - Virtualization
             - [BB_Ankaios](/BB-SC/2a-OSLayer/Virtualization/BB_Ankaios.md)
         - Time
