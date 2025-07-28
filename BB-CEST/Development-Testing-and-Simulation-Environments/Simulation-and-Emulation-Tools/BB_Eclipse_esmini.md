@@ -1,35 +1,39 @@
-# VISSR
+# Eclipse Environment Simulator Minimalistic (esmini)
+
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-SC
+BB-CEST, BB-CSC-TC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
-MWLayer
+AppLayer
 
 ## BB Usage
 <!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
-https://github.com/COVESA/vissr
+https://eclipse.dev/sumo/
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-This project provides a reference implementation of the released COVESA VISSv2.0 specification on the v2.0 branch, and an ongoing development of a reference implementation of the VISSv3.0 specification on the master branch.
+Esmini contains the following main libraries: RoadManager (esminiRMLib). A library providing an interface to road networks described in the OpenDRIVE format; ScenarioEngine (esminiLib). The main library providing a viewer and API interface to traffic scenarios described in the OpenSCENARIO XML format. This library includes RoadManager.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+The purpose of this implementation (started 2018) was initially to explore and get familiar with the emerging OpenSCENARIO XML data format. The development aimed at supporting various platforms such as Windows, Mac, Linux, and Android. Tool integration and portability were high priorities. It should be easy to use for native C++ applications as well as other frameworks like Unity3D (C#) and MATLAB/Simulink, among many others. Initially, focus was more on features than quality.
+
+Since then the purpose has grown, contributing to the spread and harmonization of OpenSCENARIO XML. esmini is also being used in other applications and test platforms. It grows slowly but steady, both in terms of functionality and quality, e.g. documentation, code refactorizations, continuous integration including static code analysis, and test coverage on both unit and application levels.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+TBD
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -44,10 +48,12 @@ BB is a composition of other BBs -->
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+TBD
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+TBD
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
@@ -55,7 +61,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Paul; Boyes; BMW
+esmini Community
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -63,22 +69,24 @@ Paul; Boyes; BMW
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-(COVESA)[https://covesa.global/project/uservices/]
+TBD
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
-Mozilla Public License Version 2.0
+Yes - MPL-2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+Yes
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
-None
+TBD
 
 ## Potential obstacles
+TBD
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -104,8 +112,10 @@ Example:
 
 
 -->
+TBD
 
 ## State (+ date of last change)
+
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -114,9 +124,10 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-Implementation started
+First public release available
 
 ## System Context
+
 <!-- 
 OS and runtime/framework requirements
 
@@ -129,6 +140,8 @@ eg.
 - web assembly
 - web service
  -->
+TBD
 
 ## Bazel compliance status
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+n/a

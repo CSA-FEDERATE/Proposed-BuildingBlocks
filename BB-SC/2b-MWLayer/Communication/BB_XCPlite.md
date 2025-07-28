@@ -1,4 +1,5 @@
-# uProtocol
+# XCPlite
+
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC
@@ -15,13 +16,17 @@ MWLayer
 <!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
-https://github.com/eclipse-uprotocol
+https://github.com/vectorgrp/XCPlite
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-A communication protocol enabling developers to build apps and services that communicate seamlessly across one or multiple inter-connected messaging middleware. uProtocol provides a small number of communication patterns, exposed with a set of programming APIs available and consistent across the vehicle eco-system (in-vehicle ECUs, cloud and mobile). This approach enables seamless communication between applications and services, wherever they are hosted. Using uProtocol, application developers can focus on the functionality they need to develop, rather than the plumbing necessary to access the relevant services they require, and service providers develop their service once for all consumers, wherever they are hosted.
+Simple implementation of the ASAM XCP on Ethernet protocol
+
+XCP is a measurement and calibration protocol commonly used in the automotive industry. It is an ASAM standard.
+
+It provides real time signal oriented data acquisition (measurement, logging) and modification of parameter constants (calibration) in a target micro controller system (ECU), to help observing and optimizing cyber physical control algorithms in real time.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -55,7 +60,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Daniel; Krippner; Etas, Bosch
+Vector Group
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -63,20 +68,20 @@ Daniel; Krippner; Etas, Bosch
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-[Eclipse](https://projects.eclipse.org/projects/automotive.uprotocol)
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
-Apache License, Version 2.0
+Yes - MIT
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+Yes
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
-None
+various
 
 ## Potential obstacles
 
@@ -114,7 +119,7 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
- Implementation started
+First public release available
 
 ## System Context
 <!-- 
@@ -129,6 +134,8 @@ eg.
 - web assembly
 - web service
  -->
+various / code library
 
 ## Bazel compliance status
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+n/a

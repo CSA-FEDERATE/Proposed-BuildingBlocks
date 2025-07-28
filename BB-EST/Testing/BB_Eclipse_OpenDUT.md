@@ -1,4 +1,5 @@
-# OpenDUT 
+# Eclipse OpenDUT
+
 ## BB Tags(s)
 BB-EST, BB-CEST, BB-SC-TC, BB-CSC-TC
 
@@ -12,7 +13,7 @@ MWLayer
 <!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
-Github repo: https://github.com/eclipse-opendut/opendut
+https://github.com/eclipse-opendut/opendut
 
 ## ID (unique name)
 
@@ -63,7 +64,7 @@ e.g. If FC Security : Security BBs are  needed but you can choose for example cr
 “No”
 
 ## Author/Company
-Anonymous
+Eclipse Foundation
 
 ## Priority
 <!-- High, Medium, Low -->

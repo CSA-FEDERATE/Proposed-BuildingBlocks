@@ -1,35 +1,38 @@
-# eCAL
+# Eclipse SCM
+
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-SC
+BB-CEST, BB-CSC-TC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
-MWLayer
+AppLayer
 
 ## BB Usage
 <!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
-https://github.com/eclipse-ecal/ecal
+https://gitlab.eclipse.org/eclipse/scm/scm
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-The enhanced Communication Abstraction Layer (eCAL) is a middleware that enables scalable, high performance interprocess communication on a single computer node or between different nodes in a computer network. eCAL provides publish - subscribe and server - client pattern to connect different nodes in the network with almost no configuration required.
+The Stochastic Cognitive Model (SCM) is a driver behaviour model developed by BMW, which is designed for statistical analyses regarding vehicle and traffic safety by means of stochastic traffic flow simulations. The purpose of this guide is to provide a broad and fast overview on the model’s structures and functionalities and also show the scientific background, which is described by the model.
+SCM focuses on detailed driver behaviour modelling to provide an accurate simulation of the occurrence of critical traffic situations and road accidents, which may result from those critical situations. The model parameters of SCM are mostly stochastic variables to take into account the inter- and intra-individual differences among drivers. The algorithms themselves are characterised by cause-action mechanisms, which are strongly influenced by probabilities, derived from the currently perceived traffic situation and the agent’s driver- and vehicle-specific parameterisation.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+TBD
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+TBD
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
@@ -44,10 +47,12 @@ BB is a composition of other BBs -->
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+TBD
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+TBD
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
@@ -55,7 +60,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Martin; Schleicher; CONTI
+Eclipse Foundation
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -63,22 +68,24 @@ Martin; Schleicher; CONTI
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-[Eclipse](https://eclipse-ecal.github.io/ecal/stable/index.html)
+TBD
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
-Apache 2.0
+Yes - EPL-2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+Yes
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
-None
+TBD
 
 ## Potential obstacles
+TBD
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -104,8 +111,10 @@ Example:
 
 
 -->
+TBD
 
 ## State (+ date of last change)
+
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -114,9 +123,10 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
- Implementation started
+First public release available
 
 ## System Context
+
 <!-- 
 OS and runtime/framework requirements
 
@@ -129,6 +139,8 @@ eg.
 - web assembly
 - web service
  -->
+TBD
 
 ## Bazel compliance status
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+n/a
