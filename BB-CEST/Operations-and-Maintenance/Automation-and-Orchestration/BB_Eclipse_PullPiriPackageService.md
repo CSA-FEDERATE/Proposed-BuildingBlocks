@@ -1,40 +1,44 @@
-# uServices
+
+# Eclipse Pullpiri Package Service
+
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-SC
+BB-CEST, BB-CSC-TC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
-MWLayer
+AppLayer
 
 ## BB Usage
 <!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
-https://github.com/COVESA/uservices
+https://github.com/eclipse-pullpiri/pullpiri
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-uServices is a project that contains the definition of common vehicle services. It uses protobuf as the interface definition language, with custom extensions to extend protobuf with additional information required for automotive services.
+The main goal of PULLPIRI project is to develop an efficient vehicle service orchestrator framework to realize the potential benefits of cloud native technologies for in-vehicle services and applications. In this direction, PULLPIRI shall ensure the activation of pre-defined use case scenarios or policies in a well-organized and streamlined fashion depending upon the various contexts of vehicle status, environment, connected devices and service requirements. PULLPIRI shall enable the deployment of vehicle scenarios and policies in short development cycle by reducing the development lead time.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+TBD
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+TBD
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
 E.g. BB-SC StateManagement 
 BB is a composition of other BBs -->
+BB PullPiri Service Orchestrator
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
@@ -44,10 +48,12 @@ BB is a composition of other BBs -->
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+TBD
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+TBD
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
@@ -55,7 +61,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Paul ;Boyes; BMW
+Eclipse Foundation
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -63,22 +69,24 @@ Paul ;Boyes; BMW
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-[COVESA](https://covesa.global/project/uservices/)
+TBD
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
-Apache License Version 2.0
+YES - APL-2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+Yes
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
-None
+TBD
 
 ## Potential obstacles
+TBD
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -104,8 +112,10 @@ Example:
 
 
 -->
+TBD
 
 ## State (+ date of last change)
+
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -114,9 +124,10 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
- Implementation started
+First public release available
 
 ## System Context
+
 <!-- 
 OS and runtime/framework requirements
 
@@ -129,6 +140,8 @@ eg.
 - web assembly
 - web service
  -->
+containers
 
 ## Bazel compliance status
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+n/a

@@ -1,27 +1,31 @@
-# KUKSA
+# Sphinx Needs
+
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-SC
+BB-EST
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
-MWLayer
 
 ## BB Usage
 <!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
-https://github.com/eclipse-kuksa
+https://github.com/useblocks/sphinx-needs
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-The open Eclipse KUKSA™ project aims to provide shared building blocks for the Software Defined Vehicles that can be shared across the industry. One of the main features of KUKSA is abstracting vehicle data and interfaces to a common format based for example on the Vehicle Signal Specification. That way, all functions sitting on top of KUKSA can run on all enabled cars. KUKSA itself focusses on the adaptation of various Vehicle Interfaces into a basic basic interfaces using simple APIs. This enables you to add your preferred onboard or offboard techstack to new vehicle architectures more easily.
+Sphinx-Needs allows the definition, linking and filtering of class-like need-objects, which are by default:
+
+* requirements
+* specifications
+* implementations
+* test cases
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -30,11 +34,13 @@ The open Eclipse KUKSA™ project aims to provide shared building blocks for the
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
+TBD
 
 ## Compose BB(s)
 <!-- Link to required BB(s) 
 E.g. BB-SC StateManagement 
 BB is a composition of other BBs -->
+
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
@@ -44,10 +50,12 @@ BB is a composition of other BBs -->
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+TBD
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+TBD
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
@@ -55,7 +63,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Detlef; Zerfowski; Etas
+SphinxNeeds community
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -63,21 +71,23 @@ Detlef; Zerfowski; Etas
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-[Eclipse](https://eclipse-kuksa.github.io/kuksa-website/)
+TBD
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
+Yes - MIT
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+Yes
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
-None
 
 ## Potential obstacles
+TBD
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -103,8 +113,10 @@ Example:
 
 
 -->
+TBD
 
 ## State (+ date of last change)
+
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -113,9 +125,10 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-Public releases available
+Used in production
 
 ## System Context
+
 <!-- 
 OS and runtime/framework requirements
 
@@ -128,6 +141,8 @@ eg.
 - web assembly
 - web service
  -->
+various 
 
 ## Bazel compliance status
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+n/a

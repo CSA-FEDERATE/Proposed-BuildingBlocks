@@ -1,27 +1,29 @@
-# Ankaios
+# Linux Foundation EVerest
+
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-SC
+S-BB
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Virtualization
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
-OSLayer
+MWLayer
 
 ## BB Usage
 <!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
-https://github.com/eclipse-ankaios/ankaios
+https://everest.github.io/nightly/
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-Eclipse Ankaios provides workload and container orchestration for automotive High Performance Computing Software (HPCs). While it can be used for various fields of applications, it is developed from scratch for automotive use cases and provides a slim yet powerful solution to manage containerized applications.
+EVerest is an open source modular framework for setting up a full stack environment for EV charging.
+
+The modular software architecture fosters customizability and lets you configure your dedicated charging scenarios based on interchangeable modules. All this is glued together by MQTT.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -55,7 +57,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Oliver; Jersorsky; EB
+Linux Foundation Energy
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -63,20 +65,20 @@ Oliver; Jersorsky; EB
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-[Eclipse](https://github.com/eclipse-ankaios/ankaios)
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
-Apache 2.0
+Yes - APL-2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+Yes
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
-None
+TBD
 
 ## Potential obstacles
 
@@ -114,7 +116,7 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-Implementation started
+Used in production
 
 ## System Context
 <!-- 
@@ -129,6 +131,8 @@ eg.
 - web assembly
 - web service
  -->
+Linux, containers
 
 ## Bazel compliance status
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+n/a
