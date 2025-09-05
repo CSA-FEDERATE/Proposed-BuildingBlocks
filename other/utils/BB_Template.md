@@ -11,7 +11,8 @@
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
 
 ## Known Implementation
 
