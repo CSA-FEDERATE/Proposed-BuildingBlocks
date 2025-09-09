@@ -242,6 +242,7 @@ def fix_bb_descriptions(file_path, content, wrong_descriptions):
     file_content.write("# " + content["BB Name"] + "\n")
     content.pop("BB Name")
 
+    i=0
     for heading, data in content.items():
         # replace wrong description, two cases: either no description or wrong description
         if heading in wrong_descriptions:
@@ -252,7 +253,13 @@ def fix_bb_descriptions(file_path, content, wrong_descriptions):
             else:
                 data = template_data[heading] + "\n" + data.strip("\r\n")
         file_content.write("## " + heading + "\n")
-        file_content.write(data + "\n")
+        file_content.write(data)
+        if i+1 < len(content):
+            if len(data) > 0:
+                file_content.write("\n\n")
+            else:
+                file_content.write("\n")
+        i = i + 1
 
     with open(file_path, "w", encoding="utf-8") as f:
         f.write(file_content.getvalue())
