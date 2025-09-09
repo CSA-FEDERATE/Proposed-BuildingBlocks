@@ -3,20 +3,33 @@ import re
 from io import StringIO
 import logging
 
-template_data = []
+template_data = {}
 
 def building_block_rewrite():
+    """
+    Extract BB template data, this includes headings and their descriptions. Description refers to the comment below some of the headings in the MD file.
+    #BB heading <- heading
+    <!--comment for heading--> <- heading description
+    Text for BB <- content
+    """
     template_file_path = "other/utils/BB_Template.md"
-    global template_data, template_descriptions
-    template_data, template_descriptions = extract_template_headings_content_description(template_file_path)
+    global template_data
+    template_data = extract_template_headings_content_description(template_file_path)
 
     directory = os.path.join(os.getcwd(), os.pardir)
     excluded_dirs = [".github", ".venv", "other", "UseCases"]
     keyword = "BB"
     markdown_files = find_markdown_files(directory, excluded_dirs, keyword)
 
+    # add missing headings, remove incorrect headings
     for file in markdown_files:
-        scan_bb_file(file)
+        scan_bb_headings(file)
+
+    # rewrite BB descriptions that dont match template
+    # this is done in a second pass after files with missing headings were corrected
+    for file in markdown_files:
+        scan_bb_descriptions(file)
+
 
 def extract_template_headings_content_description(file_path):
     """
@@ -26,7 +39,6 @@ def extract_template_headings_content_description(file_path):
         file_path (str): Path to the markdown file.
     Returns:
         dict(str, str): Dictionary with headings as keys and their content as values.
-        list(str): List containing heading descriptions of template file.
     """
     name_pattern = re.compile(r"# ([a-zA-Z0-9, +\-\ \/(\)]*)\s*## BB Tag")
     heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
@@ -42,7 +54,6 @@ def extract_template_headings_content_description(file_path):
 
 
     heading_contents = {"BB Name": names[0]}
-    template_descriptions = list()
 
     for i, heading in enumerate(headings):
         start = content.find(heading) + len(heading)
@@ -52,15 +63,12 @@ def extract_template_headings_content_description(file_path):
         heading_content = content[start:end].strip("\r\n# ")
         heading_contents[heading] = heading_content
 
-        # extract heading descriptions, i.e comments under heading <!--...-->
-        template_descriptions.append(heading_content)
+    return heading_contents
 
-    return heading_contents, template_descriptions
-
-def scan_bb_file(file_path):
+def scan_bb_headings(file_path):
     """
-    Checks BB file for missing headings, unspecified headings and mismatched heading descriptions with template file as a reference.
-    If any headings are missing, the file contains unspecified headings, or the heading descriptions are mismatched, the fix_markdown_file function is called.
+    Checks BB file for missing headings and unspecified headings with template file as a reference.
+    If any headings are missing, the file contains unspecified headings, or the heading descriptions are mismatched, the fix_bb_headings function is called.
 
     Args:
         file_path (str): Path to the markdown file.
@@ -98,21 +106,6 @@ def scan_bb_file(file_path):
         
         heading_content = content[start:end].strip("\r\n# ")
         heading_contents[heading] = heading_content
-
-        heading_contents[heading] = heading_content
-
-    # check for mismatched descriptions
-    descriptions = list()
-    for i, heading in enumerate(headings):
-        start = content.find(heading) + len(heading)
-        end = content.find(headings[i + 1]) if i + \
-            1 < len(headings) else len(content)
-        
-        heading_content = content[start:end].strip("\r\n# ")
-        heading_contents[heading] = heading_content
-
-        # extract heading descriptions, i.e comments under heading <!--...-->
-        descriptions.append(heading_content) if heading_content.startswith("<!--") else descriptions.append("")
     
     if len(heading_contents) < len(template_data):
         template_diff = list(set(template_data).difference(heading_contents))
@@ -121,7 +114,7 @@ def scan_bb_file(file_path):
         missing_headings = missing_headings[0]
 
     if len(missing_headings) > 0 or contains_unspecified_headings:
-        heading_contents = fix_markdown_file(file_path, heading_contents, missing_headings)
+        heading_contents = fix_bb_headings(file_path, heading_contents, missing_headings)
     
 def find_markdown_files(directory, excluded_dirs, keyword):
     """
@@ -143,7 +136,7 @@ def find_markdown_files(directory, excluded_dirs, keyword):
                 markdown_files.append(os.path.join(root, file))
     return markdown_files
 
-def fix_markdown_file(file, content, missing_headings):
+def fix_bb_headings(file, content, missing_headings):
     """
     Add missing headings to file at the appropriate position. 
     Rewrite the file with the new headings and invalid headings removed.
@@ -184,6 +177,92 @@ def fix_markdown_file(file, content, missing_headings):
     with open(file, "w", encoding="utf-8") as f:
         f.write(file_content.getvalue())
 
+def scan_bb_descriptions(file_path):
+    """
+    Checks BB heading descriptions with template file as a reference.
+    If any heading descriptions are foudn that don't match the template, the fix_bb_descriptions function is called.
+    """
+
+    name_pattern = re.compile(r"# ([a-zA-Z0-9, +\-\ \/(\)]*)\s*## BB Tag")
+    heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
+    description_pattern = re.compile(r"<!--.*-->")
+
+    wrong_descriptions = list()
+
+    with open(file_path, "r", encoding="utf-8") as file:
+        content = file.read()
+
+    headings = heading_pattern.findall(content)
+    heading_descriptions = {}
+
+    names = name_pattern.findall(content)
+    heading_contents = {"BB Name": names[0]}
+
+
+    end = 0
+
+    # extract descriptions and file content
+    for i, heading in enumerate(headings):
+        start = end + content[end:].find(heading) + len(heading)
+        end = start + content[start:].find(headings[i + 1]) if i + \
+            1 < len(headings) else len(content)
+        
+        heading_content = content[start:end].strip("\r\n# ")
+        heading_contents[heading] = heading_content
+        # extract description
+        description = description_pattern.findall(heading_content)
+        if len(description) > 0:
+            description = description[0]
+        else:
+            description = ""
+
+        heading_descriptions[heading] = description
+
+    # check for wrong descriptions
+    for header, description in heading_descriptions.items():
+        template_description = template_data[header]
+
+        if description != template_description:
+            wrong_descriptions.append(header)
+    
+    if len(wrong_descriptions) > 0:
+        fix_bb_descriptions(file_path, heading_contents, wrong_descriptions)
+
+def fix_bb_descriptions(file_path, content, wrong_descriptions):
+    """
+    Replace wrong descriptions with correct description specified in template file. 
+    Rewrite the file with the correct descriptions.
+
+    Args:
+        file (str): Path to building block file to be rewritten.
+        content (dict(str, str)): Contents of the file. Key: Heading, Value: Content of the heading.
+        wrong_descriptions (list(str)): List containing the headings with wrong descriptions.
+    """
+    file_content = StringIO()
+    file_content.write("# " + content["BB Name"] + "\n")
+    content.pop("BB Name")
+
+    i=0
+    for heading, data in content.items():
+        # replace wrong description, two cases: either no description or wrong description
+        if heading in wrong_descriptions:
+            if "-->" in data:
+                # split description and content of heading
+                tmp = data.split(">")
+                data = template_data[heading] + "\n" + tmp[1]
+            else:
+                data = template_data[heading] + "\n" + data
+        file_content.write("## " + heading + "\n")
+        file_content.write(data)
+        if i+1 < len(content):
+            if len(data) > 0:
+                file_content.write("\n\n")
+            else:
+                file_content.write("\n")
+        i = i + 1
+
+    with open(file_path, "w", encoding="utf-8") as f:
+        f.write(file_content.getvalue())
 
 if __name__ == "__main__":
     building_block_rewrite()
