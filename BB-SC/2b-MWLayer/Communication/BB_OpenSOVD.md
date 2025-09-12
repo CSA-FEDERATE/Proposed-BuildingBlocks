@@ -1,11 +1,11 @@
-# SOVD Reference implementation
+# OpenSOVD
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
-Diagnostics
+Communication
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
@@ -15,11 +15,15 @@ MWLayer
 <!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
+https://github.com/eclipse-opensovd/opensovd
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
+Eclipse OpenSOVD provides an open source implementation of the Service-Oriented Vehicle Diagnostics (SOVD) standard, as defined in ISO 17978. The project delivers a modular, standards-compliant software stack that enables secure and efficient access to vehicle diagnostics over service-oriented architectures. By offering an open and community-driven implementation, Eclipse OpenSOVD serves as a foundation for developers, OEMs, and tool vendors to build, test, and integrate SOVD-based solutions. The project will hence facilitate adoption and ensure industry coherence with the standard.
+
+[Reference]:https://github.com/eclipse-opensovd/opensovd
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -53,7 +57,7 @@ If “No” – nothing more to do
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
 ## Author/Company
-Günther; Bauer
+Ramachandran Chakravadhanula; ZF
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -61,10 +65,10 @@ Günther; Bauer
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+[Eclipse](https://eclipse-kuksa.github.io/kuksa-website/)
 
 ## Availability of Source Code
-<!-- Yes / License (e.g. Yes/MIT) 
-No – Commercial Closed Source -->
+Apache-2.0 license
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
@@ -72,7 +76,7 @@ No - Commercial -->
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
-None
+Web API
 
 ## Potential obstacles
 
@@ -110,6 +114,7 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
+Implementation started
 
 ## System Context
 <!-- 
