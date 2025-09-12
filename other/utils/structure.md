@@ -10,6 +10,9 @@
     - Requirements
         - [BB_SphinxNeeds](/BB-EST/Requirements/BB_SphinxNeeds.md)
         - [BB_openfasttrace](/BB-EST/Requirements/BB_openfasttrace.md)
+    - Software-Development-Kit
+        - [BB_API_verification](/BB-EST/Software-Development-Kit/BB_API_verification.md)
+        - [BB_Library_and_variant_management](/BB-EST/Software-Development-Kit/BB_Library_and_variant_management.md)
     - Design
         - [BB_SKyBT](/BB-EST/Design/BB_SKyBT.md)
     - Testing
