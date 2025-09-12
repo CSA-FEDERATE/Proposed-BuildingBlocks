@@ -104,7 +104,7 @@ body:
   id: usage_example
   attributes:
     label: BB Usage
-    description: Example on how to use BB or link to documentation
+    description: Example on how to use BB or link to documentation. Should include code snippets, information about usage, trainings, skills, examples and how-to's.
     placeholder: 
   validations:
     required: false
@@ -232,7 +232,7 @@ body:
 - type: textarea
   id: rel_projects
   attributes:
-    label: Related Project(s)
+    label: Contribution through RDI projects
     description: If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value, If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework
     placeholder: 
   validations:
@@ -412,15 +412,6 @@ body:
   validations:
     required: false
 
-- type: textarea
-  id: sys_context
-  attributes:
-    label: System Context
-    description: OS and runtime/framework requirements eg. AGL, QNX, ROS-based, container runtime, web assembly, web service
-    placeholder: 
-  validations:
-    required: false
-
 - type: dropdown
   id: state
   attributes:
@@ -436,6 +427,15 @@ body:
     - Abandoned
   validations:
     required: true
+
+- type: textarea
+  id: sys_context
+  attributes:
+    label: System Context
+    description: OS and runtime/framework requirements eg. AGL, QNX, ROS-based, container runtime, web assembly, web service
+    placeholder: 
+  validations:
+    required: false
 
 - type: checkboxes
   id: bazel
