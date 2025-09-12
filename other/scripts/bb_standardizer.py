@@ -40,7 +40,7 @@ def extract_template_headings_content_description(file_path):
     Returns:
         dict(str, str): Dictionary with headings as keys and their content as values.
     """
-    name_pattern = re.compile(r"# ([a-zA-Z0-9, +\-\ \/(\)]*)\s*## BB Tag")
+    name_pattern = re.compile(r"# ([a-zA-Z0-9., +\-\ \/(\)]*)\s*## BB Tag")
     heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
 
     with open(file_path, "r", encoding="utf-8") as file:
@@ -73,7 +73,7 @@ def scan_bb_headings(file_path):
     Args:
         file_path (str): Path to the markdown file.
     """
-    name_pattern = re.compile(r"# ([a-zA-Z0-9, +\-\ \/(\)]*)\s*## BB Tag")
+    name_pattern = re.compile(r"# ([a-zA-Z0-9., +\-\ \/(\)]*)\s*## BB Tag")
     heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
 
     missing_headings = []
@@ -183,7 +183,7 @@ def scan_bb_descriptions(file_path):
     If any heading descriptions are foudn that don't match the template, the fix_bb_descriptions function is called.
     """
 
-    name_pattern = re.compile(r"# ([a-zA-Z0-9, +\-\ \/(\)]*)\s*## BB Tag")
+    name_pattern = re.compile(r"# ([a-zA-Z0-9., +\-\ \/(\)]*)\s*## BB Tag")
     heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
     description_pattern = re.compile(r"<!--.*-->")
 
