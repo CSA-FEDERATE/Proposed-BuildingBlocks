@@ -65,7 +65,7 @@ def extract_headings_and_content(file_path, is_template_file = False):
     Returns:
         dict: Dictionary with headings as keys and their content as values.
     """
-    name_pattern = re.compile(r"# ([a-zA-Z0-9, +\-\ \/(\)]*)\s*## BB Tag")
+    name_pattern = re.compile(r"# ([a-zA-Z0-9., +\-\ \/(\)]*)\s*## BB Tag")
     heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
 
     with open(file_path, "r", encoding="utf-8") as file:
