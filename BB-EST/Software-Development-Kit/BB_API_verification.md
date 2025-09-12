@@ -3,7 +3,7 @@
 
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
-BB-CEST
+BB-CEST, BB-EST
 
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
@@ -61,6 +61,7 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 ## Related Project(s)
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+SHIFT2SDV
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
