@@ -89,7 +89,6 @@
             - [BB_Vehicle_Logging_and_Recording](/WorkInProgress/BB-SC/2b-MWLayer/Storage/BB_Vehicle_Logging_and_Recording.md)
         - Diagnostics
             - [BB_Policy_Manager](/WorkInProgress/BB-SC/2b-MWLayer/Diagnostics/BB_Policy_Manager.md)
-            - [BB_SOVD_Reference_implementation](/WorkInProgress/BB-SC/2b-MWLayer/Diagnostics/BB_SOVD_Reference_implementation.md)
         - Time
             - [BB_Onboard_TSN_scheduling_Tool](/WorkInProgress/BB-SC/2b-MWLayer/Time/BB_Onboard_TSN_scheduling_Tool.md)
             - [BB_Time_Service](/WorkInProgress/BB-SC/2b-MWLayer/Time/BB_Time_Service.md)

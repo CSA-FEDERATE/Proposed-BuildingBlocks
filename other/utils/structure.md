@@ -69,6 +69,7 @@
         - Platform-Health-Management
         - Communication
             - [BB_Eclipse_Zenoh](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_Zenoh.md)
+            - [BB_OpenSOVD](/BB-SC/2b-MWLayer/Communication/BB_OpenSOVD.md)
             - [BB_Eclipse_iceoryx2](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_iceoryx2.md)
             - [BB_Eclipse_Canought](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_Canought.md)
             - [BB_COVESA_VISSR](/BB-SC/2b-MWLayer/Communication/BB_COVESA_VISSR.md)

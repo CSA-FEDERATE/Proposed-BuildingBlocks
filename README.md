@@ -107,6 +107,7 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
         - Platform-Health-Management
         - Communication
             - [BB_Eclipse_Zenoh](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_Zenoh.md)
+            - [BB_OpenSOVD](/BB-SC/2b-MWLayer/Communication/BB_OpenSOVD.md)
             - [BB_Eclipse_iceoryx2](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_iceoryx2.md)
             - [BB_Eclipse_Canought](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_Canought.md)
             - [BB_COVESA_VISSR](/BB-SC/2b-MWLayer/Communication/BB_COVESA_VISSR.md)
@@ -334,7 +335,6 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
             - [BB_Vehicle_Logging_and_Recording](/WorkInProgress/BB-SC/2b-MWLayer/Storage/BB_Vehicle_Logging_and_Recording.md)
         - Diagnostics
             - [BB_Policy_Manager](/WorkInProgress/BB-SC/2b-MWLayer/Diagnostics/BB_Policy_Manager.md)
-            - [BB_SOVD_Reference_implementation](/WorkInProgress/BB-SC/2b-MWLayer/Diagnostics/BB_SOVD_Reference_implementation.md)
         - Time
             - [BB_Onboard_TSN_scheduling_Tool](/WorkInProgress/BB-SC/2b-MWLayer/Time/BB_Onboard_TSN_scheduling_Tool.md)
             - [BB_Time_Service](/WorkInProgress/BB-SC/2b-MWLayer/Time/BB_Time_Service.md)
