@@ -63,7 +63,7 @@ Link to AUTOSAR SOME/IP protocol, other middleware- and protocol implementations
 
 - High
 
-## Related Project(s)
+## Contribution through RDI projects
 
 - [COVESA uServices](https://github.com/COVESA/uservices)
 - Eclipse uProtocol

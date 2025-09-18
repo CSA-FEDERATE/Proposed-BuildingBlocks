@@ -58,7 +58,7 @@ Alexandru Kampmann RWTH
 ## Priority
 <!-- High, Medium, Low -->
 
-## Related Project(s)
+## Contribution through RDI projects
 <https://github.com/mROS-base/mros2>
 <https://github.com/micro-ROS>
 

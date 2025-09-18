@@ -51,7 +51,7 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 ## Priority
 <!-- High, Medium, Low -->
 
-## Related Project(s)
+## Contribution through RDI projects
 The most complete DDS - Proven: Plenty of success cases. Looking for commercial support? Contact info@eprosima.com 
 https://eprosima.com/
 

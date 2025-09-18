@@ -58,7 +58,7 @@ The following key aspects are written from the point of view of an in-vehicle SD
 
 - High
 
-## Related Project(s)
+## Contribution through RDI projects
 
 - [COVESA uServices](https://github.com/COVESA/uservices)
 - Eclipse uProtocol

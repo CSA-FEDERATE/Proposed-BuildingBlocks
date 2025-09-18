@@ -71,7 +71,7 @@ Anonymous
 ## Priority
 <!-- High, Medium, Low -->
 
-## Related Project(s)
+## Contribution through RDI projects
 https://projects.eclipse.org/projects/iot.cyclonedds
 
 ## Availability of Source Code
