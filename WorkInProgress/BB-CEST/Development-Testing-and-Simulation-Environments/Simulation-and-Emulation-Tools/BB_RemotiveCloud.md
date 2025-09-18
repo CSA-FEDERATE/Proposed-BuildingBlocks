@@ -12,7 +12,9 @@ Diagnostics (could also be used for feeding vehicle data to emulators and other 
 Not Specified
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
+
 
 ## Known Implementation
 https://cloud.remotivelabs.com/
@@ -70,7 +72,7 @@ Emil Dautovic / RemotiveLabs
 
 ## Contribution through RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 Yes, part of Playground under the COVESA umbrella. 
 No active role in FEDERATE yet but there should be a good fit under WP2 projects where there is a need to collaborate in an easy way when it comes to vehicle data (from a test rig or an actual vehicle) for both debugging as well as prototyping purposes (either OEM propritary format or COVESA VSS).
 
@@ -115,6 +117,7 @@ Example:
 
 -->
 
+
 ## State (+ date of last change)
 <!-- 
 - Incubating (no code yet)
@@ -124,6 +127,9 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
+1 OEM
+- Abandoned
+ --
 
 ## System Context
 <!-- 
@@ -138,6 +144,7 @@ eg.
 - web assembly
 - web service
  -->
+
 
 ## Bazel compliance status
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->

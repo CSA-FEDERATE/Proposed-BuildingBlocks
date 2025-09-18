@@ -1,6 +1,4 @@
-
 # Yocto project
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-EST, BB-CEST
@@ -12,7 +10,9 @@ BB-EST, BB-CEST
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
+
 
 ## Known Implementation
 https://git.yoctoproject.org/
@@ -85,7 +85,7 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 No
 
 ## Author/Company
-<!-- How is the caretaker, maintainer or contact for this BB, … -->
+
 VIF
 
 ## Priority
@@ -94,14 +94,14 @@ VIF
 
 ## Contribution through RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 Pat of the buildsystem for the BB - Automotove Grade Linux
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
 YES -  
-[soruce: Understanding licenses in a Yocto Project Build](https://hub.mender.io/t/understanding-licenses-in-a-yocto-project-build/4848) 
+[soruce: Understanding licenses in a Yocto Project Build](https://hub.mender.io/t/understanding-licenses-in-a-yocto-project-build/4848)
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
@@ -113,7 +113,8 @@ TBD
 TBD
 
 ## Potential obstacles
-<!-- What are possible obstacles that should be considered in a joint open solution?  -->
+
+
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -141,13 +142,7 @@ Example:
 -->
 TBD
 
-## Skills, Manuals and Trainings
-<!-- What prior knowledge is required to use the BB efficiently, or where is training material available or who offers training?  -->
-Yocto, Linux basics
-[Yocto training:](https://www.yoctoproject.org/community/learn/)
-
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -156,12 +151,11 @@ Yocto, Linux basics
 - Used in production by >1 OEM
 - Abandoned
  -->
-Used in serveral embedded projects
-[May 2025 vistited May 2025](https://git.yoctoproject.org/)
-
+1 OEM
+- Abandoned
+ --
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -176,6 +170,6 @@ eg.
  -->
 Linux, AGL
 
- ## Bazel compliance status
- <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
  TBD

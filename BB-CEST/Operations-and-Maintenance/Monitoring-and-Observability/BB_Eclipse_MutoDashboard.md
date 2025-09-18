@@ -1,5 +1,4 @@
 # Eclipse Muto Dashboard
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-CEST, BB-CSC-TC
@@ -12,7 +11,9 @@ BB-CEST, BB-CSC-TC
 MWLayer
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
+
 
 ## Known Implementation
 https://github.com/eclipse-muto/dashboard-device
@@ -59,6 +60,7 @@ TBD
 If “No” – nothing more to do 
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
+
 ## Author/Company
 Eclipse Foundation
 
@@ -67,7 +69,7 @@ Eclipse Foundation
 
 ## Contribution through RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 TBD
 
 ## Availability of Source Code
@@ -114,7 +116,6 @@ Example:
 TBD
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -123,10 +124,11 @@ TBD
 - Used in production by >1 OEM
 - Abandoned
  -->
-First public release available
+1 OEM
+- Abandoned
+ --
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
