@@ -1,4 +1,5 @@
 # OpenHarmony
+
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC, BB-EST
@@ -11,9 +12,7 @@ BB-SC, BB-EST
 MWLayer, OSLayer
 
 ## BB Usage
-<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
-trainings, skills, examples and how-to's. -->
-
+<!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
 https://gitee.com/openharmony
@@ -32,18 +31,17 @@ OpenHarmony is an open-source project incubated and operated by the OpenAtom Fou
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
 
-
 ## Compose BB(s)
 <!-- Link to required BB(s) 
 E.g. BB-SC StateManagement 
 BB is a composition of other BBs -->
-
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
@@ -61,14 +59,14 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 No
 
 ## Author/Company
-OpenHarmony
+OpenHarmony 
 
 ## Priority
 <!-- High, Medium, Low -->
 
 ## Contribution through RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
 TBD
 
 ## Availability of Source Code
@@ -115,6 +113,7 @@ Example:
 TBD
 
 ## State (+ date of last change)
+
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -123,11 +122,10 @@ TBD
 - Used in production by >1 OEM
 - Abandoned
  -->
-1 OEM
-- Abandoned
- --
+First public release available
 
 ## System Context
+
 <!-- 
 OS and runtime/framework requirements
 

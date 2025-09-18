@@ -8,13 +8,11 @@ BB-SC
 Runtime
 
 ## Layer
-<!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+<!-- 1, 2a, 2b, 3 -->
 MWLayer
 
 ## BB Usage
-<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
-trainings, skills, examples and how-to's. -->
-
+<!-- example on how to use BB or link to documentation -->
 
 ## Known Implementation
 
@@ -43,7 +41,6 @@ ASAM SOVD
 E.g. BB-SC StateManagement 
 BB is a composition of other BBs -->
 
-
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
 
@@ -57,34 +54,29 @@ BB is a composition of other BBs -->
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
 
-
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
 If “No” – nothing more to do 
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
 
-
 ## Author/Company
 Conti
 
 ## Priority
-<!-- High, Medium, Low -->
+<!-- High, Mid, Low -->
 Medium
 
 ## Contribution through RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
-
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
 
-
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
-
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
@@ -117,7 +109,6 @@ Example:
 
 -->
 
-
 ## State (+ date of last change)
 <!-- 
 - Incubating (no code yet)
@@ -127,9 +118,6 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-1 OEM
-- Abandoned
- --
 
 ## System Context
 <!-- 
@@ -144,7 +132,6 @@ eg.
 - web assembly
 - web service
  -->
-
 
 ## Bazel compliance status
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
