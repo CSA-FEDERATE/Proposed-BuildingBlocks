@@ -9,7 +9,7 @@ Power Management
 
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
-<!-- NOTE: Flag 
+MWLayer
 
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
