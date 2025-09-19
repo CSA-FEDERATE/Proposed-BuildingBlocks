@@ -248,7 +248,7 @@ def fix_bb_descriptions(file_path, content, wrong_descriptions):
         if heading in wrong_descriptions:
             if "-->" in data:
                 # split description and content of heading
-                tmp = data.split(">")
+                tmp = data.split("-->")
                 data = template_data[heading] + "\n" + tmp[1].strip("\r\n")
             else:
                 data = template_data[heading] + "\n" + data.strip("\r\n")

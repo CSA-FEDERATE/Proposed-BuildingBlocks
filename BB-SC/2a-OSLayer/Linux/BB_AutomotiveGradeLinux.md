@@ -1,6 +1,4 @@
-
 #  AGL Automotive Grade Linux
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC, BB-EST, BB-EST-TC
@@ -13,7 +11,9 @@ BB-SC, BB-EST, BB-EST-TC
 APPLayer, MWLayer, OSLayer
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
+
 
 ## Known Implementation
 https://github.com/orgs/agl-ic-eg/repositories?type=all
@@ -43,7 +43,6 @@ AGL is a Linux Foundation project and its goals are as follows:
 
 [source:](https://docs.automotivelinux.org/en/master/##01_Getting_Started/01_Quickstart/01_Using_Ready_Made_Images/)
 
-
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
@@ -55,17 +54,16 @@ TBD
 E.g. BB-SC StateManagement 
 BB is a composition of other BBs -->
 [Yocto Project](https://www.yoctoproject.org/)
-[QEMU](https://www.qemu.org/) 
+[QEMU](https://www.qemu.org/)
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
-Linux Build System 
+Linux Build System
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
 
-See supported [Hardware](https://docs.automotivelinux.org/en/master/#02_Hardware_Support/01_Supported_Hardware_Overview/ 
-
+See supported [Hardware](https://docs.automotivelinux.org/en/master/#02_Hardware_Support/01_Supported_Hardware_Overview/
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
@@ -90,15 +88,14 @@ VIF
 
 ## Contribution through RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 TBD
-
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
 YES GPL, MIT
- 
+
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
@@ -138,7 +135,6 @@ Example:
 TBD
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -151,7 +147,6 @@ Used in production by >1 OEM
 [last change May 2025 visted 16.06.2025](https://github.com/orgs/agl-ic-eg/repositories?type=all)
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -166,6 +161,6 @@ eg.
  -->
 AGL Automotive Grade Linux
 
- ## Bazel compliance status
- <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+## Bazel compliance status
+<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
  TBD

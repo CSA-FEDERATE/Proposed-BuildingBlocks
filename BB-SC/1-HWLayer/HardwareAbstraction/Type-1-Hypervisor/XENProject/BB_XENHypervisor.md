@@ -14,7 +14,9 @@ HardwareAbstraction; Virtualisation; Type-1-Hypervisor
 HWLayer
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
+
 
 ## Known Implementation
 https://github.com/xen-project/xen
@@ -48,7 +50,6 @@ source: https://xenproject.org/
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
-
 MISRA-C (misra compliance checker in the build pipeline)
 ISO26262 (safety concept for tbd. HW under development)
 
@@ -56,7 +57,6 @@ ISO26262 (safety concept for tbd. HW under development)
 <!-- Link to required BB(s) 
 E.g. BB-SC StateManagement 
 BB is a composition of other BBs -->
-
 Linux with XEN packages
 optional: XEN tools (.e.g. xl)
 
@@ -83,11 +83,11 @@ Real-Time (support firm and soft real-time)
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
 
+
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
 If “No” – nothing more to do 
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
-
 Yes, information about platform utilisation, software versions, stored error, ... should be accessible at any time (also from outsiede) via a standardised API and a standardised data model/format.
 
 ## Author/Company
@@ -100,22 +100,19 @@ High
 
 ## Contribution through RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
-
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 HAL4SDV
 XEN Project
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
-
 YES/ Apache-2.0; BSD-2-Clause; BSD-3-Clause;BSD-3-Clause-Clear; CC-BY-4.0; GPL-2.0; LGPL-2.0; LGPL-2.1; MIT, MIT-O
 https://github.com/xen-project/xen/tree/master/LICENSES
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
-
 YES / LGPL-2.1 XENAPI
 
 ## Type of API
@@ -149,6 +146,7 @@ Example:
 
 -->
 
+
 ## State (+ date of last change)
 <!-- 
 - Incubating (no code yet)
@@ -158,7 +156,6 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-
 Used in production by e.g. AWS Cloud Services
 last change 28.02.2025 (retrieved 03.03.2025)
 
@@ -175,7 +172,6 @@ eg.
 - web assembly
 - web service
  -->
-
 Type-1-Hypervisor
 
 ## Bazel compliance status

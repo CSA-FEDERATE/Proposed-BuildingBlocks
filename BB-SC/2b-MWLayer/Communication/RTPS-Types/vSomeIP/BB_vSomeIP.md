@@ -14,7 +14,9 @@ Communication
 MWLayer
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
+
 
 ## Known Implementation
 [vSomeIP](https://github.com/COVESA/vsomeip)
@@ -38,7 +40,6 @@ SOME/IP is an automotive middleware solution that can be used for control messag
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
-
 [Standards](https://some-ip.com/standards.shtml)
  AUTOSAR Classic
  AUTOSAR Foundation
@@ -47,7 +48,10 @@ Reference to e.g. IS026262, AUTOSAR Spec. X -->
  Genivi/COVESA vsomeip
 
 ## Compose BB(s)
-<!-- Link to required BB(s) -->
+<!-- Link to required BB(s) 
+E.g. BB-SC StateManagement 
+BB is a composition of other BBs -->
+
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
@@ -64,10 +68,12 @@ Reference to e.g. IS026262, AUTOSAR Spec. X -->
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
 
+
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
 If “No” – nothing more to do 
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
+
 
 ## Author/Company
 Anonymous
@@ -77,17 +83,18 @@ Anonymous
 
 ## Contribution through RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 HAL4SDV, Shift2SDV
 
 ## Availability of Source Code
-Yes / vSomeIP - Mozilla Public License Version 2.0
 <!-- Yes / License (e.g. Yes/MIT) 
 No – Commercial Closed Source -->
+
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
@@ -117,8 +124,8 @@ Example:
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
 | Level		| [Gold](urlToDoc)| No 		   | Notdefined		   | Bronze	 | [Silver](urlToDoc) |
 
- -->
 
+-->
 |                       | Documentation | Requirements | Coding Guidelines | Testing | Release Process |
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
 | Level     | [Silver](https://github.com/COVESA/vsomeip/wiki) | [Gold](https://github.com/COVESA/vsomeip/tree/master/test)       | [Gold](https://github.com/COVESA/vsomeip/wiki/vsomeip-Contribution-Process) | Notdefined | [Gold](https://github.com/COVESA/vsomeip/wiki/vsomeip-Release-Process) |
@@ -132,7 +139,6 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-
 Used in several projects, proprietary implementations available
 Last update Github Jan. 2025 / continuously updated
 

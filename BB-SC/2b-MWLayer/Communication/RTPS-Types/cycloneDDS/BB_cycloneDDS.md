@@ -1,15 +1,20 @@
 # CycloneDDS
 ## BB Tags(s)
+<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC; BB-MU; BB-CSC; BB-CMU
 
 ## Functional Clusters
+<!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
 Communication
 
 ## Layer
+<!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 MWLayer
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
+
 
 ## Known Implementation
 https://github.com/eclipse-cyclonedds/cyclonedds
@@ -17,12 +22,16 @@ https://github.com/eclipse-cyclonedds/cyclonedds
 ## ID (unique name)
 
 ## Description
+<!-- General Description of the BB -->
 Eclipse Cyclone DDS is a very performant and robust open-source implementation of the OMG DDS specification. Cyclone DDS is developed completely in the open as an Eclipse IoT project (see eclipse-cyclone-dds) with a growing list of adopters (if you're one of them, please add your logo). It is a tier-1 middleware for the Robot Operating System ROS 2.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
 
 ## Governance Applicable S-BB(s)
+<!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
+Reference to defined S-BB(s) 
+Reference to e.g. IS026262, AUTOSAR Spec. X -->
 Cyclone DDS aims at full coverage of the specs and today already covers most of this. With references to the individual OMG specifications, the following is available:
 
     [DCPS](https://www.omg.org/spec/DDS/1.4/PDF) the base specification 
@@ -37,12 +46,16 @@ Cyclone DDS aims at full coverage of the specs and today already covers most of 
     [DDSI-RTPS](https://www.omg.org/spec/DDSI-RTPS/2.5/PDF) - the interoperable network protocol
 
 ## Compose BB(s)
+<!-- Link to required BB(s) 
+E.g. BB-SC StateManagement 
+BB is a composition of other BBs -->
 OS/Runtime Envirnoment
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
 
 ## What is needed to build and run
+<!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
 In order to build Cyclone DDS you need a Linux, Mac or Windows 10 machine (or, with some caveats, a *BSD, QNX, OpenIndiana or a Solaris 2.6 one) with the following installed on your host:
 
 C compiler (most commonly GCC on Linux, Visual Studio on Windows, Xcode on macOS);
@@ -53,6 +66,7 @@ Optionally Eclipse Iceoryx version 2.0 for shared memory and zero-copy support;
 Optionally Bison parser generator. A cached source is checked into the repository.
 
 ## Non-Functional Requirements
+<!-- With respect to Safety, Security, Realtime, … -->
 Real Time
 QOS
 
@@ -60,10 +74,12 @@ QOS
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
 
+
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
 If “No” – nothing more to do 
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
+
 
 ## Author/Company
 Anonymous
@@ -72,14 +88,19 @@ Anonymous
 <!-- High, Medium, Low -->
 
 ## Contribution through RDI projects
+<!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 https://projects.eclipse.org/projects/iot.cyclonedds
 
 ## Availability of Source Code
+<!-- Yes / License (e.g. Yes/MIT) 
+No – Commercial Closed Source -->
 YES/Eclipse Public License - v 2.0
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
@@ -109,8 +130,8 @@ Example:
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
 | Level		| [Gold](urlToDoc)| No 		   | Notdefined		   | Bronze	 | [Silver](urlToDoc) |
 
--->
 
+-->
 |                       | Documentation | Requirements | Coding Guidelines | Testing | Release Process |
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
 | Level     | [Gold](https://cyclonedds.io/docs/) | Notdefined       | Notdefined | Notdefined | [Gold](https://cyclonedds.io/docs/) |
@@ -124,7 +145,6 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
-
 Used in several projects (e.g ROS2).
 Last update Github Jan. 2025 / continuously updated
 
@@ -141,7 +161,6 @@ eg.
 - web assembly
 - web service
  -->
-
 regarding details see section - What is needed to build and run
 
 ## Bazel compliance status
