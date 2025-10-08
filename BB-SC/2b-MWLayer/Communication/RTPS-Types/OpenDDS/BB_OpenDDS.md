@@ -127,7 +127,7 @@ Anonymous
 ## Priority
 <!-- High, Medium, Low -->
 
-## Contribution through RDI projects
+## Contribution supported by RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 OpenDDS is an open source C++ implementation of the Object Management Group (OMG) Data Distribution Service (DDS). OpenDDS also supports Java bindings through JNI. 

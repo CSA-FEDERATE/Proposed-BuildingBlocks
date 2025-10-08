@@ -59,7 +59,7 @@ The following key aspects are written from the point of view of an in-vehicle SD
 
 - High
 
-## Contribution through RDI projects
+## Contribution supported by RDI projects
 
 - [COVESA VSS](https://covesa.github.io/vehicle_signal_specification/)
 - [W3C VISS](https://github.com/COVESA/vehicle-information-service-specification)

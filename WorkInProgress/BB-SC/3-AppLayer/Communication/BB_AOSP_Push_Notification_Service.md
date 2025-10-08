@@ -80,7 +80,7 @@ Anonymous
 <!-- High, Medium, Low -->
 until 30.6.2025
 
-## Contribution through RDI projects
+## Contribution supported by RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 See Google Automotive Services FAS  
