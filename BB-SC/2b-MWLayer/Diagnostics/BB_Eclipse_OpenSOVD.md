@@ -1,4 +1,5 @@
 # Eclipse OpenSOVD
+
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC
@@ -14,7 +15,6 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
 
 ## Known Implementation
 https://github.com/eclipse-opensovd/opensovd
@@ -39,7 +39,6 @@ IS026262
 E.g. BB-SC StateManagement 
 BB is a composition of other BBs -->
 
-
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
 
@@ -53,12 +52,10 @@ BB is a composition of other BBs -->
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
 
-
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
 If “No” – nothing more to do 
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
-
 
 ## Author/Company
 Eclipse Foundation
@@ -69,7 +66,6 @@ Eclipse Foundation
 ## Contribution supported by RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
-
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
@@ -111,7 +107,6 @@ Example:
 
 
 -->
-
 
 ## State (+ date of last change)
 <!-- 
