@@ -11,7 +11,8 @@
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
 
 ## Known Implementation
 
@@ -56,9 +57,9 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 ## Priority
 <!-- High, Medium, Low -->
 
-## Related Project(s)
+## Contribution supported by RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 

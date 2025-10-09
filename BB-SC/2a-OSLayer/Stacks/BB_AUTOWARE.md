@@ -1,6 +1,4 @@
-
 # Autoware
-
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC, BB-EST
@@ -13,7 +11,9 @@ BB-SC, BB-EST
 MWLayer, OSLayer
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
+
 
 ## Known Implementation
 https://github.com/autowarefoundation/autoware
@@ -32,10 +32,12 @@ Autoware is an open-source software stack for self-driving vehicles, built on th
 Reference to defined S-BB(s) 
 Reference to e.g. IS026262, AUTOSAR Spec. X -->
 
+
 ## Compose BB(s)
 <!-- Link to required BB(s) 
 E.g. BB-SC StateManagement 
 BB is a composition of other BBs -->
+
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
@@ -65,9 +67,9 @@ Autoware Foundation
 ## Priority
 <!-- High, Medium, Low -->
 
-## Related Project(s)
+## Contribution supported by RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework -->
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 TBD
 
 ## Availability of Source Code
@@ -114,7 +116,6 @@ Example:
 TBD
 
 ## State (+ date of last change)
-
 <!-- 
 - Incubating (no code yet)
 - Implementation started
@@ -126,7 +127,6 @@ TBD
 First public release available
 
 ## System Context
-
 <!-- 
 OS and runtime/framework requirements
 
@@ -144,4 +144,3 @@ Linux
 ## Bazel compliance status
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
 n/a
-

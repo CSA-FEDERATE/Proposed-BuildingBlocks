@@ -1,15 +1,20 @@
 # OpenDDS
 ## BB Tags(s)
+<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC; BB-MU; BB-CSC; BB-CMU
 
 ## Functional Clusters
+<!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
 Communication
 
 ## Layer
+<!-- AppLayer, MWLayer, OSLayer, HWLayer -->
 MWLayer
 
 ## BB Usage
-<!-- example on how to use BB or link to documentation -->
+<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
+trainings, skills, examples and how-to's. -->
+
 
 ## Known Implementation
 https://github.com/OpenDDS/OpenDDS
@@ -17,12 +22,16 @@ https://github.com/OpenDDS/OpenDDS
 ## ID (unique name)
 
 ## Description
+<!-- General Description of the BB -->
 OpenDDS is an open-source C++ implementation of the Object Management Group's specification "Data Distribution Service for Real-time Systems" (DDS), as well as some other related specifications. These standards define a set of interfaces and protocols for developing distributed applications based on the publish-subscribe and distributed cache models. Although OpenDDS is itself developed in C++, Java bindings are provided so that Java applications can use OpenDDS. OpenDDS also includes support for the DDS Security and XTypes specifications.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
 
 ## Governance Applicable S-BB(s)
+<!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
+Reference to defined S-BB(s) 
+Reference to e.g. IS026262, AUTOSAR Spec. X -->
 This release of OpenDDS is based on the DDS Specification formal/2015-04-10 (version 1.4). It features the following transport protocols:
 
 *    TCP/IP
@@ -36,12 +45,17 @@ RTPS (Interoperability) features are based on the [DDS-RTPS Specification formal
 See the Developer's Guide for information on OpenDDS compliance with the DDS specification. If you would like to contribute a feature or sponsor the developers to add a feature please see the Support section above for contact information.
 
 ## Compose BB(s)
+<!-- Link to required BB(s) 
+E.g. BB-SC StateManagement 
+BB is a composition of other BBs -->
 OS/Runtime Envirnoment
 
 ## What is needed to Design and Implement
+<!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
 These are just the required dependencies. For a complete detailed list of dependencies, including optional ones, see https://opendds.readthedocs.io/en/latest-release/devguide/building/dependencies.html.
 
 ## What is needed to build and run
+<!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
 Operating Systems
 
 This release of OpenDDS has been tested under the following platforms:
@@ -92,6 +106,7 @@ This release of OpenDDS has been tested using the following compilers:
  Ubuntu clang 15.0.0
 
 ## Non-Functional Requirements
+<!-- With respect to Safety, Security, Realtime, … -->
 Real Time
 QOS
 
@@ -99,10 +114,12 @@ QOS
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
 
+
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
 If “No” – nothing more to do 
 If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
+
 
 ## Author/Company
 Anonymous
@@ -110,16 +127,21 @@ Anonymous
 ## Priority
 <!-- High, Medium, Low -->
 
-## Related Project(s)
+## Contribution supported by RDI projects
+<!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
+If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
 OpenDDS is an open source C++ implementation of the Object Management Group (OMG) Data Distribution Service (DDS). OpenDDS also supports Java bindings through JNI. 
 http://www.opendds.org/
 
 ## Availability of Source Code
+<!-- Yes / License (e.g. Yes/MIT) 
+No – Commercial Closed Source -->
 YES/OpenDDS (Licensed Product) is protected by copyright, and is distributed under the following terms.
 
 ## Availability of API
 <!-- Yes / License (e.g. Yes/Apache 2.0)
 No - Commercial -->
+
 
 ## Type of API
 <!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
@@ -151,8 +173,6 @@ Example:
 
 
 -->
-
-
 | 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
 | --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
 | Level		| [Gold](https://opendds.readthedocs.io/en/latest-release/)| Notdefined | [Gold](https://opendds.readthedocs.io/en/latest-release/devguide/index.html)	| Notdefined	| [Gold](https://opendds.readthedocs.io/en/latest-release/news.html) |
@@ -182,7 +202,6 @@ eg.
 - web assembly
 - web service
  -->
-
 Regarding details see section - What is needed to build and run
 
 Ubuntu/Debian/Red Hat, openSUSE, Yocto, Windows, LynxOS, VxWorks, Android
