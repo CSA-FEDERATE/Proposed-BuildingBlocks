@@ -444,10 +444,10 @@ body:
     description: The BB is designed in a way that enables usage or integration into one of the targets listed. That includes use of the recommended processes, APIs, tool chains,.....
     multiple: false
     options:
-      - label: S-CORE ecosystem
-      - label: AUTOSAR CAPI
-      - label: AOSP/AAOS
-      - label: none
+      - S-CORE ecosystem
+      - AUTOSAR CAPI
+      - AOSP/AAOS
+      - none
     default: 3
   validations:
     required: true
