@@ -144,4 +144,4 @@ n/a / code library
 
 ## Compliant to
 <!-- The BB is designed in a way that enables usage or integration into one of the targets listed. That includes use of the recommended processes, APIs, tool chains,.....-->
-n/a
+none
