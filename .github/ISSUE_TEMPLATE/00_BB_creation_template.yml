@@ -438,11 +438,14 @@ body:
     required: false
 
 - type: checkboxes
-  id: bazel
+  id: compliant
   attributes:
-    label: BAZEL compliance status
+    label: Compliant to
     description: 
     options:
-      - label: BAZEL compliant
+      - label: S-CORE ecosystem
+      - label: AUTOSAR CAPI
+      - label: AOSP/AAOS
+      - label: none
   validations:
     required: true
