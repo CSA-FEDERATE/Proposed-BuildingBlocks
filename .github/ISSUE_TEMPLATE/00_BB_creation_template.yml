@@ -447,7 +447,7 @@ body:
       - S-CORE ecosystem
       - AUTOSAR CAPI
       - AOSP/AAOS
-      - none
+      - none stated
     default: 3
   validations:
     required: true
