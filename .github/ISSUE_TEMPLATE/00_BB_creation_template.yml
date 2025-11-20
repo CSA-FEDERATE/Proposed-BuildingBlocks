@@ -448,6 +448,6 @@ body:
       - label: AUTOSAR CAPI
       - label: AOSP/AAOS
       - label: none
-    default: none
+    default: 3
   validations:
     required: true
