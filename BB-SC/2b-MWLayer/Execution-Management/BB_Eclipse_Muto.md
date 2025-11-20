@@ -140,6 +140,6 @@ eg.
  -->
 Linux
 
-## Bazel compliance status
+## Compliant to
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
 n/a

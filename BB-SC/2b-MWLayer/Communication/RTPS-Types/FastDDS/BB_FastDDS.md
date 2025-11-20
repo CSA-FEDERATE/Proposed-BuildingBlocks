@@ -149,5 +149,5 @@ regarding details see section - What is needed to build and run
 
 Ubuntu/Debian, MacOS, Windows, Android, QNX
 
-## Bazel compliance status
+## Compliant to
 <!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
