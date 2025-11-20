@@ -1,0 +1,48 @@
+name: Generate new Release
+run-name: Generating new Release
+on:
+    schedule:
+        - cron: '0 0 1 * *'
+jobs:
+  Generate-new-release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+        - run: echo "The job was automatically triggered by a ${{ github.event_name }} event."
+        - name: check out repository code
+          uses: actions/checkout@v4
+          with:
+            ssh-key: ${{ secrets.DEPLOY_KEY }}
+            ref: main
+        - run: echo "The ${{ github.repository }} repository has been cloned to the runner."
+        - name: List files in the repository
+          run: |
+           ls ${{ github.workspace }}
+        - name: setup python
+          uses: actions/setup-python@v4
+          with:
+            python-version: '3.10'
+        - name: install dependencies
+          run: |
+              pip install --upgrade pip
+              pip install pandas openpyxl
+        - name: execute py script 
+          run: python other/scripts/readme_generator.py
+        - name: determine tag name
+          id: vars
+          run: |
+            TAG="monthly-$(date +'%Y-%m')"
+            echo "tag=$TAG" >> $GITHUB_OUTPUT
+            echo "release_name=Automated Release $TAG" >> $GITHUB_OUTPUT
+        - name: create Release
+          uses: softprops/action-gh-release@v2
+          with:
+            tag_name: ${{ steps.vars.outputs.tag }}
+            name: ${{ steps.vars.outputs.release_name }}
+            generate_release_notes: true
+            files: |
+              output.xlsx
+          env:
+            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  
