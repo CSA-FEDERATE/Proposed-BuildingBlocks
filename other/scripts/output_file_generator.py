@@ -67,6 +67,7 @@ def extract_headings_and_content(file_path, is_template_file = False):
     """
     name_pattern = re.compile(r"# ([a-zA-Z0-9., +\-\ \/(\)]*)\s*## BB Tag")
     heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
+    file_path_pattern = re.compile(r"(?:Proposed-BuildingBlocks\\)(.*)")
 
     with open(file_path, "r", encoding="utf-8") as file:
         content = file.read()
@@ -78,11 +79,16 @@ def extract_headings_and_content(file_path, is_template_file = False):
     if not names:
         raise ValueError(f"No BB Name found in {file_path}")
 
+    #add file path to output file
+    path = file_path_pattern.findall(file_path)[0]
+    #remove file type
+    path = path.replace(".md","")
+
     implementation_status = 'implementation exists'
     if "WorkInProgress" in file_path:
         implementation_status = 'suggested'
 
-    heading_contents = {"BB Name": names[0], "Implementation Status":implementation_status}
+    heading_contents = {"BB Name": names[0], "BB Path": path, "Implementation Status": implementation_status}
 
     for i, heading in enumerate(headings):
         if heading not in template_headings and not is_template_file:
