@@ -85,7 +85,6 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 No
 
 ## Author/Company
-
 VIF
 
 ## Priority
@@ -113,8 +112,6 @@ TBD
 TBD
 
 ## Potential obstacles
-
-
 
 ## Maturity Badges
 <!-- taken over from Eclipse SDV Process 
@@ -170,5 +167,5 @@ eg.
 Linux, AGL
 
 ## Compliant to
-<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+<!-- The BB is designed in a way that enables usage or integration into one of the targets listed. That includes use of the recommended processes, APIs, tool chains,.....-->
  TBD

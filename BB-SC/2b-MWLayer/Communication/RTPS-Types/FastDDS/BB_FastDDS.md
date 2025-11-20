@@ -43,7 +43,6 @@ OS/Runtime Envirnoment
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
 
-
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
 See [supported Platforms](https://github.com/eProsima/Fast-DDS/blob/master/PLATFORM_SUPPORT.md#platform-support)
@@ -150,4 +149,4 @@ regarding details see section - What is needed to build and run
 Ubuntu/Debian, MacOS, Windows, Android, QNX
 
 ## Compliant to
-<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+<!-- The BB is designed in a way that enables usage or integration into one of the targets listed. That includes use of the recommended processes, APIs, tool chains,.....-->
