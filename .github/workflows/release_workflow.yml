@@ -1,11 +1,12 @@
 name: Generate new Release
 run-name: Generating new Release
 on:
+    workflow_dispatch:
     schedule:
         - cron: '0 0 1 * *'
 jobs:
   Generate-new-release:
-    runs-on: ubuntu-latest
+    runs-on: windows-latest
     permissions:
       contents: write
     steps:
@@ -28,9 +29,10 @@ jobs:
               pip install --upgrade pip
               pip install pandas openpyxl
         - name: execute py script 
-          run: python other/scripts/readme_generator.py
+          run: python other/scripts/output_file_generator.py ${{github.workspace}}
         - name: determine tag name
           id: vars
+          shell: bash
           run: |
             TAG="monthly-$(date +'%Y-%m')"
             echo "tag=$TAG" >> $GITHUB_OUTPUT
@@ -43,6 +45,3 @@ jobs:
             generate_release_notes: true
             files: |
               output.xlsx
-          env:
-            GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-  
