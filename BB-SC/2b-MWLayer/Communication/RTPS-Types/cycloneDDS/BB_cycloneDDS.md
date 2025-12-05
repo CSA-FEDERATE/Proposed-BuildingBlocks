@@ -163,5 +163,6 @@ eg.
  -->
 regarding details see section - What is needed to build and run
 
-## Bazel compliance status
-<!-- The S-CORE project requires all BB contributions to be ready for BAZEL compliant (https://github.com/bazelbuild/bazel)-->
+## Compliant to
+<!-- The BB is designed in a way that enables usage or integration into one of the targets listed. That includes use of the recommended processes, APIs, tool chains,.....-->
+none

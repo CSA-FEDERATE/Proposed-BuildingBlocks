@@ -437,12 +437,17 @@ body:
   validations:
     required: false
 
-- type: checkboxes
-  id: bazel
+- type: dropdown
+  id: compliant
   attributes:
-    label: BAZEL compliance status
-    description: 
+    label: Compliant to
+    description: The BB is designed in a way that enables usage or integration into one of the targets listed. That includes use of the recommended processes, APIs, tool chains,.....
+    multiple: false
     options:
-      - label: BAZEL compliant
+      - S-CORE ecosystem
+      - AUTOSAR CAPI
+      - AOSP/AAOS
+      - none stated
+    default: 3
   validations:
     required: true
