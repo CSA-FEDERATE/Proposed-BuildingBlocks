@@ -9,7 +9,7 @@ When Implementing a new BB please follow these [implementation guidelines](/othe
 When wanting to make changes to the [README](/README.md), please make the changes to the [README_base](/other/utils/README_base.md) so that they can be accessed by the [README Generator](/other/scripts/readme_generator.py). After adding the changes, run the [README Generator](/other/scripts/readme_generator.py) locally and push the changes.
 
 ## Releases
-A GitHub workflow creates a new realease at the first of every month. This release contains an Excel file listing all the BBs in the repository as they exist in the main branch at that time. The release can be found in the Releases [Releases](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/releases) section of the repository.
+A GitHub workflow creates a new realease at the first of every month. This release contains an Excel file listing all the BBs in the repository as they exist in the main branch at that time. The release can be found in the [Releases](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/releases) section of the repository.
 
 ## BB Tags
 
