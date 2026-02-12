@@ -1,4 +1,4 @@
-# Automotive API Framework
+# Open Vehicle API
 ## BB Tags(s)
 <!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
 BB-SC
@@ -17,12 +17,23 @@ trainings, skills, examples and how-to's. -->
 
 
 ## Known Implementation
+https://github.com/eclipse-openvehicle-api
 
 ## ID (unique name)
 
 ## Description
 <!-- General Description of the BB -->
-The Eclipse Automotive API Framework provides a stable application-facing interface, thereby minimizing the prevalence of proprietary solutions throughout the automotive sector. A corresponding model allows configuration and offers the needed flexibility for the handling of vehicle variants and different E/E architectures. Such solution also creates a win-win situation for both suppliers and OEMs.
+The Eclipse Open Vehicle API contains tools and a runtime to create a vehicle abstraction interface for signal- and event-driven functions. 
+
+ - Component-based
+ - Transfer existing signal-based ECUs to HPC
+ - Implement new signal- and event-based vehicle functions
+ - Vehicle independent implementation (vehicle abstraction)
+ - Multi-vendor – open for play-store approach
+ - Standardized interface for functions
+ - Automate as much as possible – reduce coding
+ - Allow HIL and SIL
+ - Safety aspects for use with chassis and ADAS functions
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
@@ -60,7 +71,7 @@ If “Yes, proposal for additional Signals/Information – what should be made a
 
 
 ## Author/Company
-Gunther; Bauer; ZF
+Thomas; Pfleiderer; ZF
 
 ## Priority
 <!-- High, Medium, Low -->
@@ -68,7 +79,10 @@ Gunther; Bauer; ZF
 ## Contribution supported by RDI projects
 <!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
 If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
-[Eclipse](https://projects.eclipse.org/projects/automotive.autoapiframework)
+[Eclipse](https://projects.eclipse.org/proposals/eclipse-open-vehicle-api)
+
+[Documentation](https://eclipse.dev/openvehicle-api/)
+
 
 ## Availability of Source Code
 <!-- Yes / License (e.g. Yes/MIT) 
@@ -121,7 +135,7 @@ Example:
 - Used in production by >1 OEM
 - Abandoned
  -->
- Incubating
+Implementation started  (ongoing check ins)
 
 ## System Context
 <!-- 
