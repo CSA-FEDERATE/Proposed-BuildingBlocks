@@ -83,10 +83,14 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
     - [2b-MWLayer](/BB-SC/2b-MWLayer/README.md)
         - Diagnostics
             - [BB_Eclipse_OpenSOVD](/BB-SC/2b-MWLayer/Diagnostics/BB_Eclipse_OpenSOVD.md)
+            - [BB_Eclipse_S-CORE_logging](/BB-SC/2b-MWLayer/Diagnostics/BB_Eclipse_S-CORE_logging.md)
         - Execution-Management
             - [BB_Eclipse_BlueChi](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_BlueChi.md)
             - [BB_Eclipse_PullPiriPackageServiceOrchestrator](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_PullPiriPackageServiceOrchestrator.md)
             - [BB_Eclipse_S-CORE_FEO](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_FEO.md)
+            - [BB_Eclipse_S-CORE_orchestration](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_orchestration.md)
+            - [BB_Eclipse_S-CORE_kyron](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_kyron.md)
+            - [BB_Eclipse_S-CORE_lifecycle](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_lifecycle.md)
             - [BB_Eclipse_Muto](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_Muto.md)
         - Configuration
         - Security
@@ -113,6 +117,8 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
                     - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
                 - vSomeIP
                     - [BB_vSomeIP](/BB-SC/2b-MWLayer/Communication/RTPS-Types/vSomeIP/BB_vSomeIP.md)
+                - DustDDS
+                    - [BB_DustDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/DustDDS/BB_DustDDS.md)
                 - OpenDDS
                     - [BB_OpenDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/OpenDDS/BB_OpenDDS.md)
         - Power-Management
@@ -122,12 +128,14 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
         - Platform-Health-Management
         - Tools-and-Methods
         - Storage
+            - [BB_Eclipse_S-CORE_persistency](/BB-SC/2b-MWLayer/Storage/BB_Eclipse_S-CORE_persistency.md)
     - [2a-OSLayer](/BB-SC/2a-OSLayer/README.md)
         - Stacks
             - [BB_Eclipse_Leda](/BB-SC/2a-OSLayer/Stacks/BB_Eclipse_Leda.md)
             - [BB_HaloOS](/BB-SC/2a-OSLayer/Stacks/BB_HaloOS.md)
             - [BB_OpenHarmony](/BB-SC/2a-OSLayer/Stacks/BB_OpenHarmony.md)
             - [BB_AUTOWARE](/BB-SC/2a-OSLayer/Stacks/BB_AUTOWARE.md)
+            - [BB_Eclipse_Oniro](/BB-SC/2a-OSLayer/Stacks/BB_Eclipse_Oniro.md)
             - [BB_Eclipse_S-CORE](/BB-SC/2a-OSLayer/Stacks/BB_Eclipse_S-CORE.md)
         - Linux
             - [BB_AndroidAutomotive](/BB-SC/2a-OSLayer/Linux/BB_AndroidAutomotive.md)
