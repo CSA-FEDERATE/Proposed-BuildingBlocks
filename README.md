@@ -143,6 +143,9 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
             - [BB_Apache_NuttX](/BB-SC/2a-OSLayer/RTOS/BB_Apache_NuttX.md)
     - [3-AppLayer](/BB-SC/3-AppLayer/README.md)
         - Communication
+        - API
+            - [BB_Automotive_API_Framework](/BB-SC/3-AppLayer/API/BB_Automotive_API_Framework.md)
+            - [BB_Open_Vehicle_API](/BB-SC/3-AppLayer/API/BB_Open_Vehicle_API.md)
 - [BB-CEST](/BB-CEST/README.md)
     - [BB_Eclipse_CSP](/BB-CEST/BB_Eclipse_CSP.md)
     - [Data-Processing-and-Management](/BB-CEST/Data-Processing-and-Management/README.md)
@@ -342,8 +345,6 @@ BBs get collected in the [WorkInProgress folder](/WorkInProgress/). As soon as t
         - Control
             - [BB_ADAAA](/WorkInProgress/BB-SC/3-AppLayer/Control/BB_ADAAA.md)
         - API
-            - [BB_Automotive_API_Framework](/WorkInProgress/BB-SC/3-AppLayer/API/BB_Automotive_API_Framework.md)
-            - [BB_Open_Vehicle_API](/WorkInProgress/BB-SC/3-AppLayer/API/BB_Open_Vehicle_API.md)
 - [BB-CEST](/WorkInProgress/BB-CEST/README.md)
     - [Data-Processing-and-Management](/WorkInProgress/BB-CEST/Data-Processing-and-Management/README.md)
         - [Data-Streaming-and-Real-Time-Processing](/WorkInProgress/BB-CEST/Data-Processing-and-Management/Data-Streaming-and-Real-Time-Processing/README.md)
