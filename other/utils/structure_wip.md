@@ -26,6 +26,8 @@
 - [BB-SC-TC](/WorkInProgress/BB-SC-TC/README.md)
     - Testing
         - [BB_Shadowing](/WorkInProgress/BB-SC-TC/Testing/BB_Shadowing.md)
+    - Build-and-Implementation
+        - [BB_LLM-EmpoweredEventChain-BasedFunctionalSafetyAnalysis](/WorkInProgress/BB-SC-TC/Build-and-Implementation/BB_LLM-EmpoweredEventChain-BasedFunctionalSafetyAnalysis.md)
 - [BB-CSC-TC](/WorkInProgress/BB-CSC-TC/README.md)
 - [BB-SC](/WorkInProgress/BB-SC/README.md)
     - [1-HWLayer](/WorkInProgress/BB-SC/1-HWLayer/README.md)
