@@ -124,6 +124,8 @@
         - [Monitoring-and-Feedback-Loop](/WorkInProgress/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Monitoring-and-Feedback-Loop/README.md)
         - [Data-Centric-Validation-and-Testing](/WorkInProgress/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Data-Centric-Validation-and-Testing/README.md)
         - [Data-Preparation-and-Management](/WorkInProgress/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Data-Preparation-and-Management/README.md)
+    - Build-and-Implementation
+        - [BB_LLMAgentForHandlingLargeAutomotiveSoftwareModels](/WorkInProgress/BB-CEST/Build-and-Implementation/BB_LLMAgentForHandlingLargeAutomotiveSoftwareModels.md)
     - [Cloud-Infrastructure-and-Deployment](/WorkInProgress/BB-CEST/Cloud-Infrastructure-and-Deployment/README.MD)
         - [Containerization](/WorkInProgress/BB-CEST/Cloud-Infrastructure-and-Deployment/Containerization/README.md)
         - [Edge-to-Cloud-Integration](/WorkInProgress/BB-CEST/Cloud-Infrastructure-and-Deployment/Edge-to-Cloud-Integration/README.md)
