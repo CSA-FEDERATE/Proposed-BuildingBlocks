@@ -20,6 +20,8 @@ trainings, skills, examples and how-to's. -->
 ## Known Implementation
 https://gitlab.lrz.de/hal4sdv/vss-test-generation
 
+_note: for now it is a LRZ - managed repo; request can be sent to get the access on-demand. Work is ongoing to transfer it to an Open Source Git_.
+
 ## ID (unique name)
 
 ## Description
