@@ -2,6 +2,12 @@
 
 Landing page for all proposed building blocks; use the README to navigate through all the Building Blocks.
 
+You are welcome to **add new BB's** by either by sending us an [issue](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/issues/new/choose) or creating the new description in the correct folder (for experts) based on the [current template](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/blob/main/other/utils/BB_Template.md) and do a pull request.
+
+Important: this repo focusses on Open Source Building Blocks (BB's).
+If there is no Open Source implementation available at the moment, either because there are only commercial ones existing right now or nothing really exists right now but should be done, then create the BB in the [WorkInProgress](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/tree/main/WorkInProgress) part of the tree.
+
+
 ## Implementation of new BBs / Change of README
 
 When Implementing a new BB please follow these [implementation guidelines](/other/utils/BB_Implementation_guideline.md).
