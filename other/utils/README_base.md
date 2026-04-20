@@ -3,6 +3,13 @@
 Landing page to navigate through the **repository of building block (BB) descriptions** for Software Defined Vehicles (SDV).
 A BB can be a software component, an application, a digital asset or similar. Consistent with the [Vehicle of the Future Initiative](https://digital-strategy.ec.europa.eu/en/policies/vehicle-future-initiative) we focus on contributions available in Open Source.
 
+You are welcome to **add new BB's** by either by sending us an [issue](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/issues/new/choose) or creating the new description in the correct folder (for experts) based on the [current template](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/blob/main/other/utils/BB_Template.md) and do a pull request.
+
+Important: this repo focusses on Open Source Building Blocks (BB's).
+If there is no Open Source implementation available at the moment, either because there are only commercial ones existing right now or nothing really exists right now but should be done, then create the BB in the [WorkInProgress](https://github.com/CSA-FEDERATE/Proposed-BuildingBlocks/tree/main/WorkInProgress) part of the tree.
+
+
+## Implementation of new BBs / Change of README
 This repository has been created and is maintained by project [FEDERATE](https://federate-sdv.eu/), funded by Chips Joint Undertaking (CHIPS JU), a public-private partnership in collaboration with the Horizon Europe (HORIZON) Framework Programme under Grant Agreement No. 101139749. Views and opinions expressed are however those of the author(s) only and do not necessarily reflect those of the European Union or European Commission. Neither the European Union nor the granting authority can be held responsible for them.
 
 BB's are marked with **BB Tags** according to the list below. A BB can have one or more tags, with the first representing it's "main" tag.
