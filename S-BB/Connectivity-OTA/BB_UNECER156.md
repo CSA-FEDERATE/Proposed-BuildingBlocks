@@ -9,8 +9,12 @@ S-BB
 ## Functional Clusters
 <!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
 
+All
+
 ## Layer
 <!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+
+AppLayer, MWLayer, OSLayer, (HWLayer BSPs)
 
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
