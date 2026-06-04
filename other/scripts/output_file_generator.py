@@ -65,7 +65,7 @@ def extract_headings_and_content(file_path, is_template_file = False):
     Returns:
         dict: Dictionary with headings as keys and their content as values.
     """
-    name_pattern = re.compile(r"# ([a-zA-Z0-9., +\-\ \/(\)]*)\s*## BB Tag")
+    name_pattern = re.compile(r"# ([a-zA-Z0-9.,:— +\-\ \/(\)]*)\s*## BB Tag")
     heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
     file_path_pattern = re.compile(r"(?:Proposed-BuildingBlocks\\)(.*)")
 
@@ -211,7 +211,7 @@ def main():
             logging.info(f"Excel file successfully created at {output_file_path}")
     except Exception as e:
         logging.error(f"An error occurred: {e}")
-
+        raise   # 20260604pp: Re-raise the exception after logging it to ensure that the error is not silently ignored.
 
 if __name__ == "__main__":
     main()
