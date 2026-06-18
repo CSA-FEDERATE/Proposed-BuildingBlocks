@@ -32,14 +32,14 @@ This repository contains source code for Launch Manager and Health Monitor. Life
 
 High level functionality provided by Lifecycle:
 
-### Launch Manager
+**Launch Manager**
 
 * Portability: Compatible with multiple operating systems including Linux, QNX7, and QNX8.
 * Process Group Management: Applications can be grouped into ProcessGroups, which are managed collectively as a single unit.
 * Startup and Shutdown Dependencies: The order of application startup and shutdown is determined by predefined dependency configurations.
 * Failure Recovery: Recovery actions are initiated upon detection of abnormal process termination.
 
-### Health Monitor
+**Health Monitor**
 
 * Supervision Types: Supports Alive supervision, Deadline supervision, and Logical supervision.
 * Failure Recovery: Recovery actions are requested to Launch Manager when supervision failures are detected.
