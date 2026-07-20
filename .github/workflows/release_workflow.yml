@@ -63,5 +63,6 @@ jobs:
             name: ${{ steps.vars.outputs.release_name }}
             generate_release_notes: false
             body_path: RELEASE_NOTES.md
+            fail_on_unmatched_files: true            
             files: |
               output.xlsx
