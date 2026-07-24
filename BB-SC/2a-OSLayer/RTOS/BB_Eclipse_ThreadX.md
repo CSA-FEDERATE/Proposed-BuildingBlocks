@@ -45,18 +45,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C compiler, IAR/GCC/ARMCC toolchains
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+MCUs with <64KB flash. ARM Cortex-M, RISC-V. Battery-powered devices.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+EAL4+ Common Criteria certified. FIPS 140-2 crypto. TrustZone ARMv8-M support. Safety pre-certified (IEC 61508, IEC 62304).
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+None (standalone RTOS with integrated security stack)
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

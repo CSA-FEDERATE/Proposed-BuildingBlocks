@@ -58,17 +58,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Rust toolchain (MSRV 1.89), C++ compiler (for C++ bindings), CMake or Bazel build system.
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux (x86_64, aarch64, 32-bit), Windows, macOS, FreeBSD, QNX 7.1/8.0. Shared memory support required.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Zero-copy, lock-free IPC. Designed for real-time and safety-critical systems. ISO 26262 relevant.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-
+None. Standalone IPC middleware.
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

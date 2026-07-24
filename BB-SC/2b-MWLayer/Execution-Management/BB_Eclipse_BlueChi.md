@@ -46,19 +46,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C compiler (GCC/Clang), Meson build system, D-Bus libraries.
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
-systemd
+Linux with systemd. CentOS Stream 9/10, Fedora. RPM packages available via COPR.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Functional safety focus. Deterministic service lifecycle management for regulated environments.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+Requires systemd on all managed nodes. Optional: Podman for containerized workloads.
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

@@ -55,18 +55,22 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C++14 compiler, CMake, Boost libraries
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux (primary), Android, QNX. IP network connectivity.
 
 [see COVESA Github repo](https://github.com/COVESA/vsomeip)
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+AUTOSAR-compatible wire format. Production-grade automotive middleware.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+None. Standalone SOME/IP implementation.
 
 
 ## Vehicle API Relevant

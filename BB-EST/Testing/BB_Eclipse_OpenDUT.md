@@ -58,28 +58,20 @@ BB is a composition of other BBs
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
-We expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language 
-
-Linux development environment, 
-Peers & Client: ARM32/64, x86_64
-Server: x86_64
-Programming language: Rust
-Test environment: THEO
+Rust toolchain, Node.js (for LEA web UI), Nix (development environment).
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
-NetBird, Wireguard, TURN Sever, Keycloak, Linux-based OS, Cannelloni for CAN support, telemetry stack (Promtail, Loki, Prometheus, Tempo, Grafana), …
+Linux. NetBird/WireGuard for VPN. Docker/Podman for containerized deployment.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-With respect to Safety, Security,
-Encrypted connections between clients, server and peers
+Distributed, secure (VPN-based networking). Supports both on-premise and cloud hosting.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-Other clusters are needed. FC Security, FC Storage, …
-e.g. If FC Security : Security BBs are  needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work
+Network connectivity between distributed test peers. VPN infrastructure (NetBird).
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

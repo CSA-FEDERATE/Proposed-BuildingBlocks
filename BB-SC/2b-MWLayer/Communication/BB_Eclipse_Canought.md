@@ -43,16 +43,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Go or Rust toolchain (TBD based on project evolution)
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux with CAN interface support. Part of Eclipse Kanto ecosystem.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Secure CAN communication (J1939, UDS translation).
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+Eclipse Kanto, physical or virtual CAN bus interface
 
 
 ## Vehicle API Relevant

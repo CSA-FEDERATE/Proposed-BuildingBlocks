@@ -47,17 +47,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Rust toolchain, Protobuf compiler.
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux (x86_64, aarch64). Requires container runtime (Podman recommended). Server-agent architecture.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Lightweight, deterministic. Designed for automotive real-time constraints. Independent of SOME/IP, DDS, REST.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-
+Container runtime (Podman/containerd). Independent of FC Communication.
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

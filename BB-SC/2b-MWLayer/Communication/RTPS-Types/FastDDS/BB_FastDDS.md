@@ -43,6 +43,7 @@ OS/Runtime Envirnoment
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C++11 compiler, CMake, Asio, TinyXML2
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
@@ -56,6 +57,7 @@ See [supported Platforms](https://github.com/eProsima/Fast-DDS/blob/master/PLATF
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+None required. Optional: ROS2 integration.
 
 
 ## Vehicle API Relevant

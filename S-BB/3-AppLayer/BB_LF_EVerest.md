@@ -46,16 +46,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C++, Python, MQTT knowledge. Modular plugin architecture.
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux. MQTT broker (Mosquitto). EV charging hardware interfaces (OCPP, ISO 15118).
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Modular, interoperable. Supports ISO 15118 (Plug & Charge). Production-ready.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+MQTT broker, EV charging standards (OCPP 1.6/2.0, ISO 15118)
 
 
 ## Vehicle API Relevant

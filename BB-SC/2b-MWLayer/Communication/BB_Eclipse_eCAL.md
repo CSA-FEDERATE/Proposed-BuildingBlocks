@@ -69,17 +69,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C++14 compiler, CMake >= 3.13, Protobuf (optional).
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux (Ubuntu 18.04+), Windows 10/11, macOS (experimental), QNX (experimental). Shared memory for local transport, UDP/TCP for network.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+High throughput (1-20 GB/s), brokerless architecture. No hard real-time guarantees.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-
+None required. Optional integration with ROS2 (rmw_ecal).
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 
