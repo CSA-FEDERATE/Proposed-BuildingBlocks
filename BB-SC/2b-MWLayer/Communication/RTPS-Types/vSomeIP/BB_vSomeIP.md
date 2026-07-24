@@ -16,7 +16,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation and source: https://github.com/COVESA/vsomeip. Configure services via JSON, use the vsomeip API for service discovery, request/response, and event notification patterns. See the vsomeip wiki for a 10-minute getting started guide.
 
 ## Known Implementation
 [vSomeIP](https://github.com/COVESA/vsomeip)

@@ -13,7 +13,8 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code: https://github.com/iavofficial/IAV_quantumSAR  
+quantumSAR provides post-quantum cryptographic algorithms as an AUTOSAR Classic Cryptodriver. Integrate it into your AUTOSAR BSW stack to replace or supplement classical crypto algorithms with quantum-resistant alternatives (ML-KEM, ML-DSA, SLH-DSA). Requires an AUTOSAR Classic environment and compatible automotive MCU.
 
 ## Known Implementation
 https://github.com/iavofficial/IAV_quantumSAR
@@ -26,6 +27,7 @@ IAV quantumSAR is planned as an AUTOSAR Cryptodriver with a collection of post-q
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Quantum computers threaten current automotive cryptographic algorithms. Vehicles have long lifecycles (15+ years), so post-quantum cryptography must be integrated now to protect against future "harvest now, decrypt later" attacks. quantumSAR provides NIST-standardized PQC algorithms optimized for resource-constrained automotive microcontrollers.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

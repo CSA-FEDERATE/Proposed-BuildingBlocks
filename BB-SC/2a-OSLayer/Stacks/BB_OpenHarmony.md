@@ -13,7 +13,7 @@ MWLayer, OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation: https://www.openharmony.cn/. Develop distributed applications using the ArkUI framework and ArkTS language, deploy across device classes from IoT to mobile to automotive IVI systems.
 
 ## Known Implementation
 https://gitee.com/openharmony
@@ -26,6 +26,7 @@ OpenHarmony is an open-source project incubated and operated by the OpenAtom Fou
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Need for a distributed OS framework supporting seamless deployment across IoT, mobile, and automotive scenarios with unified device discovery, distributed data management, and cross-device task scheduling.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

@@ -14,7 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+OpenDDS uses IDL files to define data types and topics. Applications create DomainParticipants, Publishers/Subscribers, and DataWriters/DataReaders to exchange data over configurable transports (TCP, UDP, RTPS, shared memory). See the Developer's Guide at https://opendds.readthedocs.io for detailed API usage, examples, and configuration options.
 
 ## Known Implementation
 https://github.com/OpenDDS/OpenDDS
@@ -27,6 +27,7 @@ OpenDDS is an open-source C++ implementation of the Object Management Group's sp
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Distributed automotive systems require reliable, real-time publish-subscribe communication with QoS guarantees. OpenDDS provides a mature, standards-compliant DDS implementation that supports interoperability via RTPS, making it suitable for in-vehicle and cross-domain communication where multiple DDS vendors must coexist.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

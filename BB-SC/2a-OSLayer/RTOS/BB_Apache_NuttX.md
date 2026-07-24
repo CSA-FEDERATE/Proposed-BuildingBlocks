@@ -13,7 +13,9 @@ OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code: https://github.com/apache/nuttx  
+Documentation: https://nuttx.apache.org/docs/latest/  
+NuttX is configured and built using Kconfig/Make. Select your target board, enable required subsystems (networking, USB, CAN, etc.), and build a firmware image. The POSIX-compliant API allows porting existing Linux/Unix applications with minimal changes.
 
 ## Known Implementation
 https://github.com/apache/nuttx
@@ -26,6 +28,7 @@ Apache NuttX is a real-time operating system (RTOS) with an emphasis on standard
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive sensor and actuator ECUs need a lightweight, real-time OS that scales from 8-bit to 64-bit MCUs while providing POSIX compatibility. NuttX fills this niche with a small footprint, deterministic scheduling, and standard APIs that reduce porting effort and vendor lock-in.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

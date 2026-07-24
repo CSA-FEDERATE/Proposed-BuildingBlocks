@@ -13,7 +13,8 @@ APPLayer, MWLayer, OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation: https://source.android.com/docs/automotive  
+Android Automotive OS is built into the vehicle as a standalone infotainment platform. OEMs integrate AAOS into their head units; app developers use the Android Automotive app templates and Car App Library to build media, navigation, and communication apps for the in-vehicle display.
 
 ## Known Implementation
 https://source.android.com/docs/automotive
@@ -26,6 +27,7 @@ Android Automotive OS is an Android-based infotainment system that is built into
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Android Automotive OS leverages the extensive Android ecosystem (apps, developer tools, Google services) to deliver a rich infotainment experience with minimal OEM development effort. It provides a familiar platform for third-party app developers and enables over-the-air updates for in-vehicle applications.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

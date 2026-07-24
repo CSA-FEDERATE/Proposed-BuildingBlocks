@@ -14,7 +14,17 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://ekxide.github.io/iceoryx2-book
 
+API References: Rust (https://docs.rs/iceoryx2/latest/iceoryx2/), C++, C, Python.
+
+Examples are available at https://github.com/eclipse-iceoryx/iceoryx2/tree/main/examples covering pub/sub, request/response, and event patterns.
+
+Supported platforms: Linux (x86_64, aarch64, 32-bit), Windows, macOS, FreeBSD, QNX 7.1/8.0, with proof-of-concept for Android, VxWorks, and bare-metal (no_std).
+
+Language bindings: Rust (primary), C++, C, Python, C#.
+
+Yocto recipes available at: https://github.com/eclipse-iceoryx/meta-iceoryx2
 
 ## Known Implementation
 https://github.com/eclipse-iceoryx/iceoryx2

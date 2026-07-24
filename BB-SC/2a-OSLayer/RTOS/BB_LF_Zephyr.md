@@ -13,7 +13,12 @@ OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://docs.zephyrproject.org/
+Getting Started: https://docs.zephyrproject.org/latest/develop/getting_started/index.html
 
+Zephyr uses the `west` meta-tool for building and flashing. Supports 700+ boards across ARM (Cortex-A/R/M), x86, ARC, RISC-V, Xtensa, SPARC, and MIPS architectures.
+
+Community: Discord (https://chat.zephyrproject.org/), mailing lists, weekly tech talks.
 
 ## Known Implementation
 https://github.com/zephyrproject-rtos
@@ -28,6 +33,7 @@ The Zephyr OS is based on a small-footprint kernel designed for use on resource-
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Resource-constrained automotive ECUs and sensors need a scalable, secure RTOS that supports multiple architectures from a single codebase. Zephyr provides a small-footprint kernel with built-in security features, extensive driver support, and a vibrant open-source community (16k+ stars, 3400+ contributors). Its Linux Foundation governance and Apache 2.0 license make it suitable for commercial automotive deployments across diverse hardware platforms.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

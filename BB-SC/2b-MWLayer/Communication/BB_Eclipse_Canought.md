@@ -14,7 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Deploy CANought services (J1939 translator, UDS translator) alongside Eclipse Kanto to bridge CAN bus communication to IP-based systems. See https://github.com/eclipse-canought for setup and configuration.
 
 ## Known Implementation
 https://github.com/eclipse-canought
@@ -27,6 +27,7 @@ Eclipse CANought provides extensions to the Eclipse Kanto project focused on aut
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Legacy CAN communication (J1939, UDS) needs bridging to modern IP-based transport layers and cloud-connected architectures, enabling SDV platforms to interact with existing vehicle networks.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

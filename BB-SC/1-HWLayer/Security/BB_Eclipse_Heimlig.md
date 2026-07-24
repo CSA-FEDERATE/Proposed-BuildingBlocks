@@ -13,7 +13,8 @@ OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code: https://github.com/eclipse-heimlig/heimlig  
+Heimlg provides an HSM firmware implementation in Rust. Deploy it on a dedicated security core to offer cryptographic services (key generation, encryption, signing, CSPRNG) to application cores without exposing key material. Communicates with clients via a request/response API over shared memory.
 
 ## Known Implementation
 https://github.com/eclipse-heimlig/heimlig
@@ -30,6 +31,7 @@ As an HSM, Heimlig typically runs on dedicated hardware and provides cryptograph
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive ECUs require hardware-backed cryptographic services to protect keys and ensure secure boot, authentication, and encrypted communication. An open source HSM firmware written in memory-safe Rust reduces the attack surface compared to C-based implementations and enables transparent security auditing by the community.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

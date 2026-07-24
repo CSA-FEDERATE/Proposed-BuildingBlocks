@@ -14,7 +14,8 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code and documentation: https://github.com/eclipse-opensovd/opensovd  
+OpenSOVD provides a standards-compliant SOVD (ISO 17978) implementation. Deploy it as the diagnostics middleware to expose vehicle diagnostic data over RESTful service-oriented interfaces to diagnostic tools and cloud backends.
 
 ## Known Implementation
 https://github.com/eclipse-opensovd/opensovd
@@ -27,6 +28,7 @@ Eclipse OpenSOVD provides an open source implementation of the Service-Oriented 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+The automotive industry is transitioning from legacy UDS-based diagnostics to service-oriented architectures. An open source SOVD (ISO 17978) implementation ensures interoperability across OEMs and tool vendors, reduces proprietary lock-in, and accelerates adoption of modern vehicle diagnostics.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

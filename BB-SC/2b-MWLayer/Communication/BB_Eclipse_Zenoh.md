@@ -14,7 +14,22 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation and getting started: https://zenoh.io/docs/getting-started/installation/
 
+Basic pub/sub example (Rust):
+```bash
+cargo run --example z_sub
+cargo run --example z_pub
+```
+
+Query/Reply pattern:
+```bash
+cargo run --example z_queryable
+cargo run --example z_get
+```
+
+Language bindings available for: Rust, C, C++, Python, Kotlin, Java, TypeScript.
+A pure-C implementation (zenoh-pico) is available for resource-constrained devices.
 
 ## Known Implementation
 https://github.com/eclipse-zenoh/zenoh
@@ -29,6 +44,7 @@ Zenoh (pronounce /zeno/) unifies data in motion, data at rest and computations. 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Modern vehicle architectures require communication across heterogeneous environments — from microcontrollers at the edge, through in-vehicle HPCs, to cloud backends. Zenoh provides a single, unified protocol that handles pub/sub, distributed storage, and queries with extremely low overhead and latency. Its ability to run on constrained devices (via zenoh-pico) as well as powerful servers, combined with support for geo-distributed storage and computation, makes it suitable for end-to-end SDV communication without requiring multiple disparate middleware stacks.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

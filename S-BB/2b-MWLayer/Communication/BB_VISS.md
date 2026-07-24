@@ -14,7 +14,12 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Specification: https://github.com/COVESA/vehicle-information-service-specification
+Reference Implementation: https://github.com/COVESA/vissr
 
+VISS provides HTTP/WebSocket APIs for accessing VSS data with operations: get, set, subscribe, unsubscribe. The specification consists of Core, Transport, and Payload Encoding documents. Current version: VISS v3.1.
+
+VISS is referenced by AUTOSAR Adaptive R24-11 (Automotive API Gateway specification). Working group meets biweekly; schedule at https://wiki.covesa.global/
 
 ## Known Implementation
 https://github.com/COVESA/vehicle-information-service-specification
@@ -27,6 +32,7 @@ Vehicle Information Service Specification (VISS) is an API for accessing the COV
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Applications need a standardized, transport-agnostic API to access vehicle signal data defined by VSS. VISS provides this interface layer, enabling uniform access to the vehicle signal tree regardless of the underlying implementation. Its adoption by AUTOSAR Adaptive (Automotive API Gateway) demonstrates industry consensus. VISS supports the EU Data Act compliance requirements for standardized vehicle data access.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

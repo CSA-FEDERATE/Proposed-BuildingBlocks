@@ -13,7 +13,7 @@ MWLayer, OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Use the OpenBSW SDK to build embedded automotive applications. Integrate BSW modules (communication, diagnostics, memory) into your ECU project. See https://github.com/eclipse-openbsw for source and documentation.
 
 ## Known Implementation
 https://github.com/eclipse-openbsw
@@ -26,6 +26,7 @@ Eclipse OpenBSW is an open source SDK to build professional, high quality embedd
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Need for an open-source AUTOSAR-like basic software stack that provides standardized automotive BSW modules (communication, diagnostics, memory management) without proprietary licensing constraints.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

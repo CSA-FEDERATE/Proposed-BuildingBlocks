@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+The Ankaios Dashboard provides a web-based UI for monitoring and managing workloads running in an Ankaios cluster. Users can view workload status, create/modify/delete workloads, and inspect dependency graphs. See https://github.com/eclipse-ankaios-dashboard/ankaios-dashboard for installation and usage.
 
 ## Known Implementation
 https://github.com/eclipse-ankaios-dashboard/ankaios-dashboard
@@ -26,7 +26,7 @@ The Ankaios Dashboard ist the ui interface for Eclipse Ankaios project. It offer
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Operators and developers need visual insight into Ankaios workload orchestration state. The dashboard lowers the barrier to understanding workload dependencies and cluster health without requiring CLI expertise.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

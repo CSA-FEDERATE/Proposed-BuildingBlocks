@@ -15,6 +15,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Dust DDS is used as a Rust library (crate). Define DDS topics with Rust structs, create a DomainParticipant, and use publishers/subscribers to exchange data. Being a native Rust implementation, it integrates directly into Rust-based automotive middleware stacks. See https://github.com/s2e-systems/dust-dds for API documentation and examples.
 
 ## Known Implementation
 
@@ -28,6 +29,7 @@ Dust DDS is a native Rust implementation of the Data Distribution Service (DDS) 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Rust-based SDV middleware stacks need a memory-safe, performant DDS implementation without C/C++ FFI overhead. Dust DDS provides a native Rust DDS/RTPS stack, enabling safe concurrency and interoperability with other DDS implementations while leveraging Rust's compile-time safety guarantees.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

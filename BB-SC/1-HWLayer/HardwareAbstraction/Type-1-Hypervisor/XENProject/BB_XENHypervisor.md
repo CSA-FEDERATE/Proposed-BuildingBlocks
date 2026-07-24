@@ -16,7 +16,9 @@ HWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code: https://github.com/xen-project/xen  
+Documentation: https://wiki.xenproject.org/  
+Deploy the Xen hypervisor on supported hardware to create isolated virtual machines for mixed-criticality workloads. Use dom0 (Linux) for management and domU guests for safety-critical or infotainment domains. Configure via xl toolstack or libvirt.
 
 ## Known Implementation
 https://github.com/xen-project/xen

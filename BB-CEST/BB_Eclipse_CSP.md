@@ -13,7 +13,7 @@ APPLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Eclipse CSP provides cloud-side building blocks for connected vehicle services. OEMs integrate the platform to manage vehicle data ingestion, device lifecycle, user profiles, and notification routing. Documentation and getting started guides are available at https://eclipse-ecsp.github.io/ecsp-website/.
 
 ## Known Implementation
 https://eclipse-ecsp.github.io/ecsp-website/
@@ -26,6 +26,7 @@ Eclipse Connected Services Platform (CSP) offers a comprehensive platform with a
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive OEMs require a reusable, open-source cloud services platform to build connected vehicle solutions without developing common capabilities (data management, device management, notifications) from scratch. Eclipse CSP addresses this by providing a vendor-neutral foundation for SDV cloud backends.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

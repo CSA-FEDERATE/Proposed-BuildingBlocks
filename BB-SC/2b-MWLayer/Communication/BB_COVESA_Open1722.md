@@ -14,7 +14,19 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Repository: https://github.com/COVESA/Open1722
 
+Build:
+```bash
+mkdir build && cd build
+cmake ..
+make
+make examples
+```
+
+Supported AVTP formats: AAF (PCM), CRF, CVF (H.264, MJPEG, JPEG2000), RVF, and ACF (CAN v1/v2, CAN-XL, FlexRay, LIN, MOST, GPC, Sensor, Generic Byte Bus). Also supports custom formats including COVESA VSS transport.
+
+Cross-compilation for aarch64 (Raspberry Pi) and Zephyr RTOS ports are available.
 
 ## Known Implementation
 https://github.com/COVESA/Open1722
@@ -27,6 +39,7 @@ Open1722 is an implementation of the IEEE 1722 protocol, for streaming audio/vid
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive Ethernet is replacing legacy bus systems, but existing fieldbus protocols (CAN, LIN, FlexRay) must be tunneled over Ethernet during the transition. IEEE 1722 (AVTP) provides a standardized way to stream audio/video and tunnel fieldbus messages over TSN-capable Ethernet networks. Open1722 provides a platform-independent, BSD-licensed C implementation that enables rapid adoption of this standard in automotive middleware stacks.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

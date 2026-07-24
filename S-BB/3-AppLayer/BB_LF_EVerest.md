@@ -13,7 +13,9 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation: https://everest.github.io/nightly/  
+Source code: https://github.com/EVerest  
+EVerest provides a modular, MQTT-based framework for building complete EV charging stacks. Configure charging scenarios by composing interchangeable modules (energy management, ISO 15118, OCPP, hardware drivers) and deploy on charging station controllers.
 
 ## Known Implementation
 https://everest.github.io/nightly/
@@ -28,6 +30,7 @@ The modular software architecture fosters customizability and lets you configure
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+The EV charging ecosystem requires interoperable, standards-compliant software stacks (ISO 15118, OCPP) that work across diverse hardware. EVerest provides an open, vendor-neutral framework that accelerates charging station development and ensures protocol compliance without proprietary lock-in.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

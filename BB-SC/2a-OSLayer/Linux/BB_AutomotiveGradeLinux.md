@@ -13,7 +13,9 @@ APPLayer, MWLayer, OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Project website: https://www.automotivelinux.org/  
+Documentation: https://docs.automotivelinux.org/  
+AGL provides a complete Linux distribution for automotive use cases. Build an AGL image using the Yocto-based build system, deploy to supported hardware or QEMU, and develop applications using the AGL application framework.
 
 ## Known Implementation
 https://github.com/orgs/agl-ic-eg/repositories?type=all

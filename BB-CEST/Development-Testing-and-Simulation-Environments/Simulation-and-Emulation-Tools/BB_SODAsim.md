@@ -13,7 +13,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+SODA.Sim provides a distributed simulation environment for SDV development. Users configure vehicle models at the atomic component level (sensors, ECUs, vehicle systems) and run validation scenarios covering AD/ADAS functions. See https://github.com/soda-auto/soda-sim for setup and integration guides.
 
 ## Known Implementation
 https://github.com/soda-auto/soda-sim
@@ -28,7 +28,7 @@ By simulating vehicles at the level of atomic components, such as sensors, vehic
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Software-defined vehicles require continuous validation from concept through certification to aftermarket updates. SODA.Sim addresses the need for a distributed, component-level simulation platform that can serve as a virtual proving ground, reducing the cost and time of physical testing while enabling comprehensive coverage of vehicle function validation.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

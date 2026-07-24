@@ -13,7 +13,11 @@ MWLayer, OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://autowarefoundation.github.io/autoware-documentation/main/
+Installation: https://autowarefoundation.github.io/autoware-documentation/main/installation
+Quick Start Demo: https://autowarefoundation.github.io/autoware-documentation/main/demos/
 
+Autoware is built on ROS2 and provides modules for sensing, perception, localization, planning, and control. Community support via Discord (https://discord.gg/Q94UsPvReQ).
 
 ## Known Implementation
 https://github.com/autowarefoundation/autoware
@@ -26,6 +30,7 @@ Autoware is an open-source software stack for self-driving vehicles, built on th
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Developing autonomous driving systems from scratch requires massive investment in perception, planning, and control algorithms. Autoware provides a comprehensive, production-ready open-source stack (11.9k stars, 3.7k forks) that accelerates commercial deployment of autonomous vehicles. Its modular ROS2-based architecture allows organizations to contribute to and benefit from shared innovation rather than duplicating fundamental AD capabilities.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

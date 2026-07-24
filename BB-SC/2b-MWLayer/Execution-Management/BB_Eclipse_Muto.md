@@ -13,6 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation and tutorials are available at https://eclipse-muto.github.io/docs/. Muto integrates with ROS2 for in-vehicle robotics stacks and provides cloud connectivity for remote orchestration. Developers define adaptive stack configurations that can be dynamically updated at runtime. The stack composer manages ROS2 launch files and runtime parameters based on context-aware policies.
 
 
 ## Known Implementation
@@ -26,6 +27,7 @@ Muto is a context aware software solution to address some of the runtime adaptiv
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Autonomous and software-defined vehicles require runtime adaptability — the ability to dynamically reconfigure software stacks based on context (e.g., driving mode, environment, OTA updates). Muto addresses this by providing a framework for context-aware stack composition and cloud-managed lifecycle, reducing the complexity of managing heterogeneous ROS2-based deployments.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

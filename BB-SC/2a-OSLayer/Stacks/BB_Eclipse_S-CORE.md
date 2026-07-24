@@ -13,6 +13,7 @@ MWLayer, OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation and getting started guides are available at https://eclipse-score.github.io/score. The project uses Bazel as its build system. Key modules include: LoLa (communication), FEO (fixed execution order), lifecycle (launch/health management), persistency (key-value store), logging, and orchestrator. Each module can be integrated independently or as part of the full S-CORE stack on Linux or QNX targets.
 
 
 ## Known Implementation

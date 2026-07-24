@@ -12,7 +12,7 @@ BB-EST, BB-CEST
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation: https://www.yoctoproject.org/docs/. Use BitBake recipes and layers to define custom Linux distributions. Create BSP layers for target hardware and application layers for platform-specific software stacks.
 
 ## Known Implementation
 https://git.yoctoproject.org/

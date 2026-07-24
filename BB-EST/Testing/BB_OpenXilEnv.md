@@ -13,7 +13,7 @@ Testing
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+OpenXilEnv provides a Software-in-the-Loop (SIL) environment to run and test embedded ECU software on Windows or Linux without target hardware. It includes parameter management, a scripting interface, and signal stimulation. See https://github.com/eclipse-openxilenv/openxilenv for build instructions and usage examples.
 
 ## Known Implementation
 https://github.com/eclipse-openxilenv/openxilenv
@@ -28,6 +28,7 @@ With a Software In the Loop system it is possible to run and test embedded softw
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Early virtual validation of ECU software without physical hardware accelerates development cycles and reduces costs. OpenXilEnv provides an open-source XIL environment as an alternative to commercial SIL tools, enabling broader access to virtual testing across the industry.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

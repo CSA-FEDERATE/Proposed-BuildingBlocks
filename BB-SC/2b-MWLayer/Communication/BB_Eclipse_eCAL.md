@@ -14,7 +14,33 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://eclipse-ecal.github.io/ecal/
 
+Installation (Ubuntu):
+```bash
+sudo add-apt-repository ppa:ecal/ecal-latest
+sudo apt-get update
+sudo apt-get install ecal
+```
+
+Minimal publisher example (C++):
+```cpp
+#include <ecal/ecal.h>
+#include <ecal/msg/string/publisher.h>
+#include <thread>
+
+int main(int argc, char** argv) {
+  eCAL::Initialize(argc, argv, "Hello World Publisher");
+  eCAL::string::CPublisher publisher("hello_world_topic");
+  while (eCAL::Ok()) {
+    publisher.Send("Hello World");
+    std::this_thread::sleep_for(std::chrono::milliseconds(500));
+  }
+  eCAL::Finalize();
+}
+```
+
+Language bindings: C++, C, Python, C#, Rust. Integrations available for ROS2 (rmw_ecal), Matlab Simulink, and Foxglove.
 
 ## Known Implementation
 https://github.com/eclipse-ecal/ecal
@@ -27,6 +53,7 @@ The enhanced Communication Abstraction Layer (eCAL) is a middleware that enables
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+eCAL solves the problem of efficient, high-performance data exchange between distributed software components in automotive and robotics applications. It achieves 1–20 GB/s throughput (depending on payload) by automatically selecting the best transport (shared memory for local, UDP/TCP for network). Its brokerless, zero-configuration architecture simplifies deployment, while built-in tools for recording (HDF5), replay, and monitoring enable efficient development and testing workflows without additional infrastructure.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

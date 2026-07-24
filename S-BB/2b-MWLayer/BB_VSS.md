@@ -13,7 +13,13 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://covesa.github.io/vehicle_signal_specification/
 
+VSS defines a tree of vehicle signals (e.g., `Vehicle.Speed`, `Vehicle.Cabin.Door.Row1.Left.IsOpen`) in `.vspec` YAML files. Use the VSS-tools (https://github.com/COVESA/vss-tools) to transform source `.vspec` files to other formats (JSON, CSV, Protobuf, DDS IDL, Franca, GraphQL, etc.).
+
+Releases with pre-built signal catalogs are available at: https://github.com/COVESA/vehicle_signal_specification/releases
+
+The community holds regular calls to discuss VSS evolution; see the project wiki for meeting coordinates.
 
 ## Known Implementation
 https://github.com/covesa/vehicle_signal_specification
@@ -26,6 +32,7 @@ The overall goal of the Vehicle Signal Specification (VSS) is to create a common
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Today, every OEM and supplier defines vehicle signals differently, leading to fragmented tooling and high integration costs. VSS provides a standardized, protocol-agnostic taxonomy of vehicle signals that enables interoperability across the entire SDV ecosystem. By establishing a common language for vehicle data, VSS allows applications, services, and tools from different vendors to work together without custom per-OEM adaptations. Significant contributions come from BMW, Volvo, Jaguar Land Rover, Bosch, and Geotab.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

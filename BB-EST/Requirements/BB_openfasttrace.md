@@ -12,7 +12,9 @@ BB-EST
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code: https://github.com/itsallcode/openfasttrace  
+Documentation: https://github.com/itsallcode/openfasttrace/blob/main/doc/user_guide.md  
+OFT traces requirements across specification documents, source code, and tests. Embed requirement IDs (e.g., `req~feature-name~1`) in your artifacts and run OFT to generate traceability reports showing coverage and gaps. Integrates into CI/CD pipelines as a Java CLI tool or Maven plugin.
 
 ## Known Implementation
 https://github.com/itsallcode/openfasttrace
@@ -25,6 +27,7 @@ OpenFastTrace (short OFT) is a requirement tracing suite. Requirement tracing ke
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Safety and security standards (ISO 26262, UNECE R155) require full traceability from requirements through implementation to test. OpenFastTrace automates this tracing in CI/CD, detecting missing implementations and obsolete artifacts without expensive commercial ALM tools.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

@@ -14,6 +14,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Project repository at https://github.com/eclipse-autoapiframework. The framework provides a model-driven approach to define stable application-facing APIs that abstract the underlying E/E architecture. Developers use the configuration model to specify API variants for different vehicle configurations. The framework generates code stubs and adapters, decoupling application logic from platform-specific middleware. See the [Eclipse project page](https://projects.eclipse.org/projects/automotive.autoapiframework) for status and documentation.
 
 
 ## Known Implementation
@@ -27,6 +28,7 @@ The Eclipse Automotive API Framework provides a stable application-facing interf
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive applications today are tightly coupled to OEM-specific middleware APIs, making portability and multi-supplier development costly. The Automotive API Framework provides a standardized, stable application interface that abstracts away E/E architecture differences, enabling suppliers to develop once and deploy across multiple vehicle platforms without proprietary lock-in.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

@@ -13,7 +13,7 @@ APPLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Tractus-X provides reference implementations for Catena-X data exchange use cases (traceability, PCF exchange, demand/capacity management). Participants deploy Tractus-X components (EDC connectors, digital twin registry, portal) to join the Catena-X data space. See https://eclipse-tractusx.github.io/ for tutorials and integration guides.
 
 ## Known Implementation
 https://github.com/eclipse-tractusx
@@ -26,6 +26,7 @@ Eclipse Tractus-X is a collaborative, open-source project aimed at driving the d
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+The automotive supply chain requires sovereign, standardized data exchange across organizational boundaries. Tractus-X enables interoperable, trust-based collaboration (e.g., traceability, carbon footprint tracking) while ensuring each participant retains control over their data.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

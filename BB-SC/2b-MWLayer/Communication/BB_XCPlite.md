@@ -14,7 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Integrate XCPlite into your ECU application for XCP-on-Ethernet measurement and calibration. See https://github.com/vectorgrp/XCPlite for integration examples and API documentation.
 
 ## Known Implementation
 https://github.com/vectorgrp/XCPlite
@@ -31,6 +31,7 @@ It provides real time signal oriented data acquisition (measurement, logging) an
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+ECU measurement and calibration needs a lightweight, open-source XCP implementation that enables real-time signal acquisition and parameter tuning without heavy commercial tool dependencies.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

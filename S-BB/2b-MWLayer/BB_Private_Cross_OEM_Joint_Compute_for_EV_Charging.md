@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+This building block enables privacy-preserving joint computation across OEMs for EV charging analytics. OEMs contribute anonymized charging data to shared compute infrastructure without exposing proprietary fleet information. See https://covesa.global/project/private-cross-oem-joint-compute-for-ev-charging/ for architecture and participation guidelines.
 
 ## Known Implementation
 https://covesa.global/project/private-cross-oem-joint-compute-for-ev-charging/
@@ -26,6 +26,7 @@ Publicly available, shared EV charging infrastructure is foundational for EV ado
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Improving EV charging infrastructure requires data sharing across OEMs, but competitive and privacy concerns prevent open data exchange. Privacy-preserving joint compute allows multiple OEMs to collaboratively analyze charging patterns, station reliability, and route optimization without exposing individual fleet data or customer information.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

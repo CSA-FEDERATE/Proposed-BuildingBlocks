@@ -14,7 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation: https://cyclonedds.io/docs/. Use the DDS C/C++ API for publish/subscribe communication. Supports zero-configuration discovery, QoS policies, and shared-memory transport via Eclipse Iceoryx integration.
 
 ## Known Implementation
 https://github.com/eclipse-cyclonedds/cyclonedds
@@ -27,6 +27,7 @@ Eclipse Cyclone DDS is a very performant and robust open-source implementation o
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive and robotics middleware needs a certifiable, high-performance DDS implementation with deterministic behavior, security support, and ROS 2 tier-1 integration for real-time publish/subscribe communication.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

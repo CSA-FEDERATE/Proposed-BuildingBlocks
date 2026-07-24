@@ -13,7 +13,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation: https://sumo.dlr.de/docs/. SUMO provides command-line tools for traffic simulation, and the TraCI (Traffic Control Interface) API for runtime control of simulations from external scripts (Python, C++, Java).
 
 ## Known Implementation
 https://eclipse.dev/sumo/
@@ -26,7 +26,7 @@ SUMO allows modelling of intermodal traffic systems including road vehicles, pub
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Automotive development needs traffic simulation for testing V2X, ADAS, and connected driving scenarios in a reproducible, scalable environment before real-world deployment.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

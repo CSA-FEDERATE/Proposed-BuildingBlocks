@@ -13,7 +13,7 @@ APPLayer, MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+AutoWRX enables rapid prototyping of SDV applications using the digital.auto playground. Developers model vehicle APIs (based on COVESA VSS), create prototypes in-browser, and validate concepts with the dreamKIT toolchain. Access the platform at https://www.digital.auto/ and source at https://github.com/eclipse-autowrx.
 
 ## Known Implementation
 https://github.com/eclipse-autowrx

@@ -13,7 +13,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Use the OSTAR-Quickstart repository to set up a co-simulation environment where FMI-packaged vehicle models are integrated into CARLA via OSI messages. Models communicate through GroundTruth, SensorView, and TrafficUpdate interfaces. See https://github.com/DLR-TS/OSTAR-Quickstart for setup and usage instructions.
 
 ## Known Implementation
 https://github.com/DLR-TS/OSTAR-Quickstart
@@ -26,7 +26,7 @@ The scientific project OSTAR is a set of software tools for automotive simulatio
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Automotive simulation requires standardized integration of diverse vehicle models with virtual environments. OSTAR solves the interoperability problem by combining FMI for model packaging and OSI for sensor/environment communication, enabling automated test orchestration and reproducible simulation results across different toolchains.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

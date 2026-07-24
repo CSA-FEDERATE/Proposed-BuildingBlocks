@@ -13,7 +13,15 @@ Lifecycle-Management
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://eclipse-leda.github.io/leda/
 
+Quickstart:
+1. Download latest release or build from sources
+2. Run on emulated QEMU devices (x86-64, ARM64) or Raspberry Pi 4
+3. Provision the device
+4. Deploy Vehicle Apps using Eclipse Velocitas templates
+
+Key components: Poky base OS, containerd runtime, Kanto Container Management, Eclipse Kuksa Databroker, Mosquitto MQTT, COVESA VSS.
 
 ## Known Implementation
 https://github.com/eclipse-leda
@@ -26,6 +34,7 @@ Eclipse Leda provides an "SDV distribution" that pulls together individual contr
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Developers and integrators in the SDV ecosystem need a ready-to-use Linux distribution that integrates key Eclipse SDV components (Velocitas, Kuksa, Kanto) into a cohesive system image. Leda provides pre-built Yocto-based quickstart images for learning, showcases, and prototyping the full SDV development-to-deployment lifecycle, including container-based application deployment on constrained embedded devices.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Use the Common Vehicle Capabilities catalog to identify standardized, technology-neutral vehicle capability definitions and their interfaces. This serves as a reference for application developers who need to discover what commodity functions a vehicle platform exposes. See https://covesa.global/project/common-vehicle-capabilities/ for the current catalog.
 
 ## Known Implementation
 https://covesa.global/project/common-vehicle-capabilities/
@@ -26,6 +26,7 @@ Enumerate and define common (commodity) vehicle capabilities and their interface
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Application developers need a common, vendor-neutral enumeration of vehicle capabilities to write portable software. Without standardized capability definitions, each OEM platform requires custom integration, hindering ecosystem scalability.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

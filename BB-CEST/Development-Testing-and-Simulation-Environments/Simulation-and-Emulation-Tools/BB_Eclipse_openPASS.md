@@ -13,7 +13,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation and downloads: https://openpass.eclipse.org/. Configure simulation scenarios to assess the effectiveness of ADAS/AD safety systems through statistical Monte Carlo analysis.
 
 ## Known Implementation
 https://openpass.eclipse.org/
@@ -26,7 +26,7 @@ The openPASS (open Platform for Assessment of Safety Systems) platform is being 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+ADAS/AD safety assessment requires statistical simulation of traffic scenarios to evaluate safety system effectiveness before deployment on public roads.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

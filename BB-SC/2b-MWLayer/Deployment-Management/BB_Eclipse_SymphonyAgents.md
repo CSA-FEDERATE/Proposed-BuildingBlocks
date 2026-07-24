@@ -13,7 +13,8 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation and getting started: https://eclipse-symphony.github.io/symphony-website/  
+Symphony provides a unified orchestration platform for managing workloads across heterogeneous devices. Deploy Symphony agents on target devices to enable declarative, vendor-agnostic workload deployment and lifecycle management from a central control plane.
 
 ## Known Implementation
 https://eclipse-symphony.github.io/symphony-website/
@@ -26,7 +27,7 @@ Project Symphony is an Eclipse Foundation open-source orchestration platform tha
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Vehicle fleets consist of heterogeneous hardware and software stacks from multiple vendors. A unified orchestration platform is needed to manage workload deployment, updates, and lifecycle across diverse edge devices without requiring modifications to existing systems or vendor-specific tooling.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

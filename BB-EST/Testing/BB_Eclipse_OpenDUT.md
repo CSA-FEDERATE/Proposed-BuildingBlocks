@@ -14,7 +14,11 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://opendut.eclipse.dev/
+User Manual: https://opendut.eclipse.dev/book/user-manual/index.html
+Developer Setup: https://opendut.eclipse.dev/book/development/getting-started.html
 
+Components: CARL (central management server), EDGAR (edge agent), LEA (web UI), CLEO (CLI). Uses NetBird/WireGuard for VPN networking between distributed test devices.
 
 ## Known Implementation
 https://github.com/eclipse-opendut/opendut

@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+This building block standardizes how third-party services deliver push notifications to vehicles. It defines notification delivery protocols, priority levels, and HMI integration patterns so that app developers can send timely alerts (e.g., charging complete, parking expiry, service reminders) to the vehicle user experience. See https://covesa.global/project/unified-push-notifications/ for the specification.
 
 ## Known Implementation
 https://covesa.global/project/unified-push-notifications/
@@ -26,6 +26,7 @@ Standardize 3rd party push notifications for automotive user experiences.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Unlike mobile platforms with established push notification services (APNs, FCM), the automotive domain lacks a standardized mechanism for third-party apps to deliver notifications to vehicle infotainment systems. A unified push notification standard enables consistent user experiences across OEMs and reduces fragmentation for service providers.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

@@ -14,6 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Language-specific SDKs are available: [up-rust](https://github.com/eclipse-uprotocol/up-rust), [up-java](https://github.com/eclipse-uprotocol/up-java), [up-cpp](https://github.com/eclipse-uprotocol/up-cpp), and [up-python](https://github.com/eclipse-uprotocol/up-python). The protocol specification is maintained at https://github.com/eclipse-uprotocol/up-spec. Transport layer implementations exist for zenoh, SOME/IP, MQTT, and Android Binder, allowing deployment across heterogeneous communication stacks. Developers define services using protobuf and interact via the uP-L1/L2/L3 API layers.
 
 
 ## Known Implementation

@@ -14,6 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+The reference server is implemented in Go and supports HTTP and WebSocket transports. Clone the repository from https://github.com/COVESA/vissr, build with `go build`, and run the server to expose VSS data via the VISSv2/v3 API. Clients connect using standard HTTP GET/POST or WebSocket for subscriptions and real-time data streaming. See the [COVESA VISS specification](https://covesa.github.io/vehicle-information-service-specification/) for protocol details.
 
 
 ## Known Implementation
@@ -27,6 +28,7 @@ This project provides a reference implementation of the released COVESA VISSv2.0
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Vehicle applications need a standardized way to access vehicle signal data without coupling to specific ECU implementations or proprietary interfaces. VISSR provides a transport-agnostic server implementing the W3C/COVESA VISS standard, enabling uniform access to the vehicle signal tree (VSS) for both in-vehicle and off-board clients.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

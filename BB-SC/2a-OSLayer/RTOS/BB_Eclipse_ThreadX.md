@@ -13,7 +13,8 @@ OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code and docs: https://github.com/eclipse-threadx/rtos-docs  
+Eclipse ThreadX targets deeply embedded MCU-based systems. Integrate it as the RTOS kernel for battery-powered or flash-constrained automotive ECUs. ThreadX provides preemptive scheduling, memory protection via MODULES, and a certified security stack (EAL4+, FIPS 140-2).
 
 ## Known Implementation
 https://github.com/eclipse-threadx/rtos-docs
@@ -28,6 +29,7 @@ Eclipse ThreadX provides an EAL4+ Common Criteria security certified environment
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Highly constrained automotive MCUs (< 64 KB flash) need an RTOS with minimal footprint, deterministic real-time behavior, and pre-certified security. Eclipse ThreadX provides this with EAL4+ Common Criteria certification and IEC 61508 / ISO 26262 safety qualification support, making it suitable for safety-critical embedded vehicle components.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

@@ -13,6 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Source code and build instructions are at https://github.com/eclipse-score/communication. LoLa uses shared-memory based IPC with lock-free data structures for zero-copy communication between processes. Built with Bazel as part of the S-CORE project. Provides C++ and Rust APIs for publishers/subscribers with deterministic timing guarantees suitable for ADAS pipelines. See the S-CORE documentation at https://eclipse-score.github.io/score for integration guidance.
 
 
 ## Known Implementation
@@ -26,6 +27,7 @@ Low-Latency communication middleware for ADAS use cases.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+ADAS and autonomous driving functions require ultra-low-latency, deterministic inter-process communication that can meet safety requirements (ISO 26262). Traditional IPC mechanisms (sockets, D-Bus) introduce unacceptable latency and non-determinism. LoLa provides lock-free, shared-memory communication designed specifically for safety-critical real-time data exchange on HPC ECUs.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

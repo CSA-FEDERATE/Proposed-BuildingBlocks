@@ -15,6 +15,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Source code and examples at https://github.com/eclipse-score/lifecycle. The Launch Manager handles ordered startup/shutdown of process groups based on dependency configurations. The Health Monitor provides alive, deadline, and logical supervision. Implemented in C++ with Rust bindings available. Supports Linux, QNX7, and QNX8. See the `demo/` folder for usage examples and https://eclipse-score.github.io/score for integration guidance.
 
 ## Known Implementation
 
@@ -48,6 +49,7 @@ High level functionality provided by Lifecycle:
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+HPC-based automotive systems run many interdependent processes that must start in a defined order, be monitored for health, and recover from failures automatically. Unlike general-purpose init systems (systemd), this lifecycle manager is designed for safety-critical automotive constraints — supporting QNX RTOS, providing configurable supervision, and integrating with external watchdogs for ISO 26262 compliance.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

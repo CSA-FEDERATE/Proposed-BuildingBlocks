@@ -13,7 +13,7 @@ Generator
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Define vehicle service interfaces in IFEX IDL (Interface Definition Language), then use the IFEX tooling to generate code stubs and skeletons for multiple target languages and frameworks. See https://github.com/COVESA/ifex for documentation and examples.
 
 ## Known Implementation
 https://github.com/COVESA/ifex
@@ -27,6 +27,7 @@ The project is a place to do difficult semantic mapping work. While doing so, it
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive development needs a single source of truth for service interface definitions that can be transformed into multiple target representations, avoiding manual translation errors and ensuring consistency across platforms.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

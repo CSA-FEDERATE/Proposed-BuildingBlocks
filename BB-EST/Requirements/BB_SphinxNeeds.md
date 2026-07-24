@@ -12,7 +12,9 @@ BB-EST
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code: https://github.com/useblocks/sphinx-needs  
+Documentation: https://sphinx-needs.readthedocs.io/  
+Sphinx-Needs extends Sphinx documentation with traceable need-objects (requirements, specs, implementations, tests). Define needs using directives like `.. req::` or `.. spec::`, link them with `links` options, and generate traceability matrices and filter views as part of your docs-as-code workflow.
 
 ## Known Implementation
 https://github.com/useblocks/sphinx-needs
@@ -30,6 +32,7 @@ Sphinx-Needs allows the definition, linking and filtering of class-like need-obj
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive development requires requirements management integrated into developer workflows. Sphinx-Needs enables a docs-as-code approach where requirements, specifications, and traceability live alongside source code in version control, eliminating tool silos and enabling review via standard Git workflows.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

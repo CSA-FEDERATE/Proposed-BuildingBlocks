@@ -14,7 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation: https://fast-dds.docs.eprosima.com/. Use the DDS/RTPS API for publish/subscribe messaging with configurable QoS, discovery, and transport. Default ROS 2 middleware implementation.
 
 ## Known Implementation
 https://github.com/eProsima/Fast-DDS
@@ -27,6 +27,7 @@ eprosima Fast DDS is a C++ implementation of the DDS (Data Distribution Service)
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Default ROS 2 middleware with proven track record in automotive and robotics. Provides a feature-rich, standards-compliant DDS implementation with direct RTPS protocol access for advanced use cases.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

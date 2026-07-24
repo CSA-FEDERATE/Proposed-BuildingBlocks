@@ -13,7 +13,15 @@ Build and Implementation
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://eclipse.dev/velocitas/
 
+Velocitas provides project templates for Vehicle Apps in Python and C++:
+- Python template: https://github.com/eclipse-velocitas/vehicle-app-python-template
+- C++ template: https://github.com/eclipse-velocitas/vehicle-app-cpp-template
+
+The Velocitas CLI manages project lifecycle, package installation, and code generation. DevContainers are provided for a ready-to-use development environment.
+
+Support channels: https://app.gitter.im/#/room/#eclipse-velocitas_community:gitter.im
 
 ## Known Implementation
 https://github.com/eclipse-velocitas
@@ -26,6 +34,7 @@ Eclipse Velocitas provides a development toolchain to create containerized in-ve
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Developing containerized in-vehicle applications today requires assembling a complex toolchain from scratch — build systems, vehicle model generation, testing harnesses, deployment pipelines. Velocitas provides an opinionated, ready-to-use development toolchain specifically designed for Vehicle Apps, reducing onboarding time and increasing development velocity. It abstracts vehicle data access through generated vehicle models based on VSS, enabling developers to focus on application logic rather than integration plumbing.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

@@ -13,7 +13,13 @@ OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://docs.sel4.systems/
+Tutorials: https://docs.sel4.systems/Tutorials
+API Reference: https://docs.sel4.systems/projects/sel4/api-doc.html
 
+seL4 is typically used as part of a larger build system. Hardware support includes ARM (Cortex-A), x86_64, and RISC-V platforms. The project provides formal verification proofs of correctness for selected configurations.
+
+Community: Discourse forum (https://sel4.discourse.group/), Mattermost chat, mailing lists.
 
 ## Known Implementation
 https://github.com/seL4
@@ -28,6 +34,7 @@ seL4 is grounded in research breakthroughs across multiple science disciplines. 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Safety-critical automotive systems require a microkernel with formally verified correctness and security guarantees. seL4 is the world's most highly assured OS kernel, with machine-checked proofs of functional correctness, integrity enforcement, and confidentiality. This makes it uniquely suitable as a foundation for mixed-criticality automotive systems where safety-critical and non-critical functions must be isolated with mathematical guarantees.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

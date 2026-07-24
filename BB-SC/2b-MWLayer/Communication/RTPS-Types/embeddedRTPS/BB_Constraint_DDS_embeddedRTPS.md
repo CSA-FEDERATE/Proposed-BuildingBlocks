@@ -14,7 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+embeddedRTPS runs on FreeRTOS with lwIP. Configure publishers/subscribers at compile time to avoid dynamic memory allocation at runtime. A reference implementation for STM32 is available at https://github.com/embedded-software-laboratory/embeddedRTPS-STM32. The stack integrates as a first-class DDS participant into ROS 2 or AUTOSAR Adaptive networks.
 
 ## Known Implementation
 Github repo: <https://github.com/embedded-software-laboratory/embeddedRTPS>
