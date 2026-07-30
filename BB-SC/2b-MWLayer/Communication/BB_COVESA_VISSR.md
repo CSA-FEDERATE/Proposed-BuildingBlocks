@@ -14,7 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-The reference server is implemented in Go and supports HTTP and WebSocket transports. Clone the repository from https://github.com/COVESA/vissr, build with `go build`, and run the server to expose VSS data via the VISSv2/v3 API. Clients connect using standard HTTP GET/POST or WebSocket for subscriptions and real-time data streaming. See the [COVESA VISS specification](https://covesa.github.io/vehicle-information-service-specification/) for protocol details.
+The reference server is implemented in Go and supports HTTP and WebSocket transports. Clone the repository from https://github.com/COVESA/vissr, build with `go build`, and run the server to expose VSS data via the VISSv2/v3 API. Clients connect using standard HTTP GET/POST or WebSocket for subscriptions and real-time data streaming. See the [COVESA VISS specification](https://github.com/COVESA/vehicle-information-service-specification) for protocol details.
 
 
 ## Known Implementation

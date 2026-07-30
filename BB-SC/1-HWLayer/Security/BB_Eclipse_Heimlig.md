@@ -14,7 +14,7 @@ OSLayer
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
 Source code: https://github.com/eclipse-heimlig/heimlig  
-Heimlg provides an HSM firmware implementation in Rust. Deploy it on a dedicated security core to offer cryptographic services (key generation, encryption, signing, CSPRNG) to application cores without exposing key material. Communicates with clients via a request/response API over shared memory.
+Heimlig provides an HSM firmware implementation in Rust. Deploy it on a dedicated security core to offer cryptographic services (key generation, encryption, signing, CSPRNG) to application cores without exposing key material. Communicates with clients via a request/response API over shared memory.
 
 ## Known Implementation
 https://github.com/eclipse-heimlig/heimlig

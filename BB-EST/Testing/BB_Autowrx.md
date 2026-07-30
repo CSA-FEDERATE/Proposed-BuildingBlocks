@@ -13,7 +13,7 @@ Testing
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-Web-based prototyping platform (Digital.auto playground) for designing and validating Vehicle App ideas using the COVESA Vehicle Signal Specification (VSS). Access at https://digitalauto.netlify.app/ or self-host from https://gitlab.eclipse.org/eclipse/autowrx/autowrx.
+Web-based prototyping platform (digital.auto playground) for designing and validating Vehicle App ideas using the COVESA Vehicle Signal Specification (VSS). Access at https://digitalauto.netlify.app/ or self-host from https://gitlab.eclipse.org/eclipse/autowrx/autowrx.
 
 ## Known Implementation
 https://gitlab.eclipse.org/eclipse/autowrx/autowrx
