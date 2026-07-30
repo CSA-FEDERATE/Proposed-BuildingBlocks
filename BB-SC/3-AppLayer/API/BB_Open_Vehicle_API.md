@@ -14,6 +14,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Project repository at https://github.com/eclipse-openvehicle-api. Documentation available at https://eclipse.dev/openvehicle-api/. The API uses a component-based approach where vehicle functions are implemented against an abstraction layer. Tools automate code generation from signal/event definitions, reducing manual coding. Supports both SIL and HIL testing workflows. Developers define function interfaces once and deploy across different vehicle platforms.
 
 
 ## Known Implementation
@@ -37,6 +38,7 @@ The Eclipse Open Vehicle API contains tools and a runtime to create a vehicle ab
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Migrating signal-based ECU functions to HPCs and enabling a multi-vendor app ecosystem requires a standardized vehicle abstraction interface. Open Vehicle API provides vehicle-independent function interfaces with automated code generation, enabling OEMs and suppliers to develop portable, reusable vehicle functions that work across different E/E architectures and support both safety-critical (ADAS/chassis) and comfort domains.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

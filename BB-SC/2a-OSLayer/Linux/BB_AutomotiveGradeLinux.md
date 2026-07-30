@@ -13,7 +13,9 @@ APPLayer, MWLayer, OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Project website: https://www.automotivelinux.org/  
+Documentation: https://docs.automotivelinux.org/  
+AGL provides a complete Linux distribution for automotive use cases. Build an AGL image using the Yocto-based build system, deploy to supported hardware or QEMU, and develop applications using the AGL application framework.
 
 ## Known Implementation
 https://github.com/orgs/agl-ic-eg/repositories?type=all
@@ -58,21 +60,22 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
-Linux Build System
+Yocto/BitBake build system, AGL SDK
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Target: x86_64, ARM (QEMU, Raspberry Pi, Renesas R-Car). Host: Linux build machine.
 
 See supported [Hardware](https://docs.automotivelinux.org/en/master/#02_Hardware_Support/01_Supported_Hardware_Overview/
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Automotive-grade. Linux Foundation collaborative project. De facto industry standard.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+None (full Linux distribution). Integrates various open-source components.
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

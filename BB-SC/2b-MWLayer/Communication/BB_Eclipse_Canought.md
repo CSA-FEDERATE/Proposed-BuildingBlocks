@@ -14,7 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Deploy CANought services (J1939 translator, UDS translator) alongside Eclipse Kanto to bridge CAN bus communication to IP-based systems. See https://github.com/eclipse-canought for setup and configuration.
 
 ## Known Implementation
 https://github.com/eclipse-canought
@@ -27,6 +27,7 @@ Eclipse CANought provides extensions to the Eclipse Kanto project focused on aut
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Legacy CAN communication (J1939, UDS) needs bridging to modern IP-based transport layers and cloud-connected architectures, enabling SDV platforms to interact with existing vehicle networks.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -42,16 +43,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Go or Rust toolchain (TBD based on project evolution)
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux with CAN interface support. Part of Eclipse Kanto ecosystem.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Secure CAN communication (J1939, UDS translation).
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+Eclipse Kanto, physical or virtual CAN bus interface
 
 
 ## Vehicle API Relevant

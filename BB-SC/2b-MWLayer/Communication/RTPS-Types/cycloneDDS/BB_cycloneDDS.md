@@ -14,7 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation: https://cyclonedds.io/docs/. Use the DDS C/C++ API for publish/subscribe communication. Supports zero-configuration discovery, QoS policies, and shared-memory transport via Eclipse Iceoryx integration.
 
 ## Known Implementation
 https://github.com/eclipse-cyclonedds/cyclonedds
@@ -27,6 +27,7 @@ Eclipse Cyclone DDS is a very performant and robust open-source implementation o
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive and robotics middleware needs a certifiable, high-performance DDS implementation with deterministic behavior, security support, and ROS 2 tier-1 integration for real-time publish/subscribe communication.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -53,6 +54,7 @@ OS/Runtime Envirnoment
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C compiler, CMake
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
@@ -73,6 +75,7 @@ QOS
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+None required. Optional: ROS2 integration via rmw_cyclonedds.
 
 
 ## Vehicle API Relevant

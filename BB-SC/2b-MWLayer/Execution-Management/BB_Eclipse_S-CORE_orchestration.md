@@ -15,6 +15,8 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Source code and documentation: https://github.com/eclipse-score/orchestrator  
+Define cause-effect chains declaratively to orchestrate component interactions. The orchestrator schedules and coordinates execution of software components according to their data dependencies and timing constraints.
 
 ## Known Implementation
 
@@ -30,6 +32,7 @@ Orchestration as declarative model to define cause-effect chains of actions
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive systems require deterministic orchestration of component interactions to ensure correct execution order and timing. A declarative model for cause-effect chains enables safety-qualifiable scheduling of complex software architectures without hard-coding execution sequences.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

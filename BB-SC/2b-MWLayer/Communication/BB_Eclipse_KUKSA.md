@@ -14,7 +14,23 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://eclipse-kuksa.github.io/kuksa-website/
 
+Quick start with Docker:
+```bash
+docker network create kuksa
+docker run -it --rm --name Server --network kuksa ghcr.io/eclipse-kuksa/kuksa-databroker:main --insecure
+```
+
+Interact via CLI:
+```bash
+docker run -it --rm --network kuksa ghcr.io/eclipse-kuksa/kuksa-databroker-cli:main --server Server:55555
+# At the prompt:
+get Vehicle.Speed
+publish Vehicle.Speed 100.34
+```
+
+KUKSA Databroker provides gRPC-based APIs (kuksa.val.v2, kuksa.val.v1) and supports COVESA VISS v2 over WebSocket. Written in Rust, it is lightweight (<4 MB statically compiled).
 
 ## Known Implementation
 https://github.com/eclipse-kuksa
@@ -27,6 +43,7 @@ The open Eclipse KUKSA™ project aims to provide shared building blocks for the
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Vehicle applications need a uniform way to access sensor and actuator data regardless of the underlying hardware and ECU communication protocols (CAN, SOME/IP, etc.). KUKSA Databroker provides a resource-efficient, in-vehicle implementation of the COVESA Vehicle Signal Specification (VSS) tree that abstracts low-level vehicle interfaces into a high-level gRPC API. This enables application developers to focus on functionality rather than vehicle-specific integration, and allows the same application code to run across different vehicle platforms.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -42,17 +59,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Rust toolchain, Protobuf compiler (protoc), gRPC.
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux (x86_64, aarch64, RISC-V). Docker/Podman for containerized deployment. Lightweight (<4 MB binary).
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Resource-efficient, suitable for embedded vehicle computers. Supports TLS for secure communication.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-
+FC Communication (VSS data model from S-BB/VSS).
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

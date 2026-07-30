@@ -14,7 +14,22 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation and getting started: https://zenoh.io/docs/getting-started/installation/
 
+Basic pub/sub example (Rust):
+```bash
+cargo run --example z_sub
+cargo run --example z_pub
+```
+
+Query/Reply pattern:
+```bash
+cargo run --example z_queryable
+cargo run --example z_get
+```
+
+Language bindings available for: Rust, C, C++, Python, Kotlin, Java, TypeScript.
+A pure-C implementation (zenoh-pico) is available for resource-constrained devices.
 
 ## Known Implementation
 https://github.com/eclipse-zenoh/zenoh
@@ -29,6 +44,7 @@ Zenoh (pronounce /zeno/) unifies data in motion, data at rest and computations. 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Modern vehicle architectures require communication across heterogeneous environments — from microcontrollers at the edge, through in-vehicle HPCs, to cloud backends. Zenoh provides a single, unified protocol that handles pub/sub, distributed storage, and queries with extremely low overhead and latency. Its ability to run on constrained devices (via zenoh-pico) as well as powerful servers, combined with support for geo-distributed storage and computation, makes it suitable for end-to-end SDV communication without requiring multiple disparate middleware stacks.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -44,17 +60,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Rust toolchain (stable >= 1.75), Cargo build system.
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux, macOS, or Windows. Optional: Docker for containerized deployment. Minimal resource requirements.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Low-latency, high-throughput. Designed for constrained and powerful devices alike.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-
+None required, but can integrate with FC Communication (DDS, MQTT bridging).
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

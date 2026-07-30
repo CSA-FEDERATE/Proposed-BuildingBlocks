@@ -15,6 +15,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Source code and examples at https://github.com/eclipse-score/lifecycle. The Launch Manager handles ordered startup/shutdown of process groups based on dependency configurations. The Health Monitor provides alive, deadline, and logical supervision. Implemented in C++ with Rust bindings available. Supports Linux, QNX7, and QNX8. See the `demo/` folder for usage examples and https://eclipse-score.github.io/score for integration guidance.
 
 ## Known Implementation
 
@@ -48,6 +49,7 @@ High level functionality provided by Lifecycle:
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+HPC-based automotive systems run many interdependent processes that must start in a defined order, be monitored for health, and recover from failures automatically. Unlike general-purpose init systems (systemd), this lifecycle manager is designed for safety-critical automotive constraints — supporting QNX RTOS, providing configurable supervision, and integrating with external watchdogs for ISO 26262 compliance.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -62,18 +64,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C++ compiler, Rust toolchain (for bindings), Bazel build system
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux (x86_64, aarch64), QNX.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Safety-critical lifecycle management. Health monitoring for system reliability.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+Eclipse S-CORE base libraries
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

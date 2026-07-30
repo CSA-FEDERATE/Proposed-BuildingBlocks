@@ -14,7 +14,11 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://eclipse-ankaios.github.io/ankaios/
 
+Ankaios uses a declarative state model: you define the desired set of workloads in a manifest, and the system ensures convergence. It supports Podman containers as first-class runtime, with extensibility for other runtimes and native applications.
+
+The `ank` CLI provides commands to manage workloads, query state, and apply configurations.
 
 ## Known Implementation
 https://github.com/eclipse-ankaios/ankaios
@@ -27,6 +31,7 @@ Eclipse Ankaios provides workload and container orchestration for automotive Hig
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive HPCs require workload orchestration that is lightweight, deterministic, and suitable for regulated environments. Traditional cloud orchestration tools (e.g., Kubernetes) are too resource-heavy and not designed for automotive safety and real-time constraints. Ankaios provides a slim, purpose-built solution that manages containerized applications across multiple nodes and VMs with a single API, independent of existing communication frameworks like SOME/IP, DDS, or REST.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -42,17 +47,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Rust toolchain, Protobuf compiler.
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux (x86_64, aarch64). Requires container runtime (Podman recommended). Server-agent architecture.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Lightweight, deterministic. Designed for automotive real-time constraints. Independent of SOME/IP, DDS, REST.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-
+Container runtime (Podman/containerd). Independent of FC Communication.
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

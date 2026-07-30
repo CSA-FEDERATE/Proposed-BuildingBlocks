@@ -14,7 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Test designers model the system under test using keyword-based syntax (Signal/Knowledge/Behavior Trees). From these models, test cases are generated automatically and exported to ALM tools or executed directly in test automation frameworks. See https://gitlab.eclipse.org/eclipse/skybt/skybt for documentation and examples.
 
 ## Known Implementation
 Github repo: https://gitlab.eclipse.org/eclipse/skybt/skybt
@@ -33,7 +33,7 @@ Coming from the ALM tool the configured test suites can be executed in the used 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-tbd
+Automotive software testing requires maintainable, reusable test artifacts that bridge design and execution. SKyBT solves this by enabling keyword-driven test modelling that generates executable test cases without manual implementation, reducing lead time and improving test coverage consistency.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

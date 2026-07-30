@@ -13,7 +13,11 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://bluechi.readthedocs.io/en/latest/
 
+BlueChi extends systemd's D-Bus API for multi-node use cases. It uses a controller-agent architecture where one BlueChi controller manages multiple agents (one per node). Services are controlled via D-Bus commands or the `bluechictl` CLI.
+
+It can also control containerized applications using Podman with quadlet-generated systemd service units.
 
 ## Known Implementation
 https://github.com/eclipse-bluechi/bluechi
@@ -26,6 +30,7 @@ Eclipse BlueChi™ is a systemd service controller intended for multi-node envir
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+In multi-node automotive edge environments, services must be reliably controlled across different devices while complying with functional safety regulations. Traditional orchestration tools are not designed for these regulated ecosystems. BlueChi leverages the well-proven systemd service manager and extends it to multi-node scenarios with a predefined topology, providing deterministic service lifecycle management suitable for safety-critical domains like transportation.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -41,19 +46,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C compiler (GCC/Clang), Meson build system, D-Bus libraries.
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
-systemd
+Linux with systemd. CentOS Stream 9/10, Fedora. RPM packages available via COPR.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Functional safety focus. Deterministic service lifecycle management for regulated environments.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+Requires systemd on all managed nodes. Optional: Podman for containerized workloads.
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

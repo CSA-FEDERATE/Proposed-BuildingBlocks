@@ -13,7 +13,7 @@ Testing
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+The CDSP provides a composable testing environment for vehicle data services. Developers experiment with data-centric architecture patterns (storage, mediation, consent) in isolation or combination. Clone the repo and follow the setup at https://github.com/COVESA/cdsp to run data service scenarios locally.
 
 ## Known Implementation
 https://github.com/COVESA/cdsp
@@ -26,6 +26,7 @@ The Central Data Service Playground (CDSP) is a neutral, open playground for dat
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Data-centric vehicle architectures need a neutral, open environment to prototype and validate data service compositions before productization. CDSP provides this sandbox to accelerate understanding and adoption of COVESA data architecture concepts.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

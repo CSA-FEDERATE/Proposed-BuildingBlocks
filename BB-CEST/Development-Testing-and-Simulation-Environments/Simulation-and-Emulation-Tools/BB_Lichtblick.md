@@ -13,7 +13,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Lichtblick can be used as a desktop application or in the browser to visualize and debug robotics and vehicle data. It supports loading ROS bag files, connecting to live ROS topics, and rendering sensor data (lidar point clouds, camera images, maps) in configurable panels. See documentation at https://github.com/Lichtblick-Suite/lichtblick.
 
 ## Known Implementation
 https://github.com/Lichtblick-Suite/lichtblick
@@ -26,7 +26,7 @@ Lichtblick is an integrated visualization and diagnosis tool for robotics, avail
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Developers of autonomous driving and ADAS functions need an integrated visualization and diagnostic tool to inspect sensor data, vehicle state, and simulation outputs. Lichtblick provides a cross-platform, open-source solution for real-time and recorded data visualization, reducing dependency on proprietary tooling.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

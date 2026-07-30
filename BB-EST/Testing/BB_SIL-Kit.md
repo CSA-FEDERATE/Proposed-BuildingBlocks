@@ -13,7 +13,17 @@ Testing
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://vectorgrp.github.io/sil-kit-docs
 
+Build from source:
+```bash
+git submodule update --init --recursive
+mkdir build && cd build
+cmake ..
+cmake --build .
+```
+
+Ecosystem adapters: QEMU, TAP devices, virtual CAN (SocketCAN), Generic Linux IO, FMU Importer, Byte Stream Socket. Supports virtual bus simulation for CAN, Ethernet, FlexRay, and LIN.
 
 ## Known Implementation
 https://github.com/vectorgrp/sil-kit
@@ -28,6 +38,7 @@ For documentation on using the Vector SIL Kit, see the HTML documentation, which
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Software-in-the-Loop testing for automotive requires connecting diverse simulation tools, emulators, and virtual machines into a coherent co-simulation environment. SIL Kit provides an open-source, permissively licensed (MIT) library for this purpose, with adapters for QEMU, virtual CAN, FMUs, and more. This enables distributed, hardware-agnostic SIL testing across CAN, Ethernet, FlexRay, and LIN bus systems without proprietary lock-in.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -43,17 +54,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C++17 compiler, CMake >= 3.12, Git (for submodules).
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Windows 10/11, Linux (Ubuntu 18.04+). Optional: Doxygen + Sphinx for documentation.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Performance-focused co-simulation. Thread-safe. Sanitizer-tested (ASan, UBSan, TSan).
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-
+None required. Adapters available for QEMU, virtual CAN, FMU, TAP devices.
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

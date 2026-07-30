@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Adopt the eSync platform specification for OTA update infrastructure. Integrate eSync-compliant client agents on vehicle ECUs and connect to eSync-compatible cloud backends. See https://esyncalliance.org/technology/ for the specification and member resources.
 
 ## Known Implementation
 https://esyncalliance.org/technology/
@@ -28,6 +28,7 @@ The Alliance is based around the eSync platform of cloud and embedded components
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Vehicles require a standardized, secure OTA update and data gathering solution that is interoperable across OEMs and suppliers, meeting UNECE 156 requirements for software update management systems.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

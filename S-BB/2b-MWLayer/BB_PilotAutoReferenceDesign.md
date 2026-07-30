@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+The Pilot.Auto Reference Design provides use-case-driven system architecture documentation for autonomous driving. Developers can copy and customize the reference design to accelerate their own AD system development. See https://docs.pilot.auto/en/reference-design/ for the full reference design documentation and use case specifications.
 
 ## Known Implementation
 https://docs.pilot.auto/en/reference-design/
@@ -26,6 +26,7 @@ Reference Design of Pilot.Auto is a reference design for the autonomous driving 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Developing autonomous driving systems from scratch requires significant design effort and carries risk of architectural mistakes. A publicly available, use-case-driven reference design allows teams to start from a proven system concept, visualize system operations concretely, and customize it to their specific needs rather than designing from zero.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

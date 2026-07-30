@@ -13,7 +13,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation: https://eclipse.dev/mosaic/docs/. MOSAIC couples multiple domain simulators (traffic, network, vehicle, application) through its Runtime Infrastructure (RTI) for multi-domain co-simulation scenarios.
 
 ## Known Implementation
 https://github.com/eclipse-mosaic/mosaic
@@ -26,7 +26,7 @@ Eclipse MOSAIC is a multi-scale simulation framework in the field of smart and c
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+SDV testing requires multi-domain co-simulation combining traffic, network, vehicle dynamics, and application behavior to validate connected and automated driving functions.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

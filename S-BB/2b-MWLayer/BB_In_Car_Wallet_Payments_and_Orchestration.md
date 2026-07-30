@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+This building block provides a framework for integrating payment services into the vehicle. It defines APIs and orchestration flows for in-car wallet management, enabling services such as fuel/charging payments, parking, tolling, and drive-through purchases directly from the vehicle HMI. See https://covesa.global/project/in-car-wallet-payments-orchestration/ for specifications.
 
 ## Known Implementation
 https://covesa.global/project/in-car-wallet-payments-orchestration/
@@ -26,6 +26,7 @@ Secure and convenient payment system framework for vehicles.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Vehicles are becoming commerce platforms, but payment integration is fragmented across OEMs and service providers. A standardized in-car wallet and payment orchestration framework enables secure, convenient transactions from the vehicle while reducing integration effort for third-party payment providers and service ecosystems.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

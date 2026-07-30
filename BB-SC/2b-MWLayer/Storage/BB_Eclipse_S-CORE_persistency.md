@@ -15,6 +15,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Source code at https://github.com/eclipse-score/persistency. The crate provides a simple Key-Value Store API in Rust — add it as a dependency and use `put`/`get` operations to persist application state. Data is serialized with TinyJSON and validated with Adler32 checksums for integrity. No external dependencies beyond `std` are required, making it suitable for constrained embedded environments. Built with Bazel as part of the S-CORE project.
 
 ## Known Implementation
 
@@ -30,6 +31,7 @@ This crate provides a Key-Value-Store using TinyJSON to persist the data. It use
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive middleware on HPC ECUs needs a lightweight, reliable persistence mechanism for configuration and runtime state that avoids the overhead and complexity of general-purpose databases. This Key-Value Store is designed with minimal dependencies (Rust std only) and built-in data integrity validation, making it suitable for safety-relevant embedded systems where simplicity and auditability are critical.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -44,18 +46,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Rust toolchain (std only), Bazel build system
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Any platform with Rust std library support.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Data integrity validation via Adler32. Minimal dependencies (std-only).
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+None. Standalone Rust crate.
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

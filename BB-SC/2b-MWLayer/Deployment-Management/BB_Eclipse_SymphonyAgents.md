@@ -13,7 +13,8 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation and getting started: https://eclipse-symphony.github.io/symphony-website/  
+Symphony provides a unified orchestration platform for managing workloads across heterogeneous devices. Deploy Symphony agents on target devices to enable declarative, vendor-agnostic workload deployment and lifecycle management from a central control plane.
 
 ## Known Implementation
 https://eclipse-symphony.github.io/symphony-website/
@@ -26,7 +27,7 @@ Project Symphony is an Eclipse Foundation open-source orchestration platform tha
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Vehicle fleets consist of heterogeneous hardware and software stacks from multiple vendors. A unified orchestration platform is needed to manage workload deployment, updates, and lifecycle across diverse edge devices without requiring modifications to existing systems or vendor-specific tooling.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -42,18 +43,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Go programming language
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Kubernetes/edge environments. Cross-platform agent deployment.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Vendor-agnostic orchestration. Integrates existing systems without modification.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+Kubernetes (optional), edge device connectivity
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

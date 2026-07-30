@@ -15,6 +15,8 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Source code and documentation: https://github.com/eclipse-score/logging  
+The S-CORE logging daemon collects, stores, and forwards log messages from safety-critical vehicle software components. Integrate it as the central logging service for systems built on the S-CORE platform.
 
 ## Known Implementation
 
@@ -30,6 +32,7 @@ Logging service for S-CORE systems
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Safety-critical automotive systems require a logging service that is designed for deterministic behavior, minimal resource usage, and traceability. General-purpose logging frameworks (e.g., journald) lack the safety considerations and automotive-specific constraints needed for ISO 26262 qualified systems.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

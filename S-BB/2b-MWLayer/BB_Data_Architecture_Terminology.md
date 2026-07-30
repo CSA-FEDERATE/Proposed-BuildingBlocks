@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Use this as a reference for common architectural terminology and patterns when designing vehicle data architectures. It provides definitions and proof-of-concept implementations that align with COVESA specifications. See https://covesa.global/project/data-architecture-terminology/ for the current terminology set.
 
 ## Known Implementation
 https://covesa.global/project/data-architecture-terminology/
@@ -26,6 +26,7 @@ Definition of reusable common architectural terminology and patterns realized wi
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+The SDV ecosystem lacks consistent terminology for data architecture concepts, leading to miscommunication across organizations. A shared vocabulary with reference implementations drives understanding and adoption of COVESA data specifications.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

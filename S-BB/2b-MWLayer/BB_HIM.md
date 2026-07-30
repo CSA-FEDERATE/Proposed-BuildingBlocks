@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Define hierarchical domain models using the HIM format. Use the tooling at https://github.com/COVESA/hierarchical_information_model to create, validate, and transform domain-specific signal trees (e.g., extending VSS with custom branches).
 
 ## Known Implementation
 https://github.com/COVESA/hierarchical_information_model
@@ -26,6 +26,7 @@ The HIM aims to provide a format for expressing a hierarchical representation of
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Vehicle data models (like VSS) need a formal, extensible format for expressing hierarchical signal structures that can be shared, validated, and transformed across different tools and organizations.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

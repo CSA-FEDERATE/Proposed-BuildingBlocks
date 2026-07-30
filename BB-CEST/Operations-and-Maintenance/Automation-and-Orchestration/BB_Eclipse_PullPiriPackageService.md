@@ -13,7 +13,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+The PULLPIRI Package Service manages OTA software packages for vehicle fleets. Operators define update policies and package manifests; the service handles package versioning, distribution, and rollback. See https://github.com/eclipse-pullpiri/pullpiri for setup and API documentation.
 
 ## Known Implementation
 https://github.com/eclipse-pullpiri/pullpiri
@@ -26,7 +26,7 @@ The main goal of PULLPIRI project is to develop an efficient vehicle service orc
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+SDV platforms require reliable, policy-driven OTA package management to deploy and update in-vehicle services at scale. PULLPIRI provides this capability with short development cycles and context-aware activation of vehicle scenarios.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

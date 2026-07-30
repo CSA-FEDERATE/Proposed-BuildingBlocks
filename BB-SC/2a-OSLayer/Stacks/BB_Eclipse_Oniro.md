@@ -15,6 +15,7 @@ OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation: https://docs.oniroproject.org/. Build Oniro for target devices using its Yocto/BitBake-based build system, develop applications with ReactNative or native APIs across supported kernels (Linux, Zephyr, LiteOS).
 
 ## Known Implementation
 
@@ -28,6 +29,7 @@ Oniro is an open-source, vendor-neutral Operating System (OS) managed by the Ecl
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Need for a unified, vendor-neutral development framework that supports multiple kernels (Linux, Zephyr) and device classes from a single codebase, enabling consistent development across heterogeneous IoT and automotive platforms.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -41,18 +43,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+OpenHarmony SDK, DevEco Studio or Eclipse Theia IDE
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+ARM and x86 targets. Supports multiple kernel profiles (Linux, LiteOS, Zephyr).
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Cross-kernel compatibility. European market compliance (GDPR considerations).
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+OpenHarmony base layers
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

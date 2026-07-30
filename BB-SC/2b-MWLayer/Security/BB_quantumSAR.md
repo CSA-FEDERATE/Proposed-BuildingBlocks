@@ -13,7 +13,8 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code: https://github.com/iavofficial/IAV_quantumSAR  
+quantumSAR provides post-quantum cryptographic algorithms as an AUTOSAR Classic Cryptodriver. Integrate it into your AUTOSAR BSW stack to replace or supplement classical crypto algorithms with quantum-resistant alternatives (ML-KEM, ML-DSA, SLH-DSA). Requires an AUTOSAR Classic environment and compatible automotive MCU.
 
 ## Known Implementation
 https://github.com/iavofficial/IAV_quantumSAR
@@ -26,6 +27,7 @@ IAV quantumSAR is planned as an AUTOSAR Cryptodriver with a collection of post-q
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Quantum computers threaten current automotive cryptographic algorithms. Vehicles have long lifecycles (15+ years), so post-quantum cryptography must be integrated now to protect against future "harvest now, decrypt later" attacks. quantumSAR provides NIST-standardized PQC algorithms optimized for resource-constrained automotive microcontrollers.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -41,18 +43,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C compiler for AUTOSAR Classic targets, AUTOSAR development tools
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Automotive microcontrollers with AUTOSAR Classic environment.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Post-quantum security. NIST PQC algorithms. Preparing for quantum computing threats.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+AUTOSAR Classic Basic Software stack
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

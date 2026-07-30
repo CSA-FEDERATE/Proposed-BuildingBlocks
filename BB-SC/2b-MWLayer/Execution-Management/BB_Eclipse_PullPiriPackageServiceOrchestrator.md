@@ -13,7 +13,8 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Documentation and source code: https://github.com/eclipse-pullpiri/pullpiri  
+PULLPIRI provides a service orchestrator framework for in-vehicle use. Integrate it as the orchestration layer managing lifecycle and activation of vehicle services based on context-aware policies.
 
 ## Known Implementation
 https://github.com/eclipse-pullpiri/pullpiri
@@ -26,7 +27,7 @@ The main goal of PULLPIRI project is to develop an efficient vehicle service orc
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Modern vehicles require cloud-native service orchestration to manage complex, context-dependent in-vehicle applications. PULLPIRI enables short development cycles for deploying vehicle scenarios by providing a standardized orchestration framework that activates services based on vehicle status, environment, and connected device contexts.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

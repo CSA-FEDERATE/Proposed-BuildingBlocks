@@ -14,6 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+The reference server is implemented in Go and supports HTTP and WebSocket transports. Clone the repository from https://github.com/COVESA/vissr, build with `go build`, and run the server to expose VSS data via the VISSv2/v3 API. Clients connect using standard HTTP GET/POST or WebSocket for subscriptions and real-time data streaming. See the [COVESA VISS specification](https://github.com/COVESA/vehicle-information-service-specification) for protocol details.
 
 
 ## Known Implementation
@@ -27,6 +28,7 @@ This project provides a reference implementation of the released COVESA VISSv2.0
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Vehicle applications need a standardized way to access vehicle signal data without coupling to specific ECU implementations or proprietary interfaces. VISSR provides a transport-agnostic server implementing the W3C/COVESA VISS standard, enabling uniform access to the vehicle signal tree (VSS) for both in-vehicle and off-board clients.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -42,16 +44,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Go programming language, VSS tools
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux. HTTP and WebSocket server endpoints.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Reference implementation for conformance testing, not production-hardened.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+S-BB/VSS (Vehicle Signal Specification data model)
 
 
 ## Vehicle API Relevant

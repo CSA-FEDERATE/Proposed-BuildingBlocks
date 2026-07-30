@@ -13,7 +13,7 @@ Generator
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+CVIS provides signal and service catalogs for commercial vehicles using the HIM (Hierarchical Information Model) rule set. Integrators use the catalogs to generate code, documentation, or validation artifacts for truck/bus platforms. See https://github.com/COVESA/commercial-vehicle-information-specifications for the specification files and tooling.
 
 ## Known Implementation
 https://github.com/COVESA/commercial-vehicle-information-specifications
@@ -26,6 +26,7 @@ The Commercial Vehicle Information Specifications (CVIS) project is aiming at de
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Commercial vehicles have domain-specific signal and service needs that differ from passenger cars. CVIS provides standardized catalogs for trucks, buses, and other commercial vehicles, enabling interoperability and reducing per-OEM signal definition effort.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

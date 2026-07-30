@@ -13,7 +13,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Cloe acts as simulation middleware for automated driving development. Developers plug in their AD components via Cloe's unified interface and run closed-loop simulations with configurable sensor models, triggers, and scenarios. Documentation is available at https://cloe.readthedocs.io/en/latest/.
 
 ## Known Implementation
 https://cloe.readthedocs.io/en/latest/
@@ -37,7 +37,7 @@ Using these abstractions, it is then possible to provide features such as the fo
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Automated driving software must be validated in simulation before road testing. Cloe provides a simulator-agnostic middleware layer that decouples AD components from specific simulation backends, enabling reproducible CI-integrated testing with fault injection and ground-truth data.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

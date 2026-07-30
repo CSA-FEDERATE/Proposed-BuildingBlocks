@@ -16,7 +16,9 @@ HWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code: https://github.com/xen-project/xen  
+Documentation: https://wiki.xenproject.org/  
+Deploy the Xen hypervisor on supported hardware to create isolated virtual machines for mixed-criticality workloads. Use dom0 (Linux) for management and domU guests for safety-critical or infotainment domains. Configure via xl toolstack or libvirt.
 
 ## Known Implementation
 https://github.com/xen-project/xen
@@ -62,27 +64,22 @@ optional: XEN tools (.e.g. xl)
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
-
-Tracing support (e.g. LTTng) to perform performance analyses and tests - to evaluate real-time capabilities ->  HAL4SDV project
-Evaluation availability and support for drivers used in the automotive domain - openCAN Stack, ... -> HAL4SDV projeckt
+C compiler, cross-compilation toolchain for target architecture
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
-
-Supported hardware (e.g. hhtps://hcl.xenserver.com/)
-Supported OS (Linux, Windows, MacOS, Zeyphr, ...)
+x86_64, ARM (Cortex-A). Bare-metal Type-1 hypervisor. Requires hardware virtualization support.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-
-Safety (support for mixed criticality VMs on one host) 
+Strong isolation between VMs. Safety certification efforts ongoing. Real-time guest support. 
 Security (support encryption, Identity and Access Managemnt)
 Real-Time (support firm and soft real-time)
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-
+Hardware with virtualization extensions (VT-x/AMD-V or ARM VHE)
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

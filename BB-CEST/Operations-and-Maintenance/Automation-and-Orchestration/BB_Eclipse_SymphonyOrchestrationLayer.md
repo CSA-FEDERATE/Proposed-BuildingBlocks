@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Symphony provides a unified orchestration layer for managing workloads across heterogeneous edge and cloud devices. Operators define desired-state configurations; Symphony reconciles them across targets without requiring changes to existing systems. See https://eclipse-symphony.github.io/symphony-website/ for documentation.
 
 ## Known Implementation
 https://eclipse-symphony.github.io/symphony-website/
@@ -26,7 +26,7 @@ Project Symphony is an Eclipse Foundation open-source orchestration platform tha
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+SDV cloud backends must orchestrate workloads across diverse devices and vendors with a consistent workflow. Symphony addresses the complexity of multi-target orchestration by providing a single control plane that integrates existing systems without modification.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

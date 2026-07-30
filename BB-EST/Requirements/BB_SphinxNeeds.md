@@ -12,7 +12,9 @@ BB-EST
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code: https://github.com/useblocks/sphinx-needs  
+Documentation: https://sphinx-needs.readthedocs.io/  
+Sphinx-Needs extends Sphinx documentation with traceable need-objects (requirements, specs, implementations, tests). Define needs using directives like `.. req::` or `.. spec::`, link them with `links` options, and generate traceability matrices and filter views as part of your docs-as-code workflow.
 
 ## Known Implementation
 https://github.com/useblocks/sphinx-needs
@@ -30,6 +32,7 @@ Sphinx-Needs allows the definition, linking and filtering of class-like need-obj
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Automotive development requires requirements management integrated into developer workflows. Sphinx-Needs enables a docs-as-code approach where requirements, specifications, and traceability live alongside source code in version control, eliminating tool silos and enabling review via standard Git workflows.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -45,18 +48,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Python 3, Sphinx documentation framework, reStructuredText
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Any platform with Python. Integrates into Sphinx doc builds.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Living documentation with traceable requirements. Supports export to ReqIF.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+Sphinx documentation framework
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

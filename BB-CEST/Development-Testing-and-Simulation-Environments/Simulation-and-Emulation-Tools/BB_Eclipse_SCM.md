@@ -13,7 +13,7 @@ AppLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+SCM is used for stochastic traffic flow simulations to statistically analyze critical driving situations and accident occurrence. Researchers configure driver behaviour parameters and run Monte Carlo simulations to assess vehicle safety. See https://gitlab.eclipse.org/eclipse/scm/scm for documentation.
 
 ## Known Implementation
 https://gitlab.eclipse.org/eclipse/scm/scm
@@ -27,7 +27,7 @@ SCM focuses on detailed driver behaviour modelling to provide an accurate simula
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Validating automated driving safety requires statistical evidence from large-scale traffic simulations with realistic driver behaviour models. SCM provides stochastic, cause-action-based driver modelling to generate critical scenario data for safety assessment.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

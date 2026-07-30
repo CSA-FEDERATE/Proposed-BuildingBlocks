@@ -13,6 +13,7 @@ MWLayer, OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Documentation and getting started guides are available at https://eclipse-score.github.io/score. The project uses Bazel as its build system. Key modules include: LoLa (communication), FEO (fixed execution order), lifecycle (launch/health management), persistency (key-value store), logging, and orchestrator. Each module can be integrated independently or as part of the full S-CORE stack on Linux or QNX targets.
 
 
 ## Known Implementation
@@ -42,18 +43,20 @@ BB Eclipse S-CORE_LOLA, BB Eclipse S-CORE_FEO, BB Eclipse_OpenSOVD
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C++ and Rust toolchains, Bazel build system, QNX or Linux target
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux (x86_64, aarch64), QNX (primary automotive target). AutoSD (CentOS Automotive Stream Distribution).
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Safety-critical (ISO 26262 targeted). Real-time capable. Automotive-grade quality processes.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+None (self-contained middleware stack). Integrates above OS layer, below application layer.
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

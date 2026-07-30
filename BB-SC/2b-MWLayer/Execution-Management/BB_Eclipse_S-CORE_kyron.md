@@ -15,6 +15,8 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Source code and documentation: https://github.com/eclipse-score/kyron  
+Kyron is a safe async runtime for Rust designed for safety-critical systems. Use it as the execution backend for asynchronous task scheduling in automotive Rust applications where ISO 26262 compliance is required.
 
 ## Known Implementation
 
@@ -30,6 +32,7 @@ Repository for safe async runtime called kyron for Rust
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Safety-critical automotive software written in Rust needs an async runtime that guarantees deterministic behavior and is designed for ISO 26262 qualification. General-purpose runtimes like tokio are not suitable for safety-relevant contexts due to their complexity and lack of safety analysis.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

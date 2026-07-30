@@ -14,6 +14,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Service interfaces are defined as `.proto` files in the repository at https://github.com/COVESA/uservices. Use protobuf code generation (`protoc`) to produce language-specific stubs for Java, C++, Python, or Rust. The generated code provides type-safe client/server interfaces for common vehicle services (e.g., body, propulsion, chassis). Designed to be used together with Eclipse uProtocol as the communication layer.
 
 
 ## Known Implementation
@@ -27,6 +28,7 @@ uServices is a project that contains the definition of common vehicle services. 
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+SOA in vehicles requires standardized service definitions that are independent of the underlying communication middleware. uServices provides a common, protobuf-based catalogue of vehicle service interfaces, enabling interoperability between different OEMs, suppliers, and middleware stacks without re-defining service contracts per project.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -42,16 +44,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Protobuf compiler, Maven, JDK 11+
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Any platform with protobuf toolchain. Generated code for Java and C++.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
+Interface specification only; no runtime requirements.
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+Eclipse uProtocol (for transport and communication patterns)
 
 
 ## Vehicle API Relevant

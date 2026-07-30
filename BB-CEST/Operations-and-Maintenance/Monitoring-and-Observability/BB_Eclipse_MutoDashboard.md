@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+The Muto Dashboard provides a web interface for monitoring device-level Muto deployments. It visualizes active stacks, runtime state, and adaptive behaviors across connected vehicles and robotic platforms. See https://github.com/eclipse-muto/dashboard-device for setup instructions.
 
 ## Known Implementation
 https://github.com/eclipse-muto/dashboard-device
@@ -26,7 +26,7 @@ Muto is a context aware software solution to address some of the runtime adaptiv
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-TBD
+Context-aware adaptive software stacks require observability tooling to monitor runtime state and dynamic reconfiguration across distributed vehicles. The Muto Dashboard provides this visibility for operators managing Muto-based deployments.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system

@@ -13,6 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
+Source code and documentation at https://github.com/eclipse-score/feo. FEO provides a framework for defining deterministic execution schedules where task execution order is statically configured at design time. Built with Bazel as part of S-CORE. Developers define execution graphs specifying task dependencies and timing constraints; the FEO runtime ensures tasks execute in the prescribed order within each cycle. See https://eclipse-score.github.io/score for integration with other S-CORE modules.
 
 
 ## Known Implementation
@@ -26,6 +27,7 @@ Fixed-Execution-Order management framework by the Eclipse S-CORE project
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Safety-critical automotive functions (ADAS, chassis control) require deterministic and reproducible execution timing. General-purpose OS schedulers cannot guarantee fixed execution order across multiple cooperating processes. FEO fills this gap by providing a framework that enforces statically-defined execution sequences, enabling ISO 26262 compliant timing behavior on HPC platforms.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -41,18 +43,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+Rust toolchain, Bazel build system
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+Linux (x86_64, aarch64), QNX.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+Deterministic execution order. Safety-critical (ISO 26262 targeted).
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+Eclipse S-CORE base libraries
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

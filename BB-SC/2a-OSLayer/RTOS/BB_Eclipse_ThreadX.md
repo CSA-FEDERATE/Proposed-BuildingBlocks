@@ -13,7 +13,8 @@ OSLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+Source code and docs: https://github.com/eclipse-threadx/rtos-docs  
+Eclipse ThreadX targets deeply embedded MCU-based systems. Integrate it as the RTOS kernel for battery-powered or flash-constrained automotive ECUs. ThreadX provides preemptive scheduling, memory protection via MODULES, and a certified security stack (EAL4+, FIPS 140-2).
 
 ## Known Implementation
 https://github.com/eclipse-threadx/rtos-docs
@@ -28,6 +29,7 @@ Eclipse ThreadX provides an EAL4+ Common Criteria security certified environment
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+Highly constrained automotive MCUs (< 64 KB flash) need an RTOS with minimal footprint, deterministic real-time behavior, and pre-certified security. Eclipse ThreadX provides this with EAL4+ Common Criteria certification and IEC 61508 / ISO 26262 safety qualification support, making it suitable for safety-critical embedded vehicle components.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
@@ -43,18 +45,20 @@ BB is a composition of other BBs -->
 
 ## What is needed to Design and Implement
 <!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+C compiler, IAR/GCC/ARMCC toolchains
 
 ## What is needed to build and run
 <!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+MCUs with <64KB flash. ARM Cortex-M, RISC-V. Battery-powered devices.
 
 ## Non-Functional Requirements
 <!-- With respect to Safety, Security, Realtime, … -->
-TBD
+EAL4+ Common Criteria certified. FIPS 140-2 crypto. TrustZone ARMv8-M support. Safety pre-certified (IEC 61508, IEC 62304).
 
 ## Dependencies to other Clusters
 <!-- Other clusters are needed. FC Security, FC Storage, …
 e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
-TBD
+None (standalone RTOS with integrated security stack)
 
 ## Vehicle API Relevant
 <!-- If “Yes exists” – where – e.g. COVESA VSS 

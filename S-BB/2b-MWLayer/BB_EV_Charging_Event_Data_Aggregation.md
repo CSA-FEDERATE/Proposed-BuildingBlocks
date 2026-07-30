@@ -13,7 +13,7 @@ MWLayer
 ## BB Usage
 <!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
 trainings, skills, examples and how-to's. -->
-
+This building block defines standards for collecting and aggregating EV charging event data across OEMs. It provides data schemas and interfaces for sharing charging session telemetry (success/failure rates, connector types, power levels) to improve charging infrastructure analytics. See https://covesa.global/project/ev-charging-event-data-aggregation/ for specifications and participation details.
 
 ## Known Implementation
 https://covesa.global/project/ev-charging-event-data-aggregation/
@@ -26,6 +26,7 @@ Addressing standards for EV charging experiences by levaraging shared big data.
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
+EV charging reliability is a key barrier to adoption. By standardizing how charging event data is collected and shared across OEMs, the industry can collaboratively identify problematic charging stations, improve route planning with reliable charger information, and drive infrastructure improvements based on aggregated big data insights.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
