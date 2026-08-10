@@ -32,7 +32,7 @@ The workflow supports transformations between Ecore and SysML v2 models, includi
 
 To improve reliability, the LLM-based transformation is complemented by an automated validation stage. Generated Ecore/XMI models are checked against their target Ecore metamodels, while generated SysML v2 models are validated against the corresponding SysML definitions. This hybrid LLM/MDE workflow combines the flexibility of generative AI for semantic model mapping with deterministic validation mechanisms for detecting syntactic and structural inconsistencies.
 
-The component is evaluated in automotive and SDV-related modeling scenarios and supports locally deployable LLMs, enabling model transformations to be performed within controlled engineering environments without requiring proprietary cloud-based AI services.
+The component is evaluated in automotive and SDV-related modeling scenarios and supports locally deployable LLMs, enabling model transformations to be performed within controlled engineering environments without requiring proprietary cloud-based AI services. Further details about the approach, implementation, and evaluation are provided in the related publication listed below.
 
 ## Rationale
 
@@ -85,6 +85,12 @@ HAL4SDV
 Publicly available:
 
 https://github.com/np-tum-air/tum_hal4sdv_model_mapper
+
+## Related Publication
+
+The methodology, implementation, and evaluation of the LLM-based model-to-model mapping approach are described in the following paper:
+
+https://arxiv.org/pdf/2607.14659
 
 ## Availability of API
 
