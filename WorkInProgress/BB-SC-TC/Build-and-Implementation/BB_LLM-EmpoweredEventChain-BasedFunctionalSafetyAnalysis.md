@@ -1,139 +1,146 @@
-
 # LLM-Empowered Event Chain-Based Functional Safety Analysis
 
 ## BB Tags(s)
-<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+
 BB-SC-TC, BB-CEST
+
 ## Functional Clusters
-<!-- In which Functional Cluster the BB be located; if none of the existing fit new required -->
+
 Build-and-Implementation
 
 ## Layer
-<!-- AppLayer, MWLayer, OSLayer, HWLayer -->
+
 AppLayer
 
 ## BB Usage
-<!-- Example on how to use BB or link to documentation. Should include code snippets, information about usage, 
-trainings, skills, examples and how-to's. -->
+
+Functional safety analysis, safety-aware system topology design, event-chain modeling, and LLM-assisted analysis of vehicle behavior and communication.
 
 ## Known Implementation
-Full: https://gitlab.lrz.de/hal4sdv/safety-analysis
-Open Source Part: https://github.com/np-tum-air/tum_hal4sdv_safety_analysis
+
+https://github.com/np-tum-air/tum_hal4sdv_safety_analysis
+
+Python-based behavior modeling implementation:
+
+https://github.com/np-tum-air/tum_hal4sdv_safety_analysis/blob/main/behavior_modeler.py
 
 ## ID (unique name)
+
 tum-llm-functional-safety
 
 ## Description
-<!-- General Description of the BB -->
-This component represents LLM-empowered workflow to support Software Defined Vehicle (SDV) software development, covering the aspects of safety-aware system topology design, as well as event-driven decision-making code analysis. For code analysis we adopt event chains model which provides formal foundations to systematic validation of functional safety, taking into account the semantic validity of messages exchanged between key components, including both CAN and Vehicle Signal Specification (VSS). Analysis of security aspects for topology relies on synergy with Model-Driven Engineering (MDE) approach and Object Constraint Language (OCL) rules. Both locally deployable and proprietary solution are taken into account for evaluation within Advanced Driver-Assistance Systems (ADAS)-related scenarios.
+
+This component represents an LLM-empowered workflow supporting functional safety analysis in Software Defined Vehicle (SDV) development. It covers safety-aware system topology design and event-driven analysis of vehicle behavior and decision-making processes.
+
+For behavioral analysis, the approach adopts event-chain models that provide a structured representation for systematic functional safety validation. The analysis considers the semantic validity, ordering, and timing of events and messages exchanged between key vehicle components and supports both CAN-based communication and Vehicle Signal Specification (VSS) representations.
+
+Large Language Models (LLMs) and Vision-Language Models (VLMs) are used to generate, interpret, and analyze behavioral models and safety-relevant event chains. Retrieval-Augmented Generation (RAG) can additionally provide domain-specific context, such as vehicle signals and safety-related information. Safety and security aspects of system topology are analyzed in combination with Model-Driven Engineering (MDE) techniques and Object Constraint Language (OCL) rules.
+
+The workflow supports both locally deployable and proprietary AI models and is evaluated using Advanced Driver-Assistance Systems (ADAS)-related scenarios. Further details about the methodology and its evaluation are provided in the related publication.
 
 ## Rationale
-<!-- Explanation why we need the BB; what problem want to be solved -->
+
+Functional safety analysis of increasingly complex SDV architectures requires consideration of component interactions, communication semantics, event ordering, timing constraints, and system topology. Performing these analyses manually can require significant engineering effort and makes adaptation to evolving vehicle architectures difficult.
+
+The proposed workflow combines generative AI with event-chain modeling, formal constraints, and MDE techniques. LLMs/VLMs provide flexible interpretation and generation of safety-relevant models, while event-chain representations and validation mechanisms provide structured foundations for checking system behavior. This combination aims to increase automation while maintaining traceability and explicit validation of safety-relevant properties.
 
 ## Governance Applicable S-BB(s)
-<!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
-Reference to defined S-BB(s) 
-Reference to e.g. IS026262, AUTOSAR Spec. X -->
+
+Functional safety governance, AI-assisted engineering, model validation, safety analysis, and engineering-data governance.
 
 ## Compose BB(s)
-<!-- Link to required BB(s) 
-E.g. BB-SC StateManagement 
-BB is a composition of other BBs -->
+
+LLM/VLM inference component, RAG component, event-chain modeler, behavior modeler, topology analyzer, OCL-based validation, CAN/VSS signal processing, and n8n workflow orchestration.
 
 ## What is needed to Design and Implement
-<!-- e.g. we expect to have a certain HW capability and or SW environment or Tool support, or a documentation, or an extra audit, or Test, or Compiler, or Prog. Language, … -->
+
+Safety-relevant vehicle architecture and behavioral information, event-chain definitions, CAN/VSS signal descriptions, safety requirements and constraints, suitable LLM/VLM models, prompting strategies, RAG infrastructure where applicable, MDE/OCL modeling support, and validation mechanisms.
+
+The workflow also requires n8n for orchestration and integration of the individual analysis steps. Python is used for the implementation of the behavioral modeling and AI integration components, together with the libraries specified by the implementation.
+
+Reference implementation:
+
+https://github.com/np-tum-air/tum_hal4sdv_safety_analysis/blob/main/behavior_modeler.py
 
 ## What is needed to build and run
-<!-- e.g. we expect to have a certain HW capability, or Runtime Environment, or Pre-configuration, or Code-signing, or Test, … -->
+
+The implementation requires:
+
+* Python and the required Python libraries/dependencies provided by the project.
+* n8n for workflow orchestration and integration of the individual processing steps.
+* Access to supported LLM and/or VLM models through the configured inference interfaces.
+* Vehicle architecture, behavioral, CAN, and/or VSS information depending on the analysis scenario.
+* RAG infrastructure and corresponding domain knowledge sources when retrieval-augmented analysis is enabled.
+* MDE/OCL tooling when topology and formal constraint validation are performed.
+
+Both locally deployed and externally hosted AI models can be integrated depending on deployment, privacy, and computational requirements.
 
 ## Non-Functional Requirements
-<!-- With respect to Safety, Security, Realtime, … -->
+
+Traceability of generated safety artifacts, semantic correctness of event and signal mappings, reproducibility of analyses, support for locally deployable AI models, interoperability with vehicle communication representations, extensibility of safety rules and event chains, and validation of AI-generated outputs before their use in safety-critical engineering decisions.
 
 ## Dependencies to other Clusters
-<!-- Other clusters are needed. FC Security, FC Storage, …
-e.g. If FC Security : Security BBs are needed but you can choose for example crypto BB-SC from company A or crypto BB-SC from company B; several compositions may work -->
+
+Generative AI/LLM/VLM infrastructure, Model-Driven Engineering, functional safety engineering, vehicle communication and signal modeling, RAG infrastructure, and workflow orchestration.
 
 ## Vehicle API Relevant
-<!-- If “Yes exists” – where – e.g. COVESA VSS 
-If “No” – nothing more to do 
-If “Yes, proposal for additional Signals/Information – what should be made available, and where e.g. via (COVESA) VSS/VISS -->
+
+Yes. The approach can process and reason about vehicle communication and signal information, including CAN and Vehicle Signal Specification (VSS)-based representations, for safety-related behavioral analysis.
 
 ## Author/Company
+
 TUM
 
 ## Priority
-<!-- High, Medium, Low -->
+
 Medium
 
 ## Contribution supported by RDI projects
-<!-- If Yes – e.g. The BB should be used/added in the Eclipse Blueprint A – for demo purposes, show added value,
-If No – Project Proposal (e.g. WP4 in FEDERATE, or in the SDV EcoSystem Community Framework) -->
+
+HAL4SDV
 
 ## Availability of Source Code
-<!-- Yes / License (e.g. Yes/MIT) 
-No – Commercial Closed Source -->
+
+Publicly available:
+
+https://github.com/np-tum-air/tum_hal4sdv_safety_analysis
+
+Behavior modeling implementation:
+
+https://github.com/np-tum-air/tum_hal4sdv_safety_analysis/blob/main/behavior_modeler.py
+
+## Related Publication
+
+The methodology and evaluation of the LLM-empowered functional safety analysis approach are described in the following publication:
+
+https://arxiv.org/abs/2601.02215
 
 ## Availability of API
-<!-- Yes / License (e.g. Yes/Apache 2.0)
-No - Commercial -->
+
+Available through the implemented Python components and AI inference interfaces. Workflow-level integration and orchestration are supported through n8n.
 
 ## Type of API
-<!-- Web API, Library/Framework API, Operating System API, Database API, Remote API, Hardware API, Other -->
+
 Library/Framework API
 
 ## Potential obstacles
 
+LLM/VLM hallucinations, incorrect or incomplete interpretation of safety-relevant events, inaccurate CAN/VSS signal mappings, dependency on the quality of retrieved contextual information, computational requirements of locally deployed models, integration complexity across n8n and individual analysis components, and the requirement for deterministic validation before AI-generated results can be used in safety-critical engineering workflows.
+
 ## Maturity Badges
-<!-- taken over from Eclipse SDV Process 
-See Definition of Badges and their Flavors 
-https://gitlab.eclipse.org/eclipse-wg/sdv-wg/sdv-technical-alignment/sdv-technical-topics/sdv-process/sdv-process-definition/-/wikis/Definition%20of%20Badges%20and%20their%20Flavors 
 
-
-| 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
-| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
-| Gold		| Badgelevel    | Badgelevel   | Badgelevel		   | Badgelevel	 | Badgelevel  |
-| Silver	| Badgelevel    | Badgelevel   | Badgelevel	  	   | Badgelevel	 | Badgelevel  |
-| Bronze	| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
-| No		| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
-| NotDefined| Badgelevel   	| Badgelevel   | Badgelevel	       | Badgelevel	 | Badgelevel  |
-
-Options:
-NotDefined/No/Bronze/Silver/Gold
-
-Example:
-| 			| Documentation | Requirements | Coding Guidelines | Testing | Release Process |
-| --------- |:-------------:|:------------:|:-----------------:|:-------:|:---------------:|
-| Level		| [Gold](urlToDoc)| No 		   | Notdefined		   | Bronze	 | [Silver](urlToDoc) |
-
-
--->
 Gold, Gold, Gold, Gold, Gold
+
 ## State (+ date of last change)
 
-<!-- 
-- Incubating (no code yet)
-- Implementation started
-- First public release available
-- Used in production by 1 OEM
-- Used in production by >1 OEM
-- Abandoned
- -->
-Incubating (no code yet)
+Incubating (prototype implementation available) — August 2026
 
 ## System Context
-<!-- 
-OS and runtime/framework requirements
 
-eg.
+The component operates as part of an SDV engineering and functional safety analysis toolchain. Vehicle architecture, behavioral information, safety constraints, and CAN/VSS-related information are processed by an n8n-orchestrated workflow connecting LLM/VLM, RAG, behavioral modeling, and validation components.
 
-- AGL
-- QNX
-- ROS-based
-- container runtime
-- web assembly
-- web service
- -->
+The Python-based behavior modeler generates and processes safety-relevant behavioral representations and event chains. AI-generated results can subsequently be checked against semantic, ordering, timing, topology, and formal safety constraints before being provided to downstream engineering and safety-analysis activities.
 
- ## Compliant to
- <!-- The BB is designed in a way that enables usage or integration into one of the targets listed. That includes use of the recommended processes, APIs, tool chains,.....-->
- none stated
+## Compliant to
+
+Event-chain-based behavioral modeling, Model-Driven Engineering (MDE), Object Constraint Language (OCL), CAN-based vehicle communication, and Vehicle Signal Specification (VSS) concepts.
