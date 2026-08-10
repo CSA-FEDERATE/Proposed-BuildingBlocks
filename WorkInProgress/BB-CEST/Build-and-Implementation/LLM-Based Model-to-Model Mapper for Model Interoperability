@@ -1,0 +1,122 @@
+# LLM-Based Model-to-Model Mapper for Model Interoperability
+
+## BB Tags(s)
+
+BB-SC-TC, BB-CEST
+
+## Functional Clusters
+
+Build-and-Implementation
+
+## Layer
+
+AppLayer
+
+## BB Usage
+
+Model transformation, model interoperability, and automated model migration across heterogeneous modeling languages and metamodels.
+
+## Known Implementation
+
+https://github.com/np-tum-air/tum_hal4sdv_model_mapper
+
+## ID (unique name)
+
+tum-llm-model-mapper
+
+## Description
+
+This component represents an LLM-based model-to-model mapping workflow designed to support interoperability between heterogeneous modeling languages and engineering tools in Software Defined Vehicle (SDV) development. The approach combines Large Language Models (LLMs) with Model-Driven Engineering (MDE) techniques to automatically transform model instances according to a given target metamodel or modeling-language definition.
+
+The workflow supports transformations between Ecore and SysML v2 models, including Ecore-to-Ecore, SysML v2-to-SysML v2, Ecore-to-SysML v2, and SysML v2-to-Ecore mappings. Source model instances and corresponding target metamodel definitions are provided as contextual information to the LLM, which identifies semantically corresponding modeling elements and generates a target-compliant model instance while preserving relevant classes, attributes, relationships, containment structures, and values.
+
+To improve reliability, the LLM-based transformation is complemented by an automated validation stage. Generated Ecore/XMI models are checked against their target Ecore metamodels, while generated SysML v2 models are validated against the corresponding SysML definitions. This hybrid LLM/MDE workflow combines the flexibility of generative AI for semantic model mapping with deterministic validation mechanisms for detecting syntactic and structural inconsistencies.
+
+The component is evaluated in automotive and SDV-related modeling scenarios and supports locally deployable LLMs, enabling model transformations to be performed within controlled engineering environments without requiring proprietary cloud-based AI services.
+
+## Rationale
+
+Automotive and SDV engineering workflows rely on heterogeneous modeling languages, metamodels, and engineering tools. Conventional model transformations typically require manually specified transformation rules, such as ATL or QVT mappings, which can require substantial development and maintenance effort when source or target metamodels evolve.
+
+The proposed component uses LLMs to infer semantic correspondences between modeling concepts and generate transformations dynamically. Combining LLM-based mapping with formal model validation reduces the need for manually implemented transformation rules while retaining explicit checks for target-metamodel conformance. The approach therefore aims to improve flexibility, automation, and interoperability across heterogeneous automotive engineering toolchains.
+
+## Governance Applicable S-BB(s)
+
+Model governance, AI-assisted engineering, model validation, and engineering-data interoperability.
+
+## Compose BB(s)
+
+LLM inference component, model parser, model transformation workflow, Ecore/XMI validator, SysML v2 validator, and target metamodel/model definitions.
+
+## What is needed to Design and Implement
+
+Source and target modeling-language specifications, representative model instances, target metamodels or model definitions, LLM prompting and inference infrastructure, model serialization mechanisms, and language-specific validation components.
+
+## What is needed to build and run
+
+Python environment, required model-processing libraries, access to a supported LLM through an OpenAI-compatible interface, and the corresponding source models and target metamodel/model definitions. Local LLM deployment can be used for privacy-sensitive engineering environments.
+
+## Non-Functional Requirements
+
+Semantic preservation of model information, target-metamodel conformance, deterministic validation of generated models, traceability of transformations, support for heterogeneous modeling languages, extensibility toward additional modeling formats, and compatibility with locally deployable LLMs.
+
+## Dependencies to other Clusters
+
+Model-Driven Engineering, Generative AI/LLM infrastructure, engineering tool interoperability, and model validation infrastructure.
+
+## Vehicle API Relevant
+
+Indirectly. The mapper can transform models containing vehicle architecture, component, interface, signal, and Vehicle Signal Specification (VSS)-related information, but does not directly implement a Vehicle API.
+
+## Author/Company
+
+TUM
+
+## Priority
+
+Medium
+
+## Contribution supported by RDI projects
+
+HAL4SDV
+
+## Availability of Source Code
+
+Publicly available:
+
+https://github.com/np-tum-air/tum_hal4sdv_model_mapper
+
+## Availability of API
+
+Available as a software framework/workflow and command-line interface; LLM interaction is performed through an OpenAI-compatible API.
+
+## Type of API
+
+Library/Framework API
+
+## Potential obstacles
+
+LLM hallucinations, semantic ambiguities between heterogeneous metamodels, serialization differences between modeling technologies, incomplete preservation of complex constraints and relationships, dependence on LLM capabilities, and the need for deterministic validation before generated models can be integrated into safety-critical engineering workflows.
+
+## Maturity Badges
+
+Gold, Gold, Gold, Gold, Gold
+
+## State (+ date of last change)
+
+Incubating (prototype implementation available) — August 2026
+
+## System Context
+
+The component is positioned between heterogeneous modeling tools and model repositories within an SDV engineering toolchain. It receives a source model together with the target metamodel or modeling-language definition, invokes an LLM to perform semantic model transformation, and subsequently validates the generated model before making it available to downstream engineering tools.
+
+Typical transformation paths include:
+
+Ecore → Ecore
+SysML v2 → SysML v2
+Ecore → SysML v2
+SysML v2 → Ecore
+
+## Compliant to
+
+Eclipse Modeling Framework (EMF)/Ecore and SysML v2 concepts; additional modeling languages and standards can be integrated through corresponding parsers, target definitions, and validators.
