@@ -17,7 +17,8 @@ AppLayer
 trainings, skills, examples and how-to's. -->
 
 ## Known Implementation
-https://gitlab.lrz.de/hal4sdv/safety-analysis
+Full: https://gitlab.lrz.de/hal4sdv/safety-analysis
+Open Source Part: https://github.com/np-tum-air/tum_hal4sdv_safety_analysis
 
 ## ID (unique name)
 tum-llm-functional-safety
