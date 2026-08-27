@@ -1,183 +1,148 @@
+- [BB-CSC](/BB-CSC/README.md)
 - [BB-CEST](/BB-CEST/README.md)
     - [BB_Eclipse_CSP](/BB-CEST/BB_Eclipse_CSP.md)
     - [Communication-and-Networking](/BB-CEST/Communication-and-Networking/README.md)
-        - [Edge-to-Cloud-Connectivity](/BB-CEST/Communication-and-Networking/Edge-to-Cloud-Connectivity/README.md)
-        - [Wireless-Connectivity](/BB-CEST/Communication-and-Networking/Wireless-Connectivity/README.md)
-        - [Secure-Communication](/BB-CEST/Communication-and-Networking/Secure-Communication/README.md)
-        - [Networking-Protocols](/BB-CEST/Communication-and-Networking/Networking-Protocols/README.md)
-        - [Data-Routing-and-Load-Balancing](/BB-CEST/Communication-and-Networking/Data-Routing-and-Load-Balancing/README.md)
-        - [Dependable-Communication](/BB-CEST/Communication-and-Networking/Dependable-Communication/README.md)
         - [Networking-Monitoring-and-Diagnostics](/BB-CEST/Communication-and-Networking/Networking-Monitoring-and-Diagnostics/README.md)
+        - [Edge-to-Cloud-Connectivity](/BB-CEST/Communication-and-Networking/Edge-to-Cloud-Connectivity/README.md)
+        - [Data-Routing-and-Load-Balancing](/BB-CEST/Communication-and-Networking/Data-Routing-and-Load-Balancing/README.md)
+        - [Secure-Communication](/BB-CEST/Communication-and-Networking/Secure-Communication/README.md)
+        - [Dependable-Communication](/BB-CEST/Communication-and-Networking/Dependable-Communication/README.md)
+        - [Wireless-Connectivity](/BB-CEST/Communication-and-Networking/Wireless-Connectivity/README.md)
+        - [Networking-Protocols](/BB-CEST/Communication-and-Networking/Networking-Protocols/README.md)
+    - [Security-and-Compliance](/BB-CEST/Security-and-Compliance/README.md)
+        - [Threat-Detection-and-Response](/BB-CEST/Security-and-Compliance/Threat-Detection-and-Response/README.md)
+        - [Data-Security](/BB-CEST/Security-and-Compliance/Data-Security/README.md)
+        - [Compliance-Management-with-Data-Governance](/BB-CEST/Security-and-Compliance/Compliance-Management-with-Data-Governance/README.md)
+        - [Application-Security](/BB-CEST/Security-and-Compliance/Application-Security/README.md)
+        - [Network-Security](/BB-CEST/Security-and-Compliance/Network-Security/README.md)
+        - [Incident-Management-and-Recovery](/BB-CEST/Security-and-Compliance/Incident-Management-and-Recovery/README.md)
+        - [Data-Centric-Access-and-Protection](/BB-CEST/Security-and-Compliance/Data-Centric-Access-and-Protection/README.md)
+        - [Identity-and-Access-Management](/BB-CEST/Security-and-Compliance/Identity-and-Access-Management/README.md)
     - [User-and-Developer-Portals](/BB-CEST/User-and-Developer-Portals/README.md)
+        - [User-Portals](/BB-CEST/User-and-Developer-Portals/User-Portals/README.md)
         - [Securtiy-and-Access-Control](/BB-CEST/User-and-Developer-Portals/Securtiy-and-Access-Control/README.md)
         - [Developer-Portals](/BB-CEST/User-and-Developer-Portals/Developer-Portals/README.md)
         - [Analytics-and-Insights](/BB-CEST/User-and-Developer-Portals/Analytics-and-Insights/README.md)
-        - [Collaboration-Tools](/BB-CEST/User-and-Developer-Portals/Collaboration-Tools/README.md)
         - [Integration-with-SDV-EcoSystem](/BB-CEST/User-and-Developer-Portals/Integration-with-SDV-EcoSystem/README.md)
-        - [User-Portals](/BB-CEST/User-and-Developer-Portals/User-Portals/README.md)
-    - [Development-Testing-and-Simulation-Environments](/BB-CEST/Development-Testing-and-Simulation-Environments/README.md)
-        - [Cloud-Based-Development-Environments](/BB-CEST/Development-Testing-and-Simulation-Environments/Cloud-Based-Development-Environments/README.md)
-        - [Continuous-Integration-Continuous-Deployment](/BB-CEST/Development-Testing-and-Simulation-Environments/Continuous-Integration-Continuous-Deployment/README.md)
-        - [Performance-and-Load-Testing](/BB-CEST/Development-Testing-and-Simulation-Environments/Performance-and-Load-Testing/README.md)
-        - [Debugging-and-Monitoring](/BB-CEST/Development-Testing-and-Simulation-Environments/Debugging-and-Monitoring/README.md)
-        - [Simulation-and-Emulation-Tools](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/README.md)
-            - [BB_Eclipse_openPASS](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_openPASS.md)
-            - [BB_Eclipse_Mosaic](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_Mosaic.md)
-            - [BB_SODAsim](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_SODAsim.md)
-            - [BB_Eclipse_esmini](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_esmini.md)
-            - [BB_Eclipse_Cloe](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_Cloe.md)
-            - [BB_OSTAR](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_OSTAR.md)
-            - [BB_Eclipse_SUMO](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_SUMO.md)
-            - [BB_Eclipse_SCM](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_SCM.md)
-            - [BB_Lichtblick](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Lichtblick.md)
-        - [Integrated-Development-Environments](/BB-CEST/Development-Testing-and-Simulation-Environments/Integrated-Development-Environments/README.md)
-        - [Testing-Frameworks](/BB-CEST/Development-Testing-and-Simulation-Environments/Testing-Frameworks/README.md)
-        - [Software-Development-Kits](/BB-CEST/Development-Testing-and-Simulation-Environments/Software-Development-Kits/README.md)
+        - [Collaboration-Tools](/BB-CEST/User-and-Developer-Portals/Collaboration-Tools/README.md)
+    - [Artificial-Intelligence-and-Machine-Learning](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/README.md)
+        - [Data-Centric-Validation-and-Testing](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Data-Centric-Validation-and-Testing/README.md)
+        - [Monitoring-and-Feedback-Loop](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Monitoring-and-Feedback-Loop/README.md)
+        - [Data-Centric-AI-Development](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Data-Centric-AI-Development/README.md)
+        - [Security-and-Governance-in-AI](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Security-and-Governance-in-AI/README.md)
+        - [Model-Development-and-Training](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Model-Development-and-Training/README.md)
+        - [Model-Deployment-and-Inference](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Model-Deployment-and-Inference/README.md)
+        - [Data-Preparation-and-Management](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Data-Preparation-and-Management/README.md)
+    - [Cloud-Infrastructure-and-Deployment](/BB-CEST/Cloud-Infrastructure-and-Deployment/README.MD)
+        - [Containerization](/BB-CEST/Cloud-Infrastructure-and-Deployment/Containerization/README.md)
+        - [Infrastructure-as-Code](/BB-CEST/Cloud-Infrastructure-and-Deployment/Infrastructure-as-Code/README.md)
+        - [Edge-to-Cloud-Integration](/BB-CEST/Cloud-Infrastructure-and-Deployment/Edge-to-Cloud-Integration/README.md)
     - [Operations-and-Maintenance](/BB-CEST/Operations-and-Maintenance/README.md)
         - [Security-and-Compiance-in-Operation](/BB-CEST/Operations-and-Maintenance/Security-and-Compiance-in-Operation/README.md)
-        - [Predictive-Maintenance](/BB-CEST/Operations-and-Maintenance/Predictive-Maintenance/README.md)
         - [Monitoring-and-Observability](/BB-CEST/Operations-and-Maintenance/Monitoring-and-Observability/README.md)
             - [BB_Eclipse_AnkaiosDashboard](/BB-CEST/Operations-and-Maintenance/Monitoring-and-Observability/BB_Eclipse_AnkaiosDashboard.md)
             - [BB_Eclipse_MutoDashboard](/BB-CEST/Operations-and-Maintenance/Monitoring-and-Observability/BB_Eclipse_MutoDashboard.md)
+        - [Lifecycle-Management](/BB-CEST/Operations-and-Maintenance/Lifecycle-Management/README.md)
+        - [Predictive-Maintenance](/BB-CEST/Operations-and-Maintenance/Predictive-Maintenance/README.md)
+        - [Incident-Management](/BB-CEST/Operations-and-Maintenance/Incident-Management/README.md)
+        - [Over-the-Air-Updates](/BB-CEST/Operations-and-Maintenance/Over-the-Air-Updates/README.md)
         - [Automation-and-Orchestration](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/README.md)
             - [BB_Eclipse_SymphonyOrchestrationLayer](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/BB_Eclipse_SymphonyOrchestrationLayer.md)
             - [BB_Eclipse_PullPiriPackageService](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/BB_Eclipse_PullPiriPackageService.md)
-            - [Workflow-Orchestration](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Workflow-Orchestration/README.md)
-            - [Task-Automation](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Task-Automation/README.md)
-            - [Configuration-as-Code](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Configuration-as-Code/README.md)
-            - [Automated-Testing-and-Validation](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Automated-Testing-and-Validation/README.md)
             - [Event-Driven-Automation](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Event-Driven-Automation/README.md)
-            - [Policy-and-Compliance-Automation](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Policy-and-Compliance-Automation/README.md)
+            - [Automated-Testing-and-Validation](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Automated-Testing-and-Validation/README.md)
+            - [Task-Automation](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Task-Automation/README.md)
             - [Data-Driven-Integration-via-Observations](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Data-Driven-Integration-via-Observations/README.md)
-        - [Over-the-Air-Updates](/BB-CEST/Operations-and-Maintenance/Over-the-Air-Updates/README.md)
-        - [Lifecycle-Management](/BB-CEST/Operations-and-Maintenance/Lifecycle-Management/README.md)
-        - [Incident-Management](/BB-CEST/Operations-and-Maintenance/Incident-Management/README.md)
-    - [Artificial-Intelligence-and-Machine-Learning](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/README.md)
-        - [Security-and-Governance-in-AI](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Security-and-Governance-in-AI/README.md)
-        - [Data-Preparation-and-Management](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Data-Preparation-and-Management/README.md)
-        - [Monitoring-and-Feedback-Loop](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Monitoring-and-Feedback-Loop/README.md)
-        - [Model-Development-and-Training](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Model-Development-and-Training/README.md)
-        - [Data-Centric-Validation-and-Testing](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Data-Centric-Validation-and-Testing/README.md)
-        - [Data-Centric-AI-Development](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Data-Centric-AI-Development/README.md)
-        - [Model-Deployment-and-Inference](/BB-CEST/Artificial-Intelligence-and-Machine-Learning/Model-Deployment-and-Inference/README.md)
+            - [Configuration-as-Code](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Configuration-as-Code/README.md)
+            - [Policy-and-Compliance-Automation](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Policy-and-Compliance-Automation/README.md)
+            - [Workflow-Orchestration](/BB-CEST/Operations-and-Maintenance/Automation-and-Orchestration/Workflow-Orchestration/README.md)
     - [Data-Processing-and-Management](/BB-CEST/Data-Processing-and-Management/README.md)
         - [BB_Eclipse_TractusX](/BB-CEST/Data-Processing-and-Management/BB_Eclipse_TractusX.md)
         - [Data-Storage-and-Retrieval](/BB-CEST/Data-Processing-and-Management/Data-Storage-and-Retrieval/README.md)
+        - [Data-Streaming-and-Real-Time-Processing](/BB-CEST/Data-Processing-and-Management/Data-Streaming-and-Real-Time-Processing/README.md)
         - [Data-Governance-and-Security](/BB-CEST/Data-Processing-and-Management/Data-Governance-and-Security/README.md)
         - [Data-Tranformation-and-Integration](/BB-CEST/Data-Processing-and-Management/Data-Tranformation-and-Integration/README.md)
-        - [Data-Streaming-and-Real-Time-Processing](/BB-CEST/Data-Processing-and-Management/Data-Streaming-and-Real-Time-Processing/README.md)
         - [Big-Data-Processing](/BB-CEST/Data-Processing-and-Management/Big-Data-Processing/README.md)
-    - [Security-and-Compliance](/BB-CEST/Security-and-Compliance/README.md)
-        - [Compliance-Management-with-Data-Governance](/BB-CEST/Security-and-Compliance/Compliance-Management-with-Data-Governance/README.md)
-        - [Application-Security](/BB-CEST/Security-and-Compliance/Application-Security/README.md)
-        - [Incident-Management-and-Recovery](/BB-CEST/Security-and-Compliance/Incident-Management-and-Recovery/README.md)
-        - [Data-Security](/BB-CEST/Security-and-Compliance/Data-Security/README.md)
-        - [Identity-and-Access-Management](/BB-CEST/Security-and-Compliance/Identity-and-Access-Management/README.md)
-        - [Threat-Detection-and-Response](/BB-CEST/Security-and-Compliance/Threat-Detection-and-Response/README.md)
-        - [Data-Centric-Access-and-Protection](/BB-CEST/Security-and-Compliance/Data-Centric-Access-and-Protection/README.md)
-        - [Network-Security](/BB-CEST/Security-and-Compliance/Network-Security/README.md)
-    - [Cloud-Infrastructure-and-Deployment](/BB-CEST/Cloud-Infrastructure-and-Deployment/README.MD)
-        - [Edge-to-Cloud-Integration](/BB-CEST/Cloud-Infrastructure-and-Deployment/Edge-to-Cloud-Integration/README.md)
-        - [Containerization](/BB-CEST/Cloud-Infrastructure-and-Deployment/Containerization/README.md)
-        - [Infrastructure-as-Code](/BB-CEST/Cloud-Infrastructure-and-Deployment/Infrastructure-as-Code/README.md)
+    - [Development-Testing-and-Simulation-Environments](/BB-CEST/Development-Testing-and-Simulation-Environments/README.md)
+        - [Debugging-and-Monitoring](/BB-CEST/Development-Testing-and-Simulation-Environments/Debugging-and-Monitoring/README.md)
+        - [Performance-and-Load-Testing](/BB-CEST/Development-Testing-and-Simulation-Environments/Performance-and-Load-Testing/README.md)
+        - [Simulation-and-Emulation-Tools](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/README.md)
+            - [BB_Eclipse_esmini](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_esmini.md)
+            - [BB_SODAsim](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_SODAsim.md)
+            - [BB_Eclipse_SCM](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_SCM.md)
+            - [BB_Lichtblick](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Lichtblick.md)
+            - [BB_Eclipse_SUMO](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_SUMO.md)
+            - [BB_Eclipse_openPASS](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_openPASS.md)
+            - [BB_Eclipse_Cloe](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_Cloe.md)
+            - [BB_Eclipse_Mosaic](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_Eclipse_Mosaic.md)
+            - [BB_OSTAR](/BB-CEST/Development-Testing-and-Simulation-Environments/Simulation-and-Emulation-Tools/BB_OSTAR.md)
+        - [Testing-Frameworks](/BB-CEST/Development-Testing-and-Simulation-Environments/Testing-Frameworks/README.md)
+        - [Continuous-Integration-Continuous-Deployment](/BB-CEST/Development-Testing-and-Simulation-Environments/Continuous-Integration-Continuous-Deployment/README.md)
+        - [Software-Development-Kits](/BB-CEST/Development-Testing-and-Simulation-Environments/Software-Development-Kits/README.md)
+        - [Cloud-Based-Development-Environments](/BB-CEST/Development-Testing-and-Simulation-Environments/Cloud-Based-Development-Environments/README.md)
+        - [Integrated-Development-Environments](/BB-CEST/Development-Testing-and-Simulation-Environments/Integrated-Development-Environments/README.md)
+- [BB-CSC-TC](/BB-CSC-TC/README.md)
+    - RapidPrototyping
+        - [BB_EclipseAutoWRX](/BB-CSC-TC/RapidPrototyping/BB_EclipseAutoWRX.md)
+- [BB-MU](/BB-MU/README.md)
 - UseCases
     - Scenarios
-- [S-BB](/S-BB/README.md)
-    - Software-Quality
-        - [BB_ISO_IEC25019_2023](/S-BB/Software-Quality/BB_ISO_IEC25019_2023.md)
-        - [BB_ISO_IEC25002_2024](/S-BB/Software-Quality/BB_ISO_IEC25002_2024.md)
-        - [BB_ISO_IEC25010_2023](/S-BB/Software-Quality/BB_ISO_IEC25010_2023.md)
-    - Best-Practices
-        - [BB_coding_standards](/S-BB/Best-Practices/BB_coding_standards.md)
-    - Software-Process
-        - [BB_ISO_IEC_IEEE12207_2026](/S-BB/Software-Process/BB_ISO_IEC_IEEE12207_2026.md)
-        - [BB_ISO_IEC_TS_33061_2021](/S-BB/Software-Process/BB_ISO_IEC_TS_33061_2021.md)
-    - Cybersecurity
-        - [BB_ISO27000_Family](/S-BB/Cybersecurity/BB_ISO27000_Family.md)
-        - [BB_UNECER155](/S-BB/Cybersecurity/BB_UNECER155.md)
-        - [BB_ISO_SAE21434_2021](/S-BB/Cybersecurity/BB_ISO_SAE21434_2021.md)
-    - [2b-MWLayer](/S-BB/2b-MWLayer/README.md)
-        - [BB_In_Car_Wallet_Payments_and_Orchestration](/S-BB/2b-MWLayer/BB_In_Car_Wallet_Payments_and_Orchestration.md)
-        - [BB_HIM](/S-BB/2b-MWLayer/BB_HIM.md)
-        - [BB_EV_Charging_Event_Data_Aggregation](/S-BB/2b-MWLayer/BB_EV_Charging_Event_Data_Aggregation.md)
-        - [BB_PilotAutoReferenceDesign](/S-BB/2b-MWLayer/BB_PilotAutoReferenceDesign.md)
-        - [BB_Unified_Push_Notification](/S-BB/2b-MWLayer/BB_Unified_Push_Notification.md)
-        - [BB_eSyncAlliance](/S-BB/2b-MWLayer/BB_eSyncAlliance.md)
-        - [BB_Private_Cross_OEM_Joint_Compute_for_EV_Charging](/S-BB/2b-MWLayer/BB_Private_Cross_OEM_Joint_Compute_for_EV_Charging.md)
-        - [BB_Data_Architecture_Terminology](/S-BB/2b-MWLayer/BB_Data_Architecture_Terminology.md)
-        - [BB_Common_Vehicle_Capabilities](/S-BB/2b-MWLayer/BB_Common_Vehicle_Capabilities.md)
-        - [BB_VSS](/S-BB/2b-MWLayer/BB_VSS.md)
-        - Communication
-            - [BB_VISS](/S-BB/2b-MWLayer/Communication/BB_VISS.md)
-    - [3-AppLayer](/S-BB/3-AppLayer/README.md)
-        - [BB_LF_EVerest](/S-BB/3-AppLayer/BB_LF_EVerest.md)
-    - [1-HWLayer](/S-BB/1-HWLayer/README.md)
-    - [2a-OSLayer](/S-BB/2a-OSLayer/README.md)
-    - Functional-Safety
-        - [BB_ISO26262-1_2018](/S-BB/Functional-Safety/BB_ISO26262-1_2018.md)
-        - [BB_ISO21448_2022](/S-BB/Functional-Safety/BB_ISO21448_2022.md)
-    - Architecture-APIs
-        - [BB_ISO23150_2023](/S-BB/Architecture-APIs/BB_ISO23150_2023.md)
-    - Generator
-        - [BB_Commercial_Vehicle_Information_Specifications](/S-BB/Generator/BB_Commercial_Vehicle_Information_Specifications.md)
-    - Connectivity-OTA
-        - [BB_UNECER156](/S-BB/Connectivity-OTA/BB_UNECER156.md)
-        - [BB_ISO24089_2023](/S-BB/Connectivity-OTA/BB_ISO24089_2023.md)
 - [BB-SC](/BB-SC/README.md)
+    - [3-AppLayer](/BB-SC/3-AppLayer/README.md)
+        - API
+            - [BB_Automotive_API_Framework](/BB-SC/3-AppLayer/API/BB_Automotive_API_Framework.md)
+            - [BB_Open_Vehicle_API](/BB-SC/3-AppLayer/API/BB_Open_Vehicle_API.md)
+        - Communication
     - [2b-MWLayer](/BB-SC/2b-MWLayer/README.md)
-        - Platform-Health-Management
+        - Execution-Management
+            - [BB_Eclipse_S-CORE_lifecycle](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_lifecycle.md)
+            - [BB_Eclipse_BlueChi](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_BlueChi.md)
+            - [BB_Eclipse_Muto](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_Muto.md)
+            - [BB_Eclipse_S-CORE_kyron](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_kyron.md)
+            - [BB_Eclipse_S-CORE_orchestration](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_orchestration.md)
+            - [BB_Eclipse_PullPiriPackageServiceOrchestrator](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_PullPiriPackageServiceOrchestrator.md)
+            - [BB_Eclipse_S-CORE_FEO](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_FEO.md)
         - Tools-and-Methods
         - Configuration
+        - Communication
+            - [BB_Eclipse_uProtocol](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_uProtocol.md)
+            - [BB_COVESA_uServices](/BB-SC/2b-MWLayer/Communication/BB_COVESA_uServices.md)
+            - [BB_Eclipse_S-CORE_LOLA](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_S-CORE_LOLA.md)
+            - [BB_COVESA_Open1722](/BB-SC/2b-MWLayer/Communication/BB_COVESA_Open1722.md)
+            - [BB_Eclipse_Canought](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_Canought.md)
+            - [BB_Eclipse_KUKSA](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_KUKSA.md)
+            - [BB_Eclipse_iceoryx2](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_iceoryx2.md)
+            - [BB_Eclipse_Zenoh](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_Zenoh.md)
+            - [BB_OpenSOVD](/BB-SC/2b-MWLayer/Communication/BB_OpenSOVD.md)
+            - [BB_Eclipse_eCAL](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_eCAL.md)
+            - [BB_XCPlite](/BB-SC/2b-MWLayer/Communication/BB_XCPlite.md)
+            - [BB_COVESA_VISSR](/BB-SC/2b-MWLayer/Communication/BB_COVESA_VISSR.md)
+            - [RTPS-Types](/BB-SC/2b-MWLayer/Communication/RTPS-Types/RTPS-Types.md)
+                - DustDDS
+                    - [BB_DustDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/DustDDS/BB_DustDDS.md)
+                - cycloneDDS
+                    - [BB_cycloneDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/cycloneDDS/BB_cycloneDDS.md)
+                - embeddedRTPS
+                    - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
+                - FastDDS
+                    - [BB_FastDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/FastDDS/BB_FastDDS.md)
+                - vSomeIP
+                    - [BB_vSomeIP](/BB-SC/2b-MWLayer/Communication/RTPS-Types/vSomeIP/BB_vSomeIP.md)
+                - OpenDDS
+                    - [BB_OpenDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/OpenDDS/BB_OpenDDS.md)
         - Deployment-Management
             - [BB_Eclipse_Ankaios](/BB-SC/2b-MWLayer/Deployment-Management/BB_Eclipse_Ankaios.md)
             - [BB_Eclipse_SymphonyAgents](/BB-SC/2b-MWLayer/Deployment-Management/BB_Eclipse_SymphonyAgents.md)
-        - Storage
-            - [BB_Eclipse_S-CORE_persistency](/BB-SC/2b-MWLayer/Storage/BB_Eclipse_S-CORE_persistency.md)
-        - Security
-            - [BB_quantumSAR](/BB-SC/2b-MWLayer/Security/BB_quantumSAR.md)
-        - Execution-Management
-            - [BB_Eclipse_S-CORE_kyron](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_kyron.md)
-            - [BB_Eclipse_PullPiriPackageServiceOrchestrator](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_PullPiriPackageServiceOrchestrator.md)
-            - [BB_Eclipse_Muto](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_Muto.md)
-            - [BB_Eclipse_S-CORE_orchestration](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_orchestration.md)
-            - [BB_Eclipse_S-CORE_FEO](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_FEO.md)
-            - [BB_Eclipse_BlueChi](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_BlueChi.md)
-            - [BB_Eclipse_S-CORE_lifecycle](/BB-SC/2b-MWLayer/Execution-Management/BB_Eclipse_S-CORE_lifecycle.md)
+            - [BB_CARISMA](/BB-SC/2b-MWLayer/Deployment-Management/BB_CARISMA)
         - Diagnostics
             - [BB_Eclipse_OpenSOVD](/BB-SC/2b-MWLayer/Diagnostics/BB_Eclipse_OpenSOVD.md)
             - [BB_Eclipse_S-CORE_logging](/BB-SC/2b-MWLayer/Diagnostics/BB_Eclipse_S-CORE_logging.md)
-        - Communication
-            - [BB_COVESA_Open1722](/BB-SC/2b-MWLayer/Communication/BB_COVESA_Open1722.md)
-            - [BB_Eclipse_Zenoh](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_Zenoh.md)
-            - [BB_COVESA_VISSR](/BB-SC/2b-MWLayer/Communication/BB_COVESA_VISSR.md)
-            - [BB_Eclipse_S-CORE_LOLA](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_S-CORE_LOLA.md)
-            - [BB_Eclipse_Canought](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_Canought.md)
-            - [BB_XCPlite](/BB-SC/2b-MWLayer/Communication/BB_XCPlite.md)
-            - [BB_COVESA_uServices](/BB-SC/2b-MWLayer/Communication/BB_COVESA_uServices.md)
-            - [BB_Eclipse_eCAL](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_eCAL.md)
-            - [BB_Eclipse_iceoryx2](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_iceoryx2.md)
-            - [BB_Eclipse_uProtocol](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_uProtocol.md)
-            - [BB_OpenSOVD](/BB-SC/2b-MWLayer/Communication/BB_OpenSOVD.md)
-            - [BB_Eclipse_KUKSA](/BB-SC/2b-MWLayer/Communication/BB_Eclipse_KUKSA.md)
-            - [RTPS-Types](/BB-SC/2b-MWLayer/Communication/RTPS-Types/RTPS-Types.md)
-                - OpenDDS
-                    - [BB_OpenDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/OpenDDS/BB_OpenDDS.md)
-                - embeddedRTPS
-                    - [BB_Constraint_DDS_embeddedRTPS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/embeddedRTPS/BB_Constraint_DDS_embeddedRTPS.md)
-                - vSomeIP
-                    - [BB_vSomeIP](/BB-SC/2b-MWLayer/Communication/RTPS-Types/vSomeIP/BB_vSomeIP.md)
-                - cycloneDDS
-                    - [BB_cycloneDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/cycloneDDS/BB_cycloneDDS.md)
-                - DustDDS
-                    - [BB_DustDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/DustDDS/BB_DustDDS.md)
-                - FastDDS
-                    - [BB_FastDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/FastDDS/BB_FastDDS.md)
+        - Security
+            - [BB_quantumSAR](/BB-SC/2b-MWLayer/Security/BB_quantumSAR.md)
+        - Storage
+            - [BB_Eclipse_S-CORE_persistency](/BB-SC/2b-MWLayer/Storage/BB_Eclipse_S-CORE_persistency.md)
+        - Platform-Health-Management
         - Power-Management
-    - [3-AppLayer](/BB-SC/3-AppLayer/README.md)
-        - API
-            - [BB_Open_Vehicle_API](/BB-SC/3-AppLayer/API/BB_Open_Vehicle_API.md)
-            - [BB_Automotive_API_Framework](/BB-SC/3-AppLayer/API/BB_Automotive_API_Framework.md)
-        - Communication
     - [1-HWLayer](/BB-SC/1-HWLayer/README.md)
         - HardwareAbstraction
             - Type-1-Hypervisor
@@ -186,54 +151,90 @@
         - Security
             - [BB_Eclipse_Heimlig](/BB-SC/1-HWLayer/Security/BB_Eclipse_Heimlig.md)
     - [2a-OSLayer](/BB-SC/2a-OSLayer/README.md)
-        - Time
         - RTOS
-            - [BB_Apache_NuttX](/BB-SC/2a-OSLayer/RTOS/BB_Apache_NuttX.md)
-            - [BB_Eclipse_ThreadX](/BB-SC/2a-OSLayer/RTOS/BB_Eclipse_ThreadX.md)
+            - [BB_LF_Zephyr](/BB-SC/2a-OSLayer/RTOS/BB_LF_Zephyr.md)
             - [BB_seL4](/BB-SC/2a-OSLayer/RTOS/BB_seL4.md)
             - [BB_Eclipse_OpenBSW](/BB-SC/2a-OSLayer/RTOS/BB_Eclipse_OpenBSW.md)
-            - [BB_LF_Zephyr](/BB-SC/2a-OSLayer/RTOS/BB_LF_Zephyr.md)
-        - Stacks
-            - [BB_AUTOWARE](/BB-SC/2a-OSLayer/Stacks/BB_AUTOWARE.md)
-            - [BB_OpenHarmony](/BB-SC/2a-OSLayer/Stacks/BB_OpenHarmony.md)
-            - [BB_Eclipse_S-CORE](/BB-SC/2a-OSLayer/Stacks/BB_Eclipse_S-CORE.md)
-            - [BB_Eclipse_Leda](/BB-SC/2a-OSLayer/Stacks/BB_Eclipse_Leda.md)
-            - [BB_HaloOS](/BB-SC/2a-OSLayer/Stacks/BB_HaloOS.md)
-            - [BB_Eclipse_Oniro](/BB-SC/2a-OSLayer/Stacks/BB_Eclipse_Oniro.md)
-        - Virtualization
-            - [BB_ L4Re](/BB-SC/2a-OSLayer/Virtualization/BB_%20L4Re.md)
+            - [BB_Apache_NuttX](/BB-SC/2a-OSLayer/RTOS/BB_Apache_NuttX.md)
+            - [BB_Eclipse_ThreadX](/BB-SC/2a-OSLayer/RTOS/BB_Eclipse_ThreadX.md)
         - Linux
             - [BB_AutomotiveGradeLinux](/BB-SC/2a-OSLayer/Linux/BB_AutomotiveGradeLinux.md)
             - [BB_AndroidAutomotive](/BB-SC/2a-OSLayer/Linux/BB_AndroidAutomotive.md)
-- [BB-CSC](/BB-CSC/README.md)
-- [BB-MU](/BB-MU/README.md)
+        - Stacks
+            - [BB_Eclipse_Oniro](/BB-SC/2a-OSLayer/Stacks/BB_Eclipse_Oniro.md)
+            - [BB_AUTOWARE](/BB-SC/2a-OSLayer/Stacks/BB_AUTOWARE.md)
+            - [BB_Eclipse_Leda](/BB-SC/2a-OSLayer/Stacks/BB_Eclipse_Leda.md)
+            - [BB_Eclipse_S-CORE](/BB-SC/2a-OSLayer/Stacks/BB_Eclipse_S-CORE.md)
+            - [BB_OpenHarmony](/BB-SC/2a-OSLayer/Stacks/BB_OpenHarmony.md)
+            - [BB_HaloOS](/BB-SC/2a-OSLayer/Stacks/BB_HaloOS.md)
+        - Virtualization
+            - [BB_ L4Re](/BB-SC/2a-OSLayer/Virtualization/BB_%20L4Re.md)
+        - Time
 - [BB-CMU](/BB-CMU/README.md)
 - [BB-SC-TC](/BB-SC-TC/README.md)
     - Testing
+- [S-BB](/S-BB/README.md)
+    - Software-Quality
+        - [BB_ISO_IEC25010_2023](/S-BB/Software-Quality/BB_ISO_IEC25010_2023.md)
+        - [BB_ISO_IEC25002_2024](/S-BB/Software-Quality/BB_ISO_IEC25002_2024.md)
+        - [BB_ISO_IEC25019_2023](/S-BB/Software-Quality/BB_ISO_IEC25019_2023.md)
+    - [3-AppLayer](/S-BB/3-AppLayer/README.md)
+        - [BB_LF_EVerest](/S-BB/3-AppLayer/BB_LF_EVerest.md)
+    - Best-Practices
+        - [BB_coding_standards](/S-BB/Best-Practices/BB_coding_standards.md)
+    - Generator
+        - [BB_Commercial_Vehicle_Information_Specifications](/S-BB/Generator/BB_Commercial_Vehicle_Information_Specifications.md)
+    - [2b-MWLayer](/S-BB/2b-MWLayer/README.md)
+        - [BB_HIM](/S-BB/2b-MWLayer/BB_HIM.md)
+        - [BB_eSyncAlliance](/S-BB/2b-MWLayer/BB_eSyncAlliance.md)
+        - [BB_Common_Vehicle_Capabilities](/S-BB/2b-MWLayer/BB_Common_Vehicle_Capabilities.md)
+        - [BB_PilotAutoReferenceDesign](/S-BB/2b-MWLayer/BB_PilotAutoReferenceDesign.md)
+        - [BB_VSS](/S-BB/2b-MWLayer/BB_VSS.md)
+        - [BB_Unified_Push_Notification](/S-BB/2b-MWLayer/BB_Unified_Push_Notification.md)
+        - [BB_Data_Architecture_Terminology](/S-BB/2b-MWLayer/BB_Data_Architecture_Terminology.md)
+        - [BB_EV_Charging_Event_Data_Aggregation](/S-BB/2b-MWLayer/BB_EV_Charging_Event_Data_Aggregation.md)
+        - [BB_Private_Cross_OEM_Joint_Compute_for_EV_Charging](/S-BB/2b-MWLayer/BB_Private_Cross_OEM_Joint_Compute_for_EV_Charging.md)
+        - [BB_In_Car_Wallet_Payments_and_Orchestration](/S-BB/2b-MWLayer/BB_In_Car_Wallet_Payments_and_Orchestration.md)
+        - Communication
+            - [BB_VISS](/S-BB/2b-MWLayer/Communication/BB_VISS.md)
+    - Connectivity-OTA
+        - [BB_ISO24089_2023](/S-BB/Connectivity-OTA/BB_ISO24089_2023.md)
+        - [BB_UNECER156](/S-BB/Connectivity-OTA/BB_UNECER156.md)
+    - Functional-Safety
+        - [BB_ISO21448_2022](/S-BB/Functional-Safety/BB_ISO21448_2022.md)
+        - [BB_ISO26262-1_2018](/S-BB/Functional-Safety/BB_ISO26262-1_2018.md)
+    - Architecture-APIs
+        - [BB_ISO23150_2023](/S-BB/Architecture-APIs/BB_ISO23150_2023.md)
+    - [1-HWLayer](/S-BB/1-HWLayer/README.md)
+    - Cybersecurity
+        - [BB_UNECER155](/S-BB/Cybersecurity/BB_UNECER155.md)
+        - [BB_ISO_SAE21434_2021](/S-BB/Cybersecurity/BB_ISO_SAE21434_2021.md)
+        - [BB_ISO27000_Family](/S-BB/Cybersecurity/BB_ISO27000_Family.md)
+    - Software-Process
+        - [BB_ISO_IEC_TS_33061_2021](/S-BB/Software-Process/BB_ISO_IEC_TS_33061_2021.md)
+        - [BB_ISO_IEC_IEEE12207_2026](/S-BB/Software-Process/BB_ISO_IEC_IEEE12207_2026.md)
+    - [2a-OSLayer](/S-BB/2a-OSLayer/README.md)
 - [BB-EST](/BB-EST/README.md)
-    - Testing
-        - [BB_Central_Data_Service_Playground](/BB-EST/Testing/BB_Central_Data_Service_Playground.md)
-        - [BB_Eclipse_OpenDUT](/BB-EST/Testing/BB_Eclipse_OpenDUT.md)
-        - [BB_Autowrx](/BB-EST/Testing/BB_Autowrx.md)
-        - [BB_SIL-Kit](/BB-EST/Testing/BB_SIL-Kit.md)
-        - [BB_OpenXilEnv](/BB-EST/Testing/BB_OpenXilEnv.md)
+    - Implementation
+    - Deployment
     - Design
         - [BB_SKyBT](/BB-EST/Design/BB_SKyBT.md)
     - Requirements
         - [BB_SphinxNeeds](/BB-EST/Requirements/BB_SphinxNeeds.md)
         - [BB_openfasttrace](/BB-EST/Requirements/BB_openfasttrace.md)
-    - Deployment
-    - Software-Development-Kit
-        - [BB_API_verification](/BB-EST/Software-Development-Kit/BB_API_verification.md)
-        - [BB_Library_and_variant_management](/BB-EST/Software-Development-Kit/BB_Library_and_variant_management.md)
-    - Implementation
     - Monitoring-and-Diagnostics
-    - Generator
-        - [BB_IFEX](/BB-EST/Generator/BB_IFEX.md)
     - Build-and-Implementation
         - [BB_VELOCITAS](/BB-EST/Build-and-Implementation/BB_VELOCITAS.md)
         - Embedded-Linux
             - [BB_YoctoProject](/BB-EST/Build-and-Implementation/Embedded-Linux/BB_YoctoProject.md)
-- [BB-CSC-TC](/BB-CSC-TC/README.md)
-    - RapidPrototyping
-        - [BB_EclipseAutoWRX](/BB-CSC-TC/RapidPrototyping/BB_EclipseAutoWRX.md)
+    - Software-Development-Kit
+        - [BB_Library_and_variant_management](/BB-EST/Software-Development-Kit/BB_Library_and_variant_management.md)
+        - [BB_API_verification](/BB-EST/Software-Development-Kit/BB_API_verification.md)
+    - Generator
+        - [BB_IFEX](/BB-EST/Generator/BB_IFEX.md)
+    - Testing
+        - [BB_Autowrx](/BB-EST/Testing/BB_Autowrx.md)
+        - [BB_SIL-Kit](/BB-EST/Testing/BB_SIL-Kit.md)
+        - [BB_Eclipse_OpenDUT](/BB-EST/Testing/BB_Eclipse_OpenDUT.md)
+        - [BB_OpenXilEnv](/BB-EST/Testing/BB_OpenXilEnv.md)
+        - [BB_Central_Data_Service_Playground](/BB-EST/Testing/BB_Central_Data_Service_Playground.md)
