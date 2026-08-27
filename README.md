@@ -295,6 +295,8 @@ Ideas and concepts for BBs get collected in the [WorkInProgress folder](/WorkInP
         - [BB_Autowrx](/BB-EST/Testing/BB_Autowrx.md)
         - [BB_SIL-Kit](/BB-EST/Testing/BB_SIL-Kit.md)
         - [BB_Eclipse_OpenDUT](/BB-EST/Testing/BB_Eclipse_OpenDUT.md)
+        - [BB_punit](/BB-EST/Testing/BB_punit.md)
+        - [BB_feotest](/BB-EST/Testing/BB_feotest.md)
         - [BB_OpenXilEnv](/BB-EST/Testing/BB_OpenXilEnv.md)
         - [BB_Central_Data_Service_Playground](/BB-EST/Testing/BB_Central_Data_Service_Playground.md)
 
