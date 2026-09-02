@@ -140,7 +140,7 @@
         - Deployment-Management
             - [BB_Eclipse_Ankaios](/BB-SC/2b-MWLayer/Deployment-Management/BB_Eclipse_Ankaios.md)
             - [BB_Eclipse_SymphonyAgents](/BB-SC/2b-MWLayer/Deployment-Management/BB_Eclipse_SymphonyAgents.md)
-            - [BB_CARISMA](/BB-SC/2b-MWLayer/Deployment-Management/BB_CARISMA)
+            - [BB_CARISMA](/BB-SC/2b-MWLayer/Deployment-Management/BB_CARISMA.md)
         - Diagnostics
             - [BB_Eclipse_OpenSOVD](/BB-SC/2b-MWLayer/Diagnostics/BB_Eclipse_OpenSOVD.md)
             - [BB_Eclipse_S-CORE_logging](/BB-SC/2b-MWLayer/Diagnostics/BB_Eclipse_S-CORE_logging.md)
@@ -176,7 +176,7 @@
             - [BB_OpenHarmony](/BB-SC/2a-OSLayer/Stacks/BB_OpenHarmony.md)
             - [BB_HaloOS](/BB-SC/2a-OSLayer/Stacks/BB_HaloOS.md)
         - Virtualization
-            - [BB_ L4Re](/BB-SC/2a-OSLayer/Virtualization/BB_%20L4Re.md)
+            - [BB_L4Re](/BB-SC/2a-OSLayer/Virtualization/BB_L4Re.md)
         - Time
 - [BB-CMU](/BB-CMU/README.md)
 - [BB-SC-TC](/BB-SC-TC/README.md)

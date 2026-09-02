@@ -46,7 +46,7 @@ Fleet Management provides a proven blueprint for orchestrating software-defined 
 
 ## Dependencies
 - **Requires:** SDV runtime (AUTOSAR Adaptive or Linux), Kubernetes/container orchestration, data storage (cloud backend)
-- **Composes with:** [BB_service_to_signal](../../../Communication-and-Networking/Edge-to-Cloud-Connectivity/BB_service_to_signal.md), cloud infrastructure (Azure, AWS), app marketplace systems
+- **Composes with:** [BB_service_to_signal](../../Communication-and-Networking/Edge-to-Cloud-Connectivity/BB_service_to_signal.md), cloud infrastructure (Azure, AWS), app marketplace systems
 - **Integrates with:** Telematics platforms, OTA update systems, analytics and ML pipelines
 
 ## State
