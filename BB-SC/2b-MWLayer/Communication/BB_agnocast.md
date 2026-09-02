@@ -43,7 +43,7 @@ Agnocast addresses the latency and efficiency requirements of autonomous driving
 
 ## Dependencies
 - **Requires:** ROS2 ecosystem, C++ compiler (C++17+), Linux kernel with IPC support
-- **Composes with:** [BB_openadkit](../../../Cloud-Infrastructure-and-Deployment/Containerization/BB_openadkit.md), perception and planning modules, real-time middleware stacks
+- **Composes with:** [BB_openadkit](../../../BB-CEST/Cloud-Infrastructure-and-Deployment/Containerization/BB_openadkit.md), perception and planning modules, real-time middleware stacks
 - **Integrates with:** Autoware modules, sensor drivers, hardware abstraction layers, vehicle control systems
 
 ## State

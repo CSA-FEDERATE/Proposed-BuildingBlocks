@@ -1,0 +1,28 @@
+name: Check markdown links
+run-name: Checking markdown links
+on:
+    push:
+        branches:
+            - "main"
+    pull_request:
+    workflow_dispatch:
+
+jobs:
+    link-check:
+        runs-on: ubuntu-latest
+        steps:
+            - name: check out repository code
+              uses: actions/checkout@v4
+
+            - name: check relative links in markdown files
+              uses: lycheeverse/lychee-action@v2
+              with:
+                  # --offline: only verify links that resolve to files in this repo (skip external http(s) links,
+                  # which are numerous, out of our control, and would make CI flaky for a low-maintenance catalog).
+                  args: >-
+                      --offline
+                      --no-progress
+                      --include-fragments
+                      --root-dir ${{ github.workspace }}
+                      '**/*.md'
+                  fail: true
