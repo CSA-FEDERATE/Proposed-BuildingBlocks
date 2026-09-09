@@ -1,5 +1,9 @@
 # Agnocast (Zero-Copy IPC Middleware)
 
+## BB Tags(s)
+<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC, BB-CEST, Middleware, Communication, IPC, ZeroCopy, ROS2, Autonomous, HighPerformance, Automotive
+
 ## Overview
 Agnocast is a zero-copy inter-process communication (IPC) middleware designed for ROS2 and autonomous driving workloads. It provides true zero-copy data exchange between processes, eliminating serialization overhead and enabling high-performance, real-time communication critical for perception, planning, and control loops.
 

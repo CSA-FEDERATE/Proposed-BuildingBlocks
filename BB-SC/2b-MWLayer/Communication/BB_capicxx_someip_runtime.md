@@ -1,5 +1,9 @@
 # CommonAPI C++ SOME/IP Runtime
 
+## BB Tags(s)
+<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC, BB-CEST, BB-CSC-TC, Middleware, Communication, SOMEIP, Network, COVESA, AUTOSAR, C++
+
 ## Overview
 The SOME/IP (Scalable Service-Oriented Middleware over IP) runtime for CommonAPI C++ provides protocol-specific bindings and serialization for service-oriented communication over IP networks. It enables vehicle services to communicate efficiently across ECUs and network boundaries.
 
