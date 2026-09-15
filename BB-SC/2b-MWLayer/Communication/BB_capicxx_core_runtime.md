@@ -1,5 +1,9 @@
 # CommonAPI C++ Core Runtime
 
+## BB Tags(s)
+<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-SC, BB-CEST, BB-CSC-TC, Middleware, Communication, ServiceOriented, COVESA, AUTOSAR, C++
+
 ## Overview
 CommonAPI C++ core runtime provides the foundational C++ language bindings and runtime infrastructure for service-oriented communication in vehicle middleware. It abstracts underlying IPC mechanisms (D-Bus, SOME/IP, signal-based) and provides a unified interface for inter-process communication.
 

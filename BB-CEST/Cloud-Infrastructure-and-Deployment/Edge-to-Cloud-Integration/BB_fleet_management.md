@@ -1,5 +1,9 @@
 # Fleet Management Blueprint
 
+## BB Tags(s)
+<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-CEST, Blueprint, Cloud, FleetManagement, EdgeComputing, SDV, EclipseSDV, Orchestration, Automotive
+
 ## Overview
 Fleet Management is an end-to-end Eclipse SDV blueprint demonstrating real-world vehicle fleet operations where individual trucks run a complete SDV (Software-Defined Vehicle) software stack. It showcases cloud-to-vehicle app deployment, data orchestration, and service management across a heterogeneous fleet.
 
