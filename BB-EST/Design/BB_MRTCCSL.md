@@ -31,6 +31,10 @@ As a constraint language, existence of a valid solution is not guaranteed and sh
 Unique features of MRTCCSL in relation to CCSL are real-time constraints and stochastic annotations. Using the real-time constraints, one can refine an abstract specification (i.e. an architecture description) to real-time behaviour, and stochastic annotations to refine up to a operational model (simulation representative of the system).
 The real-time behaviour and the operational model then can be explored by a simulation to detect conflicts between high level requirements and timing budgets, or to evaluate operational behaviour, for example, via functional chains.
 
+Related publications:
+- Pavlo Tokariev, Julien Deantoni. Refining Timing Uncertainty from Logical Time Specification to Operation. FDL 2026 - 29th Forum on specification and Design Languages, Sep 2026, Rome, Italy. <[hal-05747362](https://inria.hal.science/hal-05747362)>
+- Pavlo Tokariev. Modular real-time clock constraint specification language. Embedded Systems. Université Côte d'Azur, 2024. English. ⟨NNT : 2024COAZ4058⟩. <[tel-04933243](https://theses.hal.science/tel-04933243)>
+
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
 Detecting non-consistency between system requirements and assumptions early while gradually making more precise the timing specification.

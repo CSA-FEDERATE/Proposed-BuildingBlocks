@@ -48,7 +48,7 @@ Related publications:
 
 ## Rationale
 <!-- Explanation why we need the BB; what problem want to be solved -->
-The framework allows to analyse high-level reaction time of SDV applications. By experimenting with timing budgets on both application components and HAL signals, the designer can discard early solutions that do not satisfy the requirements or "risky" (when reaction time probability mass is close to the requirement deadline; thus an update to a HAL can make the functionality unsafe).
+The framework allows to analyse high-level reaction time of SDV applications. By experimenting with timing budgets on both application components and HAL signals, the designer can discard early solutions that do not satisfy the requirements or when reaction time probability mass is close to the requirement deadline, thus an update to the HAL can make the functionality unsafe.
 
 ## Governance Applicable S-BB(s)
 <!-- Reference to e.g. UN/EU CRA Cyber Resilience Act; UNECE 156 - Software update and software update management system
