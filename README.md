@@ -59,6 +59,8 @@ Ideas and concepts for BBs get collected in the [WorkInProgress folder](/WorkInP
     - Monitoring-and-Diagnostics
     - Design
         - [BB_SKyBT](/BB-EST/Design/BB_SKyBT.md)
+        - [BB_SDVML](/BB-EST/Design/BB_SDVML.md)
+        - [BB_MRTCCSL](/BB-EST/Design/BB_MRTCCSL.md)
     - Build-and-Implementation
         - [BB_VELOCITAS](/BB-EST/Build-and-Implementation/BB_VELOCITAS.md)
         - Embedded-Linux
