@@ -287,7 +287,6 @@ Ideas and concepts for BBs get collected in the [WorkInProgress folder](/WorkInP
         - [BB_EV_Charging_Event_Data_Aggregation](/S-BB/2b-MWLayer/BB_EV_Charging_Event_Data_Aggregation.md)
         - [BB_Private_Cross_OEM_Joint_Compute_for_EV_Charging](/S-BB/2b-MWLayer/BB_Private_Cross_OEM_Joint_Compute_for_EV_Charging.md)
         - [BB_In_Car_Wallet_Payments_and_Orchestration](/S-BB/2b-MWLayer/BB_In_Car_Wallet_Payments_and_Orchestration.md)
-            - [BB_ L4Re](/BB-SC/2a-OSLayer/Virtualization/BB_%20L4Re.md)
     - [1-HWLayer](/BB-SC/1-HWLayer/README.md)
         - Security
             - [BB_Eclipse_Heimlig](/BB-SC/1-HWLayer/Security/BB_Eclipse_Heimlig.md)
