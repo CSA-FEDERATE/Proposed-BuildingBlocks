@@ -120,8 +120,11 @@ def create_df(markdown_files):
     file_contents = []
 
     for file in markdown_files:
-        heading_content = extract_headings_and_content(file)
-        file_contents.append(heading_content)
+        try:
+            heading_content = extract_headings_and_content(file)
+            file_contents.append(heading_content)
+        except ValueError as e:
+            logging.warning(f"Skipping malformed BB file: {e}")
 
     df = pd.DataFrame.from_dict(file_contents)
     return df
