@@ -43,7 +43,7 @@ Service-to-Signal bridges legacy signal-centric vehicle architectures with moder
 
 ## Dependencies
 - **Requires:** uProtocol framework, vehicle signal sources (CAN/LIN/Ethernet), SDV runtime
-- **Composes with:** [BB_fleet_management](../../../Cloud-Infrastructure-and-Deployment/Edge-to-Cloud-Integration/BB_fleet_management.md), cloud connectivity layers, analytics and monitoring
+- **Composes with:** [BB_fleet_management](../../Cloud-Infrastructure-and-Deployment/Edge-to-Cloud-Integration/BB_fleet_management.md), cloud connectivity layers, analytics and monitoring
 - **Integrates with:** Signal databases (DBC, ODX), OBD-II interfaces, telematics gateways, cloud backends
 
 ## State

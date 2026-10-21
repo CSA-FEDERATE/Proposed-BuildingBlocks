@@ -1,4 +1,4 @@
 <!-- TODO: finish landing page -->
 # BB-CSC
 
-![BB-CSC](/figures/BB-CSC.png)
+![BB-CSC](/other/figures/BB-CSC.png)

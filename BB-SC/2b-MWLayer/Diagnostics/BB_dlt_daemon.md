@@ -36,7 +36,7 @@ DLT is the industry-standard diagnostic framework in automotive, forming the fou
 
 ## Dependencies
 - **Requires:** OS-level logging infrastructure, IPC mechanisms (D-Bus, netlink, or native APIs)
-- **Composes with:** [BB_dlt_viewer](../../Development-Testing-and-Simulation-Environments/Debugging-and-Monitoring/BB_dlt_viewer.md), application logging libraries, cloud telemetry systems
+- **Composes with:** [BB_dlt_viewer](../../../BB-CEST/Development-Testing-and-Simulation-Environments/Debugging-and-Monitoring/BB_dlt_viewer.md), application logging libraries, cloud telemetry systems
 - **Conflicts with:** Custom in-vehicle logging frameworks (integration required)
 
 ## State
