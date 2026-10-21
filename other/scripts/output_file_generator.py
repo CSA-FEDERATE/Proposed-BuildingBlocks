@@ -67,7 +67,7 @@ def extract_headings_and_content(file_path, is_template_file = False):
     """
     name_pattern = re.compile(r"# ([a-zA-Z0-9.,:— +\-\ \/(\)]*)\s*## BB Tag")
     heading_pattern = re.compile(r"## ([a-zA-Z +\-\/\(\)]*)")
-    file_path_pattern = re.compile(r"(?:Proposed-BuildingBlocks\\)(.*)")
+    file_path_pattern = re.compile(r"(?:Proposed-BuildingBlocks[/\\])(.*)")
 
     with open(file_path, "r", encoding="utf-8") as file:
         content = file.read()
