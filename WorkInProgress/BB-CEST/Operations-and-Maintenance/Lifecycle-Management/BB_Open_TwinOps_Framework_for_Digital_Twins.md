@@ -19,7 +19,7 @@ trainings, skills, examples and how-to's. -->
 Under development — TWIN-LOOP project (EU Horizon Europe GA 101192649). Repository TBC
 
 ## ID (unique name)
-BB_Open_TwinOps_Framework_for_Digital_Twins
+<!--BB_Open_TwinOps_Framework_for_Digital_Twins-->
 
 ## Description
 <!-- General Description of the BB -->
