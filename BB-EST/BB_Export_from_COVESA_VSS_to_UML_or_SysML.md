@@ -24,7 +24,7 @@ https://github.com/COVESA/vss-tools/blob/master/
 See https://github.com/COVESA/vss-tools/blob/master/docs/plantuml.md for documentation in case of PlantUML export. A merge request for SysMLv2 will be issued soon.
 
 ## ID (unique name)
-BB_VSS_UML_SysML
+<!--BB_VSS_UML_SysML-->
 
 ## Description
 <!-- General Description of the BB -->
