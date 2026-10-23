@@ -1,5 +1,9 @@
 # DLT Viewer (Diagnostic Trace Viewer)
 
+## BB Tags(s)
+<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-CEST, Development-Tools, Debugging, Diagnostics, Testing, COVESA, GUI, Automotive
+
 ## Overview
 DLT Viewer is the reference engineering tool for inspecting, filtering, and analyzing diagnostic traces captured by DLT daemon. It provides a desktop application with GUI for live and offline trace analysis, enabling developers and test engineers to debug vehicle software behavior.
 

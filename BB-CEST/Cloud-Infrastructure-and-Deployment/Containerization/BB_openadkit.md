@@ -1,5 +1,9 @@
 # OpenADKit (Autoware Container Kit)
 
+## BB Tags(s)
+<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-CEST, Container, Deployment, AutowareAD, ROS2, Autonomous, OpenADKit, Docker, Kubernetes, Automotive
+
 ## Overview
 OpenADKit provides a containerized, modular component library and deployment toolkit for Autoware-based autonomous driving stacks. It packages reference implementations of autonomous vehicle perception, planning, and control modules as OCI containers with clear interfaces and dependency specifications.
 
