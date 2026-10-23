@@ -21,7 +21,7 @@ See https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-robotics/-/wi
 https://gitlab.eclipse.org/eclipse/papyrus/org.eclipse.papyrus-robotics/
 
 ## ID (unique name)
-BB_SYSML_ROS2
+<!--BB_SYSML_ROS2-->
 
 ## Description
 <!-- General Description of the BB -->
