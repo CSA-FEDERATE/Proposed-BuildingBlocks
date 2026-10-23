@@ -18,7 +18,7 @@ trainings, skills, examples and how-to's. -->
 Under development — TWIN-LOOP project (EU Horizon Europe GA 101192649). Repository TBC
 
 ## ID (unique name)
-BB_AI-based_Energy_and_Range_Forecasting_for_EVs
+<!--BB_AI-based_Energy_and_Range_Forecasting_for_EVs-->
 
 ## Description
 <!-- General Description of the BB -->
