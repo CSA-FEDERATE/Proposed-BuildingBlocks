@@ -74,6 +74,7 @@ Ideas and concepts for BBs get collected in the [WorkInProgress folder](/WorkInP
     - Deployment
     - Monitoring-and-Diagnostics
     - Generator
+        - [BB_Rosetta_VSS](/BB-EST/Generator/BB_Rosetta_VSS.md)
         - [BB_IFEX](/BB-EST/Generator/BB_IFEX.md)
     - Implementation
     - Software-Development-Kit
@@ -166,6 +167,7 @@ Ideas and concepts for BBs get collected in the [WorkInProgress folder](/WorkInP
                 - FastDDS
                     - [BB_FastDDS](/BB-SC/2b-MWLayer/Communication/RTPS-Types/FastDDS/BB_FastDDS.md)
         - Configuration
+            - [BB_AAS_Sensor_Plug_and_Play](/BB-SC/2b-MWLayer/Configuration/BB_AAS_Sensor_Plug_and_Play.md)
 - [S-BB](/S-BB/README.md)
     - Architecture-APIs
         - [BB_ISO23150_2023](/S-BB/Architecture-APIs/BB_ISO23150_2023.md)
@@ -340,6 +342,7 @@ Ideas and concepts for BBs get collected in the [WorkInProgress folder](/WorkInP
         - [BB_Offboard_Config_Tool_for_TSN](/WorkInProgress/BB-EST/Configuration-and-Calibration/BB_Offboard_Config_Tool_for_TSN.md)
     - Testing
         - [BB_Virtualization_Neutral_Configuration_Layer](/WorkInProgress/BB-EST/Testing/BB_Virtualization_Neutral_Configuration_Layer.md)
+        - [BB_Agentic_Resilience_Validation](/WorkInProgress/BB-EST/Testing/BB_Agentic_Resilience_Validation.md)
     - Build-and-Implementation
     - Requirements
         - [BB_DocAsCode](/WorkInProgress/BB-EST/Requirements/BB_DocAsCode.md)

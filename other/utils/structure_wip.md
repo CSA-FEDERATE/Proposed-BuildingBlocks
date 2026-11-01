@@ -34,6 +34,7 @@
         - [BB_Offboard_Config_Tool_for_TSN](/WorkInProgress/BB-EST/Configuration-and-Calibration/BB_Offboard_Config_Tool_for_TSN.md)
     - Testing
         - [BB_Virtualization_Neutral_Configuration_Layer](/WorkInProgress/BB-EST/Testing/BB_Virtualization_Neutral_Configuration_Layer.md)
+        - [BB_Agentic_Resilience_Validation](/WorkInProgress/BB-EST/Testing/BB_Agentic_Resilience_Validation.md)
     - Build-and-Implementation
     - Requirements
         - [BB_DocAsCode](/WorkInProgress/BB-EST/Requirements/BB_DocAsCode.md)
