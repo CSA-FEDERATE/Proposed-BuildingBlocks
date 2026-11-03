@@ -1,5 +1,9 @@
 # Service-to-Signal Blueprint
 
+## BB Tags(s)
+<!-- Tag(s) define in which area(s) (cloud, in-vehicle) the BB is executed, and what type of BB it is (tool, process, microservice) -->
+BB-CEST, Blueprint, Communication, uProtocol, EdgeToCloud, SDV, EclipseSDV, Automotive, Services
+
 ## Overview
 Service-to-Signal is an Eclipse SDV blueprint demonstrating how to bridge in-vehicle microservices (running on the vehicle edge) with physical vehicle signals (engine parameters, sensor data, actuator commands). It uses uProtocol as the unified communication framework to expose vehicle services and signals over a common network interface.
 
