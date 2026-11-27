@@ -29,6 +29,7 @@
         - [Predictive-Maintenance](/WorkInProgress/BB-CEST/Operations-and-Maintenance/Predictive-Maintenance/README.md)
         - [Incident-Management](/WorkInProgress/BB-CEST/Operations-and-Maintenance/Incident-Management/README.md)
         - [Lifecycle-Management](/WorkInProgress/BB-CEST/Operations-and-Maintenance/Lifecycle-Management/README.md)
+            - [BB_Open_TwinOps_Framework_for_Digital_Twins](/WorkInProgress/BB-CEST/Operations-and-Maintenance/Lifecycle-Management/BB_Open_TwinOps_Framework_for_Digital_Twins.md)
     - Build-and-Implementation
         - [LLM-Based Model-to-Model Mapper for Model Interoperability](/WorkInProgress/BB-CEST/Build-and-Implementation/LLM-Based%20Model-to-Model%20Mapper%20for%20Model%20Interoperability)
         - [BB_LLMAgentForHandlingLargeAutomotiveSoftwareModels](/WorkInProgress/BB-CEST/Build-and-Implementation/BB_LLMAgentForHandlingLargeAutomotiveSoftwareModels.md)
