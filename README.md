@@ -189,6 +189,7 @@ Ideas and concepts for BBs get collected in the [WorkInProgress folder](/WorkInP
 - UseCases
     - Scenarios
 - [BB-EST](/BB-EST/README.md)
+    - [BB_Export_from_COVESA_VSS_to_UML_or_SysML](/BB-EST/BB_Export_from_COVESA_VSS_to_UML_or_SysML.md)
     - Implementation
     - Build-and-Implementation
         - [BB_VELOCITAS](/BB-EST/Build-and-Implementation/BB_VELOCITAS.md)
